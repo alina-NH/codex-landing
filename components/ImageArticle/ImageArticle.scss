@@ -1,0 +1,41 @@
+.image-article {
+  display: flex;
+  column-gap: 10vw;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 10vw;
+
+  &--reversed {
+    flex-direction: row-reverse;
+  }
+
+  &__background {
+    max-width: 545px;
+    border-radius: 8px;
+  }
+
+  &__body {
+    max-width: 451px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  &__subtitle {
+    color: $primary-color;
+    margin-bottom: 12px;
+  }
+
+  &__list {
+    margin: 0 0 24px 20px;
+    line-height: 26px;
+
+    li {
+      padding-left: unset;
+      &::marker {
+        font-size: 14px;
+      }
+    }
+  }
+}

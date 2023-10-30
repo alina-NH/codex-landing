@@ -1,0 +1,91 @@
+{
+  "header": {
+    "logo": {
+      "src": "codex-logo.svg",
+      "alt": "Codex Software"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "link": "/solutions",
+        "subnav": [
+          {
+            "name": "Solutions",
+            "link": "/solutions"
+          },
+          {
+            "name": "Menu 2",
+            "link": "#"
+          },
+          {
+            "name": "Menu 3",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Hire developers",
+        "link": "/hire-developers",
+        "subnav": [
+          {
+            "name": "Menu 1",
+            "link": "#"
+          },
+          {
+            "name": "Menu 2",
+            "link": "#"
+          },
+          {
+            "name": "Menu 3",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Industries",
+        "link": "#",
+        "subnav": [
+          {
+            "name": "Menu 1",
+            "link": "#"
+          },
+          {
+            "name": "Menu 2",
+            "link": "#"
+          },
+          {
+            "name": "Menu 3",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Case Studies",
+        "link": "#"
+      },
+      {
+        "name": "Company",
+        "link": "#"
+      },
+      {
+        "name": "Startups",
+        "link": "#",
+        "subnav": [
+          {
+            "name": "Menu 1",
+            "link": "#"
+          },
+          {
+            "name": "Menu 2",
+            "link": "#"
+          },
+          {
+            "name": "Menu 3",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "contactUs_button": "Contact Us"
+  }
+}

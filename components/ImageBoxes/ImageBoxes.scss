@@ -1,0 +1,10 @@
+.image-boxes {
+  margin: 5vh 10vw;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+
+  &--short {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
