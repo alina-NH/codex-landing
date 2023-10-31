@@ -12,17 +12,15 @@
         <li
           v-for="nav in header.nav"
           class="text-small-bold header-nav__item"
-          :class="{ 'header-nav__item--collapsed': nav.subnav }"
         >
           <NuxtLink
             :to="nav.link"
             class="header-nav__item-link"
+            :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
           >
-            
-              {{ nav.name }}
-            
+            {{ nav.name }}
           </NuxtLink>
-          <!-- <ul
+          <ul
             v-if="nav.subnav"
             class="header-subnav"
           >
@@ -30,13 +28,14 @@
               v-for="subnav in nav.subnav"
               class="header-subnav__item"
             >
-              <NuxtLink :to="subnav.link">
-                <span class="heaser-subnav__item-link">
-                  {{ subnav.name }}
-                </span>
+              <NuxtLink
+                :to="subnav.link"
+                class="header-subnav__item-link"
+              >
+                {{ subnav.name }}
               </NuxtLink>
             </li>
-          </ul> -->
+          </ul>
         </li>
       </ul>
     </nav>
