@@ -16,6 +16,7 @@
     buttonStyle="outline"
     imageToRight
   />
+  <ContactForm :data="mainContent.contactForm" />
 </template>
 
 <script setup lang="ts">
