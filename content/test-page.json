@@ -28,7 +28,7 @@
         "name": "Chris Knighton",
         "position": "Global Sales Director"
         },
-    "bigcase":   
+    "bigcase":  [ 
     {
       "background": "image-box-1.png",
       "title": "OneFlow Systems",
@@ -39,8 +39,8 @@
         "position": "Global Sales Director"
       },
       "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
-        },
-    
+        }
+    ],
     "smallcase":
         [
             {
