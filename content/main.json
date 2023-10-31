@@ -1,11 +1,11 @@
 {
   "colors": {
-    "primary": "#2E64F9",
+    "primary": "#e33714",
     "hover": "#2551C2",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "#DCEAFF",
+    "secondary": "#1e274f",
     "white": "#FFFFFF"
   },
   "meta": {
@@ -13,13 +13,55 @@
     "description": "This is Codex Software landing page"
   },
   "welcome": {
-    "title": [
-      "Staff your startup team.",
-      "Scale affordably.",
-      "Grow fast."
-    ],
+    "title": ["Skilled developers for your software project.", "Need help?"],
     "background": "welcome-background.png",
-    "button": "Get your Startup a boost"
+    "button": "Talk to us"
+  },
+  "articleWithImage2": {
+    "image": "article-image.png",
+    "title": "Can We Help You?",
+    "subtitle": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
+    "button": "Talk to us"
+  },
+  "articleWithImage3": {
+    "image": "article-image.png",
+    "title": "This is a placeholder",
+    "subtitle": "This block temporarely replaces technologies",
+    "list": [
+      "Javascript - Vue, React, Nuxt,Node",
+      "Java - Spring stack",
+      "Python - For Web and Data Science"
+    ],
+    "button": "Talk to us"
+  },
+  "contactForm2": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
   },
   "mvpCases": [
     {
@@ -35,31 +77,62 @@
     },
     {
       "background": "image-box-1.png",
-      "title": "OneFlow Systems",
+      "title": "HP Inc",
       "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
       "author": {
         "avatar": "chris-knighton.png",
-        "name": "Chris Knighton",
-        "position": "Global Sales Director"
+        "name": "Nigel Watson",
+        "position": "New Business Director"
       },
       "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
     }
   ],
-  "anotherMVPCases": [
+  "mvpCases2": [
     {
       "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      "title": "Axiell",
+      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+      "author": {
+        "avatar": "chris-knighton.png",
+        "name": "Pascal Collberg",
+        "position": "VP Product"
+      },
+      "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
     },
     {
       "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      "title": "CultureConnect",
+      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+      "author": {
+        "avatar": "chris-knighton.png",
+        "name": "Samantha Diamond",
+        "position": "VP Product"
+      },
+      "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+    }
+  ],
+  "mvpCases3": [
+    {
+      "background": "image-box-1.png",
+      "title": "Pronoun",
+      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+      "author": {
+        "avatar": "chris-knighton.png",
+        "name": "Ben Zhuk",
+        "position": "Founder"
+      },
+      "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
     },
     {
       "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      "title": "Macmillan",
+      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+      "author": {
+        "avatar": "chris-knighton.png",
+        "name": "Rob Guttman",
+        "position": "VP Engineering"
+      },
+      "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
     }
   ],
   "articleWithImage": {

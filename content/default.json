@@ -7,26 +7,36 @@
     "nav": [
       {
         "name": "Solutions",
-        "link": "/solutions",
+        "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Hire Developers",
-            "link": "/hire-developers",
-            "external": false
-          },
-          {
-<<<<<<< HEAD
-            "name": "Test Page",
-            "link": "/test-page"
-=======
-            "name": "Menu 2",
+            "name": "Reporting & Data Visualisation",
             "link": "#",
             "external": false
->>>>>>> 2de4c6aa29a859bf343fe2089710377cee21af9b
           },
           {
-            "name": "Menu 3",
+            "name": "Workflow Automation",
+            "link": "/test-page",
+            "external": false
+          },
+          {
+            "name": "API Integration",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Publishing",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "3D Visualisation & AR",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Product Configuration",
             "link": "#",
             "external": false
           }
@@ -34,47 +44,63 @@
       },
       {
         "name": "Hire developers",
-        "link": "/hire-developers",
+        "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Menu 1",
+            "name": "Front-End Developers",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 2",
+            "name": "Back-End Developers",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 3",
+            "name": "DevOps",
             "link": "#",
             "external": false
           }
         ]
       },
-    {
-      "name": "Test",
-      "link": "/test-page"
-    },
       {
         "name": "Industries",
         "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Menu 1",
+            "name": "Tech Startups",
+            "link": "https://startup.codex-soft.com/",
+            "external": true
+          },
+          {
+            "name": "Healthcare",
+            "link": "https://codex-soft.com/healthcare/",
+            "external": true
+          },
+          {
+            "name": "Printing",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 2",
+            "name": "Publishing",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 3",
+            "name": "Art & Culture",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Education",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Mass Customization",
             "link": "#",
             "external": false
           }
@@ -89,28 +115,6 @@
         "name": "Company",
         "link": "#",
         "external": false
-      },
-      {
-        "name": "Startups",
-        "link": "#",
-        "external": false,
-        "subnav": [
-          {
-            "name": "Menu 1",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Menu 2",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Menu 3",
-            "link": "#",
-            "external": false
-          }
-        ]
       }
     ],
     "contactUs_button": "Contact Us"
