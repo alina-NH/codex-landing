@@ -1,0 +1,64 @@
+{
+    "colors": {
+    "primary": "#F75C19",
+    "hover": "cyan",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "#F5BD95",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "Hire developers",
+    "description": "This is Codex Software landing page"
+  },
+  "topslider":{
+    "title": "This is a Top Slide",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "button": "Push test"},
+  
+    "topslider2":{
+    "image": "article-image.png",
+    "title": "This is a Second Slide",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "button": "Push 2 test"},
+
+    "person1":{
+        "avatar": "chris-knighton.png",
+        "name": "Chris Knighton",
+        "position": "Global Sales Director"
+        },
+    "bigcase":  [ 
+    {
+      "background": "image-box-1.png",
+      "title": "OneFlow Systems",
+      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+      "author": {
+        "avatar": "chris-knighton.png",
+        "name": "Chris Knighton",
+        "position": "Global Sales Director"
+      },
+      "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        }
+    ],
+    "smallcase":
+        [
+            {
+    "background": "image-box-1.png",
+    "title": "Case1",
+    "description": "SmallCase Dsc 1"
+        },
+    {
+    "background": "image-box-1.png",
+    "title": "Case2",
+    "description": "SmallCase Dsc 2"
+        },
+    {
+    "background": "image-box-1.png",
+    "title": "Case3",
+    "description": "SmallCase Dsc3"
+        }
+    ]
+    
+    
+}
