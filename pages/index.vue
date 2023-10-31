@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import mainContent from '../content/hire-developers.json';
+import mainContent from '../content/main.json';
 import useContentStore from '../store/index';
 
 const store = useContentStore();
