@@ -87,5 +87,133 @@
       }
     ],
     "contactUs_button": "Contact Us"
+  },
+  "footer": {
+    "logo": {
+      "src": "codex-logo-grey.svg",
+      "alt": "Codex Software"
+    },
+    "description": [
+      "Custom software development.",
+      "IT outstaffing. Consulting."
+    ],
+    "nav": [
+      {
+        "name": "Services",
+        "link": "#",
+        "subnav": [
+          {
+            "name": "Build a team",
+            "link": "#"
+          },
+          {
+            "name": "Frontend development",
+            "link": "#"
+          },
+          {
+            "name": "Backend development",
+            "link": "#"
+          },
+          {
+            "name": "DevOps development",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Industries",
+        "link": "#",
+        "subnav": [
+          {
+            "name": "Healthcare",
+            "link": "#"
+          },
+          {
+            "name": "Printing",
+            "link": "#"
+          },
+          {
+            "name": "Publishing",
+            "link": "#"
+          },
+          {
+            "name": "Art&Culture",
+            "link": "#"
+          },
+          {
+            "name": "Education",
+            "link": "#"
+          },
+          {
+            "name": "Customization",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "Solutions",
+        "link": "/solutions",
+        "subnav": [
+          {
+            "name": "Data visualization",
+            "link": "#"
+          },
+          {
+            "name": "Workflow automation",
+            "link": "#"
+          },
+          {
+            "name": "API integration",
+            "link": "#"
+          },
+          {
+            "name": "Publishing tools",
+            "link": "#"
+          },
+          {
+            "name": "3D visualization and AR",
+            "link": "#"
+          },
+          {
+            "name": "Product configurators",
+            "link": "#"
+          }
+        ]
+      },
+      {
+        "name": "The company",
+        "link": "#",
+        "subnav": [
+          {
+            "name": "The Story",
+            "link": "#"
+          },
+          {
+            "name": "Locations",
+            "link": "#"
+          },
+          {
+            "name": "Leadership",
+            "link": "#"
+          },
+          {
+            "name": "Teams",
+            "link": "#"
+          },
+          {
+            "name": "Privacy Policy",
+            "link": "#"
+          },
+          {
+            "name": "Cookie Policy",
+            "link": "#"
+          }
+        ]
+      }
+    ],
+    "trademark": [
+      "Codex Software Solutions Ltd is a company in England and Wales. Registered number: 09712933. VAT reg no: 266 0325 17",
+      "Registered office address: Mcgills, Oakley House, Tetbury Road, Cirencester, Gloucestershire, GL7 1US."
+    ]
   }
 }

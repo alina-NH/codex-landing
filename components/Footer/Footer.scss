@@ -1,0 +1,76 @@
+.footer {
+  background-color: $black-color;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 0;
+  }
+
+  &-main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  &-nav {
+    display: flex;
+    column-gap: 4vw;
+
+    &__section {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      color: $secondary-color;
+      margin-bottom: 32px;
+      cursor: pointer;
+      -webkit-transition: color $default-transition;
+      -moz-transition: color $default-transition;
+      -ms-transition: color $default-transition;
+      -o-transition: color $default-transition;
+      transition: color $default-transition;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+
+    &__subnav {
+      display: flex;
+      flex-direction: column;
+      row-gap: 12px;
+    }
+
+    &__link {
+      color: $lightgrey-color;
+      cursor: pointer;
+      -webkit-transition: color $default-transition;
+      -moz-transition: color $default-transition;
+      -ms-transition: color $default-transition;
+      -o-transition: color $default-transition;
+      transition: color $default-transition;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+
+  &-trademark {
+    display: flex;
+    flex-direction: column;
+    margin: 23px 0;
+    color: $lightgrey-color;
+  }
+}
