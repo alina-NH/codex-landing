@@ -6,11 +6,16 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  cursor: pointer;
   -webkit-transition: all $default-transition;
   -moz-transition: all $default-transition;
   -ms-transition: all $default-transition;
   -o-transition: all $default-transition;
   transition: all $default-transition;
+
+  &--large {
+    padding: 17px 32px;
+  }
 
   &--filled {
     background-color: $primary-color;
