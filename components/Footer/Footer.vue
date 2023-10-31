@@ -12,28 +12,24 @@
           </span>
         </p>
       </div>
-      <div class="footer-nav">
-        <div
+      <nav class="footer-nav">
+        <ul
           v-for="nav in footer.nav"
           class="footer-nav__section"
         >
-          <NuxtLink
-            :to="nav.link"
-            class="text-default footer-nav__title"
-          >
-            {{ nav.name }}
-          </NuxtLink>
-          <div class="text-small footer-nav__subnav">
-            <NuxtLink
-              v-for="subnav in nav.subnav"
-              :to="subnav.link"
-              class="footer-nav__link"
-            >
-              {{ subnav.name }}
-            </NuxtLink>
-          </div>
-        </div>
-      </div>
+          <li class="text-default footer-nav__title">
+            <NavLink :data="nav" />
+          </li>
+          <ul class="text-small footer-nav__subnav">
+            <li v-for="subnav in nav.subnav">
+              <NavLink
+                :data="subnav"
+                class="footer-nav__link"
+              />
+            </li>
+          </ul>
+        </ul>
+      </nav>
     </div>
     <div class="text-small footer-trademark">
       <span v-for="text in footer.trademark">

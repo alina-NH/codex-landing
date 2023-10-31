@@ -8,80 +8,98 @@
       {
         "name": "Solutions",
         "link": "/solutions",
+        "external": false,
         "subnav": [
           {
             "name": "Hire Developers",
-            "link": "/hire-developers"
+            "link": "/hire-developers",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Hire developers",
         "link": "/hire-developers",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Industries",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Case Studies",
-        "link": "#"
+        "link": "#",
+        "external": false
       },
       {
         "name": "Company",
-        "link": "#"
+        "link": "#",
+        "external": false
       },
       {
         "name": "Startups",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       }
@@ -101,112 +119,138 @@
       {
         "name": "Services",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Build a team",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Frontend development",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Backend development",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "DevOps development",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Industries",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Healthcare",
-            "link": "#"
+            "link": "https://codex-soft.com/healthcare/",
+            "external": true
           },
           {
             "name": "Printing",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Publishing",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Art&Culture",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Education",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Customization",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Solutions",
         "link": "/solutions",
+        "external": false,
         "subnav": [
           {
             "name": "Data visualization",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Workflow automation",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "API integration",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Publishing tools",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "3D visualization and AR",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Product configurators",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "The company",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "The Story",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Locations",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Leadership",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Teams",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Privacy Policy",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Cookie Policy",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       }
