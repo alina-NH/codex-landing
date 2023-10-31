@@ -1,7 +1,9 @@
 <template>
   <ClientOnly>
     <Header />
-    <slot />
+    <div class="main">
+      <slot />
+    </div>
   </ClientOnly>
 </template>
 
@@ -12,3 +14,9 @@ import useContentStore from '../store/index';
 const store = useContentStore();
 store.setDefaultContent(defaultContent);
 </script>
+
+<style scoped lang="scss">
+.main {
+  margin-top: $header-height;
+}
+</style>
