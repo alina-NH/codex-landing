@@ -1,4 +1,5 @@
 <template>
+  <Welcome :data="mainContent.welcome" />
   <ImageBoxes
     :data="mainContent.mvpCases"
     withTestimonial

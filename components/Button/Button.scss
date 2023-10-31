@@ -12,6 +12,10 @@
   -o-transition: all $default-transition;
   transition: all $default-transition;
 
+  &--large {
+    padding: 17px 32px;
+  }
+
   &--filled {
     background-color: $primary-color;
     color: white;
