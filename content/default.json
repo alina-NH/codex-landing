@@ -8,36 +8,44 @@
       {
         "name": "Solutions",
         "link": "/solutions",
+        "external": false,
         "subnav": [
           {
             "name": "Hire Developers",
-            "link": "/hire-developers"
+            "link": "/hire-developers",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Hire developers",
         "link": "/hire-developers",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
@@ -48,48 +56,212 @@
       {
         "name": "Industries",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       },
       {
         "name": "Case Studies",
-        "link": "#"
+        "link": "#",
+        "external": false
       },
       {
         "name": "Company",
-        "link": "#"
+        "link": "#",
+        "external": false
       },
       {
         "name": "Startups",
         "link": "#",
+        "external": false,
         "subnav": [
           {
             "name": "Menu 1",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 2",
-            "link": "#"
+            "link": "#",
+            "external": false
           },
           {
             "name": "Menu 3",
-            "link": "#"
+            "link": "#",
+            "external": false
           }
         ]
       }
     ],
     "contactUs_button": "Contact Us"
+  },
+  "footer": {
+    "logo": {
+      "src": "codex-logo-grey.svg",
+      "alt": "Codex Software"
+    },
+    "description": [
+      "Custom software development.",
+      "IT outstaffing. Consulting."
+    ],
+    "nav": [
+      {
+        "name": "Services",
+        "link": "#",
+        "external": false,
+        "subnav": [
+          {
+            "name": "Build a team",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Frontend development",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Backend development",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "DevOps development",
+            "link": "#",
+            "external": false
+          }
+        ]
+      },
+      {
+        "name": "Industries",
+        "link": "#",
+        "external": false,
+        "subnav": [
+          {
+            "name": "Healthcare",
+            "link": "https://codex-soft.com/healthcare/",
+            "external": true
+          },
+          {
+            "name": "Printing",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Publishing",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Art&Culture",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Education",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Customization",
+            "link": "#",
+            "external": false
+          }
+        ]
+      },
+      {
+        "name": "Solutions",
+        "link": "/solutions",
+        "external": false,
+        "subnav": [
+          {
+            "name": "Data visualization",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Workflow automation",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "API integration",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Publishing tools",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "3D visualization and AR",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Product configurators",
+            "link": "#",
+            "external": false
+          }
+        ]
+      },
+      {
+        "name": "The company",
+        "link": "#",
+        "external": false,
+        "subnav": [
+          {
+            "name": "The Story",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Locations",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Leadership",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Teams",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Privacy Policy",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Cookie Policy",
+            "link": "#",
+            "external": false
+          }
+        ]
+      }
+    ],
+    "trademark": [
+      "Codex Software Solutions Ltd is a company in England and Wales. Registered number: 09712933. VAT reg no: 266 0325 17",
+      "Registered office address: Mcgills, Oakley House, Tetbury Road, Cirencester, Gloucestershire, GL7 1US."
+    ]
   }
 }

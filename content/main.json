@@ -12,6 +12,15 @@
     "title": "Codex Software",
     "description": "This is Codex Software landing page"
   },
+  "welcome": {
+    "title": [
+      "Staff your startup team.",
+      "Scale affordably.",
+      "Grow fast."
+    ],
+    "background": "welcome-background.png",
+    "button": "Get your Startup a boost"
+  },
   "mvpCases": [
     {
       "background": "image-box-1.png",
@@ -85,5 +94,34 @@
       "position": "Global Sales Director"
     },
     "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
   }
 }

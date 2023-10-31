@@ -1,4 +1,5 @@
 <template>
+  <Welcome :data="mainContent.welcome" />
   <ImageBoxes
     :data="mainContent.mvpCases"
     withTestimonial
@@ -15,6 +16,7 @@
     buttonStyle="outline"
     imageToRight
   />
+  <ContactForm :data="mainContent.contactForm" />
 </template>
 
 <script setup lang="ts">

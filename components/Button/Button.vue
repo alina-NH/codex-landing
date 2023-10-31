@@ -4,6 +4,7 @@
     :class="{
       'button--filled': style === ButtonStyle.fill,
       'button--outlined': style === ButtonStyle.outline,
+      'button--large': size === ButtonSize.large
     }"
   >
     <slot />
@@ -11,10 +12,11 @@
 </template>
 
 <script setup lang="ts">
-import { ButtonStyle } from '../../types/default.ts';
+import { ButtonStyle, ButtonSize } from '../../types/default.ts';
 
 const { style } = defineProps<{
   style: ButtonStyle,
+  size?: ButtonSize,
 }>();
 </script>
 
