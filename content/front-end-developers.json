@@ -13,7 +13,7 @@
     "description": "This is Codex Software landing page"
   },
   "welcome": {
-    "title": ["Front-end developers", "For your Team.", "Affordably."],
+    "title": ["Front-end Developers", "For your Team.", "Affordably."],
     "background": "welcome-background.png",
     "button": "Request CVs"
   },
