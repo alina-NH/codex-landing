@@ -2,7 +2,8 @@
   "header": {
     "logo": {
       "src": "codex-logo.svg",
-      "alt": "Codex Software"
+      "alt": "Codex Software",
+      "link":"https://codex-soft.com/"
     },
     "nav": [
       {
@@ -17,7 +18,7 @@
           },
           {
             "name": "Workflow Automation",
-            "link": "/test-page",
+            "link": "#",
             "external": false
           },
           {
@@ -49,17 +50,17 @@
         "subnav": [
           {
             "name": "Front-End Developers",
-            "link": "#",
+            "link": "/front-end-developers",
             "external": false
           },
           {
             "name": "Back-End Developers",
-            "link": "#",
+            "link": "/back-end-developers",
             "external": false
           },
           {
             "name": "DevOps",
-            "link": "#",
+            "link": "/devops",
             "external": false
           }
         ]

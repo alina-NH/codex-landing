@@ -1,0 +1,49 @@
+{
+  "colors": {
+    "primary": "#F75C19",
+    "hover": "#D7470A",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "#F5BD95",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "Hire front-end developers",
+    "description": "This is Codex Software landing page"
+  },
+  "welcome": {
+    "title": ["Front-end developers", "For your Team.", "Affordably."],
+    "background": "welcome-background.png",
+    "button": "Request CVs"
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  }
+}
