@@ -20,7 +20,6 @@
   />
   <ImageBoxes
     :data="casestudiesContent.nonfeatured3"
-    withTestimonial
   />
   <ImageBoxes
     :data="casestudiesContent.featured4"
