@@ -1,11 +1,11 @@
 {
   "colors": {
-    "primary": "#e33714",
-    "hover": "#2551C2",
+    "primary": "#F75C19",
+    "hover": "#D7470A",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "#1e274f",
+    "secondary": "#F5BD95",
     "white": "#FFFFFF"
   },
   "meta": {
@@ -216,5 +216,101 @@
       "required": false
     },
     "button": "Send Request"
+  },
+  "tabsIcons": {
+    "title": "Tabs with icons",
+    "tabs": [
+      "Popular",
+      "Front-end",
+      "Back-end",
+      "Data Analytics",
+      "AI",
+      "Cloud",
+      "DevOps",
+      "Quality Assurance"
+    ],
+    "tabsContent": [
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Front-end"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Front-end"
+      }
+    ]
+  },
+  "tabsImageBox": {
+    "title": "Tabs with Image article",
+    "tabs": [
+      "Tab 1",
+      "Tab 2",
+      "Tab 3"
+    ],
+    "tabsContent": [
+      {
+        "background": "image-box-1.png",
+        "tab": "Tab 1",
+        "title": "OneFlow Systems Tab 1",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "image-box-1.png",
+        "tab": "Tab 1",
+        "title": "OneFlow Systems Tab 1",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "image-box-1.png",
+        "tab": "Tab 2",
+        "title": "OneFlow Systems Tab 2",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      }
+    ]
   }
 }

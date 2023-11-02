@@ -18,6 +18,25 @@
     withTestimonial
   />
   <ContactForm :data="mainContent.contactForm" />
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="mainContent.tabsIcons"
+    component="IconBox"
+  />
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="mainContent.tabsImageBox"
+    component="ImageBox"
+    withTestimonial
+  />
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="mainContent.tabsImageBox"
+    component="ImageBox"
+  />
 </template>
 
 <script setup lang="ts">

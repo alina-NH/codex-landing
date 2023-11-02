@@ -1,6 +1,12 @@
 <template>
-  <section class="image-boxes">
-    <SectionTitle v-if="hasTitle" :position="titlePosition">
+  <section
+    class="image-boxes"
+    :class="{ 'image-boxes--filtered': filterMode }"
+  >
+    <SectionTitle
+      v-if="hasTitle"
+      :position="titlePosition"
+    >
       {{ data.title }}
     </SectionTitle>
     <div
@@ -17,11 +23,17 @@
 </template>
 
 <script setup lang="ts">
-const { data, withTestimonial } = defineProps<{
-  data: ImageBoxes;
-  withTestimonial?: boolean;
-  hasTitle: boolean;
-  titlePosition: typeof SectionTitlePosition;
+const {
+  data,
+  withTestimonial,
+  hasTitle,
+  titlePosition,
+} = defineProps<{
+  data: ImageBoxes,
+  withTestimonial?: boolean,
+  hasTitle?: boolean,
+  titlePosition?: typeof SectionTitlePosition,
+  filterMode?: boolean,
 }>();
 </script>
 

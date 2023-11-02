@@ -3,6 +3,10 @@
   flex-direction: column;
   margin: 10vh 10vw;
 
+  &--filtered {
+    margin: unset;
+  }
+
   &__body {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

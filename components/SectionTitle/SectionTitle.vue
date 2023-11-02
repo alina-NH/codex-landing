@@ -12,11 +12,7 @@
 
 <script setup lang="ts">
 const { position } = defineProps<{
-  position?: {
-    type: SectionTitlePosition,
-    default: SectionTitlePosition.left,
-    required: false,
-  }
+  position?: typeof SectionTitlePosition
 }>();
 </script>
 
