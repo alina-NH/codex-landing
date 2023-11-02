@@ -1,9 +1,6 @@
 <template>
   <section class="image-boxes">
-    <SectionTitle
-      v-if="hasTitle"
-      :position="titlePosition"
-    >
+    <SectionTitle v-if="hasTitle" :position="titlePosition">
       {{ data.title }}
     </SectionTitle>
     <div
@@ -21,10 +18,10 @@
 
 <script setup lang="ts">
 const { data, withTestimonial } = defineProps<{
-  data: ImageBoxes,
-  withTestimonial?: boolean,
-  hasTitle: boolean,
-  titlePosition: typeof SectionTitlePosition,
+  data: ImageBoxes;
+  withTestimonial?: boolean;
+  hasTitle: boolean;
+  titlePosition: typeof SectionTitlePosition;
 }>();
 </script>
 

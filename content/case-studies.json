@@ -47,23 +47,25 @@
       }
     ]
   },
-  "nonfeatured1": [
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    }
-  ],
+  "nonfeatured1": {
+    "imageBoxes": [
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      }
+    ]
+  },
   "featured2": {
     "title": "",
     "imageBoxes": [
@@ -91,23 +93,25 @@
       }
     ]
   },
-  "nonfeatured2": [
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    }
-  ],
+  "nonfeatured2": {
+    "imageBoxes": [
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      }
+    ]
+  },
   "featured3": {
     "title": "",
     "imageBoxes": [
@@ -135,23 +139,25 @@
       }
     ]
   },
-  "nonfeatured3": [
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    }
-  ],
+  "nonfeatured3": {
+    "imageBoxes": [
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      }
+    ]
+  },
   "featured4": {
     "title": "",
     "imageBoxes": [
@@ -179,23 +185,25 @@
       }
     ]
   },
-  "nonfeatured4": [
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    },
-    {
-      "background": "image-box-1.png",
-      "title": "OneFlow Systems",
-      "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-    }
-  ],
+  "nonfeatured4": {
+    "imageBoxes": [
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "image-box-1.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      }
+    ]
+  },
 
   "contactForm": {
     "title": "Contact Us",
