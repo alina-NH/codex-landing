@@ -2,26 +2,42 @@
   "header": {
     "logo": {
       "src": "codex-logo.svg",
-      "alt": "Codex Software"
+      "alt": "Codex Software",
+      "link":"https://codex-soft.com/"
     },
     "nav": [
       {
         "name": "Solutions",
-        "link": "/solutions",
+        "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Hire Developers",
-            "link": "/hire-developers",
-            "external": false
-          },
-          {
-            "name": "Menu 2",
+            "name": "Reporting & Data Visualisation",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 3",
+            "name": "Workflow Automation",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "API Integration",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Publishing",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "3D Visualisation & AR",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Product Configuration",
             "link": "#",
             "external": false
           }
@@ -29,47 +45,63 @@
       },
       {
         "name": "Hire developers",
-        "link": "/hire-developers",
+        "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Menu 1",
-            "link": "#",
+            "name": "Front-End Developers",
+            "link": "/front-end-developers",
             "external": false
           },
           {
-            "name": "Menu 2",
-            "link": "#",
+            "name": "Back-End Developers",
+            "link": "/back-end-developers",
             "external": false
           },
           {
-            "name": "Menu 3",
-            "link": "#",
+            "name": "DevOps",
+            "link": "/devops",
             "external": false
           }
         ]
       },
-    {
-      "name": "Test",
-      "link": "/test-page"
-    },
       {
         "name": "Industries",
         "link": "#",
         "external": false,
         "subnav": [
           {
-            "name": "Menu 1",
+            "name": "Tech Startups",
+            "link": "https://startup.codex-soft.com/",
+            "external": true
+          },
+          {
+            "name": "Healthcare",
+            "link": "https://codex-soft.com/healthcare/",
+            "external": true
+          },
+          {
+            "name": "Printing",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 2",
+            "name": "Publishing",
             "link": "#",
             "external": false
           },
           {
-            "name": "Menu 3",
+            "name": "Art & Culture",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Education",
+            "link": "#",
+            "external": false
+          },
+          {
+            "name": "Mass Customization",
             "link": "#",
             "external": false
           }
@@ -84,28 +116,6 @@
         "name": "Company",
         "link": "#",
         "external": false
-      },
-      {
-        "name": "Startups",
-        "link": "#",
-        "external": false,
-        "subnav": [
-          {
-            "name": "Menu 1",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Menu 2",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Menu 3",
-            "link": "#",
-            "external": false
-          }
-        ]
       }
     ],
     "contactUs_button": "Contact Us"
@@ -122,7 +132,7 @@
     "nav": [
       {
         "name": "Services",
-        "link": "#",
+        "link": "",
         "external": false,
         "subnav": [
           {
@@ -132,17 +142,17 @@
           },
           {
             "name": "Frontend development",
-            "link": "#",
+            "link": "/front-end-developers",
             "external": false
           },
           {
             "name": "Backend development",
-            "link": "#",
+            "link": "/back-end-developers",
             "external": false
           },
           {
             "name": "DevOps development",
-            "link": "#",
+            "link": "/devops",
             "external": false
           }
         ]

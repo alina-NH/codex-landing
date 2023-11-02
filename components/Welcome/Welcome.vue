@@ -1,15 +1,12 @@
 <template>
   <section class="welcome">
     <div class="welcome__section">
-      <h1 class="heading-1 welcome__title">
+      <h1 class="heading-2 welcome__title">
         <span v-for="titleLine in data.title">
           {{ titleLine }}
         </span>
       </h1>
-      <Button
-        :size="ButtonSize.large"
-        :style="ButtonStyle.fill"
-      >
+      <Button :size="ButtonSize.large" :style="ButtonStyle.fill">
         {{ data.button }}
       </Button>
     </div>
@@ -24,11 +21,11 @@
 </template>
 
 <script setup lang="ts">
-import Button from '../Button/Button.vue';
-import { ButtonSize, ButtonStyle } from '../../types/default';
+import Button from "../Button/Button.vue";
+import { ButtonSize, ButtonStyle } from "../../types/default";
 
 const { data } = defineProps<{
-  data: object
+  data: object;
 }>();
 </script>
 
