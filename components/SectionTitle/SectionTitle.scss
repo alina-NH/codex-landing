@@ -1,0 +1,16 @@
+.section-title {
+  display: inline-block;
+  width: calc(100% - 20vw);
+  padding: 0 10vw 5vh 10vw;
+  text-align: center;
+
+  &--left {
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+}

@@ -40,8 +40,6 @@
 </template>
 
 <script setup lang="ts">
-import useContentStore from '../store/index';
-
 const { defaultContent: { footer } } = useContentStore();
 </script>
 

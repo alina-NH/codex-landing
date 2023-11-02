@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
 
-export default defineStore('contentStore', {
+export const useContentStore = defineStore('contentStore', {
   state: () => ({
     defaultContent: {},
     pageContent: {},

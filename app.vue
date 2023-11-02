@@ -5,8 +5,6 @@
 </template>
 
 <script setup lang="ts">
-import useContentStore from './store/index';
-
 const store = useContentStore();
 const { getPageContent } = storeToRefs(store);
 
