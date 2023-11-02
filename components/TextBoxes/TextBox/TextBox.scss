@@ -1,0 +1,24 @@
+.textbox {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 32px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px rgba(24, 25, 31, 0.10);
+  background-color: $white-color;
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+
+  }
+
+  &__subtitle {
+    color: $primary-color;
+    margin-bottom: 24px;
+  }
+}

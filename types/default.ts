@@ -36,6 +36,7 @@ export interface Person {
 export enum TabsComponent {
   IconBox = 'IconBox',
   ImageBox = 'ImageBox',
+  TextBox = 'TextBox',
 };
 
 export interface TabbedContent {
@@ -52,4 +53,16 @@ export interface IconBox {
 
 export interface IconBoxes {
   icons: IconBox[]
+}
+
+export interface TextBox {
+  title: string,
+  subtitle: string,
+  text: string,
+  icon?: string,
+}
+
+export interface TextBoxes {
+  title: string,
+  textBoxes: TextBox[]
 }

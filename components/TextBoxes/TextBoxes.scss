@@ -1,0 +1,19 @@
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  margin: 10vh 10vw;
+
+  &--filtered {
+    margin: unset;
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+
+    &--short {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+}

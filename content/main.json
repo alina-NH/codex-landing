@@ -291,5 +291,59 @@
         "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
       }
     ]
+  },
+  "textBoxes": {
+    "title": "Software Modernization",
+    "textBoxes": [
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg"
+      },
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg"
+      },
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg"
+      }
+    ]
+  },
+  "tabsTextBox": {
+    "title": "Tabs with Text boxes",
+    "tabs": [
+      "Tab 1",
+      "Tab 2",
+      "Tab 3"
+    ],
+    "tabsContent": [
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg",
+        "tab": "Tab 1"
+      },
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg",
+        "tab": "Tab 2"
+      },
+      {
+        "title": "Software Modernization",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
+        "icon": "react.svg",
+        "tab": "Tab 1"
+      }
+    ]
   }
 }

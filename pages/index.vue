@@ -37,6 +37,23 @@
     :data="mainContent.tabsImageBox"
     component="ImageBox"
   />
+  <TextBoxes
+    hasTitle
+    :data="mainContent.textBoxes"
+    titlePosition="left"
+    withIcon
+  />
+  <TextBoxes
+    :data="mainContent.textBoxes"
+    titlePosition="left"
+  />
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="mainContent.tabsTextBox"
+    component="TextBox"
+    withIcon
+  />
 </template>
 
 <script setup lang="ts">

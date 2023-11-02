@@ -28,6 +28,13 @@
         filterMode
         :hasTitle="false"
       />
+      <TextBoxes
+        v-if="component === TabsComponent.TextBox"
+        :data="{ textBoxes: content }"
+        :hasTitle="false"
+        :withIcon="withIcon"
+        filterMode
+      />
     </div>
   </section>
 </template>
@@ -39,12 +46,14 @@ const {
   titlePosition,
   component,
   withTestimonial,
+  withIcon
 } = defineProps<{
   data: TabbedContent,
   hasTitle: boolean,
   titlePosition?: typeof SectionTitlePosition,
   component: typeof TabsComponent,
   withTestimonial?: boolean,
+  withIcon?: boolean,
 }>();
 
 const activeTab = ref(data.tabs[0]);
