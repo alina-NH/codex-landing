@@ -19,6 +19,7 @@ export interface ImageBox {
   description: string,
   author?: Person,
   testimonial?: string,
+  tab?: string,
 };
 
 export interface ImageBoxes {
@@ -31,3 +32,24 @@ export interface Person {
   name: string,
   position: string,
 };
+
+export enum TabsComponent {
+  IconBox = 'IconBox',
+  ImageBox = 'ImageBox',
+};
+
+export interface TabbedContent {
+  title: string,
+  tabs: string[],
+  tabsContent: IconBoxes,
+};
+
+export interface IconBox {
+  icon: string,
+  alt: string,
+  tag?: string,
+};
+
+export interface IconBoxes {
+  icons: IconBox[]
+}

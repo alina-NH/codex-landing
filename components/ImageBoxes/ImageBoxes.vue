@@ -1,5 +1,8 @@
 <template>
-  <section class="image-boxes">
+  <section
+    class="image-boxes"
+    :class="{ 'image-boxes--filtered': filterMode }"
+  >
     <SectionTitle
       v-if="hasTitle"
       :position="titlePosition"
@@ -20,11 +23,17 @@
 </template>
 
 <script setup lang="ts">
-const { data, withTestimonial } = defineProps<{
+const {
+  data,
+  withTestimonial,
+  hasTitle,
+  titlePosition,
+} = defineProps<{
   data: ImageBoxes,
   withTestimonial?: boolean,
-  hasTitle: boolean,
-  titlePosition: typeof SectionTitlePosition,
+  hasTitle?: boolean,
+  titlePosition?: typeof SectionTitlePosition,
+  filterMode?: boolean,
 }>();
 </script>
 

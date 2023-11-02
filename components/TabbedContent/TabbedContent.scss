@@ -1,0 +1,34 @@
+.tabbed-content {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh 10vw;
+
+  &-nav {
+    display: flex;
+    column-gap: 48px;
+    list-style: none;
+    position: relative;
+    margin-bottom: 48px;
+
+    &__item {
+      cursor: pointer;
+      border-bottom: 2px solid;
+      border-color: white;
+      padding-bottom: 12px;
+      -webkit-transition: all $default-transition;
+      -moz-transition: all $default-transition;
+      -ms-transition: all $default-transition;
+      -o-transition: all $default-transition;
+      transition: all $default-transition;
+
+      &:hover {
+        color: $hover-color;
+      }
+
+      &--active {
+        color: $primary-color;
+        border-color: $primary-color;
+      }
+    }
+  }
+}
