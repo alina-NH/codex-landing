@@ -19,7 +19,6 @@
 
 <script setup lang="ts">
 import hireDevelopersContent from '../content/main.json';
-import useContentStore from '../store/index';
 
 const store = useContentStore();
 store.setPageContent(hireDevelopersContent);

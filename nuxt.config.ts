@@ -23,5 +23,14 @@ export default defineNuxtConfig({
     head: {
       title: "Codex Software",
     }
-  }
+  },
+  imports: {
+    dirs: ['stores', 'types'],
+  },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ]
 });

@@ -11,7 +11,6 @@
 
 <script setup lang="ts">
 import solutionsContent from '../content/solutions.json';
-import useContentStore from '../store/index';
 
 const store = useContentStore();
 store.setPageContent(solutionsContent);

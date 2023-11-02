@@ -39,8 +39,6 @@
 </template>
 
 <script setup lang="ts">
-import useContentStore from '../store/index';
-
 const { defaultContent: { header } } = useContentStore();
 </script>
 
