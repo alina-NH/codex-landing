@@ -65,7 +65,7 @@
   },
   "mvpCases": [
     {
-      "background": "image-box-1.png",
+      "background": "oneflow-v2.png",
       "title": "OneFlow Systems",
       "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
       "author": {
@@ -76,7 +76,7 @@
       "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
     },
     {
-      "background": "hp.png",
+      "background": "hp-v2.png",
       "title": "HP Inc",
       "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
       "author": {
