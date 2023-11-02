@@ -33,6 +33,7 @@
 <ContactForm :data="casestudiesContent.contactForm" />
 
 </template>
+
 <script setup lang="ts">
 import casestudiesContent from "../content/case-studies.json";
 
