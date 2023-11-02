@@ -1,7 +1,7 @@
 <template>
   <section class="image-boxes">
     <SectionTitle
-      hasTitle
+      v-if="hasTitle"
       :position="titlePosition"
     >
       {{ data.title }}

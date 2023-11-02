@@ -22,7 +22,7 @@ export interface ImageBox {
 };
 
 export interface ImageBoxes {
-  title: string,
+  title?: string,
   imageBoxes: ImageBox[],
 };
 
