@@ -1,0 +1,78 @@
+{
+  "colors": {
+    "primary": "#DCEAFF",
+    "hover": "#2551C2",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "#1e274f",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "Case Studies | Codex Software",
+    "description": "Explore the portfolio of custom software development and staff augmentation projects completed by Codex."
+  },
+  "welcome": {
+    "title": [
+      "Explore the projects we've completed over the decade.",
+      "Or, Request a Discovery Call"
+    ],
+    "background": "welcome-background.png",
+    "button": "Book a call"
+  },
+  "featured1": {
+    "title": "",
+    "imageBoxes": [
+      {
+        "background": "oneflow-v2.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "hp-v2.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        }
+      }
+    ]
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  }
+}
