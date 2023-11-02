@@ -1,5 +1,5 @@
 <template>
-  <div class="image-boxes">
+  <section class="image-boxes">
     <SectionTitle>{{ data.title }}</SectionTitle>
     <div
       class="image-boxes__body"
@@ -11,7 +11,7 @@
         :withTestimonial="withTestimonial"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
