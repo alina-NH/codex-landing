@@ -3,13 +3,13 @@
     <img
       :src="useImages(data.avatar)"
       :alt="data.name"
-      class="person-avatar"
+      class="person__avatar"
     />
-    <div class="person-data">
-      <p class="text-default-bold person-data__name">
+    <div>
+      <p class="text-default-bold">
         {{ data.name }}
       </p>
-      <p class="text-small person-data__position">
+      <p class="text-small">
         {{ data.position }}
       </p>
     </div>
@@ -18,7 +18,10 @@
 
 <script setup lang="ts">
 const { data } = defineProps<{
-  data: object
+  data: {
+    type: Person,
+    required: true,
+  }
 }>();
 </script>
 

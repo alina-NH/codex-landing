@@ -1,27 +1,27 @@
 <template>
-  <div
-    class="image-boxes"
-    :class="{ 'image-boxes--short': !withTestimonial }"
-  >
-    <ImageBox
-      v-for="imageBoxData in content"
-      :data="imageBoxData"
-      :withTestimonial="withTestimonial"
-    />
+  <div class="image-boxes">
+    <SectionTitle>{{ data.title }}</SectionTitle>
+    <div
+      class="image-boxes__body"
+      :class="{ 'image-boxes__body--short': !withTestimonial }"
+    >
+      <ImageBox
+        v-for="imageBoxData in data.imageBoxes"
+        :data="imageBoxData"
+        :withTestimonial="withTestimonial"
+      />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import ImageBox from './ImageBox/ImageBox.vue';
-import useContentStore from '../store/index';
-
 const { data, withTestimonial } = defineProps<{
-  data: object,
+  data: {
+    type: ImageBox,
+    required: true,
+  },
   withTestimonial?: boolean
 }>();
-
-const { pageContent: { imageBoxes } } = useContentStore();
-const content = ref(data || imageBoxes);
 </script>
 
 <style scoped lang="scss" src="./ImageBoxes.scss" />

@@ -28,7 +28,10 @@
 
 <script setup lang="ts">
 const { data, withTestimonial } = defineProps<{
-  data: object,
+  data: {
+    type: ImageBox,
+    required: true,
+  },
   withTestimonial?: boolean
 }>();
 </script>

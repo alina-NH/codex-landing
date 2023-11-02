@@ -11,15 +11,15 @@
     imageToRight
   />
   <ContactForm :data="mainContent.contactForm2" />
-  <ImageBoxes :data="mainContent.mvpCases" withTestimonial />
-  <ImageBoxes :data="mainContent.mvpCases2" withTestimonial />
-  <ImageBoxes :data="mainContent.mvpCases3" withTestimonial />
+  <ImageBoxes
+    :data="mainContent.mvpCases"
+    withTestimonial
+  />
   <ContactForm :data="mainContent.contactForm" />
 </template>
 
 <script setup lang="ts">
 import mainContent from "../content/main.json";
-import useContentStore from "../store/index";
 
 const store = useContentStore();
 store.setPageContent(mainContent);
