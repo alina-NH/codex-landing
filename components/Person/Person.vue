@@ -18,10 +18,7 @@
 
 <script setup lang="ts">
 const { data } = defineProps<{
-  data: {
-    type: Person,
-    required: true,
-  }
+  data: Person,
 }>();
 </script>
 

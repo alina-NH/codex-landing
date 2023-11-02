@@ -1,6 +1,11 @@
 <template>
   <section class="image-boxes">
-    <SectionTitle>{{ data.title }}</SectionTitle>
+    <SectionTitle
+      hasTitle
+      :position="titlePosition"
+    >
+      {{ data.title }}
+    </SectionTitle>
     <div
       class="image-boxes__body"
       :class="{ 'image-boxes__body--short': !withTestimonial }"
@@ -16,11 +21,10 @@
 
 <script setup lang="ts">
 const { data, withTestimonial } = defineProps<{
-  data: {
-    type: ImageBox,
-    required: true,
-  },
-  withTestimonial?: boolean
+  data: ImageBoxes,
+  withTestimonial?: boolean,
+  hasTitle: boolean,
+  titlePosition: typeof SectionTitlePosition,
 }>();
 </script>
 

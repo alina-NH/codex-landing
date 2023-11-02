@@ -13,6 +13,8 @@
   <ContactForm :data="mainContent.contactForm2" />
   <ImageBoxes
     :data="mainContent.mvpCases"
+    hasTitle
+    titlePosition="center"
     withTestimonial
   />
   <ContactForm :data="mainContent.contactForm" />
