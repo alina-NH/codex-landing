@@ -12,7 +12,7 @@
           <input
             type="text"
             :placeholder="data.nameInput.placeholder"
-            :required="required"
+            :required="data.nameInput.required"
             class="text-default"
           />
         </label>
@@ -23,7 +23,7 @@
           <input
             type="text"
             :placeholder="data.companyInput.placeholder"
-            :required="required"
+            :required="data.companyInput.required"
             class="text-default"
           />
         </label>
@@ -36,7 +36,7 @@
           <input
             type="text"
             :placeholder="data.emailInput.placeholder"
-            :required="required"
+            :required="data.emailInput.required"
             class="text-default"
           />
         </label>
@@ -47,7 +47,7 @@
           <input
             type="text"
             :placeholder="data.phoneInput.placeholder"
-            :required="required"
+            :required="data.phoneInput.required"
             class="text-default"
           />
         </label>
@@ -58,6 +58,7 @@
         </span>
         <textarea
           :placeholder="data.messageInput.placeholder"
+          :required="data.messageInput.required"
           class="text-default"
         />
       </label>
