@@ -42,5 +42,27 @@
       "icon": "bulb.svg",
       "text": "Discuss your Project"
     }
-  }
+  },
+  "list": [
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    }
+  ]
 }
