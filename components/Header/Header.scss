@@ -11,6 +11,10 @@
   z-index: 1;
   top: 0;
 
+  &__logo {
+    cursor: pointer;
+  }
+
   &-nav {
     list-style-type: none;
     display: flex;

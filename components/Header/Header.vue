@@ -5,6 +5,7 @@
       <img
         :src="useImages(header.logo.src)"
         :alt="header.logo.alt"
+        class="header__logo"
       />
     </NuxtLink>
     <nav class="header-content">

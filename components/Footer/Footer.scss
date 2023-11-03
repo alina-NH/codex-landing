@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
 
+  &__logo {
+    cursor: pointer;
+  }
+
   &-content {
     display: flex;
     justify-content: space-between;
