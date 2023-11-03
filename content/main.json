@@ -33,7 +33,8 @@
       "Data Science & AI",
       "Cloud Platforms",
       "DevOps",
-      "Quality Assurance"
+      "Quality Assurance",
+      "Mobile"
     ],
     "tabsContent": [
       {
@@ -64,7 +65,7 @@
       {
         "icon": "react.svg",
         "alt": "React",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end", "Mobile"]
       },
       {
         "icon": "redux.svg",
@@ -180,6 +181,111 @@
         "icon": "oracle.svg",
         "alt": "Oracle DB",
         "tabs": ["Databases"]
+      },
+      {
+        "icon": "tensorflow.svg",
+        "alt": "Tensorflow",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "numpy.svg",
+        "alt": "Numpy",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "pandas.svg",
+        "alt": "Pandas",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "d3.svg",
+        "alt": "D3",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "3js.svg",
+        "alt": "ThreeJS",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "aws.svg",
+        "alt": "Amazon AWS",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "googlecloud.svg",
+        "alt": "Google Cloud",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "azure.svg",
+        "alt": "Azure",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "docker.svg",
+        "alt": "Docker",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "kubernetes.svg",
+        "alt": "Kubernetes",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "terraform.svg",
+        "alt": "Terraform",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "ansible.svg",
+        "alt": "Ansible",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "circleci.svg",
+        "alt": "CircleCI",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "gitlab.svg",
+        "alt": "Gitlab",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "jenkins.svg",
+        "alt": "Jenkins",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "cypress.svg",
+        "alt": "Cypress",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "selenium.svg",
+        "alt": "Selenium",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "jest.svg",
+        "alt": "Jest",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "android.svg",
+        "alt": "Android",
+        "tabs": ["Mobile"]
+      },
+      {
+        "icon": "ios.svg",
+        "alt": "iOS",
+        "tabs": ["Mobile"]
+      },
+      {
+        "icon": "flutter.svg",
+        "alt": "Flutter",
+        "tabs": ["Mobile"]
       }
     ]
   },
