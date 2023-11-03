@@ -3,26 +3,77 @@
     class="image-article"
     :class="{
       'image-article--reversed': imageToRight,
+      'image-article--left': articleAlignment === Alignment.left,
+      'image-article--right': articleAlignment === Alignment.right,
+      'image-article--center': articleAlignment === Alignment.center,
     }"
   >
     <img
+      v-if="hasImage && data.image"
       :src="useImages(data.image)"
       role="background"
       class="image-article__background"
     />
-    <article class="image-article__body">
-      <h3 class="heading-3 image-article__title">
+    <article
+      class="image-article__body"
+      :class="{
+        'image-article__body--left': textAlignment === Alignment.left,
+        'image-article__body--right': textAlignment === Alignment.right,
+        'image-article__body--center': textAlignment === Alignment.center,
+      }"
+    >
+      <h3
+        class="heading-3 image-article__title"
+        :class="{
+        'image-article__title--small': titleSize === TitleSize.small,
+        'image-article__title--large': titleSize === TitleSize.large,
+      }"
+      >
         {{ data.title }}
       </h3>
-      <p class="text-default-bold image-article__subtitle">
+      <p
+        v-if="hasSubtitle"
+        class="text-default-bold image-article__subtitle"
+      >
         {{ data.subtitle }}
       </p>
-      <ul class="text-default image-article__list">
+      <ul
+        v-if="component === ImageArticleComponent.list"
+        class="text-default image-article__list"
+      >
         <li v-for="item in data.list">
           {{ item }}
         </li>
       </ul>
-      <Button :style="buttonStyle">
+      <p
+        v-if="component === ImageArticleComponent.text"
+        class="text-default image-article__text"
+      >
+        {{ data.text }}
+      </p>
+      <div
+        v-if="hasBottomText && data.bottomText"
+        class="image-article__bottom-text"
+      >
+        <img
+          :src="useImages(data.bottomText.icon)"
+          role="background"
+        />
+        <span class="heading-4">
+          {{ data.bottomText.text }}
+        </span>
+      </div>
+      <Button
+        v-if="hasButton"
+        :style="buttonStyle || ButtonStyle.fill"
+        class="image-article__button"
+        :class="{
+          'image-article__button--left': buttonAlignment === FlexAlignment.left,
+          'image-article__button--right': buttonAlignment === FlexAlignment.right,
+          'image-article__button--center': buttonAlignment === FlexAlignment.center,
+          'image-article__button--stretch': buttonAlignment === FlexAlignment.stretch,
+        }"
+      >
         {{ data.button }}
       </Button>
     </article>
@@ -30,14 +81,32 @@
 </template>
 
 <script setup lang="ts">
-import { ButtonStyle } from '../../types/default.ts';
 import Button from '../Button/Button.vue';
 
-const { data, buttonStyle } = defineProps<{
-  data: object,
-  buttonStyle: ButtonStyle,
+const {
+  data,
+  buttonStyle,
+  imageToRight,
+  hasButton,
+  hasSubtitle,
+  hasImage,
+  textAlignment,
+  buttonAlignment,
+  titleSize,
+  hasBottomText,
+} = defineProps<{
+  data: ImageArticle,
+  buttonStyle?: keyof typeof ButtonStyle,
   imageToRight?: boolean,
-  imageToLeft?: boolean,
+  component: keyof typeof ImageArticleComponent,
+  hasButton?: boolean,
+  hasSubtitle?: boolean,
+  hasImage?: boolean,
+  textAlignment?: keyof typeof Alignment,
+  articleAlignment?: keyof typeof Alignment,
+  buttonAlignment?: keyof typeof FlexAlignment,
+  titleSize?: keyof typeof TitleSize,
+  hasBottomText?: boolean,
 }>();
 </script>
 

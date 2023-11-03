@@ -1,0 +1,46 @@
+{
+  "colors": {
+    "primary": "#2E64F9",
+    "hover": "#2551C2",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "#DCEAFF",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "Test page",
+    "description": "This is Codex Software landing page"
+  },
+  "squareTimeline": {
+    "title": "Our Process"
+  },
+  "articleWithImageAndList": {
+    "image": "article-image.png",
+    "title": "Article with image and list",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "list": [
+      "Refine the idea and get a development plan",
+      "Get a solution tailored to your business goals",
+      "Evolve or pivot the product further"
+    ],
+    "button": "Discuss your Project"
+  },
+  "articleWithImageAndText": {
+    "image": "article-image.png",
+    "title": "Article with image and list",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "text": "Refine the idea and get a development plan. Get a solution tailored to your business goals. Evolve or pivot the product further",
+    "button": "Discuss your Project"
+  },
+  "articleWithBottomText": {
+    "image": "article-image.png",
+    "title": "Article with image and list",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "text": "Refine the idea and get a development plan. Get a solution tailored to your business goals. Evolve or pivot the product further",
+    "bottomText": {
+      "icon": "bulb.svg",
+      "text": "Discuss your Project"
+    }
+  }
+}

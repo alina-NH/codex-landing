@@ -16,6 +16,6 @@
 
 <script setup lang="ts">
 const { data } = defineProps<{
-  data: object
+  data: NavLink
 }>();
 </script>
