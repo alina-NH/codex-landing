@@ -29,47 +29,253 @@
       "Programming Languages",
       "Front-end",
       "Back-end",
-      "Data Analytics",
-      "AI",
-      "Cloud",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
       "DevOps",
-      "Quality Assurance"
+      "Quality Assurance",
+      "Mobile"
     ],
     "tabsContent": [
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Popular"
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "java.svg",
+        "alt": "Java",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "python.svg",
+        "alt": "Python",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "csharp.svg",
+        "alt": "C#",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "vue.svg",
+        "alt": "Vue",
+        "tabs": ["Front-end"]
       },
       {
         "icon": "react.svg",
         "alt": "React",
-        "tab": "Popular"
+        "tabs": ["Front-end", "Mobile"]
       },
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Popular"
+        "icon": "redux.svg",
+        "alt": "Redux",
+        "tabs": ["Front-end"]
       },
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Popular"
+        "icon": "nuxt.svg",
+        "alt": "Nuxt",
+        "tabs": ["Front-end"]
       },
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Popular"
+        "icon": "gatsbyjs.svg",
+        "alt": "Gatsby",
+        "tabs": ["Front-end"]
       },
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Front-end"
+        "icon": "angular.svg",
+        "alt": "Angular",
+        "tabs": ["Front-end"]
       },
       {
-        "icon": "react.svg",
-        "alt": "React",
-        "tab": "Front-end"
+        "icon": "nodejs.svg",
+        "alt": "NodeJS",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "express.svg",
+        "alt": "Express",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "nextjs.svg",
+        "alt": "NextJS",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "feathersjs.svg",
+        "alt": "Feathers",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "babeljs.svg",
+        "alt": "Babel",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "graphql.svg",
+        "alt": "GraphQL",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "springboot.svg",
+        "alt": "Spring Framework",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "django.svg",
+        "alt": "Django",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "flask.svg",
+        "alt": "Flask",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "dotnet.svg",
+        "alt": "Dotnet Framework",
+        "tabs": ["Back-end"]
+      },
+      {
+        "icon": "mongodb.svg",
+        "alt": "MongoDB",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "postgresql.svg",
+        "alt": "PostgreSQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "redis.svg",
+        "alt": "Redis",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "mysql.svg",
+        "alt": "MySQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "mssql.svg",
+        "alt": "MSSQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "firebase.svg",
+        "alt": "Firebase",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "oracle.svg",
+        "alt": "Oracle DB",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "tensorflow.svg",
+        "alt": "Tensorflow",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "numpy.svg",
+        "alt": "Numpy",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "pandas.svg",
+        "alt": "Pandas",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "d3.svg",
+        "alt": "D3",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "3js.svg",
+        "alt": "ThreeJS",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "aws.svg",
+        "alt": "Amazon AWS",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "googlecloud.svg",
+        "alt": "Google Cloud",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "azure.svg",
+        "alt": "Azure",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "docker.svg",
+        "alt": "Docker",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "kubernetes.svg",
+        "alt": "Kubernetes",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "terraform.svg",
+        "alt": "Terraform",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "ansible.svg",
+        "alt": "Ansible",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "circleci.svg",
+        "alt": "CircleCI",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "gitlab.svg",
+        "alt": "Gitlab",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "jenkins.svg",
+        "alt": "Jenkins",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "cypress.svg",
+        "alt": "Cypress",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "selenium.svg",
+        "alt": "Selenium",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "jest.svg",
+        "alt": "Jest",
+        "tabs": ["Quality Assurance"]
+      },
+      {
+        "icon": "android.svg",
+        "alt": "Android",
+        "tabs": ["Mobile"]
+      },
+      {
+        "icon": "ios.svg",
+        "alt": "iOS",
+        "tabs": ["Mobile"]
+      },
+      {
+        "icon": "flutter.svg",
+        "alt": "Flutter",
+        "tabs": ["Mobile"]
       }
     ]
   },
@@ -279,11 +485,7 @@
   },
   "tabsImageBox": {
     "title": "Tabs with Image article",
-    "tabs": [
-      "Tab 1",
-      "Tab 2",
-      "Tab 3"
-    ],
+    "tabs": ["Tab 1", "Tab 2", "Tab 3"],
     "tabsContent": [
       {
         "background": "image-box-1.png",
