@@ -5,6 +5,7 @@
       <img
         :src="useImages(header.logo.src)"
         :alt="header.logo.alt"
+        class="header__logo"
       />
     </NuxtLink>
     <nav class="header-content">
@@ -33,6 +34,12 @@
             </li>
           </ul>
         </li>
+        <Button
+          :style="ButtonStyle.outline"
+          :size="ButtonSize.small"
+        >
+          {{ header.button }}
+        </Button>
       </ul>
     </nav>
   </header>

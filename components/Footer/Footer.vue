@@ -2,10 +2,13 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-main">
-        <img
-          :src="useImages(footer.logo.src)"
-          :alt="footer.logo.alt"
-        />
+        <NuxtLink to="/">
+          <img
+            :src="useImages(footer.logo.src)"
+            :alt="footer.logo.alt"
+            class="footer__logo"
+          />
+        </NuxtLink>
         <p class="text-small footer-description">
           <span v-for="text in footer.description">
             {{ text }}

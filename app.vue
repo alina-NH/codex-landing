@@ -16,15 +16,7 @@ const changePageColors = ({
   lightgrey,
   secondary,
   white
-}: {
-  primary: string,
-  hover: string,
-  black: string,
-  darkgrey: string,
-  lightgrey: string,
-  secondary: string,
-  white: string,
-}) => {
+}: DefaultColors) => {
   document.body.style.setProperty('--primary-color', primary);
   document.body.style.setProperty('--hover-color', hover);
   document.body.style.setProperty('--black-color', black);
@@ -37,10 +29,7 @@ const changePageColors = ({
 const changePageMeta = ({
   title,
   description
-}: {
-  title: string,
-  description: string,
-}) => {
+}: DefaultMeta) => {
   useHead({
     title: title,
     meta: [
@@ -50,7 +39,7 @@ const changePageMeta = ({
 };
 
 watch(getPageContent, () => {
-  changePageColors(getPageContent.value?.colors);
-  changePageMeta(getPageContent.value?.meta);
+  changePageColors(getPageContent.value.colors);
+  changePageMeta(getPageContent.value.meta);
 });
 </script>

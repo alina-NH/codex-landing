@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
 
+  &__logo {
+    cursor: pointer;
+  }
+
   &-content {
     display: flex;
     justify-content: space-between;
@@ -33,7 +37,7 @@
     }
 
     &__title {
-      color: $secondary-color;
+      color: $primary-color;
       margin-bottom: 32px;
       cursor: pointer;
       -webkit-transition: color $default-transition;
