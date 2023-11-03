@@ -5,7 +5,7 @@
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "#F5BD95",
+    "secondary": "linear-gradient(103deg, #FFE4DF 0%, #F5BD95 100%)",
     "white": "#FFFFFF"
   },
   "meta": {
