@@ -34,6 +34,12 @@
             </li>
           </ul>
         </li>
+        <Button
+          :style="ButtonStyle.outline"
+          :size="ButtonSize.small"
+        >
+          {{ header.button }}
+        </Button>
       </ul>
     </nav>
   </header>
