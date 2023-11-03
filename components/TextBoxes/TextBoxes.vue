@@ -31,7 +31,7 @@ const {
   filterMode
 } = defineProps<{
   data: TextBoxes,
-  titlePosition: typeof SectionTitlePosition,
+  titlePosition?: keyof typeof SectionTitlePosition,
   withIcon?: boolean,
   hasTitle?: boolean,
   filterMode?: boolean,

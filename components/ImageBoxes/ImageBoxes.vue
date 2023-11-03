@@ -32,7 +32,7 @@ const {
   data: ImageBoxes,
   withTestimonial?: boolean,
   hasTitle?: boolean,
-  titlePosition?: typeof SectionTitlePosition,
+  titlePosition?: keyof typeof SectionTitlePosition,
   filterMode?: boolean,
 }>();
 </script>

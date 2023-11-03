@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 const { position } = defineProps<{
-  position?: typeof SectionTitlePosition
+  position?: keyof typeof SectionTitlePosition
 }>();
 </script>
 
