@@ -12,11 +12,9 @@
 </template>
 
 <script setup lang="ts">
-import { ButtonStyle, ButtonSize } from '../../types/default.ts';
-
 const { style } = defineProps<{
-  style: ButtonStyle,
-  size?: ButtonSize,
+  style: keyof typeof ButtonStyle,
+  size?: keyof typeof ButtonSize,
 }>();
 </script>
 

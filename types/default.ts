@@ -127,3 +127,43 @@ export interface Store {
   defaultContent: DefaultContent,
   pageContent: PageContent,
 };
+
+export interface SquaresTimeline {
+  title?: string, 
+};
+
+export enum ImageArticleComponent {
+  list = 'list',
+  text = 'text',
+};
+
+export interface ImageArticle {
+  title: string,
+  subtitle?: string,
+  list?: string[],
+  button?: string,
+  image?: string,
+  text?: string,
+  bottomText?: {
+    icon?: string,
+    text: string,
+  },
+};
+
+export enum Alignment {
+  left = 'left',
+  center = 'center',
+  right = 'right',
+};
+
+export enum FlexAlignment {
+  left = 'left',
+  center = 'center',
+  right = 'right',
+  stretch = 'stretch',
+};
+
+export enum TitleSize {
+  small = 'small',
+  large = 'large',
+};
