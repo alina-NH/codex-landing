@@ -2,8 +2,7 @@
   "header": {
     "logo": {
       "src": "codex-logo.svg",
-      "alt": "Codex Software",
-      "link":"https://codex-soft.com/"
+      "alt": "Codex Software"
     },
     "nav": [
       {
@@ -118,7 +117,7 @@
         "external": false
       }
     ],
-    "contactUs_button": "Contact Us"
+    "button": "Contact Us"
   },
   "footer": {
     "logo": {

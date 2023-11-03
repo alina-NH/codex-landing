@@ -4,7 +4,7 @@ export const useContentStore = defineStore('contentStore', {
   state: () => ({
     defaultContent: {},
     pageContent: {},
-  }),
+  } as Store),
   actions: {
     setDefaultContent(content: any) {
       this.defaultContent = content;
