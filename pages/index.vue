@@ -5,10 +5,11 @@
     buttonStyle="fill"
     imageToLeft
   />
-  <ImageArticle
-    :data="mainContent.articleWithImage3"
-    buttonStyle="fill"
-    imageToRight
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="mainContent.tabsIcons"
+    component="IconBox"
   />
   <ContactForm :data="mainContent.contactForm2" />
   <ImageBoxes
@@ -18,12 +19,7 @@
     withTestimonial
   />
   <ContactForm :data="mainContent.contactForm" />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsIcons"
-    component="IconBox"
-  />
+
   <TabbedContent
     hasTitle
     titlePosition="left"

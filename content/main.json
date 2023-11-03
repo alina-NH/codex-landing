@@ -23,16 +23,55 @@
     "subtitle": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
     "button": "Talk to us"
   },
-  "articleWithImage3": {
-    "image": "article-image.png",
-    "title": "This is a placeholder",
-    "subtitle": "This block temporarely replaces technologies",
-    "list": [
-      "Javascript - Vue, React, Nuxt,Node",
-      "Java - Spring stack",
-      "Python - For Web and Data Science"
+  "tabsIcons": {
+    "title": "Techologies",
+    "tabs": [
+      "Programming Languages",
+      "Front-end",
+      "Back-end",
+      "Data Analytics",
+      "AI",
+      "Cloud",
+      "DevOps",
+      "Quality Assurance"
     ],
-    "button": "Talk to us"
+    "tabsContent": [
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Popular"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Front-end"
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tab": "Front-end"
+      }
+    ]
   },
   "contactForm2": {
     "title": "Contact Us",
@@ -64,31 +103,10 @@
     "button": "Send Request"
   },
   "mvpCases": {
-    "title": "MVP1",
+    "title": "Case Studies",
     "imageBoxes": [
       {
-        "background": "oneflow-v2.png",
-        "title": "OneFlow Systems",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
-        "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Global Sales Director"
-        },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
-      },
-      {
-        "background": "hp-v2.png",
-        "title": "HP Inc",
-        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
-        "author": {
-          "avatar": "nigel.webp",
-          "name": "Nigel Watson",
-          "position": "New Business Director"
-        }
-      },
-      {
-        "background": "image-box-1.png",
+        "background": "oneflow.png",
         "title": "OneFlow Systems",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
         "author": {
@@ -178,7 +196,7 @@
     "button": "Discuss your Project"
   },
   "testImageBox": {
-    "background": "image-box-1.png",
+    "background": "oneflow.png",
     "title": "OneFlow Systems",
     "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
     "author": {
@@ -217,18 +235,10 @@
     },
     "button": "Send Request"
   },
-  "tabsIcons": {
-    "title": "Tabs with icons",
-    "tabs": [
-      "Popular",
-      "Front-end",
-      "Back-end",
-      "Data Analytics",
-      "AI",
-      "Cloud",
-      "DevOps",
-      "Quality Assurance"
-    ],
+
+  "tabsImageBox": {
+    "title": "Tabs with Image article",
+    "tabs": ["Tab 1", "Tab 2", "Tab 3"],
     "tabsContent": [
       {
         "icon": "react.svg",
@@ -292,24 +302,26 @@
         "tabs": ["Tab 1"],
         "title": "OneFlow Systems Tab 1",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+
         "author": {
           "avatar": "chris-knighton.png",
           "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "position": "Sales Director"
         },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        "testimonial": "blah blah blah"
       },
       {
         "background": "image-box-1.png",
         "tabs": ["Tab 1"],
         "title": "OneFlow Systems Tab 2",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+
         "author": {
           "avatar": "chris-knighton.png",
           "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "position": "Sales Director"
         },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        "testimonial": "blah blah blah"
       }
     ]
   },
@@ -338,11 +350,7 @@
   },
   "tabsTextBox": {
     "title": "Tabs with Text boxes",
-    "tabs": [
-      "Tab 1",
-      "Tab 2",
-      "Tab 3"
-    ],
+    "tabs": ["Tab 1", "Tab 2", "Tab 3"],
     "tabsContent": [
       {
         "title": "Software Modernization",

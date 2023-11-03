@@ -1,36 +1,13 @@
 <template>
-<Welcome :data="casestudiesContent.welcome" />
-  <ImageBoxes
-    :data="casestudiesContent.featured1"
-    withTestimonial
-  />
-  <ImageBoxes
-    :data="casestudiesContent.nonfeatured1"
-  />
-  <ImageBoxes
-    :data="casestudiesContent.featured2"
-    withTestimonial
-  />
-  <ImageBoxes
-    :data="casestudiesContent.nonfeatured2"
-    />
-    <ImageBoxes
-    :data="casestudiesContent.featured3"
-    withTestimonial
-  />
-  <ImageBoxes
-    :data="casestudiesContent.nonfeatured3"
-  />
-  <ImageBoxes
-    :data="casestudiesContent.featured4"
-    withTestimonial
-  />
-  <ImageBoxes
-    :data="casestudiesContent.nonfeatured4"
-    />
+  <Welcome :data="casestudiesContent.welcome" />
 
-<ContactForm :data="casestudiesContent.contactForm" />
+  <TabbedContent
+    withTestimonial
+    :data="casestudiesContent.tabsImageBox"
+    component="ImageBox"
+  />
 
+  <ContactForm :data="casestudiesContent.contactForm" />
 </template>
 
 <script setup lang="ts">
