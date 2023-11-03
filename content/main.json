@@ -42,6 +42,11 @@
         "tabs": ["Programming Languages"]
       },
       {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
+      },
+      {
         "icon": "java.svg",
         "alt": "Java",
         "tabs": ["Programming Languages"]
@@ -406,55 +411,5 @@
       "required": false
     },
     "button": "Send Request"
-  },
-  "textBoxes": {
-    "title": "Software Modernization",
-    "textBoxes": [
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg"
-      }
-    ]
-  },
-  "tabsTextBox": {
-    "title": "Tabs with Text boxes",
-    "tabs": ["Tab 1", "Tab 2", "Tab 3"],
-    "tabsContent": [
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 1", "Tab 2"]
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 2"]
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 1"]
-      }
-    ]
   }
 }

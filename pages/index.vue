@@ -7,7 +7,7 @@
     textAlignment="center"
     buttonAlignment="center"
     buttonStyle="fill"
-    titleSize="large" 
+    titleSize="large"
     component="text"
   />
   <TabbedContent
@@ -20,27 +20,10 @@
   <ImageBoxes
     :data="mainContent.mvpCases"
     hasTitle
-    titlePosition="center"
+    titlePosition="left"
     withTestimonial
   />
   <ContactForm :data="mainContent.contactForm" />
-  <TextBoxes
-    hasTitle
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-    withIcon
-  />
-  <TextBoxes
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-  />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsTextBox"
-    component="TextBox"
-    withIcon
-  />
 </template>
 
 <script setup lang="ts">

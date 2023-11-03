@@ -59,24 +59,6 @@
         "description": "We've developed several key components of Volo Commerce - a multichannel eCommerce platform providing a comprehensive set of tools to sell on Amazon, eBay, OnBuy, web stores, and other marketplaces."
       },
       {
-        "background": "Lebook.png",
-        "tabs": ["eCommerce"],
-        "title": "Lebook",
-        "description": "We assisted the Customer to develop a marketplace that helps to connect clients with agencies in all fields of creative execution. The team was responsible for front- and back-end development, database engineering, quality assurance and on-going maintenance of the platform."
-      },
-      {
-        "background": "3DBox.png",
-        "tabs": ["Startups", "eCommerce"],
-        "title": "3D Pack Pro",
-        "description": "3D Pack Pro is a web-to-print solution for packaging service providers that allows them to construct and customize packaging items on the fly, expanding the customer reach and improving customer satisfaction."
-      },
-      {
-        "background": "Ahau.png",
-        "tabs": ["Startups"],
-        "title": "AHAU260",
-        "description": "AHAU260 is a platform that boosts productivity by connecting tasks in popular project management platforms with documents, artworks, conversations, emails, and browser tabs."
-      },
-      {
         "background": "cultureconnect.png",
         "tabs": ["Art & Culture"],
         "title": "CultureConnect",
@@ -99,30 +81,6 @@
           "position": "VP Product"
         },
         "testimonial": "“Codex Software provided exemplary services, ranging from quality assurance to technical leadership. Their engineers are skilled, communicate smoothly and contribute to the success of our products. Can’t be more satisfied.”"
-      },
-      {
-        "background": "auditangel.png",
-        "tabs": ["Healthcare", "Startups"],
-        "title": "Audit Angel",
-        "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
-      },
-      {
-        "background": "Axis.png",
-        "tabs": ["Data Analytics", "Startups"],
-        "title": "Axis.xyz",
-        "description": "We've helped Axis.xyz, a business intelligence and data analytics platform for the investment sector, develop a comprehensive BI software solution able to retrieve and analyse data from numerous sources, and visualise it via custom dashboards equipped with complex (over 500 custom nodes) interactive social graphs."
-      },
-      {
-        "background": "B2BPrintPro.png",
-        "tabs": ["Printing & Publishing", "Startups"],
-        "title": "B2B Print Pro",
-        "description": "XWe developed a SaaS software solution streamlining the B2B sales processes of print service providers.The platform is equipped with private storefronts, web-based product template editor, variable data products, automated generation of product sheets and invoices, and other features."
-      },
-      {
-        "background": "Contiago.png",
-        "tabs": ["Printing & Publishing", "Startups"],
-        "title": "Contiago",
-        "description": "We developed a marketplace for sales of digital content. The software provides several means to distribute the content by connecting to web placements via a RESTful API, CMS plugins, or a content distribution toolbar."
       },
       {
         "background": "pronoun.png",
@@ -149,30 +107,6 @@
         "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
       },
       {
-        "background": "covidapp.png",
-        "tabs": ["Healthcare", "Startups"],
-        "title": "SP Appointment",
-        "description": "Codex Software joined the Customer, a foundation trust that runs three major hospitals across Essex, the UK, and several smaller community hospitals, in building an end-to-end solution for the scheduling and tracking of COVID-19 tests. The platform streamlined appointment booking for medical staff, reducing the load on test centres and minimising the waiting time."
-      },
-      {
-        "background": "Customis3D.png",
-        "tabs": ["Startups", "eCommerce"],
-        "title": "Customis3D",
-        "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
-      },
-      {
-        "background": "EnglishCo.png",
-        "tabs": ["Education", "Startups"],
-        "title": "EnglishCo",
-        "description": "We assisted the Customer to develop a comprehensive eLearning platform for English language students, designed to offer personalized online teaching programs led live by American teachers."
-      },
-      {
-        "background": "ExamGeneral.png",
-        "tabs": ["Education"],
-        "title": "ExamGeneral",
-        "description": "We developed an eLearning platform designed to provide professional examination and testing services for big educational institutions, teaching professionals and their students."
-      },
-      {
         "background": "Analytium.png",
         "tabs": ["Data Analytics"],
         "title": "Analytium",
@@ -195,6 +129,72 @@
           "position": "Project Leader, Paris Dauphine University"
         },
         "testimonial": "“They always delivered what was promised. They not only stuck to their commitments but also quickly allocated additional resources when it was necessary. They're results-oriented and proactive, and I haven’t met many companies with such an approach before.”"
+      },
+      {
+        "background": "Lebook.png",
+        "tabs": ["eCommerce"],
+        "title": "Lebook",
+        "description": "We assisted the Customer to develop a marketplace that helps to connect clients with agencies in all fields of creative execution. The team was responsible for front- and back-end development, database engineering, quality assurance and on-going maintenance of the platform."
+      },
+      {
+        "background": "3DBox.png",
+        "tabs": ["Startups", "eCommerce"],
+        "title": "3D Pack Pro",
+        "description": "3D Pack Pro is a web-to-print solution for packaging service providers that allows them to construct and customize packaging items on the fly, expanding the customer reach and improving customer satisfaction."
+      },
+      {
+        "background": "Ahau.png",
+        "tabs": ["Startups"],
+        "title": "AHAU260",
+        "description": "AHAU260 is a platform that boosts productivity by connecting tasks in popular project management platforms with documents, artworks, conversations, emails, and browser tabs."
+      },
+      {
+        "background": "auditangel.png",
+        "tabs": ["Healthcare", "Startups"],
+        "title": "Audit Angel",
+        "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
+      },
+      {
+        "background": "Axis.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "Axis.xyz",
+        "description": "We've helped Axis.xyz, a business intelligence and data analytics platform for the investment sector, develop a comprehensive BI software solution able to retrieve and analyse data from numerous sources, and visualise it via custom dashboards equipped with complex (over 500 custom nodes) interactive social graphs."
+      },
+      {
+        "background": "B2BPrintPro.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "B2B Print Pro",
+        "description": "We developed a SaaS software solution streamlining the B2B sales processes of print service providers.The platform is equipped with private storefronts, web-based product template editor, variable data products, automated generation of product sheets and invoices, and other features."
+      },
+      {
+        "background": "Contiago.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Contiago",
+        "description": "We developed a marketplace for sales of digital content. The software provides several means to distribute the content by connecting to web placements via a RESTful API, CMS plugins, or a content distribution toolbar."
+      },
+      {
+        "background": "covidapp.png",
+        "tabs": ["Healthcare", "Startups"],
+        "title": "SP Appointment",
+        "description": "Codex Software joined the Customer, a foundation trust that runs three major hospitals across Essex, the UK, and several smaller community hospitals, in building an end-to-end solution for the scheduling and tracking of COVID-19 tests. The platform streamlined appointment booking for medical staff, reducing the load on test centres and minimising the waiting time."
+      },
+      {
+        "background": "Customis3D.png",
+        "tabs": ["Startups", "eCommerce"],
+        "title": "Customis3D",
+        "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
+      },
+      {
+        "background": "EnglishCo.png",
+        "tabs": ["Education", "Startups"],
+        "title": "EnglishCo",
+        "description": "We assisted the Customer to develop a comprehensive eLearning platform for English language students, designed to offer personalized online teaching programs led live by American teachers."
+      },
+      {
+        "background": "ExamGeneral.png",
+        "tabs": ["Education"],
+        "title": "ExamGeneral",
+        "description": "We developed an eLearning platform designed to provide professional examination and testing services for big educational institutions, teaching professionals and their students."
       },
       {
         "background": "loadown.png",
