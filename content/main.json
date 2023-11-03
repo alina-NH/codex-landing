@@ -5,7 +5,7 @@
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "#F5BD95",
+    "secondary": "linear-gradient(103deg, #FFE4DF 0%, #F5BD95 100%)",
     "white": "#FFFFFF"
   },
   "meta": {
@@ -241,20 +241,65 @@
     "tabs": ["Tab 1", "Tab 2", "Tab 3"],
     "tabsContent": [
       {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Popular"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Popular", "Quality Assurance"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Popular", "Quality Assurance"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Popular"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Popular", "Cloud"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Front-end"]
+      },
+      {
+        "icon": "react.svg",
+        "alt": "React",
+        "tabs": ["Front-end"]
+      }
+    ]
+  },
+  "tabsImageBox": {
+    "title": "Tabs with Image article",
+    "tabs": [
+      "Tab 1",
+      "Tab 2",
+      "Tab 3"
+    ],
+    "tabsContent": [
+      {
         "background": "image-box-1.png",
-        "tab": "Tab 1",
+        "tabs": ["Tab 1", "Tab 2"],
         "title": "OneFlow Systems Tab 1",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
         "author": {
           "avatar": "chris-knighton.png",
           "name": "Chris Knighton",
-          "position": "Sales Director"
+          "position": "Global Sales Director"
         },
-        "testimonial": "blah blah blah"
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
       },
       {
         "background": "image-box-1.png",
-        "tab": "Tab 1",
+        "tabs": ["Tab 1"],
         "title": "OneFlow Systems Tab 1",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
 
@@ -267,45 +312,8 @@
       },
       {
         "background": "image-box-1.png",
-        "tab": "Tab 1",
+        "tabs": ["Tab 1"],
         "title": "OneFlow Systems Tab 2",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-      },
-      {
-        "background": "image-box-1.png",
-        "tab": "Tab 1",
-        "title": "OneFlow Systems Tab 2-4",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-      },
-      {
-        "background": "image-box-1.png",
-        "tab": "Tab 1",
-        "title": "OneFlow Systems Tab 2-5",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-      },
-      {
-        "background": "image-box-1.png",
-        "tab": "Tab 1",
-        "title": "OneFlow Systems Tab 2-6",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
-      },
-      {
-        "background": "image-box-1.png",
-        "tab": "Tab 1",
-        "title": "OneFlow Systems Tab 1",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
-
-        "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Sales Director"
-        },
-        "testimonial": "blah blah blah"
-      },
-      {
-        "background": "image-box-1.png",
-        "tab": "Tab 1",
-        "title": "OneFlow Systems Tab 1",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
 
         "author": {
@@ -349,21 +357,21 @@
         "subtitle": "Revitalise your legacy systems",
         "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
         "icon": "react.svg",
-        "tab": "Tab 1"
+        "tabs": ["Tab 1", "Tab 2"]
       },
       {
         "title": "Software Modernization",
         "subtitle": "Revitalise your legacy systems",
         "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
         "icon": "react.svg",
-        "tab": "Tab 2"
+        "tabs": ["Tab 2"]
       },
       {
         "title": "Software Modernization",
         "subtitle": "Revitalise your legacy systems",
         "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
         "icon": "react.svg",
-        "tab": "Tab 1"
+        "tabs": ["Tab 1"]
       }
     ]
   }

@@ -11,6 +11,10 @@
   z-index: 1;
   top: 0;
 
+  &__logo {
+    cursor: pointer;
+  }
+
   &-nav {
     list-style-type: none;
     display: flex;
@@ -18,12 +22,13 @@
     align-items: center;
 
     &__item {
-      cursor: pointer;
       position: relative;
 
       &-link {
+        cursor: pointer;
         display: flex;
         align-items: center;
+        height: 50px;
 
         &--collapsed {
           &::after {
@@ -33,29 +38,14 @@
             margin-left: 5px;
           }
         }
-
-        &, &--collapsed::after {
-          -webkit-transition: all $default-transition;
-          -moz-transition: all $default-transition;
-          -ms-transition: all $default-transition;
-          -o-transition: all $default-transition;
-          transition: all $default-transition;
-        }
-      }
-
-      &:hover &-link {
-        color: $primary-color;
-      }
-
-      &:hover &-link--collapsed::after {
-        color: $primary-color;
-        transform: rotate(-270deg);
-      }
-
-      &:hover .header-subnav {
-        opacity: 1;
       }
     }
+  }
+
+  ul li:hover > ul, ul li ul:hover {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
   }
 
   &-subnav {
@@ -72,21 +62,38 @@
     border-radius: 8px;
     box-shadow: 0px 5px 20px 0px rgba(41, 41, 42, 0.07);
     opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 
     &__item {
       cursor: pointer;
-
-      &-link {
-        -webkit-transition: all $default-transition;
-        -moz-transition: all $default-transition;
-        -ms-transition: all $default-transition;
-        -o-transition: all $default-transition;
-        transition: all $default-transition;
-
-        &:hover {
-          color: $primary-color;
-        }
-      }
     }
+  }
+
+  &-nav__item-link, &-nav__item-link::after, &-subnav, &-subnav__item-link {
+    -webkit-transition: all $default-transition;
+    -moz-transition: all $default-transition;
+    -ms-transition: all $default-transition;
+    -o-transition: all $default-transition;
+    transition: all $default-transition;
+  }
+
+  &-nav &-nav__item:hover &-nav__item-link {
+    color: $primary-color;
+
+    &::after {
+      color: $primary-color;
+      transform: rotate(-270deg);
+    }
+  }
+
+  &-nav &-nav__item:hover > &-subnav, &-nav &-nav__item &-subnav:hover {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+  }
+
+  &-nav &-subnav &-subnav__item-link:hover {
+    color: $primary-color;
   }
 }

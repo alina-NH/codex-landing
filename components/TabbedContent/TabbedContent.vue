@@ -19,18 +19,18 @@
     <div class="tabbed-content-body">
       <IconBoxes
         v-if="component === TabsComponent.IconBox"
-        :data="content"
+        :data="(content as unknown as IconBoxes)"
       />
       <ImageBoxes
         v-if="component === TabsComponent.ImageBox"
         :withTestimonial="withTestimonial"
-        :data="{ imageBoxes: content }"
+        :data="({ imageBoxes: content } as unknown as ImageBoxes)"
         filterMode
         :hasTitle="false"
       />
       <TextBoxes
         v-if="component === TabsComponent.TextBox"
-        :data="{ textBoxes: content }"
+        :data="({ textBoxes: content } as unknown as TextBoxes)"
         :hasTitle="false"
         :withIcon="withIcon"
         filterMode
@@ -50,8 +50,8 @@ const {
 } = defineProps<{
   data: TabbedContent,
   hasTitle: boolean,
-  titlePosition?: typeof SectionTitlePosition,
-  component: typeof TabsComponent,
+  titlePosition?: keyof typeof SectionTitlePosition,
+  component: keyof typeof TabsComponent,
   withTestimonial?: boolean,
   withIcon?: boolean,
 }>();
@@ -60,7 +60,9 @@ const activeTab = ref(data.tabs[0]);
 const content = ref(data.tabsContent);
 
 const filterContent = () => {
-  content.value = data.tabsContent.filter(({ tab }) => tab === activeTab.value);
+  content.value = data.tabsContent.filter(element => {
+    return element.tabs.includes(activeTab.value)
+  });
 };
 
 onMounted(filterContent);

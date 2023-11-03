@@ -1,7 +1,7 @@
 .welcome {
   width: 100%;
   height: calc(100vh - #{$header-height});
-  background-color: $secondary-color;
+  background: $secondary-color;
   display: flex;
   align-items: center;
   justify-content: space-between;
