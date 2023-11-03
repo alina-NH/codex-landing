@@ -167,3 +167,9 @@ export enum TitleSize {
   small = 'small',
   large = 'large',
 };
+
+export interface ListItem {
+  title: string,
+  text: string,
+  icon: string,
+}
