@@ -123,16 +123,6 @@
         "tabs": ["Back-end"]
       },
       {
-        "icon": "springboot.svg",
-        "alt": "Spring Framework",
-        "tabs": ["Back-end"]
-      },
-      {
-        "icon": "hibernate.svg",
-        "alt": "Hibernate",
-        "tabs": ["Back-end"]
-      },
-      {
         "icon": "django.svg",
         "alt": "Django",
         "tabs": ["Back-end"]
