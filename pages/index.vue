@@ -1,9 +1,14 @@
 <template>
   <Welcome :data="mainContent.welcome" />
   <ImageArticle
-    :data="mainContent.articleWithImage2"
+    :data="mainContent.articleWithImageAndText"
+    hasButton
+    articleAlignment="center"
+    textAlignment="center"
+    buttonAlignment="center"
     buttonStyle="fill"
-    imageToLeft
+    titleSize="large"
+    component="text"
   />
   <TabbedContent
     hasTitle
@@ -15,41 +20,10 @@
   <ImageBoxes
     :data="mainContent.mvpCases"
     hasTitle
-    titlePosition="center"
+    titlePosition="left"
     withTestimonial
   />
   <ContactForm :data="mainContent.contactForm" />
-
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsImageBox"
-    component="ImageBox"
-    withTestimonial
-  />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsImageBox"
-    component="ImageBox"
-  />
-  <TextBoxes
-    hasTitle
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-    withIcon
-  />
-  <TextBoxes
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-  />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsTextBox"
-    component="TextBox"
-    withIcon
-  />
 </template>
 
 <script setup lang="ts">

@@ -43,28 +43,6 @@
         ]
       },
       {
-        "name": "Hire developers",
-        "link": "#",
-        "external": false,
-        "subnav": [
-          {
-            "name": "Front-End Developers",
-            "link": "/front-end-developers",
-            "external": false
-          },
-          {
-            "name": "Back-End Developers",
-            "link": "/back-end-developers",
-            "external": false
-          },
-          {
-            "name": "DevOps",
-            "link": "/devops",
-            "external": false
-          }
-        ]
-      },
-      {
         "name": "Industries",
         "link": "#",
         "external": false,
@@ -81,7 +59,7 @@
           },
           {
             "name": "Printing",
-            "link": "#",
+            "link": "/printing",
             "external": false
           },
           {
@@ -102,6 +80,28 @@
           {
             "name": "Mass Customization",
             "link": "#",
+            "external": false
+          }
+        ]
+      },
+      {
+        "name": "Hire developers",
+        "link": "#",
+        "external": false,
+        "subnav": [
+          {
+            "name": "Front-End Developers",
+            "link": "/front-end-developers",
+            "external": false
+          },
+          {
+            "name": "Back-End Developers",
+            "link": "/back-end-developers",
+            "external": false
+          },
+          {
+            "name": "DevOps",
+            "link": "/devops",
             "external": false
           }
         ]
