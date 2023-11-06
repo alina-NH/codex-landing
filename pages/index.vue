@@ -1,59 +1,29 @@
 <template>
   <Welcome :data="mainContent.welcome" />
   <ImageArticle
-    :data="mainContent.articleWithImage2"
+    :data="mainContent.articleWithImageAndText"
+    hasButton
+    articleAlignment="center"
+    textAlignment="center"
+    buttonAlignment="center"
     buttonStyle="fill"
-    imageToLeft
+    titleSize="large"
+    component="text"
   />
-  <ImageArticle
-    :data="mainContent.articleWithImage3"
-    buttonStyle="fill"
-    imageToRight
-  />
-  <ContactForm :data="mainContent.contactForm2" />
-  <ImageBoxes
-    :data="mainContent.mvpCases"
-    hasTitle
-    titlePosition="center"
-    withTestimonial
-  />
-  <ContactForm :data="mainContent.contactForm" />
   <TabbedContent
     hasTitle
     titlePosition="left"
     :data="mainContent.tabsIcons"
     component="IconBox"
   />
-  <TabbedContent
+  <ContactForm :data="mainContent.contactForm2" />
+  <ImageBoxes
+    :data="mainContent.mvpCases"
     hasTitle
     titlePosition="left"
-    :data="mainContent.tabsImageBox"
-    component="ImageBox"
     withTestimonial
   />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsImageBox"
-    component="ImageBox"
-  />
-  <TextBoxes
-    hasTitle
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-    withIcon
-  />
-  <TextBoxes
-    :data="mainContent.textBoxes"
-    titlePosition="left"
-  />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsTextBox"
-    component="TextBox"
-    withIcon
-  />
+  <ContactForm :data="mainContent.contactForm" />
 </template>
 
 <script setup lang="ts">

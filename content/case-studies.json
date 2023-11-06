@@ -1,0 +1,290 @@
+{
+  "colors": {
+    "primary": "#2E64F9",
+    "hover": "#2551C2",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "#C0C0C0",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "Case Studies | Codex Software",
+    "description": "Explore the portfolio of custom software development and staff augmentation projects completed by Codex."
+  },
+  "welcome": {
+    "title": ["Explore the projects we've completed over the decade."],
+    "background": "welcome-background.png",
+    "button": "Book a call"
+  },
+  "tabsImageBox": {
+    "tabs": [
+      "Printing & Publishing",
+      "Healthcare",
+      "eCommerce",
+      "Startups",
+      "Education",
+      "Art & Culture",
+      "Data Analytics"
+    ],
+    "tabsContent": [
+      {
+        "background": "oneflow.png",
+        "tabs": ["Printing & Publishing"],
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "hp.png",
+        "tabs": ["Printing & Publishing"],
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
+      },
+      {
+        "background": "Volo.png",
+        "tabs": ["eCommerce"],
+        "title": "VoloCommerce",
+        "description": "We've developed several key components of Volo Commerce - a multichannel eCommerce platform providing a comprehensive set of tools to sell on Amazon, eBay, OnBuy, web stores, and other marketplaces."
+      },
+      {
+        "background": "cultureconnect.png",
+        "tabs": ["Art & Culture"],
+        "title": "CultureConnect",
+        "description": "Culture Connect is a software platform that helps art institutions build digital interactive experiences. Looking to power-up the development of the core product, they engaged with Codex and received an end-to-end team led by the head of development. This helped to implement numerous architectural and holistic product improvements, add new features, and led to a lucrative acquisition deal with Axiell in late 2019.",
+        "author": {
+          "avatar": "samantha.webp",
+          "name": "Samantha Diamond",
+          "position": "VP Product"
+        },
+        "testimonial": "“We have an ongoing relationship with Codex Software. They’re highly productive and efficient, working well together to quickly solve problems. I trust them and rate the quality of their work very highly.”"
+      },
+      {
+        "background": "axiell.png",
+        "tabs": ["Art & Culture", "Education"],
+        "title": "Axiell",
+        "description": "We partnered with one of the world’s largest providers of software solutions for cultural and educational institutions after the closure of the deal between Axiell and Culture Connect. Still remaining the primary developers of Culture Connect’s core product, Codex also helps to build, improve and extend the range of Axiell’s other software solutions and services.",
+        "author": {
+          "avatar": "pascal.webp",
+          "name": "Pascal Collberg",
+          "position": "VP Product"
+        },
+        "testimonial": "“Codex Software provided exemplary services, ranging from quality assurance to technical leadership. Their engineers are skilled, communicate smoothly and contribute to the success of our products. Can’t be more satisfied.”"
+      },
+      {
+        "background": "pronoun.png",
+        "tabs": ["Printing & Publishing", "Startups", "Data Analytics"],
+        "title": "Pronoun",
+        "description": "The NYC-based software startup Pronoun was building a self-publishing platform and turned to Codex Software looking for end-to-end software engineering and data science services. The collaboration helped Pronoun secure several rounds of investments, launch the product, and complete the acquisition deal with Macmillan Publishers in 2016.",
+        "author": {
+          "avatar": "ben.webp",
+          "name": "Ben Zhuk",
+          "position": "Founder, Head of Product"
+        },
+        "testimonial": "“Brilliant developers, you’ll hardly find any better. Happy to work with them any day. In fact, I am already working with them on my next startup.”"
+      },
+      {
+        "background": "macmillan.png",
+        "tabs": ["Printing & Publishing", "Data Analytics"],
+        "title": "Macmillan",
+        "description": "Macmillan - one of the US Big Five publishing houses, - operates a number of business process automation digital products. Thanks to the extensive experience in this domain, we helped the publisher extend their software departments, and remain their trusted technology partner since.",
+        "author": {
+          "avatar": "rob.webp",
+          "name": "Rob Guttman",
+          "position": "Senior VP"
+        },
+        "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
+      },
+      {
+        "background": "Analytium.png",
+        "tabs": ["Data Analytics"],
+        "title": "Analytium",
+        "description": "We've designed a Java-based RESTful API for a UK-based software consultancy working with SAS - a US-based analytical software powerhouse. The solution was developed as a complementary plugin to the existing software.",
+        "author": {
+          "avatar": "ben.webp",
+          "name": "Vasilij Nevlev",
+          "position": "Director, Analytium LTD"
+        },
+        "testimonial": "“I was impressed by the sheer amount of homework they did in the beginning. They were prepared to do a lot of research and learning before taking on the project. That's still very unique. A lot of other organizations don't step out of their comfort zone. Codex Software wasn't afraid of that.”"
+      },
+      {
+        "background": "paris-dauphine.png",
+        "tabs": ["Education"],
+        "title": "Universite Paris-Dauphine",
+        "description": "We assisted Université Paris-Dauphine in building a software solution for managing student groups at a university.",
+        "author": {
+          "avatar": "rob.webp",
+          "name": "Jean-Patrice Glafkides",
+          "position": "Project Leader, Paris Dauphine University"
+        },
+        "testimonial": "“They always delivered what was promised. They not only stuck to their commitments but also quickly allocated additional resources when it was necessary. They're results-oriented and proactive, and I haven’t met many companies with such an approach before.”"
+      },
+      {
+        "background": "Lebook.png",
+        "tabs": ["eCommerce"],
+        "title": "Lebook",
+        "description": "We assisted the Customer to develop a marketplace that helps to connect clients with agencies in all fields of creative execution. The team was responsible for front- and back-end development, database engineering, quality assurance and on-going maintenance of the platform."
+      },
+      {
+        "background": "3DBox.png",
+        "tabs": ["Startups", "eCommerce"],
+        "title": "3D Pack Pro",
+        "description": "3D Pack Pro is a web-to-print solution for packaging service providers that allows them to construct and customize packaging items on the fly, expanding the customer reach and improving customer satisfaction."
+      },
+      {
+        "background": "Ahau.png",
+        "tabs": ["Startups"],
+        "title": "AHAU260",
+        "description": "AHAU260 is a platform that boosts productivity by connecting tasks in popular project management platforms with documents, artworks, conversations, emails, and browser tabs."
+      },
+      {
+        "background": "auditangel.png",
+        "tabs": ["Healthcare", "Startups"],
+        "title": "Audit Angel",
+        "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
+      },
+      {
+        "background": "Axis.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "Axis.xyz",
+        "description": "We've helped Axis.xyz, a business intelligence and data analytics platform for the investment sector, develop a comprehensive BI software solution able to retrieve and analyse data from numerous sources, and visualise it via custom dashboards equipped with complex (over 500 custom nodes) interactive social graphs."
+      },
+      {
+        "background": "B2BPrintPro.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "B2B Print Pro",
+        "description": "We developed a SaaS software solution streamlining the B2B sales processes of print service providers.The platform is equipped with private storefronts, web-based product template editor, variable data products, automated generation of product sheets and invoices, and other features."
+      },
+      {
+        "background": "Contiago.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Contiago",
+        "description": "We developed a marketplace for sales of digital content. The software provides several means to distribute the content by connecting to web placements via a RESTful API, CMS plugins, or a content distribution toolbar."
+      },
+      {
+        "background": "covidapp.png",
+        "tabs": ["Healthcare", "Startups"],
+        "title": "SP Appointment",
+        "description": "Codex Software joined the Customer, a foundation trust that runs three major hospitals across Essex, the UK, and several smaller community hospitals, in building an end-to-end solution for the scheduling and tracking of COVID-19 tests. The platform streamlined appointment booking for medical staff, reducing the load on test centres and minimising the waiting time."
+      },
+      {
+        "background": "Customis3D.png",
+        "tabs": ["Startups", "eCommerce"],
+        "title": "Customis3D",
+        "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
+      },
+      {
+        "background": "EnglishCo.png",
+        "tabs": ["Education", "Startups"],
+        "title": "EnglishCo",
+        "description": "We assisted the Customer to develop a comprehensive eLearning platform for English language students, designed to offer personalized online teaching programs led live by American teachers."
+      },
+      {
+        "background": "ExamGeneral.png",
+        "tabs": ["Education"],
+        "title": "ExamGeneral",
+        "description": "We developed an eLearning platform designed to provide professional examination and testing services for big educational institutions, teaching professionals and their students."
+      },
+      {
+        "background": "loadown.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "The Loadown",
+        "description": "We developed a data analytics platform designed to monitor App Store apps’ rankings in real time, providing valuable insights for data-driven marketing decisions in real time. The solution is able to seamlessly process terabytes of data."
+      },
+      {
+        "background": "Markerr.png",
+        "tabs": ["Data Analytics"],
+        "title": "Markerr",
+        "description": "Codex Software teamed up with the Customer to develop several software solutions in the ecosystem of a data analytics platform. The solutions included  a fraud detection instrument for the banking sector, a report comparison tool for investment companies, among others."
+      },
+      {
+        "background": "Netfonds.png",
+        "tabs": ["Data Analytics"],
+        "title": "Netfonds",
+        "description": "We provided a managed software team to develop a document management solution that allowed the Customer to automate the processing of .PDF documents, thus optimizing internal processes and boosting efficiency."
+      },
+      {
+        "background": "Orgafly.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Orgafly",
+        "description": "Orgafly is a print-on-demand software platform designed to optimize the workflow of event organizers, providing the means to distribute and print high-quality and personalized tickets. We developed the product, set up and maintained the infrastructure, and ensured product quality."
+      },
+      {
+        "background": "ShiftPartner.png",
+        "tabs": ["Healthcare", "Startups"],
+        "title": "ShiftPartner:Bankshift",
+        "description": "Codex Software was engaged by technology startup Shift Partner to build Shiftpartner: Bankshift - a platform that allows healthcare institutions to find, employ and replace skilled nurses on demand, enabling flexible and seamless staff management within, and across ICSs."
+      },
+      {
+        "background": "Outerspace.png",
+        "tabs": ["Data Analytics"],
+        "title": "Outerspace",
+        "description": "Outerspace reached out to Codex with a request to develop a cloud environment that captures data from various data sources (such as ShipHero, Deposco, Intuit T-Sheets, and QuickBooks Online), performs ETL, and delivers the data in a ready format to a BI solution (Looker/Tableau/etc.) for internal company use and external client portal."
+      },
+      {
+        "background": "Printabl.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Prodigi",
+        "description": "We built an app that gathers and processes print order data in Red Buddle format and transforms it into OneFlow printing suite-compatible format."
+      },
+      {
+        "background": "Raise.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "RAISE",
+        "description": "We assisted an AI and data analysis company Datavaloris in building RAISE - a SaaS platform that allows to automatically generate or optimize robust artificial intelligence models, customized for any business need, with or without internal expertise."
+      },
+      {
+        "background": "Visionaire.png",
+        "tabs": ["eCommerce"],
+        "title": "Visionaire",
+        "description": "We developed a modern web store for Visionaire - a transmedia enterprise that concepts, curates, and produces art multiples, events, publications, art installations, branded content, and apparel."
+      },
+      {
+        "background": "zua.png",
+        "tabs": ["Startups"],
+        "title": "Z.ua",
+        "description": "Codex Software developed a cutting-edge website constructor with intuitive user interface and a rich kit of responsive templates. The solution gives access to numerous web design tools, allowing to create modern websites at ease no matter the skills of a creator."
+      }
+    ]
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  }
+}
