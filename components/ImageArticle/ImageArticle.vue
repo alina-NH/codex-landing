@@ -6,7 +6,9 @@
       'image-article--left': articleAlignment === Alignment.left,
       'image-article--right': articleAlignment === Alignment.right,
       'image-article--center': articleAlignment === Alignment.center,
+      'image-article--filtered': filterMode,
     }"
+    :style="{ 'color': data.colors?.text }"
   >
     <img
       v-if="hasImage && data.image"
@@ -34,6 +36,7 @@
       <p
         v-if="hasSubtitle"
         class="text-default-bold image-article__subtitle"
+        :style="{ 'color': data.colors?.subtitle }"
       >
         {{ data.subtitle }}
       </p>
@@ -54,6 +57,7 @@
       <div
         v-if="hasBottomText && data.bottomText"
         class="image-article__bottom-text"
+        :style="{ 'color': data.colors?.bottomText }"
       >
         <img
           v-if="data.bottomText.icon"
@@ -108,6 +112,7 @@ const {
   buttonAlignment?: keyof typeof FlexAlignment,
   titleSize?: keyof typeof TitleSize,
   hasBottomText?: boolean,
+  filterMode?: boolean,
 }>();
 </script>
 
