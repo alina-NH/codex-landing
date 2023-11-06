@@ -9,34 +9,50 @@
     "white": "#FFFFFF"
   },
   "meta": {
-    "title": "Hire DevOps Engineers",
+    "title": "Custom Software Solutions For the Printing Industry",
     "description": "This is Codex Software landing page"
   },
   "welcome": {
-    "title": ["DevOps Engineers", "For your Team.", "Affordably."],
+    "title": [
+      "Digital solutions",
+      "to improve production and distribution",
+      " of print products."
+    ],
     "background": "welcome-background.png",
-    "button": "Request CVs"
+    "button": "Discuss Your Requirements"
   },
   "textBoxes": {
-    "title": "Services",
+    "title": "Solutions",
     "textBoxes": [
       {
-        "title": "DevOps Engineers for Hire",
+        "title": "Developers for Hire",
         "subtitle": "",
-        "text": "Get skilled DevOps engineers for your team.",
+        "text": "Get back-end developers for your project or get a full-service team.",
         "icon": "staff.svg"
       },
       {
-        "title": "DevOps Implementation",
+        "title": "Product development",
         "subtitle": "",
-        "text": "Bespeak a turnkey DevOps implementation for your development process",
+        "text": "Use our back-end engineers to develop your software project.",
         "icon": "productdev.svg"
       },
       {
         "title": "Software Modernisation",
         "subtitle": "",
-        "text": "Re-engineer the development processes implementing DevOps practices.",
+        "text": "Re-architect, re-build or migrate legacy software to modern technologies.",
         "icon": "modern.svg"
+      },
+      {
+        "title": "Consulting",
+        "subtitle": "",
+        "text": "Get guidance on solving specific challenges",
+        "icon": "mobile.svg"
+      },
+      {
+        "title": "Consulting",
+        "subtitle": "",
+        "text": "Get guidance on solving specific challenges",
+        "icon": "mobile.svg"
       },
       {
         "title": "Consulting",
@@ -48,8 +64,81 @@
   },
   "tabsIcons": {
     "title": "Technologies",
-    "tabs": ["CI/CD", "Containerisation", "Databases", "Cloud Platforms"],
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
     "tabsContent": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "java.svg",
+        "alt": "Java",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "python.svg",
+        "alt": "Python",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "csharp.svg",
+        "alt": "C#",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "nodejs.svg",
+        "alt": "NodeJS",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "express.svg",
+        "alt": "Express",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "nextjs.svg",
+        "alt": "NextJS",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "feathersjs.svg",
+        "alt": "Feathers",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "springboot.svg",
+        "alt": "Spring Framework",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "django.svg",
+        "alt": "Django",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "flask.svg",
+        "alt": "Flask",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "dotnet.svg",
+        "alt": "Dotnet Framework",
+        "tabs": ["Frameworks"]
+      },
       {
         "icon": "mongodb.svg",
         "alt": "MongoDB",
@@ -86,6 +175,21 @@
         "tabs": ["Databases"]
       },
       {
+        "icon": "tensorflow.svg",
+        "alt": "Tensorflow",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "numpy.svg",
+        "alt": "Numpy",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "pandas.svg",
+        "alt": "Pandas",
+        "tabs": ["Data Science & AI"]
+      },
+      {
         "icon": "aws.svg",
         "alt": "Amazon AWS",
         "tabs": ["Cloud Platforms"]
@@ -103,77 +207,51 @@
       {
         "icon": "docker.svg",
         "alt": "Docker",
-        "tabs": ["Containerisation"]
+        "tabs": ["DevOps"]
       },
       {
         "icon": "kubernetes.svg",
         "alt": "Kubernetes",
-        "tabs": ["Containerisation"]
+        "tabs": ["DevOps"]
       },
       {
         "icon": "terraform.svg",
         "alt": "Terraform",
-        "tabs": ["Containerisation"]
+        "tabs": ["DevOps"]
       },
       {
         "icon": "ansible.svg",
         "alt": "Ansible",
-        "tabs": ["CI/CD"]
+        "tabs": ["DevOps"]
       },
       {
         "icon": "circleci.svg",
         "alt": "CircleCI",
-        "tabs": ["CI/CD"]
+        "tabs": ["DevOps"]
       },
       {
         "icon": "gitlab.svg",
         "alt": "Gitlab",
-        "tabs": ["CI/CD"]
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "cypress.svg",
+        "alt": "Cypress",
+        "tabs": ["Testing"]
+      },
+      {
+        "icon": "jest.svg",
+        "alt": "Jest",
+        "tabs": ["Testing"]
+      },
+      {
+        "icon": "selenium.svg",
+        "alt": "Selenium",
+        "tabs": ["Testing"]
       }
     ]
   },
-  "textBoxes2": {
-    "title": "What to expect hiring Codex Software",
-    "textBoxes": [
-      {
-        "title": "TOP-10% Talent",
-        "subtitle": "",
-        "text": "We value good hard- and soft-skills. On average, only 10% of candidates receive job offers from us.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Comfortable Communication",
-        "subtitle": "",
-        "text": "We make sure all team members possess English fluency to effectively communicate verbally and in writing, on meetings and on day-to-day basis.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Stable Availability",
-        "subtitle": "",
-        "text": "Our development centers are located in European timezones, ensuring comfortable overlaps with your business hours.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Unparallelled Flexibility",
-        "subtitle": "",
-        "text": "Hire developers of any seniority, for any duration. Scale the team up & down easily on demand.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "No Administrative Overheads",
-        "subtitle": "",
-        "text": "We manage the HR side, including talent acquisition, replacements, compensations, training, as well a legal aspects.",
-        "icon": "react.svg"
-      },
-      {
-        "title": "Your Rights and Property are Protected",
-        "subtitle": "",
-        "text": "Your intellectual property will remain safe due to strict legal and security measures  (NDAs, NCAs, SLAs, and our internal security protocols)",
-        "icon": "react.svg"
-      }
-    ]
-  },
-  "mvpCases": {
+  "Cases": {
     "title": "Featured Case Studies",
     "imageBoxes": [
       {
