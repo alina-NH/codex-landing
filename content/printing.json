@@ -1,11 +1,11 @@
 {
   "colors": {
-    "primary": "#F75C19",
-    "hover": "#D7470A",
+    "primary": "#2E64F9",
+    "hover": "#2551C2",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "#F5BD95",
+    "secondary": "#DCEAFF",
     "white": "#FFFFFF"
   },
   "meta": {
@@ -21,44 +21,51 @@
     "background": "welcome-background.png",
     "button": "Discuss Your Requirements"
   },
+  "articleWithImageAndText": {
+    "image": "article-image.png",
+    "title": "Solutions",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "text": "Reduce costs, boost staff efficiency, improve production, reach more customers, and revitalise your printing business.",
+    "button": "Discuss your Project"
+  },
   "textBoxes": {
     "title": "Solutions",
     "textBoxes": [
       {
-        "title": "Developers for Hire",
-        "subtitle": "",
-        "text": "Get back-end developers for your project or get a full-service team.",
-        "icon": "staff.svg"
+        "title": "Web-2-Print Storefronts",
+        "subtitle": "Start selling print products online or improve sales",
+        "text": "",
+        "icon": "web-2-print.svg"
       },
       {
-        "title": "Product development",
-        "subtitle": "",
-        "text": "Use our back-end engineers to develop your software project.",
-        "icon": "productdev.svg"
+        "title": "Custom Editors and Customizers",
+        "subtitle": "Allow users and customers seamlessly change designs and content",
+        "text": "",
+        "icon": "editor.svg"
       },
       {
-        "title": "Software Modernisation",
-        "subtitle": "",
-        "text": "Re-architect, re-build or migrate legacy software to modern technologies.",
-        "icon": "modern.svg"
+        "title": "Employee Applications",
+        "subtitle": "Improve internal processes by using modern digital means",
+        "text": "",
+        "icon": "employee.svg"
       },
       {
-        "title": "Consulting",
-        "subtitle": "",
-        "text": "Get guidance on solving specific challenges",
-        "icon": "mobile.svg"
+        "title": "Workflow Automation",
+        "subtitle": "Automate processes to boost performance, cut waste and maximise uptime",
+        "text": "",
+        "icon": "wflow.svg"
       },
       {
-        "title": "Consulting",
-        "subtitle": "",
-        "text": "Get guidance on solving specific challenges",
-        "icon": "mobile.svg"
+        "title": "Custom Integration with HP Siteflow",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "",
+        "icon": "hpint.svg"
       },
       {
-        "title": "Consulting",
-        "subtitle": "",
-        "text": "Get guidance on solving specific challenges",
-        "icon": "mobile.svg"
+        "title": "Data Analytics & Visualisation",
+        "subtitle": "Gather, process and visualise data to make data-driven decisions",
+        "text": "",
+        "icon": "pdataanalys.svg"
       }
     ]
   },
