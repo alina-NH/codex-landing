@@ -1,8 +1,14 @@
 <template>
   <Welcome :data="printingContent.welcome" />
+  <ImageArticle
+    :data="printingContent.articleWithImageAndText"
+    articleAlignment="center"
+    textAlignment="center"
+    buttonStyle="fill"
+    component="text"
+  />
   <TextBoxes
     :data="printingContent.textBoxes"
-    hasTitle
     titlePosition="left"
     withIcon
   />
