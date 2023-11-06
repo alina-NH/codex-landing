@@ -13,7 +13,126 @@
     "description": "This is Codex Software landing page"
   },
   "squareTimeline": {
-    "title": "Our Process"
+    "title": "Our Process",
+    "items": [
+      {
+        "type": "text",
+        "title": "Plan and Prototype",
+        "subtitle": "All your need is an idea",
+        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+        "bottomText": {
+          "icon": "bulb.svg",
+          "text": "Up to 5K GBP"
+        },
+        "colors": {
+          "background": "#DCEAFF"
+        }
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "title": "Plan and Prototype",
+        "subtitle": "All your need is an idea",
+        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+        "bottomText": {
+          "icon": "bulb.svg",
+          "text": "Up to 5K GBP"
+        },
+        "colors": {
+          "background": "#2E64F9",
+          "text": "#FFFFFF",
+          "bottomText": "#FFFFFF",
+          "subtitle": "#FFFFFF"
+        }
+      },
+      {
+        "type": "text",
+        "title": "Plan and Prototype",
+        "subtitle": "All your need is an idea",
+        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+        "button": "Let's talk",
+        "colors": {
+          "background": "#18191F",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          },
+          {
+            "title": "Polishing the idea",
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+            "icon": "bulb.svg"
+          }
+        ]
+      }
+    ]
   },
   "articleWithImageAndList": {
     "image": "article-image.png",

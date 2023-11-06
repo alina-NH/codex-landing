@@ -129,7 +129,8 @@ export interface Store {
 };
 
 export interface SquaresTimeline {
-  title?: string, 
+  title?: string,
+  items: (ImageArticle | List)[],
 };
 
 export enum ImageArticleComponent {
@@ -147,6 +148,13 @@ export interface ImageArticle {
   bottomText?: {
     icon?: string,
     text: string,
+  },
+  type?: SquaresTimelineType,
+  colors?: {
+    background?: string,
+    subtitle?: string,
+    text?: string,
+    bottomText?: string,
   },
 };
 
@@ -172,4 +180,14 @@ export interface ListItem {
   title: string,
   text: string,
   icon: string,
+};
+
+export interface List {
+  list: ListItem[],
+  type?: keyof typeof SquaresTimelineType,
+};
+
+export enum SquaresTimelineType {
+  list = 'list',
+  text = 'text',
 }
