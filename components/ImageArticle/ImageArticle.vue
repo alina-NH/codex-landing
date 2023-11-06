@@ -56,6 +56,7 @@
         class="image-article__bottom-text"
       >
         <img
+          v-if="data.bottomText.icon"
           :src="useImages(data.bottomText.icon)"
           role="background"
         />

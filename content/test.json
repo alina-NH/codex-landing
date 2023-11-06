@@ -43,31 +43,26 @@
       "text": "Discuss your Project"
     }
   },
-"tabsTextBox": {
-    "title": "Tabs with Text boxes",
-    "tabs": ["Tab 1", "Tab 2", "Tab 3"],
-    "tabsContent": [
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 1", "Tab 2"]
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 2"]
-      },
-      {
-        "title": "Software Modernization",
-        "subtitle": "Revitalise your legacy systems",
-        "text": "Receive full range of services to turn an outdated software into a modern solution with better user experience, lower maintenance costs, and extended functionality.",
-        "icon": "react.svg",
-        "tabs": ["Tab 1"]
-      }
-    ]
-  }
-  }
+  "list": [
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    },
+    {
+      "title": "Polishing the idea",
+      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
+      "icon": "bulb.svg"
+    }
+  ]
+}
