@@ -103,6 +103,11 @@
   />
   <SectionTitle position="center">List component (service component, use with Squares timeline)</SectionTitle>
   <List :data="testContent.list" />
+  <SquaresTimeline
+    :data="testContent.squareTimeline"
+    hasTitle
+    titlePosition="center"
+  />
 </template>
   
 

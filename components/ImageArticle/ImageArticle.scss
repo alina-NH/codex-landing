@@ -26,6 +26,10 @@
     border-radius: 8px;
   }
 
+  &--filtered {
+    padding: unset;
+  }
+
   &__body {
     display: flex;
     flex-direction: column;

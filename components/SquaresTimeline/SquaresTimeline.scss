@@ -1,5 +1,17 @@
-.square-timeline {
+.squares-timeline {
   display: flex;
   flex-direction: column;
-  margin: 10vh 10vw;
+  margin: 10vh 0;
+
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh 0;
+  }
 }

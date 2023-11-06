@@ -23,6 +23,9 @@
         "bottomText": {
           "icon": "bulb.svg",
           "text": "Up to 5K GBP"
+        },
+        "colors": {
+          "background": "#DCEAFF"
         }
       },
       {
@@ -83,6 +86,12 @@
         "bottomText": {
           "icon": "bulb.svg",
           "text": "Up to 5K GBP"
+        },
+        "colors": {
+          "background": "#2E64F9",
+          "text": "#FFFFFF",
+          "bottomText": "#FFFFFF",
+          "subtitle": "#FFFFFF"
         }
       },
       {
@@ -90,7 +99,13 @@
         "title": "Plan and Prototype",
         "subtitle": "All your need is an idea",
         "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-        "button": "Let's talk"
+        "button": "Let's talk",
+        "colors": {
+          "background": "#18191F",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
       },
       {
         "type": "list",
