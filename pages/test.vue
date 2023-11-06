@@ -122,13 +122,6 @@
     hasTitle
     titlePosition="center"
   />
-  <TabbedContent
-    hasTitle
-    titlePosition="left"
-    :data="mainContent.tabsTextBox"
-    component="TextBox"
-    withIcon
-  />
 </template>
 
 <script setup lang="ts">
