@@ -143,6 +143,10 @@
     titlePosition="left"
     text-alignment="center"
   />
+  <Welcome
+    :data="testContent.welcomeWithColors"
+    imageToLeft
+  />
 </template>
   
 

@@ -318,5 +318,19 @@
         "text": "Re-architect, re-build or migrate legacy software to modern technologies."
       }
     ]
+  },
+  "welcomeWithColors": {
+    "title": [
+      "Digital solutions",
+      "to improve production and distribution",
+      " of print products."
+    ],
+    "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+    "background": "welcome-background.png",
+    "button": "Discuss Your Requirements",
+    "colors": {
+      "title": "tomato",
+      "subtitle": "green"
+    }
   }
 }

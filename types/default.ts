@@ -226,4 +226,8 @@ export interface Welcome {
   button: string,
   background: string,
   subtitle?: string,
+  colors?: {
+    title?: string,
+    subtitle?: string
+  }
 };

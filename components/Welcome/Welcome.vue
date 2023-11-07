@@ -4,7 +4,10 @@
     :class="{ 'welcome--reversed': imageToLeft }"
   >
     <div class="welcome__section">
-      <h1 class="heading-2 welcome__title">
+      <h1
+        class="heading-2 welcome__title"
+        :style="{ 'color': data?.colors?.title }"
+      >
         <span v-for="titleLine in data.title">
           {{ titleLine }}
         </span>
@@ -12,6 +15,7 @@
       <p
         v-if="data.subtitle"
         class="text-default welcome__subtitle"
+        :style="{ 'color': data?.colors?.subtitle }"
       >
         {{ data.subtitle }}
       </p>
