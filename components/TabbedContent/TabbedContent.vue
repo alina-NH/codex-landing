@@ -1,7 +1,7 @@
 <template>
   <section class="tabbed-content">
     <SectionTitle
-      v-if="hasTitle"
+      v-if="data.title"
       :position="titlePosition"
     >
       {{ data.title }}
@@ -23,15 +23,12 @@
       />
       <ImageBoxes
         v-if="component === TabsComponent.ImageBox"
-        :withTestimonial="withTestimonial"
         :data="({ imageBoxes: content } as unknown as ImageBoxes)"
         filterMode
-        :hasTitle="false"
       />
       <TextBoxes
         v-if="component === TabsComponent.TextBox"
         :data="({ textBoxes: content } as unknown as TextBoxes)"
-        :hasTitle="false"
         :withIcon="withIcon"
         filterMode
       />
@@ -42,17 +39,13 @@
 <script setup lang="ts">
 const {
   data,
-  hasTitle,
   titlePosition,
   component,
-  withTestimonial,
   withIcon
 } = defineProps<{
   data: TabbedContent,
-  hasTitle: boolean,
   titlePosition?: keyof typeof SectionTitlePosition,
   component: keyof typeof TabsComponent,
-  withTestimonial?: boolean,
   withIcon?: boolean,
 }>();
 

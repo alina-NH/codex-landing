@@ -10,7 +10,6 @@
   />
   <ImageBoxes
     :data="hireDevelopersContent.mvpCases"
-    withTestimonial
   />
   <ImageBoxes
     :data="hireDevelopersContent.anotherMVPCases"

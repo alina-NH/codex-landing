@@ -81,11 +81,9 @@
     <ImageArticle
       :data="(data.imageArticle as ImageArticle)"
       :component="(component as keyof typeof ImageArticleComponent)"
-      :hasSubtitle="hasSubtitle"
       :textAlignment="textAlignment"
       :articleAlignment="articleAlignment"
       :titleSize="titleSize"
-      :hasBottomText="hasBottomText"
       filterMode
     />
     <form class="contact-form__body contact-form__body--simplified">
@@ -132,11 +130,9 @@ const { data } = defineProps<{
   data: ContactForm,
   type: keyof typeof ContactFormType,
   component?: keyof typeof ImageArticleComponent,
-  hasSubtitle?: boolean,
   textAlignment?: keyof typeof Alignment,
   articleAlignment?: keyof typeof Alignment,
   titleSize?: keyof typeof TitleSize,
-  hasBottomText?: boolean,
 }>();
 </script>
 

@@ -5,31 +5,24 @@
     buttonStyle="outline"
     imageToRight
     component="list"
-    hasButton
-    hasImage
   />
   <SectionTitle position="center">Article with image and list: image left, button fill</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
     buttonStyle="fill"
     component="list"
-    hasButton
-    hasImage
   />
   <SectionTitle position="center">Article with image and text: image left, button fill</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     buttonStyle="fill"
     component="text"
-    hasButton
-    hasImage
   />
   <SectionTitle position="center">Article with image and text: image left, no button</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     buttonStyle="fill"
     component="text"
-    hasImage
   />
   <SectionTitle position="center">Article with text: no image, no button</SectionTitle>
   <ImageArticle
@@ -64,7 +57,6 @@
   <SectionTitle position="center">Text center, article center, button right</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
-    hasButton
     articleAlignment="center"
     textAlignment="center"
     buttonAlignment="right"
@@ -74,7 +66,6 @@
   <SectionTitle position="center">Text center, article center, button center</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
-    hasButton
     articleAlignment="center"
     textAlignment="center"
     buttonAlignment="center"
@@ -84,7 +75,6 @@
   <SectionTitle position="center">Title large</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
-    hasButton
     articleAlignment="center"
     textAlignment="center"
     buttonAlignment="center"
@@ -95,7 +85,6 @@
   <SectionTitle position="center">Article with bottom text</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithBottomText"
-    hasBottomText
     articleAlignment="center"
     textAlignment="center"
     titleSize="small" 
@@ -105,7 +94,6 @@
   <List :data="testContent.list" />
   <SquaresTimeline
     :data="testContent.squareTimeline"
-    hasTitle
     titlePosition="center"
   />
   <SectionTitle position="center">Contact form extended</SectionTitle>
@@ -117,8 +105,7 @@
   <ContactForm
     type="simplified"
     :data="testContent.contactFormSimplified"
-    component="list"
-    hasSubtitle
+    component="list"    
   />
 </template>
   

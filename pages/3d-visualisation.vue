@@ -13,18 +13,18 @@
     withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="dvisContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="dvisContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm :data="dvisContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="dvisContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

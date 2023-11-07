@@ -2,7 +2,6 @@
   <Welcome :data="mainContent.welcome" />
   <ImageArticle
     :data="mainContent.articleWithImageAndText"
-    hasButton
     articleAlignment="center"
     textAlignment="center"
     buttonAlignment="center"
@@ -11,7 +10,6 @@
     component="text"
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="mainContent.tabsIcons"
     component="IconBox"
@@ -22,9 +20,7 @@
   />
   <ImageBoxes
     :data="mainContent.mvpCases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
   <ContactForm
     type="extended"

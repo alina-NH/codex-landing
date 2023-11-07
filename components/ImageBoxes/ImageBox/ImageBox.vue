@@ -13,13 +13,13 @@
         {{ data.description }}
       </p>
       <p
-        v-if="withTestimonial && data.testimonial"
+        v-if="data.testimonial"
         class="text-default image-box__testimonial"
       >
         {{ data.testimonial }}
       </p>
       <Person
-        v-if="withTestimonial && data.author"
+        v-if="data.author"
         :data="data.author"
       />
     </div>
@@ -27,9 +27,10 @@
 </template>
 
 <script setup lang="ts">
-const { data, withTestimonial } = defineProps<{
+const {
+  data
+} = defineProps<{
   data: ImageBox,
-  withTestimonial?: boolean,
 }>();
 </script>
 

@@ -13,16 +13,13 @@
     withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="printingContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="printingContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
   <ContactForm
     type="extended"
