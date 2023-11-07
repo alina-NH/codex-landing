@@ -16,6 +16,18 @@
       :data="healthcareContent.tabsIcons"
       component="IconBox"
     />
+    <SquaresTimeline
+    :data="healthcareContent.squareTimeline"
+    hasTitle
+    titlePosition="left"
+  />
+    <TextBoxes
+    :data="healthcareContent.textBoxes2"
+    titlePosition="left"
+    withIcon
+    hasTitle
+  />
+
     <ImageBoxes
       :data="healthcareContent.Cases"
       titlePosition="left"
