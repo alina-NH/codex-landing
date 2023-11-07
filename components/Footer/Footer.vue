@@ -21,7 +21,7 @@
           class="footer-nav__section"
         >
           <li class="text-default footer-nav__title">
-            <NavLink :data="nav" />
+            {{ nav.name }}
           </li>
           <ul class="text-small footer-nav__subnav">
             <li v-for="subnav in nav.subnav">

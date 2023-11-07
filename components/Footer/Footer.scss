@@ -39,12 +39,6 @@
     &__title {
       color: $primary-color;
       margin-bottom: 32px;
-      cursor: pointer;
-      @include base-transition;
-
-      &:hover {
-        color: $hover-color;
-      }
     }
 
     &__subnav {

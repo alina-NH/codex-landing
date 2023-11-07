@@ -126,7 +126,6 @@
     "nav": [
       {
         "name": "Services",
-        "link": "",
         "external": false,
         "subnav": [
           {
@@ -153,7 +152,6 @@
       },
       {
         "name": "Industries",
-        "link": "#",
         "external": false,
         "subnav": [
           {
@@ -190,7 +188,6 @@
       },
       {
         "name": "Solutions",
-        "link": "/solutions",
         "external": false,
         "subnav": [
           {
@@ -227,7 +224,6 @@
       },
       {
         "name": "The company",
-        "link": "#",
         "external": false,
         "subnav": [
           {

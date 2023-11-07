@@ -94,7 +94,6 @@ export interface Footer {
   nav: {
     name: string,
     external: boolean,
-    link: string,
     subnav?: NavLink[]
   }[],
   trademark: string[],
