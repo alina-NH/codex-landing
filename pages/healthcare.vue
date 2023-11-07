@@ -10,7 +10,6 @@
     <TextBoxes
       :data="healthcareContent.textBoxes"
       titlePosition="left"
-      withIcon
     />
     <TabbedContent
       hasTitle
@@ -18,13 +17,25 @@
       :data="healthcareContent.tabsIcons"
       component="IconBox"
     />
+    <SquaresTimeline
+    :data="healthcareContent.squareTimeline"
+    hasTitle
+    titlePosition="left"
+  />
+    <TextBoxes
+    :data="healthcareContent.textBoxes2"
+    titlePosition="left"
+    withIcon
+    hasTitle
+  />
+
     <ImageBoxes
       :data="healthcareContent.Cases"
       hasTitle
       titlePosition="left"
       withTestimonial
     />
-    <ContactForm :data="healthcareContent.contactForm" />
+    <ContactForm type="extended" :data="healthcareContent.contactForm" />
   </template>
   
   <script setup lang="ts">

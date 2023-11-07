@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="wfaContent.contactForm" />
+  <ContactForm type="extended" :data="wfaContent.contactForm" />
 </template>
 
 <script setup lang="ts">

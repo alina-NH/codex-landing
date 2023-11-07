@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="repdataContent.contactForm" />
+  <ContactForm type="extended" :data="repdataContent.contactForm" />
 </template>
 
 <script setup lang="ts">

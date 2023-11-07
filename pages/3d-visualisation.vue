@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="dvisContent.contactForm" />
+  <ContactForm type="extended" :data="dvisContent.contactForm" />
 </template>
 
 <script setup lang="ts">

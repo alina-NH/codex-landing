@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="prconfContent.contactForm" />
+  <ContactForm type="extended" :data="prconfContent.contactForm" />
 </template>
 
 <script setup lang="ts">

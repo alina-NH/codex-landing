@@ -5,7 +5,7 @@
       "black": "#18191F",
       "darkgrey": "#454545",
       "lightgrey": "#C0C0C0",
-      "secondary": "#9AEAEB",
+      "secondary": "#D3F7F9",
       "white": "#FFFFFF"
     },
     "meta": {
@@ -18,7 +18,7 @@
         "For healthcare.",
         "For better care."
       ],
-      "background": "healthcarewelcome.png",
+      "background": "healthcarewelcome-square.png",
       "button": "Request Development"
     },
     "articleWithImageAndText": {
@@ -34,23 +34,109 @@
         {
           "title": "Software MVP Development",
           "subtitle": "Bring the app to market as fast as possible",
-          "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently.",
-          "icon": "web-2-print.svg"
-        },
+          "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
+           },
         {
-          "title": "Healthcare Software Evolution",
+          "title": "Software Evolution",
           "subtitle": "Enhance and extend your product at any stage",
-          "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features.",
-          "icon": "editor.svg"
-        },
+          "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
+                },
         {
           "title": "Software Modernisation",
-          "subtitle": "Revitalise your legacy systems",
-          "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality.",
-          "icon": "employee.svg"
-        }
+          "subtitle": "Revitalise your legacy healthcare systems",
+          "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality."
+                }
       ]
     },
+
+    "squareTimeline": {
+        "title": "How We Help",
+        "items": [
+          {
+            "type": "text",
+            "title": "Meet Challenges",
+            "subtitle": "",
+            "text": "",
+            "bottomText": {
+              "icon": "",
+              "text": ""
+            },
+            "colors": {
+              "background": "#DCFAFA"
+            }
+          },
+          {
+            "type": "list",
+            "list": [
+              {
+                "title": "Reduce development costs",
+                "text": "High implementation and maintenance costs of out-of-box healthcare software, preventing smaller institutions and companies from adopting modern technologies.",
+                "icon": "reducing.svg"
+              },
+              {
+                "title": "Cut spending on training",
+                "text": "Steep learning curve and high user adoption costs, resulting in additional spending on training and overcoming resistance to changes within the organisation.",
+                "icon": "reducing.svg"
+              },
+              {
+                "title": "Get rid of siloed healthcare data",
+                "text": "Storing healthcare data in separate non- or badly interoperable systems causes issues in tracking and sharing patient information and leads to subpar care coordination.",
+                "icon": "siloeddata.svg"
+              },
+              {
+                "title": "Fix security vulnerabilities",
+                "text": "Sensitive medical data should be protected by all means necessary, including infrastructure setup, data encryption, access control, among others.",
+                "icon": "security.svg"
+              },
+              {
+                "title": "Reduce human factor",
+                "text": "Complex processes that involve multiple manual operations put healthcare service providers at risk of extremely costly mistakes.",
+                "icon": "humanfact.svg"
+              }
+            ]
+        },
+        {
+            "type": "list",
+            "list": [
+              {
+                "title": "Improve patient care and engagement",
+                "text": "Collect and store patient data, track treatment plans, provide reminders for appointments and medications, and simplify access to healthcare for people regardless of their location or socioeconomic status.",
+                "icon": "reducing.svg"
+              },
+              {
+                "title": "Enhance Patient Safety",
+                "text": "Move incident and risk management from paper files to digital workflows. Collect, share, analyse and visualise patient data to react to incidents timely and adequately, assess and prevent risks, and enable continuous evolution of care delivery.",
+                "icon": "reducing.svg"
+              },
+              {
+                "title": "Boost organisational efficiency",
+                "text": "Automate manual processes, such as scheduling appointments, processing insurance claims, and ordering medications. Harness the power of Artificial Intelligence technologies to free up staff time and focus on providing direct patient care.",
+                "icon": "siloeddata.svg"
+              },
+              {
+                "title": "Make data-driven decisions",
+                "text": "Collect and analyse large datasets of patient data to identify trends and patterns. This information can be used to improve clinical decision-making and develop new treatments.",
+                "icon": "security.svg"
+              }
+            ]
+        },
+            {
+                "type": "text",
+                "title": "Innovate & Improve",
+                "subtitle": "",
+                "text": "",
+                "bottomText": {
+                  "icon": "",
+                  "text": ""
+                },
+                "colors": {
+                  "background": "#DCDDE3"
+                }
+              }
+              
+        ]
+    },
+
     "tabsIcons": {
       "title": "Technologies",
       "tabs": [
@@ -240,31 +326,77 @@
         }
       ]
     },
+    "textBoxes2": {
+        "title": "Solutions",
+        "textBoxes": [
+          {
+            "title": "Staff Management, Bank & Rota Systems",
+            "subtitle": "",
+            "text": "",
+            "icon": "staffmngt.svg"
+          },
+          {
+            "title": "Telehealthcare",
+            "subtitle": "",
+            "text": "",
+            "icon": "telehealthcare.svg"
+          },
+          {
+            "title": "Virtual Wards",
+            "subtitle": "",
+            "text": "",
+            "icon": "virtualwards.svg"
+          },
+          {
+            "title": "Electronic Health Records",
+            "subtitle": "",
+            "text": "",
+            "icon": "ehr.svg"
+          },
+          {
+            "title": "Patient Portals and CMS Websites",
+            "subtitle": "",
+            "text": "",
+            "icon": "parportals.svg"
+          },
+          {
+            "title": "Bespoke Patient Management Flows",
+            "subtitle": "",
+            "text": "",
+            "icon": "patientflows.svg"
+          },
+          {
+            "title": "Clinical Auditing",
+            "subtitle": "",
+            "text": "",
+            "icon": "clinicalaudit.svg"
+          },
+          {
+            "title": "Mobile and Cross-Platform Healthcare Apps",
+            "subtitle": "",
+            "text": "",
+            "icon": "mobilehcapps.svg"
+          }
+        ]
+      },
     "Cases": {
       "title": "Featured Case Studies",
       "imageBoxes": [
         {
-          "background": "oneflow.png",
-          "title": "OneFlow Systems",
-          "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
-          "author": {
-            "avatar": "chris-knighton.png",
-            "name": "Chris Knighton",
-            "position": "Global Sales Director"
-          },
-          "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+          "background": "auditangel.png",
+          "title": "Audit Angel",
+          "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
+                },
+        {
+          "background": "covidapp.png",
+          "title": "SP Appointment",
+          "description": "Codex Software joined the Customer, a foundation trust that runs three major hospitals across Essex, the UK, and several smaller community hospitals, in building an end-to-end solution for the scheduling and tracking of COVID-19 tests. The platform streamlined appointment booking for medical staff, reducing the load on test centres and minimising the waiting time."
         },
         {
-          "background": "hp.png",
-          "title": "HP Inc",
-          "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
-          "author": {
-            "avatar": "nigel.webp",
-            "name": "Nigel Watson",
-            "position": "New Business Director"
-          },
-          "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
-        }
+            "background": "ShiftPartner.png",
+            "title": "ShiftPartner:Bankshift",
+            "description": "Codex Software was engaged by technology startup Shift Partner to build Shiftpartner: Bankshift - a platform that allows healthcare institutions to find, employ and replace skilled nurses on demand, enabling flexible and seamless staff management within, and across ICSs."
+          }
       ]
     },
     "contactForm": {

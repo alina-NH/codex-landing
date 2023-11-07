@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="eduContent.contactForm" />
+  <ContactForm type="extended" :data="eduContent.contactForm" />
 </template>
 
 <script setup lang="ts">

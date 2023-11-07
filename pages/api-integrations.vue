@@ -24,7 +24,7 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="apiintContent.contactForm" />
+  <ContactForm type="extended" :data="apiintContent.contactForm" />
 </template>
 
 <script setup lang="ts">
