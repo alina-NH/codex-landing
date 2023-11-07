@@ -10,7 +10,6 @@
   <TextBoxes
     :data="prconfContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"

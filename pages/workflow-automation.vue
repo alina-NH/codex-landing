@@ -10,7 +10,6 @@
   <TextBoxes
     :data="wfaContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"
