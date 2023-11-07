@@ -1,7 +1,5 @@
 <template>
-  <SectionTitle position="center"
-    >Article with image and list: image right, button outline</SectionTitle
-  >
+  <SectionTitle position="center">Article with image and list: image right, button outline</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
     buttonStyle="outline"
@@ -10,9 +8,7 @@
     hasButton
     hasImage
   />
-  <SectionTitle position="center"
-    >Article with image and list: image left, button fill</SectionTitle
-  >
+  <SectionTitle position="center">Article with image and list: image left, button fill</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
     buttonStyle="fill"
@@ -20,9 +16,7 @@
     hasButton
     hasImage
   />
-  <SectionTitle position="center"
-    >Article with image and text: image left, button fill</SectionTitle
-  >
+  <SectionTitle position="center">Article with image and text: image left, button fill</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     buttonStyle="fill"
@@ -30,18 +24,14 @@
     hasButton
     hasImage
   />
-  <SectionTitle position="center"
-    >Article with image and text: image left, no button</SectionTitle
-  >
+  <SectionTitle position="center">Article with image and text: image left, no button</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     buttonStyle="fill"
     component="text"
     hasImage
   />
-  <SectionTitle position="center"
-    >Article with text: no image, no button</SectionTitle
-  >
+  <SectionTitle position="center">Article with text: no image, no button</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     buttonStyle="fill"
@@ -71,9 +61,7 @@
     buttonStyle="fill"
     component="text"
   />
-  <SectionTitle position="center"
-    >Text center, article center, button right</SectionTitle
-  >
+  <SectionTitle position="center">Text center, article center, button right</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     hasButton
@@ -83,9 +71,7 @@
     buttonStyle="fill"
     component="text"
   />
-  <SectionTitle position="center"
-    >Text center, article center, button center</SectionTitle
-  >
+  <SectionTitle position="center">Text center, article center, button center</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndText"
     hasButton
@@ -103,7 +89,7 @@
     textAlignment="center"
     buttonAlignment="center"
     buttonStyle="fill"
-    titleSize="large"
+    titleSize="large" 
     component="text"
   />
   <SectionTitle position="center">Article with bottom text</SectionTitle>
@@ -112,7 +98,7 @@
     hasBottomText
     articleAlignment="center"
     textAlignment="center"
-    titleSize="small"
+    titleSize="small" 
     component="text"
   />
   <SectionTitle position="center">List component (service component, use with Squares timeline)</SectionTitle>
@@ -135,9 +121,10 @@
     hasSubtitle
   />
 </template>
+  
 
 <script setup lang="ts">
-import testContent from "../content/test.json";
+import testContent from '../content/test.json';
 
 const store = useContentStore();
 store.setPageContent(testContent);

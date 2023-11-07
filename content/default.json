@@ -12,32 +12,32 @@
         "subnav": [
           {
             "name": "Reporting & Data Visualisation",
-            "link": "#",
+            "link": "/reporting-and-data-visualisation",
             "external": false
           },
           {
             "name": "Workflow Automation",
-            "link": "#",
+            "link": "/workflow-automation",
             "external": false
           },
           {
-            "name": "API Integration",
-            "link": "#",
+            "name": "API Integrations",
+            "link": "/api-integrations",
             "external": false
           },
           {
-            "name": "Publishing",
-            "link": "#",
+            "name": "Publishing Tools",
+            "link": "/publishing-tools",
             "external": false
           },
           {
             "name": "3D Visualisation & AR",
-            "link": "#",
+            "link": "/3d-visualisation",
             "external": false
           },
           {
-            "name": "Product Configuration",
-            "link": "#",
+            "name": "Product Configurators",
+            "link": "/product-configurators",
             "external": false
           }
         ]
@@ -54,8 +54,8 @@
           },
           {
             "name": "Healthcare",
-            "link": "https://codex-soft.com/healthcare/",
-            "external": true
+            "link": "/healthcare",
+            "external": false
           },
           {
             "name": "Printing",
@@ -64,22 +64,17 @@
           },
           {
             "name": "Publishing",
-            "link": "#",
+            "link": "/publishing",
             "external": false
           },
           {
             "name": "Art & Culture",
-            "link": "#",
+            "link": "/art-and-culture",
             "external": false
           },
           {
             "name": "Education",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Mass Customization",
-            "link": "#",
+            "link": "/education",
             "external": false
           }
         ]

@@ -1,0 +1,35 @@
+<template>
+  <Welcome :data="prconfContent.welcome" />
+  <ImageArticle
+    :data="prconfContent.articleWithImageAndText"
+    articleAlignment="center"
+    textAlignment="center"
+    buttonStyle="fill"
+    component="text"
+  />
+  <TextBoxes
+    :data="prconfContent.textBoxes"
+    titlePosition="left"
+    withIcon
+  />
+  <TabbedContent
+    hasTitle
+    titlePosition="left"
+    :data="prconfContent.tabsIcons"
+    component="IconBox"
+  />
+  <ImageBoxes
+    :data="prconfContent.Cases"
+    hasTitle
+    titlePosition="left"
+    withTestimonial
+  />
+  <ContactForm :data="prconfContent.contactForm" />
+</template>
+
+<script setup lang="ts">
+import prconfContent from "../content/product-configurators.json";
+
+const store = useContentStore();
+store.setPageContent(prconfContent);
+</script>
