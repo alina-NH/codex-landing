@@ -20,7 +20,10 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="beContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="beContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

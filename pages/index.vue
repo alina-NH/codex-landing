@@ -16,14 +16,20 @@
     :data="mainContent.tabsIcons"
     component="IconBox"
   />
-  <ContactForm :data="mainContent.contactForm2" />
+  <ContactForm
+    type="extended"
+    :data="mainContent.contactForm2"
+  />
   <ImageBoxes
     :data="mainContent.mvpCases"
     hasTitle
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="mainContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="mainContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">
