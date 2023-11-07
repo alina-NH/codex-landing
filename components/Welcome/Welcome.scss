@@ -3,14 +3,24 @@
   height: calc(100vh - #{$header-height});
   background: $secondary-color;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 0 10vw;
+  margin-bottom: 10vh;
+
+  &--reversed {
+    flex-direction: row-reverse;
+  }
 
   &__title {
     display: flex;
     color: white;
     flex-direction: column;
+    margin-bottom: 5vh;
+  }
+
+  &__subtitle {
     margin-bottom: 5vh;
   }
 

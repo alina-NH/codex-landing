@@ -26,6 +26,15 @@
     color: white;
   }
 
+  &-icons {
+    display: flex;
+    column-gap: 16px;
+    
+    & a {
+      cursor: pointer;
+    }
+  }
+
   &-nav {
     display: flex;
     column-gap: 4vw;
@@ -39,16 +48,6 @@
     &__title {
       color: $primary-color;
       margin-bottom: 32px;
-      cursor: pointer;
-      -webkit-transition: color $default-transition;
-      -moz-transition: color $default-transition;
-      -ms-transition: color $default-transition;
-      -o-transition: color $default-transition;
-      transition: color $default-transition;
-
-      &:hover {
-        color: $hover-color;
-      }
     }
 
     &__subnav {
@@ -61,11 +60,7 @@
     &__link {
       color: $lightgrey-color;
       cursor: pointer;
-      -webkit-transition: color $default-transition;
-      -moz-transition: color $default-transition;
-      -ms-transition: color $default-transition;
-      -o-transition: color $default-transition;
-      transition: color $default-transition;
+      @include base-transition;
 
       &:hover {
         color: $hover-color;

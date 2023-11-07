@@ -1,5 +1,9 @@
 <template>
-  <div class="icon-box">
+  <div
+    class="icon-box"
+    :class="{ 'icon-box--link': data?.link }"
+    @click="data?.link && openLink(data.link)"
+  >
     <img
       :src="useImages(data.icon)"
       :alt="data.alt"

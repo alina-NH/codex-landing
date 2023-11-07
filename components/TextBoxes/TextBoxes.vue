@@ -11,11 +11,12 @@
     </SectionTitle>
     <div
       class="text-boxes__body"
-      :class="{ 'text-boxes__body--short': !data.textBoxes[0].icon }"
+      :class="{ 'text-boxes__body--short': !data.textBoxes[0]?.icon }"
     >
       <TextBox
         v-for="textBoxData in data.textBoxes"
         :data="textBoxData"
+        :text-alignment="textAlignment"
       />
     </div>
   </section>
@@ -25,11 +26,13 @@
 const {
   data,
   titlePosition,
-  filterMode
+  filterMode,
+  textAlignment,
 } = defineProps<{
   data: TextBoxes,
   titlePosition?: keyof typeof SectionTitlePosition,
   filterMode?: boolean,
+  textAlignment?: keyof typeof Alignment,
 }>();
 </script>
 

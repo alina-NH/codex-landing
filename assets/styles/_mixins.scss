@@ -1,0 +1,7 @@
+@mixin base-transition {
+  -webkit-transition: all $default-transition;
+  -moz-transition: all $default-transition;
+  -ms-transition: all $default-transition;
+  -o-transition: all $default-transition;
+  transition: all $default-transition;
+}

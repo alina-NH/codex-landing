@@ -19,16 +19,16 @@
     <div class="tabbed-content-body">
       <IconBoxes
         v-if="component === TabsComponent.IconBox"
-        :data="(content as unknown as IconBox[])"
+        :data="(content as IconBox[])"
       />
       <ImageBoxes
         v-if="component === TabsComponent.ImageBox"
-        :data="({ imageBoxes: content } as unknown as ImageBoxes)"
+        :data="({ imageBoxes: content } as ImageBoxes)"
         filterMode
       />
       <TextBoxes
         v-if="component === TabsComponent.TextBox"
-        :data="({ textBoxes: content } as unknown as TextBoxes)"
+        :data="({ textBoxes: content } as TextBoxes)"
         filterMode
       />
     </div>
@@ -51,7 +51,7 @@ const content = ref(data.tabsContent);
 
 const filterContent = () => {
   content.value = data.tabsContent.filter(element => {
-    return element.tabs.includes(activeTab.value)
+    return element?.tabs?.includes(activeTab.value)
   });
 };
 
