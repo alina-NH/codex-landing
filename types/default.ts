@@ -186,7 +186,7 @@ export enum TitleSize {
 export interface ListItem {
   title: string,
   text: string,
-  icon: string,
+  icon?: string,
 };
 
 export type List = {

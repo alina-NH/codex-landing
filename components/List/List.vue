@@ -5,6 +5,7 @@
       class="list-item"
     >
       <img
+        v-if="item?.icon"
         :src="useImages(item.icon)"
         role="background"
         class="list-item__icon"
