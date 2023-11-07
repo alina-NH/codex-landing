@@ -183,5 +183,57 @@
       "text": "Finding most valuable features and scenarios to get an MVP and test the market",
       "icon": "bulb.svg"
     }
-  ]
+  ],
+  "contactFormExtended": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  },
+  "contactFormSimplified": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "IT Consulting",
+      "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+      "list": [
+        "Get full understanding of the costs, timeframe, team",
+        "Identify risks, bottlenecks, challenges and solutions",
+        "Get interim technology leadership for your team"
+      ]
+    }
+  }
 }

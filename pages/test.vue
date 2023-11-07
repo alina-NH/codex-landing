@@ -122,6 +122,18 @@
     hasTitle
     titlePosition="center"
   />
+  <SectionTitle position="center">Contact form extended</SectionTitle>
+  <ContactForm
+    type="extended"
+    :data="testContent.contactFormExtended"
+  />
+  <SectionTitle position="center">Contact form simplified</SectionTitle>
+  <ContactForm
+    type="simplified"
+    :data="testContent.contactFormSimplified"
+    component="list"
+    hasSubtitle
+  />
 </template>
 
 <script setup lang="ts">

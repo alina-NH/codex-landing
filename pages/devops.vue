@@ -20,7 +20,10 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="devopsContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="devopsContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">
