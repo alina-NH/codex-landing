@@ -12,6 +12,16 @@
     "title": "Test page",
     "description": "This is Codex Software landing page"
   },
+  "welcome": {
+    "title": [
+      "Digital solutions",
+      "to improve production and distribution",
+      " of print products."
+    ],
+    "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+    "background": "welcome-background.png",
+    "button": "Discuss Your Requirements"
+  },
   "squareTimeline": {
     "title": "Our Process",
     "items": [

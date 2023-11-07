@@ -1,5 +1,8 @@
 <template>
-  <section class="welcome">
+  <section
+    class="welcome"
+    :class="{ 'welcome--reversed': imageToLeft }"
+  >
     <div class="welcome__section">
       <h1 class="heading-2 welcome__title">
         <span v-for="titleLine in data.title">
@@ -8,7 +11,7 @@
       </h1>
       <p
         v-if="data.subtitle"
-        class="welcome__subtitle"
+        class="text-default welcome__subtitle"
       >
         {{ data.subtitle }}
       </p>

@@ -1,4 +1,8 @@
 <template>
+  <Welcome
+    :data="testContent.welcome"
+    imageToLeft
+  />
   <SectionTitle position="center">Article with image and list: image right, button outline</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
