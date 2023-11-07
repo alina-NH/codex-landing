@@ -4,7 +4,7 @@
     :class="{ 'text-boxes--filtered': filterMode }"
   >
     <SectionTitle
-      v-if="hasTitle"
+      v-if="data.title"
       :position="titlePosition"
     >
       {{ data.title }}
@@ -27,13 +27,11 @@ const {
   data,
   titlePosition,
   withIcon,
-  hasTitle,
   filterMode
 } = defineProps<{
   data: TextBoxes,
   titlePosition?: keyof typeof SectionTitlePosition,
   withIcon?: boolean,
-  hasTitle?: boolean,
   filterMode?: boolean,
 }>();
 </script>

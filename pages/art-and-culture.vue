@@ -13,18 +13,18 @@
     withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="artContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="artContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm :data="artContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="artContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

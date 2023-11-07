@@ -2,7 +2,6 @@
   <Welcome :data="casestudiesContent.welcome" />
 
   <TabbedContent
-    withTestimonial
     :data="casestudiesContent.tabsImageBox"
     component="ImageBox"
   />

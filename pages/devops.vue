@@ -2,12 +2,10 @@
   <Welcome :data="devopsContent.welcome" />
   <TextBoxes
     :data="devopsContent.textBoxes"
-    hasTitle
     titlePosition="left"
     withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="devopsContent.tabsIcons"
     component="IconBox"
@@ -16,9 +14,7 @@
 
   <ImageBoxes
     :data="devopsContent.mvpCases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
   <ContactForm
     type="extended"

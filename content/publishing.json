@@ -22,11 +22,9 @@
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
     "title": "Solutions",
     "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "We build custom software to enable, improve and revolutionize content creation and distribution.",
-    "button": "Discuss your Project"
+    "text": "We build custom software to enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
     "title": "Solutions",
