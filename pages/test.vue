@@ -128,6 +128,21 @@
     component="list"
     form-to-left
   />
+  <TextBoxes
+    :data="testContent.textBoxes"
+    titlePosition="left"
+    text-alignment="left"
+  />
+  <TextBoxes
+    :data="testContent.textBoxes"
+    titlePosition="left"
+    text-alignment="right"
+  />
+  <TextBoxes
+    :data="testContent.textBoxes"
+    titlePosition="left"
+    text-alignment="center"
+  />
 </template>
   
 
