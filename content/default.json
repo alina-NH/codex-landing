@@ -123,6 +123,23 @@
       "Custom software development.",
       "IT outstaffing. Consulting."
     ],
+    "icons": [
+      {
+        "href": "facebook.svg",
+        "link": "#",
+        "alt": "facebook"
+      },
+      {
+        "href": "linkedin.svg",
+        "link": "#",
+        "alt": "linkedin"
+      },
+      {
+        "href": "instagram.svg",
+        "link": "#",
+        "alt": "instagram"
+      }
+    ],
     "nav": [
       {
         "name": "Services",

@@ -88,9 +88,16 @@ export interface Header {
   button: string,
 };
 
+export interface FooterIcon {
+  href: string,
+  link: string,
+  alt: string,
+}
+
 export interface Footer {
   logo: ImageData,
   description: string[],
+  icons: FooterIcon[],
   nav: {
     name: string,
     external: boolean,

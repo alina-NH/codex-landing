@@ -14,6 +14,17 @@
             {{ text }}
           </span>
         </p>
+        <div class="footer-icons">
+          <a
+            v-for="icon in footer.icons"
+            :href="icon.link"
+          >
+            <img
+              :src="useImages(icon.href)"
+              :alt="icon.alt"
+            />
+          </a>
+        </div>
       </div>
       <nav class="footer-nav">
         <ul
