@@ -5,6 +5,10 @@
   justify-content: center;
   align-items: center;
 
+  &--reversed {
+    flex-direction: row-reverse;
+  }
+
   &--simplified {
     padding: 0 10vw;
     justify-content: space-between;

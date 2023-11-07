@@ -77,6 +77,7 @@
   <section
     v-else
     class="contact-form contact-form--simplified"
+    :class="{ 'contact-form--reversed': formToLeft }"
   >
     <ImageArticle
       :data="(data.imageArticle as ImageArticle)"
@@ -126,13 +127,22 @@
 <script setup lang="ts">
 import Button from '../Button/Button.vue';
 
-const { data } = defineProps<{
+const {
+  data,
+  type,
+  component,
+  textAlignment,
+  articleAlignment,
+  titleSize,
+  formToLeft,
+} = defineProps<{
   data: ContactForm,
   type: keyof typeof ContactFormType,
   component?: keyof typeof ImageArticleComponent,
   textAlignment?: keyof typeof Alignment,
   articleAlignment?: keyof typeof Alignment,
   titleSize?: keyof typeof TitleSize,
+  formToLeft?: boolean,
 }>();
 </script>
 

@@ -122,6 +122,12 @@
   />
   <SectionTitle position="center">Vertical space 10vh</SectionTitle>
   <VerticalSpace height="20vh" />
+  <ContactForm
+    type="simplified"
+    :data="testContent.contactFormSimplified"
+    component="list"
+    form-to-left
+  />
 </template>
   
 
