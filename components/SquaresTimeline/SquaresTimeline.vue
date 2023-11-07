@@ -1,7 +1,7 @@
 <template>
   <section class="squares-timeline">
     <SectionTitle
-      v-if="data.title"
+      v-if="data?.title"
       :position="titlePosition"
     >
       {{ data.title }}
