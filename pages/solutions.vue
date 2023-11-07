@@ -1,12 +1,12 @@
 <template>
-<ImageBoxes
+<!-- <ImageBoxes
   :data="solutionsContent.imageBoxesSolutions"
 />
 <ImageArticle
   :data="solutionsContent.articleAboutServices"
   buttonStyle="outline"
   imageToLeft
-/>
+/> -->
 </template>
 
 <script setup lang="ts">

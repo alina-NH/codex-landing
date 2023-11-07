@@ -13,18 +13,18 @@
     withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="prconfContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="prconfContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm :data="prconfContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="prconfContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

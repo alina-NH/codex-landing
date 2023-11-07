@@ -8,10 +8,10 @@
       'image-article--center': articleAlignment === Alignment.center,
       'image-article--filtered': filterMode,
     }"
-    :style="{ 'color': data.colors?.text }"
+    :style="{ 'color': data?.colors?.text }"
   >
     <img
-      v-if="hasImage && data.image"
+      v-if="data?.image"
       :src="useImages(data.image)"
       role="background"
       class="image-article__background"
@@ -31,12 +31,12 @@
         'image-article__title--large': titleSize === TitleSize.large,
       }"
       >
-        {{ data.title }}
+        {{ data?.title }}
       </h3>
       <p
-        v-if="hasSubtitle"
+        v-if="data?.subtitle"
         class="text-default-bold image-article__subtitle"
-        :style="{ 'color': data.colors?.subtitle }"
+        :style="{ 'color': data?.colors?.subtitle }"
       >
         {{ data.subtitle }}
       </p>
@@ -55,9 +55,9 @@
         {{ data.text }}
       </p>
       <div
-        v-if="hasBottomText && data.bottomText"
+        v-if="data?.bottomText"
         class="image-article__bottom-text"
-        :style="{ 'color': data.colors?.bottomText }"
+        :style="{ 'color': data?.colors?.bottomText }"
       >
         <img
           v-if="data.bottomText.icon"
@@ -69,7 +69,7 @@
         </span>
       </div>
       <Button
-        v-if="hasButton"
+        v-if="data?.button"
         :style="buttonStyle || ButtonStyle.fill"
         class="image-article__button"
         :class="{
@@ -92,26 +92,18 @@ const {
   data,
   buttonStyle,
   imageToRight,
-  hasButton,
-  hasSubtitle,
-  hasImage,
   textAlignment,
   buttonAlignment,
   titleSize,
-  hasBottomText,
 } = defineProps<{
   data: ImageArticle,
   buttonStyle?: keyof typeof ButtonStyle,
   imageToRight?: boolean,
   component: keyof typeof ImageArticleComponent,
-  hasButton?: boolean,
-  hasSubtitle?: boolean,
-  hasImage?: boolean,
   textAlignment?: keyof typeof Alignment,
   articleAlignment?: keyof typeof Alignment,
   buttonAlignment?: keyof typeof FlexAlignment,
   titleSize?: keyof typeof TitleSize,
-  hasBottomText?: boolean,
   filterMode?: boolean,
 }>();
 </script>

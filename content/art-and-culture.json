@@ -22,11 +22,9 @@
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
     "title": "Solutions",
     "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "We create custom software solutions for museums, expositions, archives and libraries.",
-    "button": "Discuss your Project"
+    "text": "We create custom software solutions for museums, expositions, archives and libraries."
   },
   "textBoxes": {
     "title": "Solutions",

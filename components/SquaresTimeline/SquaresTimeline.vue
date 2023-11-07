@@ -1,7 +1,7 @@
 <template>
   <section class="squares-timeline">
     <SectionTitle
-      v-if="hasTitle"
+      v-if="data.title"
       :position="titlePosition"
     >
       {{ data.title }}
@@ -17,12 +17,9 @@
           :data="(item as ImageArticle)"
           :buttonStyle="ButtonStyle.fill"
           :component="ImageArticleComponent.text"
-          :hasButton="!!(item as ImageArticle)?.button"
-          :hasSubtitle="!!(item as ImageArticle)?.subtitle"
           :textAlignment="Alignment.left"
           :buttonAlignment="FlexAlignment.left"
           :titleSize="TitleSize.large"
-          :hasBottomText="!!(item as ImageArticle)?.bottomText"
           filterMode
         />
         <List
@@ -37,11 +34,9 @@
 <script setup lang="ts">
 const {
   data,
-  hasTitle,
   titlePosition,
 } = defineProps<{
   data: SquaresTimeline,
-  hasTitle?: boolean,
   titlePosition?: keyof typeof SectionTitlePosition
 }>();
 </script>
