@@ -24,7 +24,10 @@
     titlePosition="left"
     withTestimonial
   />
-  <ContactForm :data="printingContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="printingContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

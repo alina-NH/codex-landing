@@ -7,7 +7,10 @@
     component="ImageBox"
   />
 
-  <ContactForm :data="casestudiesContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="casestudiesContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

@@ -191,3 +191,25 @@ export enum SquaresTimelineType {
   list = 'list',
   text = 'text',
 }
+
+export enum ContactFormType {
+  extended = 'extended',
+  simplified = 'simplified',
+}
+
+export interface ContactFormInput {
+  label: string,
+  placeholder: string,
+  required: boolean,
+};
+
+export interface ContactForm {
+  title: string,
+  nameInput: ContactFormInput,
+  companyInput?: ContactFormInput,
+  emailInput: ContactFormInput,
+  phoneInput?: ContactFormInput,
+  messageInput?: ContactFormInput,
+  button: string,
+  imageArticle?: ImageArticle,
+};
