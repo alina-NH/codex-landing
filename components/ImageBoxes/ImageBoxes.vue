@@ -4,19 +4,18 @@
     :class="{ 'image-boxes--filtered': filterMode }"
   >
     <SectionTitle
-      v-if="hasTitle"
+      v-if="data.title"
       :position="titlePosition"
     >
       {{ data.title }}
     </SectionTitle>
     <div
       class="image-boxes__body"
-      :class="{ 'image-boxes__body--short': !withTestimonial }"
+      :class="{ 'image-boxes__body--short': !data.imageBoxes[0].testimonial }"
     >
       <ImageBox
         v-for="imageBoxData in data.imageBoxes"
         :data="imageBoxData"
-        :withTestimonial="withTestimonial"
       />
     </div>
   </section>
@@ -25,13 +24,9 @@
 <script setup lang="ts">
 const {
   data,
-  withTestimonial,
-  hasTitle,
   titlePosition,
 } = defineProps<{
   data: ImageBoxes,
-  withTestimonial?: boolean,
-  hasTitle?: boolean,
   titlePosition?: keyof typeof SectionTitlePosition,
   filterMode?: boolean,
 }>();

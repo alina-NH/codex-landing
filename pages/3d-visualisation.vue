@@ -9,22 +9,21 @@
   />
   <TextBoxes
     :data="dvisContent.textBoxes"
-    titlePosition="left"
-    withIcon
+    titlePosition="left"    
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="dvisContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="dvisContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm type="extended" :data="dvisContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="dvisContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

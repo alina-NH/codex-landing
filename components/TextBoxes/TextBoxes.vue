@@ -4,19 +4,18 @@
     :class="{ 'text-boxes--filtered': filterMode }"
   >
     <SectionTitle
-      v-if="hasTitle"
+      v-if="data.title"
       :position="titlePosition"
     >
       {{ data.title }}
     </SectionTitle>
     <div
       class="text-boxes__body"
-      :class="{ 'text-boxes__body--short': !withIcon }"
+      :class="{ 'text-boxes__body--short': !data.textBoxes[0].icon }"
     >
       <TextBox
         v-for="textBoxData in data.textBoxes"
         :data="textBoxData"
-        :withIcon="withIcon"
       />
     </div>
   </section>
@@ -26,14 +25,10 @@
 const {
   data,
   titlePosition,
-  withIcon,
-  hasTitle,
   filterMode
 } = defineProps<{
   data: TextBoxes,
   titlePosition?: keyof typeof SectionTitlePosition,
-  withIcon?: boolean,
-  hasTitle?: boolean,
   filterMode?: boolean,
 }>();
 </script>

@@ -10,21 +10,20 @@
   <TextBoxes
     :data="prconfContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="prconfContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="prconfContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm type="extended" :data="prconfContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="prconfContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

@@ -2,23 +2,18 @@
   <Welcome :data="beContent.welcome" />
   <TextBoxes
     :data="beContent.textBoxes"
-    hasTitle
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="beContent.tabsIcons"
     component="IconBox"
   />
-  <TextBoxes :data="beContent.textBoxes2" hasTitle titlePosition="left" />
+  <TextBoxes :data="beContent.textBoxes2" titlePosition="left" />
 
   <ImageBoxes
     :data="beContent.mvpCases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
   <ContactForm
     type="extended"

@@ -10,19 +10,15 @@
   <TextBoxes
     :data="printingContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="printingContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="printingContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
   <ContactForm
     type="extended"

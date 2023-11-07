@@ -22,11 +22,9 @@
       "button": "Request Development"
     },
     "articleWithImageAndText": {
-      "image": "article-image.png",
       "title": "Services",
       "subtitle": "Get a working solution to validate your idea, affordably.",
-      "text": "We are a team of experienced software developers who can help you reduce costs, boost staff efficiency, improve interoperability, and revitalise your healthcare organisation.",
-      "button": "Discuss your Project"
+      "text": "We are a team of experienced software developers who can help you reduce costs, boost staff efficiency, improve interoperability, and revitalise your healthcare organisation."
     },
     "textBoxes": {
       "title": "Solutions",

@@ -22,11 +22,9 @@
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
     "title": "Solutions",
     "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "We create software solutions to automate single repetitive operations, processes and complete workflows, helping businesses boost productivity and cut costs.",
-    "button": "Discuss your Project"
+    "text": "We create software solutions to automate single repetitive operations, processes and complete workflows, helping businesses boost productivity and cut costs."
   },
   "textBoxes": {
     "title": "Solutions",

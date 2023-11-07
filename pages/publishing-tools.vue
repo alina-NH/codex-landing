@@ -10,21 +10,20 @@
   <TextBoxes
     :data="pubtContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="pubtContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="pubtContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm type="extended" :data="pubtContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="pubtContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">

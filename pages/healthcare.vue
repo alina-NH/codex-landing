@@ -12,7 +12,6 @@
       titlePosition="left"
     />
     <TabbedContent
-      hasTitle
       titlePosition="left"
       :data="healthcareContent.tabsIcons"
       component="IconBox"
@@ -31,11 +30,12 @@
 
     <ImageBoxes
       :data="healthcareContent.Cases"
-      hasTitle
       titlePosition="left"
-      withTestimonial
     />
-    <ContactForm type="extended" :data="healthcareContent.contactForm" />
+    <ContactForm
+      type="extended"
+      :data="healthcareContent.contactForm"
+    />
   </template>
   
   <script setup lang="ts">

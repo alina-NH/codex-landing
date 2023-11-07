@@ -10,21 +10,20 @@
   <TextBoxes
     :data="apiintContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
-    hasTitle
     titlePosition="left"
     :data="apiintContent.tabsIcons"
     component="IconBox"
   />
   <ImageBoxes
     :data="apiintContent.Cases"
-    hasTitle
     titlePosition="left"
-    withTestimonial
   />
-  <ContactForm type="extended" :data="apiintContent.contactForm" />
+  <ContactForm
+    type="extended"
+    :data="apiintContent.contactForm"
+  />
 </template>
 
 <script setup lang="ts">
