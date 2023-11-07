@@ -98,7 +98,7 @@
   <List :data="testContent.list" />
   <SquaresTimeline
     :data="testContent.squareTimeline"
-    titlePosition="center"
+    titlePosition="left"
   />
   <SectionTitle position="center">Contact form extended</SectionTitle>
   <ContactForm

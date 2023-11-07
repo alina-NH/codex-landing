@@ -3,6 +3,7 @@
     <SectionTitle
       v-if="data?.title"
       :position="titlePosition"
+      class="squares-timeline__title"
     >
       {{ data.title }}
     </SectionTitle>

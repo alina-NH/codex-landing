@@ -3,6 +3,11 @@
   flex-direction: column;
   margin: 10vh 0;
 
+  &__title {
+    width: calc(100% - 20vw);
+    padding: 0 10vw 5vh 10vw;
+  }
+
   &__body {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
