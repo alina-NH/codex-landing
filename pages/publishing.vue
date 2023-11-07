@@ -10,7 +10,6 @@
   <TextBoxes
     :data="pubContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"

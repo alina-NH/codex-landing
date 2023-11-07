@@ -1,7 +1,7 @@
 <template>
   <div class="textbox">
     <img
-      v-if="withIcon"
+      v-if="data.icon"
       :src="useImages(data.icon)"
       :alt="data.title"
       class="textbox__icon"
@@ -21,10 +21,8 @@
 <script setup lang="ts">
 const {
   data,
-  withIcon
 } = defineProps<{
   data: TextBox,
-  withIcon?: boolean,
 }>();
 </script>
 

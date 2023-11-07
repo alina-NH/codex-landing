@@ -10,7 +10,6 @@
     <TextBoxes
       :data="healthcareContent.textBoxes"
       titlePosition="left"
-      withIcon
     />
     <TabbedContent
       titlePosition="left"

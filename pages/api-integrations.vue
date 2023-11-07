@@ -10,7 +10,6 @@
   <TextBoxes
     :data="apiintContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"

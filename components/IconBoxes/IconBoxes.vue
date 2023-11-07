@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 const { data } = defineProps<{
-  data: IconBoxes
+  data: IconBox[]
 }>();
 </script>
 

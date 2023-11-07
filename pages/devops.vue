@@ -3,7 +3,6 @@
   <TextBoxes
     :data="devopsContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"
