@@ -13,12 +13,14 @@ export enum SectionTitlePosition {
   left = "left",
 };
 
-export interface ImageBox {
+export type ImageBox = {
   background: string,
   title: string,
   description: string,
   author?: Person,
   testimonial?: string,
+  tabs?: string[],
+  link?: string,
 };
 
 export interface ImageBoxes {
@@ -39,25 +41,24 @@ export enum TabsComponent {
 };
 
 export interface TabbedContent {
-  title: string,
+  title?: string,
   tabs: string[],
-  tabsContent: ((IconBox | TextBox | ImageBox) & { tabs: string[] })[],
+  tabsContent: (ImageBox | IconBox | TextBox)[],
 };
 
-export interface IconBox {
+export type IconBox = {
   icon: string,
   alt: string,
+  tabs?: string[],
+  link?: string,
 };
 
-export interface IconBoxes {
-  icons: IconBox[]
-}
-
-export interface TextBox {
+export type TextBox = {
   title: string,
   subtitle: string,
   text: string,
   icon?: string,
+  tabs?: string[]
 }
 
 export interface TextBoxes {
@@ -87,17 +88,23 @@ export interface Header {
   button: string,
 };
 
+export interface FooterIcon {
+  href: string,
+  link: string,
+  alt: string,
+}
+
 export interface Footer {
   logo: ImageData,
   description: string[],
+  icons: FooterIcon[],
   nav: {
     name: string,
     external: boolean,
-    link: string,
     subnav?: NavLink[]
   }[],
   trademark: string[],
-}
+};
 export interface DefaultContent {
   header: Header,
   footer: Footer,
@@ -138,7 +145,7 @@ export enum ImageArticleComponent {
   text = 'text',
 };
 
-export interface ImageArticle {
+export type ImageArticle = {
   title: string,
   subtitle?: string,
   list?: string[],
@@ -149,7 +156,7 @@ export interface ImageArticle {
     icon?: string,
     text: string,
   },
-  type?: SquaresTimelineType,
+  type?: string,
   colors?: {
     background?: string,
     subtitle?: string,
@@ -182,20 +189,20 @@ export interface ListItem {
   icon: string,
 };
 
-export interface List {
+export type List = {
   list: ListItem[],
-  type?: keyof typeof SquaresTimelineType,
+  type: string,
 };
 
 export enum SquaresTimelineType {
   list = 'list',
   text = 'text',
-}
+};
 
 export enum ContactFormType {
   extended = 'extended',
   simplified = 'simplified',
-}
+};
 
 export interface ContactFormInput {
   label: string,
@@ -212,4 +219,11 @@ export interface ContactForm {
   messageInput?: ContactFormInput,
   button: string,
   imageArticle?: ImageArticle,
+};
+
+export interface Welcome {
+  title: string[],
+  button: string,
+  background: string,
+  subtitle?: string,
 };

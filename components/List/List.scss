@@ -24,5 +24,9 @@
       display: inline-block;
       margin-bottom: 12px;
     }
+
+    &:last-child &__body {
+      border-bottom: unset;
+    }
   }
 }

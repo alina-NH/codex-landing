@@ -1,7 +1,7 @@
 <template>
   <div class="textbox">
     <img
-      v-if="data.icon"
+      v-if="data?.icon"
       :src="useImages(data.icon)"
       :alt="data.title"
       class="textbox__icon"

@@ -11,7 +11,7 @@
     </SectionTitle>
     <div
       class="text-boxes__body"
-      :class="{ 'text-boxes__body--short': !data.textBoxes[0].icon }"
+      :class="{ 'text-boxes__body--short': !data.textBoxes[0]?.icon }"
     >
       <TextBox
         v-for="textBoxData in data.textBoxes"

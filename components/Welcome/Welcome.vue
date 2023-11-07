@@ -1,11 +1,20 @@
 <template>
-  <section class="welcome">
+  <section
+    class="welcome"
+    :class="{ 'welcome--reversed': imageToLeft }"
+  >
     <div class="welcome__section">
       <h1 class="heading-2 welcome__title">
         <span v-for="titleLine in data.title">
           {{ titleLine }}
         </span>
       </h1>
+      <p
+        v-if="data.subtitle"
+        class="text-default welcome__subtitle"
+      >
+        {{ data.subtitle }}
+      </p>
       <Button :size="ButtonSize.large" :style="ButtonStyle.fill">
         {{ data.button }}
       </Button>
@@ -25,7 +34,8 @@ import Button from "../Button/Button.vue";
 import { ButtonSize, ButtonStyle } from "../../types/default";
 
 const { data } = defineProps<{
-  data: object;
+  data: Welcome,
+  imageToLeft?: boolean,
 }>();
 </script>
 

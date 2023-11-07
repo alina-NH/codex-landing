@@ -71,11 +71,7 @@
   }
 
   &-nav__item-link, &-nav__item-link::after, &-subnav, &-subnav__item-link {
-    -webkit-transition: all $default-transition;
-    -moz-transition: all $default-transition;
-    -ms-transition: all $default-transition;
-    -o-transition: all $default-transition;
-    transition: all $default-transition;
+    @include base-transition;
   }
 
   &-nav &-nav__item:hover &-nav__item-link {

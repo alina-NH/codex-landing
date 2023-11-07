@@ -1,18 +1,6 @@
 <template>
-  <ImageArticle
-    :data="hireDevelopersContent.articleWithImage"
-    buttonStyle="fill"
-  />
-  <ImageArticle
-    :data="hireDevelopersContent.anotherArticleWithImage"
-    buttonStyle="outline"
-    imageToRight
-  />
   <ImageBoxes
     :data="hireDevelopersContent.mvpCases"
-  />
-  <ImageBoxes
-    :data="hireDevelopersContent.anotherMVPCases"
   />
 </template>
 

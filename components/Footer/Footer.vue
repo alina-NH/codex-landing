@@ -14,6 +14,17 @@
             {{ text }}
           </span>
         </p>
+        <div class="footer-icons">
+          <a
+            v-for="icon in footer.icons"
+            :href="icon.link"
+          >
+            <img
+              :src="useImages(icon.href)"
+              :alt="icon.alt"
+            />
+          </a>
+        </div>
       </div>
       <nav class="footer-nav">
         <ul
@@ -21,7 +32,7 @@
           class="footer-nav__section"
         >
           <li class="text-default footer-nav__title">
-            <NavLink :data="nav" />
+            {{ nav.name }}
           </li>
           <ul class="text-small footer-nav__subnav">
             <li v-for="subnav in nav.subnav">

@@ -1,4 +1,8 @@
 <template>
+  <Welcome
+    :data="testContent.welcome"
+    imageToLeft
+  />
   <SectionTitle position="center">Article with image and list: image right, button outline</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
@@ -94,7 +98,7 @@
   <List :data="testContent.list" />
   <SquaresTimeline
     :data="testContent.squareTimeline"
-    titlePosition="center"
+    titlePosition="left"
   />
   <SectionTitle position="center">Contact form extended</SectionTitle>
   <ContactForm
@@ -106,6 +110,23 @@
     type="simplified"
     :data="testContent.contactFormSimplified"
     component="list"    
+  />
+  <ImageBoxes
+    :data="testContent.cases"
+    titlePosition="left"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsIcons"
+    component="IconBox"
+  />
+  <SectionTitle position="center">Vertical space 10vh</SectionTitle>
+  <VerticalSpace height="20vh" />
+  <ContactForm
+    type="simplified"
+    :data="testContent.contactFormSimplified"
+    component="list"
+    form-to-left
   />
 </template>
   
