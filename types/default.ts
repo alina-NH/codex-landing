@@ -100,7 +100,6 @@ export interface Footer {
   icons: FooterIcon[],
   nav: {
     name: string,
-    external: boolean,
     subnav?: NavLink[]
   }[],
   trademark: string[],
