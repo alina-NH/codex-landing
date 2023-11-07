@@ -6,6 +6,18 @@
   box-shadow: 0px 0px 20px 0px rgba(24, 25, 31, 0.10);
   background-color: $white-color;
 
+  &--left {
+    text-align: left;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
   &__icon {
     width: 48px;
     height: 48px;
@@ -14,7 +26,6 @@
 
   &__title {
     margin-bottom: 12px;
-
   }
 
   &__subtitle {

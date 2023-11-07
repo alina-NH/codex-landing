@@ -43,23 +43,19 @@
         "list": [
           {
             "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
           },
           {
             "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
           },
           {
             "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
           },
           {
             "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
+            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
           }
         ]
       },
@@ -298,5 +294,39 @@
         "tabs": ["Programming Languages"]
       }
     ]
+  },
+  "textBoxes": {
+    "title": "Services",
+    "textBoxes": [
+      {
+        "title": "Developers for Hire",
+        "subtitle": "Get a working solution to validate your idea, affordably.",
+        "text": "Get back-end developers for your project or get a full-service team."
+      },
+      {
+        "title": "Product development",
+        "subtitle": "Get a working solution to validate your idea, affordably.",
+        "text": "Use our back-end engineers to develop your software project."
+      },
+      {
+        "title": "Software Modernisation",
+        "subtitle": "Get a working solution to validate your idea, affordably.",
+        "text": "Re-architect, re-build or migrate legacy software to modern technologies."
+      }
+    ]
+  },
+  "welcomeWithColors": {
+    "title": [
+      "Digital solutions",
+      "to improve production and distribution",
+      " of print products."
+    ],
+    "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+    "background": "welcome-background.png",
+    "button": "Discuss Your Requirements",
+    "colors": {
+      "title": "tomato",
+      "subtitle": "green"
+    }
   }
 }

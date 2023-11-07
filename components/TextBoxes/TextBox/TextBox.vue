@@ -1,5 +1,12 @@
 <template>
-  <div class="textbox">
+  <div
+    class="textbox"
+    :class="{
+      'textbox--left': textAlignment === Alignment.left,
+      'textbox--right': textAlignment === Alignment.right,
+      'textbox--center': textAlignment === Alignment.center,
+    }"
+  >
     <img
       v-if="data?.icon"
       :src="useImages(data.icon)"
@@ -21,8 +28,10 @@
 <script setup lang="ts">
 const {
   data,
+  textAlignment,
 } = defineProps<{
   data: TextBox,
+  textAlignment?: keyof typeof Alignment,
 }>();
 </script>
 
