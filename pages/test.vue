@@ -120,6 +120,8 @@
     :data="testContent.tabsIcons"
     component="IconBox"
   />
+  <SectionTitle position="center">Vertical space 10vh</SectionTitle>
+  <VerticalSpace height="20vh" />
 </template>
   
 
