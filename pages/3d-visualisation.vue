@@ -9,8 +9,7 @@
   />
   <TextBoxes
     :data="dvisContent.textBoxes"
-    titlePosition="left"
-    withIcon
+    titlePosition="left"    
   />
   <TabbedContent
     titlePosition="left"

@@ -19,7 +19,7 @@
     <div class="tabbed-content-body">
       <IconBoxes
         v-if="component === TabsComponent.IconBox"
-        :data="(content as unknown as IconBoxes)"
+        :data="(content as unknown as IconBox[])"
       />
       <ImageBoxes
         v-if="component === TabsComponent.ImageBox"
@@ -29,7 +29,6 @@
       <TextBoxes
         v-if="component === TabsComponent.TextBox"
         :data="({ textBoxes: content } as unknown as TextBoxes)"
-        :withIcon="withIcon"
         filterMode
       />
     </div>
@@ -41,12 +40,10 @@ const {
   data,
   titlePosition,
   component,
-  withIcon
 } = defineProps<{
   data: TabbedContent,
   titlePosition?: keyof typeof SectionTitlePosition,
   component: keyof typeof TabsComponent,
-  withIcon?: boolean,
 }>();
 
 const activeTab = ref(data.tabs[0]);

@@ -10,7 +10,6 @@
   <TextBoxes
     :data="repdataContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"

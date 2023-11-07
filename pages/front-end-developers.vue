@@ -3,7 +3,6 @@
   <TextBoxes
     :data="feContent.textBoxes"
     titlePosition="left"
-    withIcon
   />
   <TabbedContent
     titlePosition="left"
