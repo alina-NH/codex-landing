@@ -1,0 +1,280 @@
+{
+    "colors": {
+      "primary": "#2BD3D4",
+      "hover": "#2551C2",
+      "black": "#18191F",
+      "darkgrey": "#454545",
+      "lightgrey": "#C0C0C0",
+      "secondary": "#16181B",
+      "white": "#FFFFFF"
+    },
+    "meta": {
+      "title": "Custom Software Solutions for Startups",
+      "description": "This is Codex Software landing page"
+    },
+    "welcome": {
+      "title": [
+        "We help Software Startups",
+        "Plan, Build and Evolve",
+        "Software Solutions."
+      ],
+      "subtitle": "Refine your idea. Create a killer MVP. Scale or pivot your product.",
+      "background": "laptop.png",
+      "button": "Start Now",
+      "colors": {
+        "title": "white",
+        "subtitle": "#C0C0C0"
+      }
+    },
+    "articleWithImageAndText": {
+      "title": "How We Work",
+      "subtitle": "",
+      "text": "Explore our Lean startup approach to software product development"
+    },
+    "articleWithImageAndText2": {
+        "image": "how-we-work-2.gif",
+        "title": "Analysis and Prototyping",
+        "subtitle": "Evaluate and refine your idea",
+        "list": [
+            "Share the idea and proceed through a series of interviews to evaluate and refine it, set goals, define and document the scope of work.",
+            "Learn how to get your product to market at the optimal price, speed, and quality.",
+            "Receive a clickable Prototype and a Product Brief with timeline & costs to develop an MVP."
+          ],
+        "button": ""
+      },
+      "articleWithImageAndText3": {
+        "image": "how-we-work-3.gif",
+        "title": "MVP Development",
+        "subtitle": "Validate your idea, affordably.",
+        "list": [
+            "Get your Minimum Viable Product designed, developed and tested.",
+            "Evaluate market fit and traction, gather feedback from real users.",
+            "Gather insights for further evolution of your software product"
+          ],
+        "button": ""
+      },
+      "articleWithImageAndText4": {
+        "image": "how-we-work-2.gif",
+        "title": "Product Evolution",
+        "subtitle": "Grow, Scale or Pivot your Software",
+        "list": [
+            "Hire a development team to deal with infrastructure setup, design, software development, and QA.",
+            "Get help in  Product Roadmap development and Agile delivery process setup.",
+            "Monitor development progress easily via regular meetings and day-to-day direct contact with the team."
+          ],
+        "button": ""
+      },
+      "CasesMVP": {
+        "title": "Recent MVP Projects",
+        "imageBoxes": [
+
+            {
+                "background": "Orgafly.png",
+                "title": "Orgafly",
+                "description": "Orgafly is a print-on-demand software platform designed to optimize the workflow of event organizers, providing the means to distribute and print high-quality and personalized tickets. We developed the product, set up and maintained the infrastructure, and ensured product quality."
+              },             
+              {
+                "background": "Customis3D.png",
+                "title": "Customis3D",
+                "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
+              },
+          {
+            "background": "auditangel.png",
+            "title": "Audit Angel",
+            "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
+                  }          
+        ]
+      },
+        "squareTimeline": {
+        "title": "Start working with us. It's easy!",
+        "items": [
+          {
+            "type": "text",
+            "title": "Plan & Prototype",
+            "subtitle": "All you need is an idea",
+            "text": "Share your thoughts with us, and we'll take care of everything needed to turn them into a viable plan for a real product.",
+            "bottomText": {
+              "icon": "tag-outline.svg",
+              "text": "Up to 5K GBP"
+            },
+            "colors": {
+              "background": "#DCFAFA"
+            }
+          },
+          {
+            "type": "list",
+            "list": [
+              {
+                "title": "Polish the idea",
+                "text": "We will help you find the most valuable features and scenarios to create an MVP and test the market",
+                "icon": "bulbsp.svg"
+              },
+              {
+                "title": "Get project documentation",
+                "text": "We will create all kinds of software development documentation to ensure successful delivery of a project",
+                "icon": "documentsp.svg"
+              },
+              {
+                "title": "Receive the Estimates",
+                "text": "We will provide reliable cost & timeframe assessments for MVP development",
+                "icon": "starsp.svg"
+              },
+              {
+                "title": "Get Tech Consulting",
+                "text": "We will help you pick appropriate technologies, assess tech risks and limitations, and assemble a development team",
+                "icon": "chatsp.svg"
+              },
+              {
+                "title": "Create a Prototype",
+                "text": "We will design and develop a clickable prototype for you to demonstrate to early implementers or investors",
+                "icon": "dimensionssp.svg"
+              }
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Develop an MVP",
+            "subtitle": "From the idea to market in under 3 months",
+            "text": "Bring your specifications or raw ideas, and get a Minimum Viable Product (MVP) in less than 3 months",
+            "bottomText": {
+              "icon": "tag-outline.svg",
+              "text": "12-20K GBP"
+            },
+            "colors": {
+              "background": "#DCDDE3"
+            }
+          },
+          {
+            "type": "list",
+            "list": [
+              {
+                "title": "Refine your idea",
+                "text": "We will help you identify the most valuable features and scenarios to develop an MVP affordably & fast",
+                "icon": "bulbsp.svg"
+              },
+              {
+                "title": "Create a Prototype",
+                "text": "We will design and develop a prototype to showcase the product as early as possible, and gather feedback",
+                "icon": "dimensionssp.svg"
+              },
+              {
+                "title": "Get Tech Consulting",
+                "text": "We will identify any tech challenges that could impact MVP development and further product evolution",
+                "icon": "chatsp.svg"
+              },
+              {
+                "title": "Launch an MVP",
+                "text": "Receive end-to-end design, programming, and quality assurance services to release the product to the market",
+                "icon": "browsercodesp.svg"
+              }
+            ],
+            "colors": {
+                "background": "#DCDDE3"
+              }
+        },
+        {
+            "type": "text",
+            "title": "Evolve your product",
+            "subtitle": "Scale, pivot or enhance your software solution",
+            "text": "Get a managed development team to resolve the tech challenges of a growing product",
+            "button": "Let's talk",
+            "bottomText": {
+              "icon": "",
+              "text": ""
+            },
+            "colors": {
+              "background": "#F7E5C8"
+            }
+          },
+        {
+            "type": "list",
+            "list": [
+              {
+                "title": "Get an Audit",
+                "text": "Receive an assessment of the current state of the product, the perspectives, the risks and the budget for implementing the changes",
+                "icon": "chartlinesp.svg"
+              },
+              {
+                "title": "Develop a Roadmap",
+                "text": "We will create a detailed development roadmap based on your business goals",
+                "icon": "graphiclinesp.svg"
+              },
+              {
+                "title": "Set up Processes",
+                "text": "Embrace end-to-end Agile delivery practices in your sotware development project",
+                "icon": "settingssp.svg"
+              },
+              {
+                "title": "Develop your Software",
+                "text": "Receive a full-cycle managed team (including Business Analyst, Project Manager, UI/UX designer, developers, DevOps, and QA)",
+                "icon": "maccommandsp.svg"
+              },
+              {
+                "title": "Leverage Our Expertise",
+                "text": "Get on-demand tech leadership and consulting services to meet any tech challenges that may arise",
+                "icon": "chatsp.svg"
+              }
+            ]
+        }
+              
+        ]
+    },
+    
+    "Cases": {
+      "title": "Featured Startup Stories:",
+      "imageBoxes": [
+        {
+            "background": "cultureconnect.png",
+            "title": "CultureConnect",
+            "description": "Culture Connect is a software platform that helps art institutions build digital interactive experiences. Looking to power-up the development of the core product, they engaged with Codex and received an end-to-end team led by the head of development. This helped to implement numerous architectural and holistic product improvements, add new features, and led to a lucrative acquisition deal with Axiell in late 2019.",
+            "author": {
+              "avatar": "samantha.webp",
+              "name": "Samantha Diamond",
+              "position": "VP Product"
+            },
+            "testimonial": "“We have an ongoing relationship with Codex Software. They’re highly productive and efficient, working well together to quickly solve problems. I trust them and rate the quality of their work very highly.”"
+          },
+          {
+            "background": "pronoun.png",
+            "title": "Pronoun",
+            "description": "The NYC-based software startup Pronoun was building a self-publishing platform and turned to Codex Software looking for end-to-end software engineering and data science services. The collaboration helped Pronoun secure several rounds of investments, launch the product, and complete the acquisition deal with Macmillan Publishers in 2016.",
+            "author": {
+              "avatar": "ben.webp",
+              "name": "Ben Zhuk",
+              "position": "Founder, Head of Product"
+            },
+            "testimonial": "“Brilliant developers, you’ll hardly find any better. Happy to work with them any day. In fact, I am already working with them on my next startup.”"
+          }
+      ]
+    },
+    "contactForm": {
+      "title": "Contact Us",
+      "nameInput": {
+        "label": "Name",
+        "placeholder": "John",
+        "required": true
+      },
+      "companyInput": {
+        "label": "Company",
+        "placeholder": "e. g. Google",
+        "required": true
+      },
+      "emailInput": {
+        "label": "Email",
+        "placeholder": "john.doe@mail.com",
+        "required": true
+      },
+      "phoneInput": {
+        "label": "Phone (optional)",
+        "placeholder": "e. g. 999-999-9999",
+        "required": false
+      },
+      "messageInput": {
+        "label": "Message",
+        "placeholder": "Share your requirements, ask a question, or request a free consultation",
+        "required": false
+      },
+      "button": "Send Request"
+    }
+  }
+  
