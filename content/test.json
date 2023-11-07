@@ -245,5 +245,58 @@
         "Get interim technology leadership for your team"
       ]
     }
+  },
+  "cases": {
+    "title": "Featured Case Studies",
+    "imageBoxes": [
+      {
+        "link": "https://codex-soft.com",
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      }
+    ]
+  },
+  "tabsIcons": {
+    "title": "Technologies",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages"],
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
+      }
+    ]
   }
 }

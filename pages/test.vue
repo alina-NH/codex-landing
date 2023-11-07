@@ -111,6 +111,15 @@
     :data="testContent.contactFormSimplified"
     component="list"    
   />
+  <ImageBoxes
+    :data="testContent.cases"
+    titlePosition="left"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsIcons"
+    component="IconBox"
+  />
 </template>
   
 

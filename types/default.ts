@@ -20,6 +20,7 @@ export type ImageBox = {
   author?: Person,
   testimonial?: string,
   tabs?: string[],
+  link?: string,
 };
 
 export interface ImageBoxes {
@@ -48,7 +49,8 @@ export interface TabbedContent {
 export type IconBox = {
   icon: string,
   alt: string,
-  tabs?: string[]
+  tabs?: string[],
+  link?: string,
 };
 
 export type TextBox = {
