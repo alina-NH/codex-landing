@@ -325,7 +325,8 @@ JSON `IconBox`
   icon: string,
   alt: string,
   tabs?: string[], // only for TabbedComponent
-  link?: string
+  link?: string,
+  background?: string,
 }
 ```
 
