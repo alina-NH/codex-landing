@@ -51,6 +51,7 @@ export type IconBox = {
   alt: string,
   tabs?: string[],
   link?: string,
+  background?: string,
 };
 
 export type TextBox = {
