@@ -1,5 +1,3 @@
-import { IconBox } from "#build/components";
-
 export enum ButtonStyle {
   fill = 'fill',
   outline = 'outline',
@@ -68,12 +66,12 @@ export type TextBox = {
   subtitle: string,
   text: string,
   icon?: string,
-  tabs?: string[]
+  tabs?: string[],
 }
 
 export interface TextBoxes {
   title?: string,
-  textBoxes: TextBox[]
+  textBoxes: TextBox[],
 }
 
 export interface ImageData {
@@ -237,6 +235,6 @@ export interface Welcome {
   subtitle?: string,
   colors?: {
     title?: string,
-    subtitle?: string
+    subtitle?: string,
   }
 };
