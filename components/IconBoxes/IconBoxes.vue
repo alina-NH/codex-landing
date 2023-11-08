@@ -3,6 +3,7 @@
     <IconBox
       v-for="icon in data"
       :data="icon"
+      :background="background"
     />
   </div>
 </template>
@@ -10,8 +11,10 @@
 <script setup lang="ts">
 const {
   data,
+  background,
 } = defineProps<{
   data: IconBox[],
+  background?: string,
 }>();
 </script>
 

@@ -393,7 +393,9 @@ JSON `IconBox`
 
 ##### Props
 
-This component does not have any props.
+prop       | description     | value type | required
+---------- | --------------- | ---------- | --------
+background | icon background | string     | no
 
 ### IconBox
 
@@ -413,7 +415,9 @@ This component does not have any props.
 
 ##### Props
 
-This component does not have any props.
+prop       | description     | value type | required
+---------- | --------------- | ---------- | --------
+background | icon background | string     | no
 
 
 ### ImageBox

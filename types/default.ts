@@ -43,6 +43,7 @@ export enum TabsComponent {
 export interface TabbedContent {
   title?: string,
   tabs: string[],
+  background?: string,
   tabsContent: (ImageBox | IconBox | TextBox)[],
 };
 

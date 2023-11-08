@@ -281,19 +281,24 @@
       "DevOps",
       "Testing"
     ],
+    "background": "#DCEAFF",
     "tabsContent": [
       {
         "icon": "js.svg",
         "alt": "Javascript",
         "tabs": ["Programming Languages"],
-        "link": "https://codex-soft.com",
-        "background": "tomato"
+        "link": "https://codex-soft.com"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
         "tabs": ["Programming Languages"],
         "background": "tomato"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
       }
     ]
   },
