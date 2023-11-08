@@ -357,16 +357,18 @@ JSON `IconBox`
   alt: string,
   tabs?: string[], // only for TabbedComponent
   link?: string,
-  background?: string
+  background?: string,
+  title?: string,
 }
 ```
 
 ##### Props
 
-prop          | description        | value type                     | required
-------------- | ------------------ | ------------------------------ | --------
-background    | icon background    | string                         | no
-titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
+prop          | description                                    | value type                     | required
+------------- | ---------------------------------------------- | ------------------------------ | --------
+background    | icon background                                | string                         | no
+titlePosition | alignment of title                             | 'left' \| 'center' \| 'right'  | no
+iconToTop     | icon in top, title in bottom (only with title) | boolean                        | no
 
 ### SectionTitle
 
@@ -411,15 +413,17 @@ size  | change padding inside button 10/24 or 17/32 | 'small' \| 'large'  | no
   alt: string,
   tabs?: string[], // only for TabbedComponent
   link?: string,
-  background?: string
+  background?: string,
+  title?: string,
 }
 ```
 
 ##### Props
 
-prop       | description     | value type | required
----------- | --------------- | ---------- | --------
-background | icon background | string     | no
+prop          | description                                    | value type                     | required
+------------- | ---------------------------------------------- | ------------------------------ | --------
+background    | icon background                                | string                         | no
+iconToTop     | icon in top, title in bottom (only with title) | boolean                        | no
 
 
 ### ImageBox

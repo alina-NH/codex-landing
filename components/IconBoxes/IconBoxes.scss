@@ -1,9 +1,17 @@
 .icon-boxes {
   margin: 10vh 10vw;
 
+  &--filtered {
+    margin: unset;
+  }
+
   &__body {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 20px;
+
+    &--titled {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
   }
 }
