@@ -1,0 +1,89 @@
+{
+    "colors": {
+      "primary": "#F75C19",
+      "hover": "#D7470A",
+      "black": "#18191F",
+      "darkgrey": "#454545",
+      "lightgrey": "#C0C0C0",
+      "secondary": "linear-gradient(103deg, #D053DB 0%, #EDDD64 100%)",
+      "white": "#FFFFFF"
+    },
+    "meta": {
+      "title": "Codex Software",
+      "description": "This is Codex Software landing page"
+    },
+    "welcome": {
+      "title": ["We are strategic technology partners", "to startups and enterprises."],
+      "background": "welcome-background.png",
+      "button": "Get Acquainted"
+    },
+    "articleWithImageAndText1": {
+        "title": "The story",
+        "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries.",
+        "button": ""
+      },
+      "tabsImageBox": {
+        "title": "Our Locations",
+        "tabs": [
+          "All Locations",
+          "Headquarters",
+          "Development Centers"
+        ],
+        "tabsContent": [
+          {
+            "background": "britain.png",
+            "tabs": ["All Locations", "Headquarters"],
+            "title": "Headquarters",
+            "description": "The Limes, Bayshill Road, Cheltenham, England, United Kingdom, GL50 3AW"
+            
+          },
+          {
+            "background": "lisbon.png",
+            "tabs": ["All Locations", "Development Centers"],
+            "title": "Lisbon, Portugal",
+            "description": "Av. D. João II Nº35, 11ºA 1990-083, Lisbon, Portugal"
+          },
+          {
+            "background": "ponta-delgada.png",
+            "tabs": ["All Locations", "Development Centers"],
+            "title": "Ponta-Delgada, Portugal",
+            "description": "Av. Dom João III, 33 9500-789 Ponta Delgada, Portugal"
+          },
+          {
+            "background": "warsaw.png",
+            "tabs": ["All Locations", "Development Centers"],
+            "title": "Warsaw, Poland",
+            "description": "Prosta 20/00-850, 00-850 Warsaw, Poland"
+          }
+        ]
+    },
+    "contactForm": {
+        "title": "Contact Us",
+        "nameInput": {
+          "label": "Name",
+          "placeholder": "John",
+          "required": true
+        },
+        "companyInput": {
+          "label": "Company",
+          "placeholder": "e. g. Google",
+          "required": true
+        },
+        "emailInput": {
+          "label": "Email",
+          "placeholder": "john.doe@mail.com",
+          "required": true
+        },
+        "phoneInput": {
+          "label": "Phone (optional)",
+          "placeholder": "e. g. 999-999-9999",
+          "required": false
+        },
+        "messageInput": {
+          "label": "Message",
+          "placeholder": "Share your requirements, ask a question, or request a free consultation",
+          "required": false
+        },
+        "button": "Send Request"
+      }
+}
