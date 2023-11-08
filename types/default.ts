@@ -18,7 +18,7 @@ export enum SectionTitlePosition {
 export type ImageBox = {
   background: string,
   title: string,
-  description: string,
+  description?: string,
   author?: Person,
   testimonial?: string,
   tabs?: string[],

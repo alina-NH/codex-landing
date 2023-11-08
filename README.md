@@ -313,7 +313,7 @@ JSON `ImageBox`
 {
   background: string,
   title: string,
-  description: string,
+  description?: string,
   author?: Person,
   testimonial?: string,
   tabs?: string[],
@@ -436,7 +436,7 @@ iconToTop     | icon in top, title in bottom (only with title) | boolean        
 {
   background: string,
   title: string,
-  description: string,
+  description?: string,
   author?: Person,
   testimonial?: string,
   tabs?: string[],
