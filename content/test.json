@@ -485,5 +485,30 @@
         "tabs": ["Programming Languages", "Frameworks"]
       }
     ]
+  },
+  "imageBoxesSmall": {
+    "title": "Image boxes without description and testimonial",
+    "imageBoxes": [
+      {
+        "background": "image-box-2.png",
+        "title": "OneFlow Systems",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "HP Inc",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "OneFlow Systems",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "HP Inc",
+        "link": "https://codex-soft.com"
+      }
+    ]
   }
 }

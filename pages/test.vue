@@ -168,6 +168,10 @@
     :data="testContent.tabsIconsWithTitle"
     component="IconBox"
   />
+  <ImageBoxes
+    :data="testContent.imageBoxesSmall"
+    titlePosition="center"
+  />
 </template>
   
 
