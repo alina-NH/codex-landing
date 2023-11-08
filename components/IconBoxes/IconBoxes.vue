@@ -8,8 +8,10 @@
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
-  data: IconBox[]
+const {
+  data,
+} = defineProps<{
+  data: IconBox[],
 }>();
 </script>
 

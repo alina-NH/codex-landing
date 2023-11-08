@@ -38,7 +38,7 @@ const {
   titlePosition,
 } = defineProps<{
   data: SquaresTimeline,
-  titlePosition?: keyof typeof SectionTitlePosition
+  titlePosition?: keyof typeof SectionTitlePosition,
 }>();
 </script>
 

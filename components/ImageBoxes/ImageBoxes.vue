@@ -25,6 +25,7 @@
 const {
   data,
   titlePosition,
+  filterMode,
 } = defineProps<{
   data: ImageBoxes,
   titlePosition?: keyof typeof SectionTitlePosition,
