@@ -510,5 +510,61 @@
         "link": "https://codex-soft.com"
       }
     ]
+  },
+  "tabbedWithTextBoxes": {
+    "title": "Icons with title",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "title": "HP Siteflow Connectors",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "",
+        "icon": "web-2-print.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "CRM API Integrations",
+        "subtitle": "Connect your software with any modern CRM",
+        "text": "",
+        "icon": "editor.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Office365 API Integrations",
+        "subtitle": "Create seamless connections between your software and Office",
+        "text": "",
+        "icon": "employee.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Logistics/3PL API Integrations",
+        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "text": "",
+        "icon": "wflow.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Project Management Platform Integrations",
+        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "text": "",
+        "icon": "hpint.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "eCommerce API Integrations",
+        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "text": "",
+        "icon": "pdataanalys.svg",
+        "tabs": ["Programming Languages", "Frameworks"]
+      }
+    ]
   }
 }
