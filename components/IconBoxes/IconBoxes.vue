@@ -1,15 +1,30 @@
 <template>
   <div class="icon-boxes">
-    <IconBox
-      v-for="icon in data"
-      :data="icon"
-    />
+    <SectionTitle
+      v-if="data.title"
+      :position="titlePosition"
+    >
+      {{ data.title }}
+    </SectionTitle>
+    <div class="icon-boxes__body">
+      <IconBox
+        v-for="iconBox in data.iconBoxes"
+        :data="iconBox"
+        :background="background"
+      />
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
-  data: IconBox[]
+const {
+  data,
+  titlePosition,
+  background,
+} = defineProps<{
+  data: IconBoxes,
+  titlePosition?: keyof typeof SectionTitlePosition,
+  background?: string,
 }>();
 </script>
 

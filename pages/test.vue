@@ -147,6 +147,15 @@
     :data="testContent.welcomeWithColors"
     imageToLeft
   />
+  <TabbedContent
+    titlePosition="center"
+    :data="testContent.tabsIcons"
+    icons-background="green"
+    component="IconBox"
+  />
+  <IconBoxes
+    :data="testContent.iconBoxes"
+  />
 </template>
   
 

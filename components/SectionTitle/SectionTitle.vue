@@ -11,8 +11,10 @@
 </template>
 
 <script setup lang="ts">
-const { position } = defineProps<{
-  position?: keyof typeof SectionTitlePosition
+const {
+  position,
+} = defineProps<{
+  position?: keyof typeof SectionTitlePosition,
 }>();
 </script>
 

@@ -12,7 +12,10 @@
 </template>
 
 <script setup lang="ts">
-const { style } = defineProps<{
+const {
+  style,
+  size,
+} = defineProps<{
   style: keyof typeof ButtonStyle,
   size?: keyof typeof ButtonSize,
 }>();

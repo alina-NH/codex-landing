@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 const {
-  data
+  data,
 } = defineProps<{
   data: ImageBox,
 }>();

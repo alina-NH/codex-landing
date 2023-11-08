@@ -3,7 +3,7 @@
     class="icon-box"
     :class="{ 'icon-box--link': data?.link }"
     :style="{
-      'background': data?.background,
+      'background': data?.background || background,
       'border-color': data?.background,
     }"
     @click="data?.link && openLink(data.link)"
@@ -17,8 +17,12 @@
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
+const {
+  data,
+  background,
+} = defineProps<{
   data: IconBox,
+  background?: string,
 }>();
 </script>
 

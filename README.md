@@ -82,6 +82,7 @@ Learn what components can be used to build pages.
 
 - [ContactForm](#contactform)
 - [ImageArticle](#imagearticle)
+- [IconBoxes](#iconboxes)
 - [ImageBoxes](#imageboxes)
 - [SectionTitle](#sectiontitle)
 
@@ -92,7 +93,6 @@ Learn what components can be used to build pages.
 
 #### Service components
 - [Button](#button)
-- [IconBoxes](#iconboxes)
 - [IconBox](#iconbox)
 - [ImageBox](#imagebox)
 - [List](#List)
@@ -336,6 +336,38 @@ prop          | description        | value type                     | required
 --------------| ------------------ | ------------------------------ | --------
 titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 
+### IconBoxes
+
+<img src="assets/images/service/icon-boxes.png" width="600px" />
+
+##### JSON data
+
+```
+{
+  title?: string,
+  iconBoxes?: IconBox[]
+}
+```
+
+JSON `IconBox`
+
+```
+{
+  icon: string,
+  alt: string,
+  tabs?: string[], // only for TabbedComponent
+  link?: string,
+  background?: string
+}
+```
+
+##### Props
+
+prop          | description        | value type                     | required
+------------- | ------------------ | ------------------------------ | --------
+background    | icon background    | string                         | no
+titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
+
 ### SectionTitle
 
 <img src="assets/images/service/section-title.png" />
@@ -367,34 +399,6 @@ prop  | description                                 | value type          | requ
 style | make filled or outlined the button          | 'fill' \| 'outline' | no
 size  | change padding inside button 10/24 or 17/32 | 'small' \| 'large'  | no
 
-### IconBoxes
-
-<img src="assets/images/service/icon-boxes.png" width="600px" />
-
-##### JSON data
-
-```
-[
-  IconBox
-]
-```
-
-JSON `IconBox`
-
-```
-{
-  icon: string,
-  alt: string,
-  tabs?: string[], // only for TabbedComponent
-  link?: string,
-  background?: string
-}
-```
-
-##### Props
-
-This component does not have any props.
-
 ### IconBox
 
 <img src="assets/images/service/icon-box.png" width="400px" />
@@ -413,7 +417,9 @@ This component does not have any props.
 
 ##### Props
 
-This component does not have any props.
+prop       | description     | value type | required
+---------- | --------------- | ---------- | --------
+background | icon background | string     | no
 
 
 ### ImageBox

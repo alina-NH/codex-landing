@@ -1,5 +1,8 @@
 <template>
-  <section class="tabbed-content">
+  <section
+    class="tabbed-content"
+    :style="{ 'background': data?.background }"
+  >
     <SectionTitle
       v-if="data.title"
       :position="titlePosition"
@@ -20,6 +23,7 @@
       <IconBoxes
         v-if="component === TabsComponent.IconBox"
         :data="(content as IconBox[])"
+        :background="iconsBackground"
       />
       <ImageBoxes
         v-if="component === TabsComponent.ImageBox"
@@ -40,10 +44,12 @@ const {
   data,
   titlePosition,
   component,
+  iconsBackground,
 } = defineProps<{
   data: TabbedContent,
   titlePosition?: keyof typeof SectionTitlePosition,
   component: keyof typeof TabsComponent,
+  iconsBackground?: string,
 }>();
 
 const activeTab = ref(data.tabs[0]);

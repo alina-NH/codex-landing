@@ -281,19 +281,24 @@
       "DevOps",
       "Testing"
     ],
+    "background": "#DCEAFF",
     "tabsContent": [
       {
         "icon": "js.svg",
         "alt": "Javascript",
         "tabs": ["Programming Languages"],
-        "link": "https://codex-soft.com",
-        "background": "tomato"
+        "link": "https://codex-soft.com"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
         "tabs": ["Programming Languages"],
         "background": "tomato"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
       }
     ]
   },
@@ -330,5 +335,33 @@
       "title": "tomato",
       "subtitle": "green"
     }
+  },
+  "iconBoxes": {
+    "title": "Icon Boxes ready-to-use component",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
   }
 }
