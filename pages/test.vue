@@ -156,6 +156,18 @@
   <IconBoxes
     :data="testContent.iconBoxes"
   />
+  <IconBoxes
+    :data="testContent.iconBoxesWithTitles"
+  />
+  <IconBoxes
+    :data="testContent.iconBoxesWithTitles"
+    icon-to-top
+  />
+  <TabbedContent
+    titlePosition="center"
+    :data="testContent.tabsIconsWithTitle"
+    component="IconBox"
+  />
 </template>
   
 
