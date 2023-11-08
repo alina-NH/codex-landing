@@ -2,6 +2,10 @@
   <div
     class="icon-box"
     :class="{ 'icon-box--link': data?.link }"
+    :style="{
+      'background': data?.background,
+      'border-color': data?.background,
+    }"
     @click="data?.link && openLink(data.link)"
   >
     <img
