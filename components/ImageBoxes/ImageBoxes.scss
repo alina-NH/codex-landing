@@ -1,13 +1,14 @@
 .image-boxes {
   display: flex;
   flex-direction: column;
-  margin: 10vh 10vw;
+  margin: 10vh 0;
 
   &--filtered {
     margin: unset;
   }
 
   &__body {
+    margin: 0 10vw;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
