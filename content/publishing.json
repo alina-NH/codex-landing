@@ -14,8 +14,7 @@
   },
   "welcome": {
     "title": [
-      "We create efficient means",
-      "of creating and distributing content,",
+      "Create and distribute content,",
       "Online and offline."
     ],
     "background": "welcome-background.png",
@@ -23,11 +22,11 @@
   },
   "articleWithImageAndText": {
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "We build custom software to enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Digital Publishing Platforms",

@@ -22,14 +22,14 @@
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
+    "image": "",
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "We build data processing and analysis solutions to help our Customer analyse diverse data sets, make informed decisions about different aspects of their business, enhance and automate processes.",
-    "button": "Discuss your Project"
+    "button": ""
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Custom Dashboards",

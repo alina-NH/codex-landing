@@ -1,11 +1,11 @@
 {
   "colors": {
     "primary": "#F75C19",
-    "hover": "#D7470A",
+    "hover": "#BD1111",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
-    "secondary": "linear-gradient(103deg, #FFE4DF 0%, #F5BD95 100%)",
+    "secondary": "#0A1133",
     "white": "#FFFFFF"
   },
   "meta": {
@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": ["Skilled developers for your software project.", "Need help?"],
-    "background": "welcome-background.png",
+    "background": "bckgrnd.png",
     "button": "Talk to us"
   },
   "articleWithImageAndText": {
@@ -39,260 +39,304 @@
       {
         "icon": "js.svg",
         "alt": "Javascript",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "transparent"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "transparent"
       },
       {
         "icon": "java.svg",
         "alt": "Java",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "transparent"
       },
       {
         "icon": "python.svg",
         "alt": "Python",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "transparent"
       },
       {
         "icon": "csharp.svg",
         "alt": "C#",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "transparent"
       },
       {
         "icon": "vue.svg",
         "alt": "Vue",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end"],
+        "background": "transparent"
       },
       {
         "icon": "react.svg",
         "alt": "React",
-        "tabs": ["Front-end", "Mobile"]
+        "tabs": ["Front-end", "Mobile"],
+        "background": "transparent"
       },
       {
         "icon": "redux.svg",
         "alt": "Redux",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end"],
+        "background": "transparent"
       },
       {
         "icon": "nuxt.svg",
         "alt": "Nuxt",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end"],
+        "background": "transparent"
       },
       {
         "icon": "gatsbyjs.svg",
         "alt": "Gatsby",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end"],
+        "background": "transparent"
       },
       {
         "icon": "angular.svg",
         "alt": "Angular",
-        "tabs": ["Front-end"]
+        "tabs": ["Front-end"],
+        "background": "transparent"
       },
       {
         "icon": "nodejs.svg",
         "alt": "NodeJS",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "express.svg",
         "alt": "Express",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "nextjs.svg",
         "alt": "NextJS",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "feathersjs.svg",
         "alt": "Feathers",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "babeljs.svg",
         "alt": "Babel",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "graphql.svg",
         "alt": "GraphQL",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "springboot.svg",
         "alt": "Spring Framework",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "django.svg",
         "alt": "Django",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "flask.svg",
         "alt": "Flask",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "dotnet.svg",
         "alt": "Dotnet Framework",
-        "tabs": ["Back-end"]
+        "tabs": ["Back-end"],
+        "background": "transparent"
       },
       {
         "icon": "mongodb.svg",
         "alt": "MongoDB",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "postgresql.svg",
         "alt": "PostgreSQL",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "redis.svg",
         "alt": "Redis",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "mysql.svg",
         "alt": "MySQL",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "mssql.svg",
         "alt": "MSSQL",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "firebase.svg",
         "alt": "Firebase",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "oracle.svg",
         "alt": "Oracle DB",
-        "tabs": ["Databases"]
+        "tabs": ["Databases"],
+        "background": "transparent"
       },
       {
         "icon": "tensorflow.svg",
         "alt": "Tensorflow",
-        "tabs": ["Data Science & AI"]
+        "tabs": ["Data Science & AI"],
+        "background": "transparent"
       },
       {
         "icon": "numpy.svg",
         "alt": "Numpy",
-        "tabs": ["Data Science & AI"]
+        "tabs": ["Data Science & AI"],
+        "background": "transparent"
       },
       {
         "icon": "pandas.svg",
         "alt": "Pandas",
-        "tabs": ["Data Science & AI"]
+        "tabs": ["Data Science & AI"],
+        "background": "transparent"
       },
       {
         "icon": "d3.svg",
         "alt": "D3",
-        "tabs": ["Data Science & AI"]
+        "tabs": ["Data Science & AI"],
+        "background": "transparent"
       },
       {
         "icon": "3js.svg",
         "alt": "ThreeJS",
-        "tabs": ["Data Science & AI"]
+        "tabs": ["Data Science & AI"],
+        "background": "transparent"
       },
       {
         "icon": "aws.svg",
         "alt": "Amazon AWS",
-        "tabs": ["Cloud Platforms"]
+        "tabs": ["Cloud Platforms"],
+        "background": "transparent"
       },
       {
         "icon": "googlecloud.svg",
         "alt": "Google Cloud",
-        "tabs": ["Cloud Platforms"]
+        "tabs": ["Cloud Platforms"],
+        "background": "transparent"
       },
       {
         "icon": "azure.svg",
         "alt": "Azure",
-        "tabs": ["Cloud Platforms"]
+        "tabs": ["Cloud Platforms"],
+        "background": "transparent"
       },
       {
         "icon": "docker.svg",
         "alt": "Docker",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "kubernetes.svg",
         "alt": "Kubernetes",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "terraform.svg",
         "alt": "Terraform",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "ansible.svg",
         "alt": "Ansible",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "circleci.svg",
         "alt": "CircleCI",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "gitlab.svg",
         "alt": "Gitlab",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "jenkins.svg",
         "alt": "Jenkins",
-        "tabs": ["DevOps"]
+        "tabs": ["DevOps"],
+        "background": "transparent"
       },
       {
         "icon": "cypress.svg",
         "alt": "Cypress",
-        "tabs": ["Quality Assurance"]
+        "tabs": ["Quality Assurance"],
+        "background": "transparent"
       },
       {
         "icon": "selenium.svg",
         "alt": "Selenium",
-        "tabs": ["Quality Assurance"]
+        "tabs": ["Quality Assurance"],
+        "background": "transparent"
       },
       {
         "icon": "jest.svg",
         "alt": "Jest",
-        "tabs": ["Quality Assurance"]
+        "tabs": ["Quality Assurance"],
+        "background": "transparent"
       },
       {
         "icon": "android.svg",
         "alt": "Android",
-        "tabs": ["Mobile"]
+        "tabs": ["Mobile"],
+        "background": "transparent"
       },
       {
         "icon": "ios.svg",
         "alt": "iOS",
-        "tabs": ["Mobile"]
+        "tabs": ["Mobile"],
+        "background": "transparent"
       },
       {
         "icon": "flutter.svg",
         "alt": "Flutter",
-        "tabs": ["Mobile"]
+        "tabs": ["Mobile"],
+        "background": "transparent"
       }
     ]
   },
-  "contactForm2": {
-    "title": "Contact Us",
+  "contactFormSimplified": {
+    "title": "Need Software Developers?",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
-      "required": true
-    },
-    "companyInput": {
-      "label": "Company",
-      "placeholder": "e. g. Google",
       "required": true
     },
     "emailInput": {
@@ -300,17 +344,22 @@
       "placeholder": "john.doe@mail.com",
       "required": true
     },
-    "phoneInput": {
-      "label": "Phone (optional)",
-      "placeholder": "e. g. 999-999-9999",
-      "required": false
-    },
-    "messageInput": {
-      "label": "Message",
-      "placeholder": "Share your requirements, ask a question, or request a free consultation",
-      "required": false
-    },
-    "button": "Send Request"
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Software Engineers For your Project",
+      "subtitle": "Hire Software Developers or End-to-End teams to get the optimal cost, timeframe and results of the project.",
+      "list": [
+        "Any roles: Front-end, Back-end, DevOps, Quality Assurance",
+        "Any duration: from short-term assignments to complete projects",
+        "Affordably: save up to 40% of costs if compared to hiring for the in-house team"
+      ],
+      "colors": {
+        "background": "#18191F",
+        "text": "#FFFFFF",
+        "subtitle": "#F75C19",
+        "bottomText": "#FFFFFF"
+      }
+    }
   },
   "mvpCases": {
     "title": "Case Studies",
