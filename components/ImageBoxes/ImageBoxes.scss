@@ -5,6 +5,12 @@
 
   &--filtered {
     margin: unset;
+
+    .image-boxes {
+      &__body {
+        margin: unset;
+      }
+    }
   }
 
   &__body {
