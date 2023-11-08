@@ -92,9 +92,12 @@ const {
   data,
   buttonStyle,
   imageToRight,
+  component,
   textAlignment,
+  articleAlignment,
   buttonAlignment,
   titleSize,
+  filterMode,
 } = defineProps<{
   data: ImageArticle,
   buttonStyle?: keyof typeof ButtonStyle,

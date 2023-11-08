@@ -8,6 +8,18 @@
   padding: 27px 63px;
   @include base-transition;
 
+  &--titled {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 20px;
+    padding: 24px;
+  }
+
+  &--reversed {
+    flex-direction: column-reverse;
+  }
+
   &--link {
     cursor: pointer;
 

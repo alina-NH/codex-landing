@@ -17,7 +17,9 @@
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
+const {
+  data,
+} = defineProps<{
   data: Person,
 }>();
 </script>

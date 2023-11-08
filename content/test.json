@@ -281,19 +281,24 @@
       "DevOps",
       "Testing"
     ],
+    "background": "#DCEAFF",
     "tabsContent": [
       {
         "icon": "js.svg",
         "alt": "Javascript",
         "tabs": ["Programming Languages"],
-        "link": "https://codex-soft.com",
-        "background": "tomato"
+        "link": "https://codex-soft.com"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
         "tabs": ["Programming Languages"],
         "background": "tomato"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
       }
     ]
   },
@@ -330,5 +335,180 @@
       "title": "tomato",
       "subtitle": "green"
     }
+  },
+  "iconBoxes": {
+    "title": "Icon Boxes ready-to-use component",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
+  },
+  "iconBoxesWithTitles": {
+    "title": "Icon Boxes with titles",
+    "iconBoxes": [
+      {
+        "title": "Staff Management, Bank & Rota Systems",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Telehealthcare",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Virtual Wards",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Electronic Health Records",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Patient Portals and CMS Websites",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Bespoke Patient Management Flows",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Clinical Auditing",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Mobile and Cross-Platform Healthcare Apps",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Your very custom healthcare solution",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com",
+        "background": "#2ec5ce"
+      }
+    ]
+  },
+  "tabsIconsWithTitle": {
+    "title": "Icons with title",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "title": "Staff Management, Bank & Rota Systems",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Telehealthcare",
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Virtual Wards",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Electronic Health Records",
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Patient Portals and CMS Websites",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Bespoke Patient Management Flows",
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Clinical Auditing",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Mobile and Cross-Platform Healthcare Apps",
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages", "Frameworks"]
+      },
+      {
+        "title": "Your very custom healthcare solution",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com",
+        "background": "#2ec5ce",
+        "tabs": ["Programming Languages", "Frameworks"]
+      }
+    ]
+  },
+  "imageBoxesSmall": {
+    "title": "Image boxes without description and testimonial",
+    "imageBoxes": [
+      {
+        "background": "image-box-2.png",
+        "title": "OneFlow Systems",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "HP Inc",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "OneFlow Systems",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "background": "image-box-2.png",
+        "title": "HP Inc",
+        "link": "https://codex-soft.com"
+      }
+    ]
   }
 }

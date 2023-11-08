@@ -15,7 +15,9 @@
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
-  data: NavLink
+const {
+  data,
+} = defineProps<{
+  data: NavLink,
 }>();
 </script>
