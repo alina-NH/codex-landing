@@ -1,5 +1,6 @@
 <template>
   <Welcome :data="mainContent.welcome" />
+  <VerticalSpace height="20vh" />
   <ImageArticle
     :data="mainContent.articleWithImageAndText"
     articleAlignment="center"
@@ -9,14 +10,17 @@
     titleSize="large"
     component="text"
   />
+  <VerticalSpace height="20vh" />
   <TabbedContent
     titlePosition="left"
     :data="mainContent.tabsIcons"
     component="IconBox"
   />
+  <VerticalSpace height="20vh" />
   <ContactForm
-    type="extended"
-    :data="mainContent.contactForm2"
+    type="simplified"
+    :data="mainContent.contactFormSimplified"
+    component="list"
   />
   <ImageBoxes
     :data="mainContent.mvpCases"
