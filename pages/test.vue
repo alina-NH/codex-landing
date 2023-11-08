@@ -10,7 +10,7 @@
     imageToRight
     component="list"
   />
-  <SectionTitle position="center">Article with image and list: image left, button fill</SectionTitle>
+  <SectionTitle position="left">Article with image and list: image left, button fill</SectionTitle>
   <ImageArticle
     :data="testContent.articleWithImageAndList"
     buttonStyle="fill"
@@ -164,7 +164,7 @@
     icon-to-top
   />
   <TabbedContent
-    titlePosition="center"
+    titlePosition="left"
     :data="testContent.tabsIconsWithTitle"
     component="IconBox"
   />

@@ -1,11 +1,15 @@
 <template>
   <section
     class="tabbed-content"
-    :style="{ 'background': data?.background }"
+    :style="{
+      'background': data?.background,
+      'padding': data?.background && '10vh 10vw',
+    }"
   >
     <SectionTitle
       v-if="data.title"
       :position="titlePosition"
+      class="tabbed-content__title"
     >
       {{ data.title }}
     </SectionTitle>
