@@ -14,9 +14,9 @@
   },
   "welcome": {
     "title": [
-      "We help businesses boost efficiency ",
-      "Via automation of processes",
-      "And end-to-end workflows"
+      "Automate processes",
+      "And workflows.",
+      "Boost efficiency."
     ],
     "background": "welcome-background.png",
     "button": "Discuss Your Requirements"
@@ -24,7 +24,7 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "We create software solutions to automate single repetitive operations, processes and complete workflows, helping businesses boost productivity and cut costs."
+    "text": "Automate repetitive operations, processes and complete workflows. Reduce mistakes, boost productivity and cut costs."
   },
   "textBoxes": {
     "title": "",

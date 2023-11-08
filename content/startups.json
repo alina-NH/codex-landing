@@ -85,7 +85,7 @@
                   }          
         ]
       },
-        "squareTimeline": {
+    "squareTimeline": {
         "title": "Start working with us. It's easy!",
         "items": [
           {
@@ -169,7 +169,7 @@
               }
             ],
             "colors": {
-                "background": "#DCDDE3"
+                "background": "#FFFFFF"
               }
         },
         {

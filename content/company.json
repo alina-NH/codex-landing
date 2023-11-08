@@ -22,6 +22,96 @@
         "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries.",
         "button": ""
       },
+      "imageBoxesSmallExecs": {
+        "title": "Meet the Leadership",
+        "imageBoxes": [
+          {
+            "background": "exec1.png",
+            "title": "Name Surname, CEO",
+            "link": "#"
+          },
+          {
+            "background": "exec2.png",
+            "title": "Name Surname, CTO",
+            "link": "#"
+          },
+          {
+            "background": "exec3.png",
+            "title": "Name Surname, CPO",
+            "link": "#"
+          },
+          {
+            "background": "exec5.png",
+            "title": "Name Surname, CFO",
+            "link": "#"
+          },
+          {
+            "background": "exec4.png",
+            "title": "Name Surname, Head of Azores Office",
+            "link": "#"
+          },
+          {
+            "background": "exec4.png",
+            "title": "Name Surname, Head of Lisbon Office",
+            "link": "#"
+          },
+          {
+            "background": "exec4.png",
+            "title": "Name Surname, Head of Warsaw Office",
+            "link": "#"
+          },
+          {
+            "background": "exec4.png",
+            "title": "Name Surname, Head of People",
+            "link": "#"
+          }
+        ]
+      },
+      "imageBoxesSmallDevs": {
+        "title": "Meet the Team",
+        "imageBoxes": [
+          {
+            "background": "dev1.png",
+            "title": "Name Surname, Developer",
+            "link": "#"
+          },
+          {
+            "background": "dev2.png",
+            "title": "Name Surname, Developer",
+            "link": "#"
+          },
+          {
+            "background": "dev1.png",
+            "title": "Name Surname, DevOps",
+            "link": "#"
+          },
+          {
+            "background": "dev2.png",
+            "title": "Name Surname, AQA Teamlead",
+            "link": "#"
+          },
+          {
+            "background": "dev1.png",
+            "title": "Name Surname, BA",
+            "link": "#"
+          },
+          {
+            "background": "dev2.png",
+            "title": "Name Surname, Testing Lead",
+            "link": "#"
+          },
+          {
+            "background": "dev1.png",
+            "title": "Name Surname, Happiness Officer",
+            "link": "#"
+          },
+          {
+            "background": "dev2.png",
+            "title": "Name Surname, Sales",
+            "link": "#"
+          }
+        ]
+      },
       "tabsImageBox": {
         "title": "Our Locations",
         "tabs": [

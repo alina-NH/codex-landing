@@ -14,9 +14,8 @@
   },
   "welcome": {
     "title": [
-      "We help businesses",
-      "Provide customisable products",
-      "Of any types"
+      "Enable product customistion",
+      "On any platform"
     ],
     "background": "welcome-background.png",
     "button": "Request a Discovery Call"
@@ -24,7 +23,7 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "We develop solutions that help publishers simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
+    "text": "Simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
   },
   "textBoxes": {
     "title": "",

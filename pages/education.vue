@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="eduContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="eduContent.Cases"

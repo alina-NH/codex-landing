@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="pubtContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="pubtContent.Cases"

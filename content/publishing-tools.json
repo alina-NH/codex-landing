@@ -14,9 +14,9 @@
   },
   "welcome": {
     "title": [
-      "We create modern digital tools",
-      "For creation and distribution",
-      "Of high-quality content."
+      "Create & distribute",
+      "High-quality Content",
+      "Online and offline"
     ],
     "background": "welcome-background.png",
     "button": "Request a Discovery Call"
@@ -24,7 +24,7 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "We develop solutions that help publishers simplify creation of digital and printed content, broaden and speed up distribution, gather & analyse data to make accurate decisions."
+    "text": "Simplify creation of digital and printed content, broaden and speed up distribution, gather & analyse data to make accurate decisions."
   },
   "textBoxes": {
     "title": "",

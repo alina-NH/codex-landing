@@ -9,6 +9,14 @@
     titleSize="large"
     component="text"
   />
+  <ImageBoxes
+    :data="cmpnContent.imageBoxesSmallExecs"
+    titlePosition="center"
+  />
+  <ImageBoxes
+    :data="cmpnContent.imageBoxesSmallDevs"
+    titlePosition="center"
+  />
   <TabbedContent
     :data="cmpnContent.tabsImageBox"
     component="ImageBox"

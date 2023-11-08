@@ -15,6 +15,7 @@
       titlePosition="left"
       :data="healthcareContent.tabsIcons"
       component="IconBox"
+      icons-background="transparent"
     />
     <SquaresTimeline
     :data="healthcareContent.squareTimeline"

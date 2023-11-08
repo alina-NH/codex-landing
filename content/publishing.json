@@ -1,7 +1,7 @@
 {
   "colors": {
     "primary": "#2E64F9",
-    "hover": "#2551C2",
+    "hover": "#BD1111",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
@@ -18,7 +18,11 @@
       "Online and offline."
     ],
     "background": "welcome-background.png",
-    "button": "Discuss Your Requirements"
+    "button": "Discuss Your Requirements",
+    "colors": {
+      "title": "black",
+      "subtitle": "#C0C0C0"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",

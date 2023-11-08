@@ -36,6 +36,7 @@
       },
       "tabsIcons": {
         "title": "Techologies",
+        "background": "#EEEEEE",
         "tabs": [
           "Programming Languages",
           "Front-end",

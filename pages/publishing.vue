@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="pubContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="pubContent.Cases"
