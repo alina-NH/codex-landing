@@ -335,5 +335,33 @@
       "title": "tomato",
       "subtitle": "green"
     }
+  },
+  "iconBoxes": {
+    "title": "Icon Boxes ready-to-use component",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
   }
 }

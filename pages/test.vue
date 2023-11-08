@@ -148,10 +148,13 @@
     imageToLeft
   />
   <TabbedContent
-    titlePosition="left"
+    titlePosition="center"
     :data="testContent.tabsIcons"
     icons-background="green"
     component="IconBox"
+  />
+  <IconBoxes
+    :data="testContent.iconBoxes"
   />
 </template>
   

@@ -1,3 +1,5 @@
+import { IconBox } from "#build/components";
+
 export enum ButtonStyle {
   fill = 'fill',
   outline = 'outline',
@@ -48,11 +50,17 @@ export interface TabbedContent {
 };
 
 export type IconBox = {
+  title?: string,
   icon: string,
   alt: string,
   tabs?: string[],
   link?: string,
   background?: string,
+};
+
+export interface IconBoxes {
+  title?: string,
+  iconBoxes: IconBox[],
 };
 
 export type TextBox = {
