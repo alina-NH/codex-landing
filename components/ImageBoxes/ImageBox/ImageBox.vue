@@ -13,11 +13,14 @@
       <h4 class="heading-4 image-box__title">
         {{ data.title }}
       </h4>
-      <p class="text-default image-box__description">
+      <p
+        v-if="data?.description"
+        class="text-default image-box__description"
+      >
         {{ data.description }}
       </p>
       <p
-        v-if="data.testimonial"
+        v-if="data?.testimonial"
         class="text-default image-box__testimonial"
       >
         {{ data.testimonial }}
@@ -32,7 +35,7 @@
 
 <script setup lang="ts">
 const {
-  data
+  data,
 } = defineProps<{
   data: ImageBox,
 }>();

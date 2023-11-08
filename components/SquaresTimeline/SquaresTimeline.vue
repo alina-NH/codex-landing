@@ -3,7 +3,6 @@
     <SectionTitle
       v-if="data?.title"
       :position="titlePosition"
-      class="squares-timeline__title"
     >
       {{ data.title }}
     </SectionTitle>
@@ -38,7 +37,7 @@ const {
   titlePosition,
 } = defineProps<{
   data: SquaresTimeline,
-  titlePosition?: keyof typeof SectionTitlePosition
+  titlePosition?: keyof typeof SectionTitlePosition,
 }>();
 </script>
 

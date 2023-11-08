@@ -14,8 +14,7 @@
   },
   "welcome": {
     "title": [
-      "Digital solutions",
-      "to improve production and distribution",
+      "Improve production and distribution",
       " of print products."
     ],
     "background": "welcome-background.png",
@@ -23,11 +22,11 @@
   },
   "articleWithImageAndText": {
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "Reduce costs, boost staff efficiency, improve production, reach more customers, and revitalise your printing business."
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Web-2-Print Storefronts",

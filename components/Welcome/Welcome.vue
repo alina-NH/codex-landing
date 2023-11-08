@@ -37,7 +37,9 @@
 import Button from "../Button/Button.vue";
 import { ButtonSize, ButtonStyle } from "../../types/default";
 
-const { data } = defineProps<{
+const {
+  data,
+} = defineProps<{
   data: Welcome,
   imageToLeft?: boolean,
 }>();

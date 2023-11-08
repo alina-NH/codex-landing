@@ -1,13 +1,23 @@
 <template>
   <div
     class="icon-box"
-    :class="{ 'icon-box--link': data?.link }"
+    :class="{ 
+      'icon-box--link': data?.link,
+      'icon-box--titled': data?.title,
+      'icon-box--reversed': iconToTop,
+    }"
     :style="{
-      'background': data?.background,
+      'background': data?.background || background,
       'border-color': data?.background,
     }"
     @click="data?.link && openLink(data.link)"
   >
+    <h5
+      :v-if="data?.title"
+      class="heading-5"
+    >
+      {{ data.title }}
+    </h5>
     <img
       :src="useImages(data.icon)"
       :alt="data.alt"
@@ -17,8 +27,14 @@
 </template>
 
 <script setup lang="ts">
-const { data } = defineProps<{
+const {
+  data,
+  background,
+  iconToTop,
+} = defineProps<{
   data: IconBox,
+  background?: string,
+  iconToTop?: boolean,
 }>();
 </script>
 

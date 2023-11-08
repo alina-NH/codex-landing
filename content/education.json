@@ -14,7 +14,6 @@
   },
   "welcome": {
     "title": [
-      "We help educators and learners",
       "Leverage modern digital tools",
       "To teach and study effectively, anywhere."
     ],
@@ -22,14 +21,14 @@
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
+    "image": "",
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "We build all kinds of software that improve teaching, studying, and managing educational institutions.",
-    "button": "Discuss your Project"
+    "button": ""
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Examination Platforms",

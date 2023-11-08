@@ -18,16 +18,22 @@
         "For healthcare.",
         "For better care."
       ],
+      "subtitle": "",
       "background": "healthcarewelcome-square.png",
-      "button": "Request Development"
+      "button": "Request Development",
+      "colors": {
+        "background":"#FFFFFF",
+        "title": "black",
+        "subtitle": "#C0C0C0"
+         }
     },
     "articleWithImageAndText": {
       "title": "Services",
-      "subtitle": "Get a working solution to validate your idea, affordably.",
-      "text": "We are a team of experienced software developers who can help you reduce costs, boost staff efficiency, improve interoperability, and revitalise your healthcare organisation."
+      "subtitle": "",
+      "text": "Reduce costs, boost staff efficiency, improve interoperability, and revitalise your healthcare organisation."
     },
     "textBoxes": {
-      "title": "Solutions",
+      "title": "",
       "textBoxes": [
         {
           "title": "Software MVP Development",
@@ -378,7 +384,7 @@
         ]
       },
     "Cases": {
-      "title": "Featured Case Studies",
+      "title": "Case Studies",
       "imageBoxes": [
         {
           "background": "auditangel.png",

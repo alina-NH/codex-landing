@@ -6,7 +6,9 @@
 </template>
 
 <script setup lang="ts">
-const { height } = defineProps<{
+const {
+  height,
+} = defineProps<{
   height: string,
 }>();
 </script>

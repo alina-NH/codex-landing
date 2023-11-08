@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": [
-      "We enhance & transform",
+      "Enhance & transform",
       "How art is saved, stored,",
       "And demonstrated to humankind."
     ],
@@ -23,11 +23,11 @@
   },
   "articleWithImageAndText": {
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "We create custom software solutions for museums, expositions, archives and libraries."
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Library Management Software",

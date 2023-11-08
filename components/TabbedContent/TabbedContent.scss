@@ -1,7 +1,13 @@
 .tabbed-content {
   display: flex;
   flex-direction: column;
-  padding: 5vh 10vw;
+  margin:  10vh 0;
+  padding: 2vh 10vw;
+
+  &__title {
+    width: 100%;
+    margin: 3vh 0 3vh 0;
+  }
 
   &-nav {
     display: flex;

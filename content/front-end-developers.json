@@ -15,7 +15,11 @@
   "welcome": {
     "title": ["Front-end Developers", "For your Team.", "Affordably."],
     "background": "welcome-background.png",
-    "button": "Request CVs"
+    "button": "Request CVs",
+    "colors": {
+      "title": "black",
+      "subtitle": "#C0C0C0"
+       }
   },
   "textBoxes": {
     "title": "Services",
@@ -140,37 +144,37 @@
         "title": "TOP-10% Talent",
         "subtitle": "",
         "text": "We value good hard- and soft-skills. On average, only 10% of candidates receive job offers from us.",
-        "icon": "react.svg"
+        "icon": ""
       },
       {
         "title": "Comfortable Communication",
         "subtitle": "",
         "text": "We make sure all team members possess English fluency to effectively communicate verbally and in writing, on meetings and on day-to-day basis.",
-        "icon": "react.svg"
+        "icon": ""
       },
       {
         "title": "Stable Availability",
         "subtitle": "",
         "text": "Our development centers are located in European timezones, ensuring comfortable overlaps with your business hours.",
-        "icon": "react.svg"
+        "icon": ""
       },
       {
         "title": "Unparallelled Flexibility",
         "subtitle": "",
         "text": "Hire developers of any seniority, for any duration. Scale the team up & down easily on demand.",
-        "icon": "react.svg"
+        "icon": ""
       },
       {
         "title": "No Administrative Overheads",
         "subtitle": "",
         "text": "We manage the HR side, including talent acquisition, replacements, compensations, training, as well a legal aspects.",
-        "icon": "react.svg"
+        "icon": ""
       },
       {
         "title": "Your Rights and Property are Protected",
         "subtitle": "",
         "text": "Your intellectual property will remain safe due to strict legal and security measures  (NDAs, NCAs, SLAs, and our internal security protocols)",
-        "icon": "react.svg"
+        "icon": ""
       }
     ]
   },
