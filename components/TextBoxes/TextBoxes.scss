@@ -7,6 +7,11 @@
     margin: unset;
   }
 
+  &__title {
+    width: 100%;
+    margin: 3vh 0 3vh 0;
+  }
+
   &__body {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
