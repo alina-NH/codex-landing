@@ -80,8 +80,10 @@ Learn what components can be used to build pages.
 
 #### Ready-to-use components
 
-- [Contact Form](#contactform)
-- [Image Article](#imagearticle)
+- [ContactForm](#contactform)
+- [ImageArticle](#imagearticle)
+- [ImageBoxes](#imageboxes)
+- [SectionTitle](#sectiontitle)
 
 #### Default Components
 
@@ -91,6 +93,11 @@ Learn what components can be used to build pages.
 #### Service components
 - [Button](#button)
 - [IconBoxes](#iconboxes)
+- [IconBox](#iconbox)
+- [ImageBox](#imagebox)
+- [List](#List)
+- [NavLink](#navlink)
+- [Person](#Person)
 
 #### Default Components
 
@@ -287,6 +294,60 @@ textAlignment     | alignment of text in article body                          |
 articleAlignment  | alignment of article (without image)                       | 'left' \| 'center' \| 'right'  | no
 titleSize         | title size in article                                      | 'small' \| 'large'             | no
 
+### ImageBoxes
+
+<img src="assets/images/service/image-boxes.png" width="600px" />
+
+##### JSON data
+
+```
+{
+  title?: string,
+  imageBoxes: ImageBox[]
+}
+```
+
+JSON `ImageBox`
+
+```
+{
+  background: string,
+  title: string,
+  description: string,
+  author?: Person,
+  testimonial?: string,
+  tabs?: string[],
+  link?: string
+}
+```
+
+JSON `Person`
+```
+{
+  avatar: string,
+  name: string,
+  position: string
+}
+```
+
+##### Props
+
+prop          | description        | value type                     | required
+--------------| ------------------ | ------------------------------ | --------
+titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
+
+### SectionTitle
+
+<img src="assets/images/service/section-title.png" />
+
+##### JSON data
+
+No json data. It uses `<slot />` to pass the button text.
+
+prop     | description        | value type                     | required
+---------| ------------------ | ------------------------------ | --------
+position | alignment of title | 'left' \| 'center' \| 'right'  | no
+
 ### Service components
 
 Service components can't be used in page making. They are used in ready-to-use components.
@@ -326,7 +387,7 @@ JSON `IconBox`
   alt: string,
   tabs?: string[], // only for TabbedComponent
   link?: string,
-  background?: string,
+  background?: string
 }
 ```
 
@@ -334,3 +395,107 @@ JSON `IconBox`
 
 This component does not have any props.
 
+### IconBox
+
+<img src="assets/images/service/icon-box.png" width="400px" />
+
+##### JSON data
+
+```
+{
+  icon: string,
+  alt: string,
+  tabs?: string[], // only for TabbedComponent
+  link?: string,
+  background?: string
+}
+```
+
+##### Props
+
+This component does not have any props.
+
+
+### ImageBox
+
+<img src="assets/images/service/image-box.png" width="400px" />
+
+##### JSON data
+
+```
+{
+  background: string,
+  title: string,
+  description: string,
+  author?: Person,
+  testimonial?: string,
+  tabs?: string[],
+  link?: string
+}
+```
+
+##### Props
+
+This component does not have any props.
+
+### List
+
+<img src="assets/images/service/list.png" />
+
+##### JSON data
+
+```
+[
+  ListItem
+]
+```
+
+JSON `ListItem`
+
+```
+{
+  title: string,
+  text: string,
+  icon?: string
+}
+```
+
+##### Props
+
+This component does not have any props.
+
+### NavLink
+
+<img src="assets/images/service/nav-link.png" />
+
+##### JSON data
+
+```
+{
+  name: string,
+  external: boolean,
+  link: string
+}
+```
+
+##### Props
+
+This component does not have any props.
+
+### Person
+
+<img src="assets/images/service/person.png" />
+
+##### JSON data
+
+```
+{
+  avatar: string,
+  name: string,
+  position: string
+}
+```
+
+##### Props
+
+This component does not have any props.
