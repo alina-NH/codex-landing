@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="dvisContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="dvisContent.Cases"

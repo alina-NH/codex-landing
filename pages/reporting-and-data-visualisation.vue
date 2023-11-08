@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="repdataContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="repdataContent.Cases"

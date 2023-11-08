@@ -1,7 +1,7 @@
 {
   "colors": {
     "primary": "#2E64F9",
-    "hover": "#2551C2",
+    "hover": "#BD1111",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
@@ -14,17 +14,22 @@
   },
   "welcome": {
     "title": [
-      "Leverage modern digital tools",
-      "To teach and study effectively, anywhere."
+      "Teach, study, or",
+      "Manage institutions.",
+      "Efficiently."
     ],
     "background": "welcome-background.png",
-    "button": "Discuss Your Requirements"
+    "button": "Discuss Your Requirements",
+    "colors": {
+      "title": "black",
+      "subtitle": "#C0C0C0"
+    }
   },
   "articleWithImageAndText": {
     "image": "",
     "title": "Solutions",
     "subtitle": "",
-    "text": "We build all kinds of software that improve teaching, studying, and managing educational institutions.",
+    "text": "Improve teaching, studying, and managing educational institutions.",
     "button": ""
   },
   "textBoxes": {

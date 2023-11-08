@@ -15,7 +15,7 @@
   "welcome": {
     "title": [
       "Gather, store",
-      "And visualize data.",
+      "And visualize data to",
       "Make accurate decisions."
     ],
     "background": "welcome-background.png",
@@ -25,7 +25,7 @@
     "image": "",
     "title": "Solutions",
     "subtitle": "",
-    "text": "We build data processing and analysis solutions to help our Customer analyse diverse data sets, make informed decisions about different aspects of their business, enhance and automate processes.",
+    "text": "Analyse diverse data sets, make data-driven decisions, enhance and automate processes.",
     "button": ""
   },
   "textBoxes": {

@@ -15,8 +15,7 @@
   "welcome": {
     "title": [
       "Connect your App",
-      "With 3rd Party Software",
-      "Seamlessly & Securely."
+      "With Any 3rd Party Software"
     ],
     "background": "welcome-background.png",
     "button": "Request an API Integration"

@@ -8,6 +8,7 @@
     titlePosition="left"
     :data="devopsContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <TextBoxes :data="devopsContent.textBoxes2" hasTitle titlePosition="left" />
 

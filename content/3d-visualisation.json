@@ -14,9 +14,9 @@
   },
   "welcome": {
     "title": [
-      "We help businesses",
-      "Transform the way",
-      "Their products are presented."
+      "Transform the ways",
+      "To create, showcase",
+      "And sell 3D products"
     ],
     "background": "welcome-background.png",
     "button": "Discuss Your Requirements"
@@ -24,7 +24,7 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "We develop solutions that help publishers simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
+    "text": "Simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
   },
   "textBoxes": {
     "title": "",

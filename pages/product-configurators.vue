@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="prconfContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="prconfContent.Cases"

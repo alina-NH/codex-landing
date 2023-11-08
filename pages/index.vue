@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="mainContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <VerticalSpace height="20vh" />
   <ContactForm
