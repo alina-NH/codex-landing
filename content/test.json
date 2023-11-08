@@ -286,12 +286,14 @@
         "icon": "js.svg",
         "alt": "Javascript",
         "tabs": ["Programming Languages"],
-        "link": "https://codex-soft.com"
+        "link": "https://codex-soft.com",
+        "background": "tomato"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages"]
+        "tabs": ["Programming Languages"],
+        "background": "tomato"
       }
     ]
   },

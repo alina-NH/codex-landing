@@ -49,8 +49,8 @@
         "subnav": [
           {
             "name": "Tech Startups",
-            "link": "https://startup.codex-soft.com/",
-            "external": true
+            "link": "/startups",
+            "external": false
           },
           {
             "name": "Healthcare",
@@ -85,6 +85,11 @@
         "external": false,
         "subnav": [
           {
+            "name": "Developers For Startups",
+            "link": "/startups-new",
+            "external": false
+          },
+          {
             "name": "Front-End Developers",
             "link": "/front-end-developers",
             "external": false
@@ -108,7 +113,7 @@
       },
       {
         "name": "Company",
-        "link": "#",
+        "link": "/company",
         "external": false
       }
     ],
@@ -145,8 +150,8 @@
         "name": "Services",
         "subnav": [
           {
-            "name": "Build a team",
-            "link": "#",
+            "name": "Build a Startup team",
+            "link": "/startups-new",
             "external": false
           },
           {

@@ -1,0 +1,551 @@
+{
+    
+    "colors": {
+      "primary": "#F75C19",
+      "hover": "#D7470A",
+      "black": "#18191F",
+      "darkgrey": "#454545",
+      "lightgrey": "#C0C0C0",
+      "secondary": "linear-gradient(103deg, #FFE4DF 0%, #F5BD95 100%)",
+      "white": "#FFFFFF"
+    },
+    "meta": {
+      "title": "Developers For Your Startup | Codex Software",
+      "description": "This is Codex Software landing page"
+            },
+    "welcome": {
+      "title": ["Staff your startup team.", "Scale affordably.", "Grow fast."],
+      "background": "welcome-background.png",
+      "button": "Get Your Startup a Boost",
+      "colors": {
+        "title": "black",
+        "subtitle": "#C0C0C0"
+         }
+    },
+    "articleWithImageAndList": {
+        "image": "Rectangle2.png",
+        "title": "Get Software engineers for your Startup",
+        "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
+        "list": [
+          "Start at any stage",
+          "Scale the team up and down easily",
+          "Any roles, seniority & duration",
+          "Comfortable overlaps with your business hours"
+        ],
+        "button": "Request CVs"
+      },
+      "tabsIcons": {
+        "title": "Techologies",
+        "tabs": [
+          "Programming Languages",
+          "Front-end",
+          "Back-end",
+          "Databases",
+          "Data Science & AI",
+          "Cloud Platforms",
+          "DevOps",
+          "Quality Assurance",
+          "Mobile"
+        ],
+        "tabsContent": [
+          {
+            "icon": "js.svg",
+            "alt": "Javascript",
+            "tabs": ["Programming Languages"]
+          },
+          {
+            "icon": "typescript.svg",
+            "alt": "Typescript",
+            "tabs": ["Programming Languages"]
+          },
+          {
+            "icon": "java.svg",
+            "alt": "Java",
+            "tabs": ["Programming Languages"]
+          },
+          {
+            "icon": "python.svg",
+            "alt": "Python",
+            "tabs": ["Programming Languages"]
+          },
+          {
+            "icon": "csharp.svg",
+            "alt": "C#",
+            "tabs": ["Programming Languages"]
+          },
+          {
+            "icon": "vue.svg",
+            "alt": "Vue",
+            "tabs": ["Front-end"]
+          },
+          {
+            "icon": "react.svg",
+            "alt": "React",
+            "tabs": ["Front-end", "Mobile"]
+          },
+          {
+            "icon": "redux.svg",
+            "alt": "Redux",
+            "tabs": ["Front-end"]
+          },
+          {
+            "icon": "nuxt.svg",
+            "alt": "Nuxt",
+            "tabs": ["Front-end"]
+          },
+          {
+            "icon": "gatsbyjs.svg",
+            "alt": "Gatsby",
+            "tabs": ["Front-end"]
+          },
+          {
+            "icon": "angular.svg",
+            "alt": "Angular",
+            "tabs": ["Front-end"]
+          },
+          {
+            "icon": "nodejs.svg",
+            "alt": "NodeJS",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "express.svg",
+            "alt": "Express",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "nextjs.svg",
+            "alt": "NextJS",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "feathersjs.svg",
+            "alt": "Feathers",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "babeljs.svg",
+            "alt": "Babel",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "graphql.svg",
+            "alt": "GraphQL",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "springboot.svg",
+            "alt": "Spring Framework",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "django.svg",
+            "alt": "Django",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "flask.svg",
+            "alt": "Flask",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "dotnet.svg",
+            "alt": "Dotnet Framework",
+            "tabs": ["Back-end"]
+          },
+          {
+            "icon": "mongodb.svg",
+            "alt": "MongoDB",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "postgresql.svg",
+            "alt": "PostgreSQL",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "redis.svg",
+            "alt": "Redis",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "mysql.svg",
+            "alt": "MySQL",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "mssql.svg",
+            "alt": "MSSQL",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "firebase.svg",
+            "alt": "Firebase",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "oracle.svg",
+            "alt": "Oracle DB",
+            "tabs": ["Databases"]
+          },
+          {
+            "icon": "tensorflow.svg",
+            "alt": "Tensorflow",
+            "tabs": ["Data Science & AI"]
+          },
+          {
+            "icon": "numpy.svg",
+            "alt": "Numpy",
+            "tabs": ["Data Science & AI"]
+          },
+          {
+            "icon": "pandas.svg",
+            "alt": "Pandas",
+            "tabs": ["Data Science & AI"]
+          },
+          {
+            "icon": "d3.svg",
+            "alt": "D3",
+            "tabs": ["Data Science & AI"]
+          },
+          {
+            "icon": "3js.svg",
+            "alt": "ThreeJS",
+            "tabs": ["Data Science & AI"]
+          },
+          {
+            "icon": "aws.svg",
+            "alt": "Amazon AWS",
+            "tabs": ["Cloud Platforms"]
+          },
+          {
+            "icon": "googlecloud.svg",
+            "alt": "Google Cloud",
+            "tabs": ["Cloud Platforms"]
+          },
+          {
+            "icon": "azure.svg",
+            "alt": "Azure",
+            "tabs": ["Cloud Platforms"]
+          },
+          {
+            "icon": "docker.svg",
+            "alt": "Docker",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "kubernetes.svg",
+            "alt": "Kubernetes",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "terraform.svg",
+            "alt": "Terraform",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "ansible.svg",
+            "alt": "Ansible",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "circleci.svg",
+            "alt": "CircleCI",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "gitlab.svg",
+            "alt": "Gitlab",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "jenkins.svg",
+            "alt": "Jenkins",
+            "tabs": ["DevOps"]
+          },
+          {
+            "icon": "cypress.svg",
+            "alt": "Cypress",
+            "tabs": ["Quality Assurance"]
+          },
+          {
+            "icon": "selenium.svg",
+            "alt": "Selenium",
+            "tabs": ["Quality Assurance"]
+          },
+          {
+            "icon": "jest.svg",
+            "alt": "Jest",
+            "tabs": ["Quality Assurance"]
+          },
+          {
+            "icon": "android.svg",
+            "alt": "Android",
+            "tabs": ["Mobile"]
+          },
+          {
+            "icon": "ios.svg",
+            "alt": "iOS",
+            "tabs": ["Mobile"]
+          },
+          {
+            "icon": "flutter.svg",
+            "alt": "Flutter",
+            "tabs": ["Mobile"]
+          }
+        ]
+      },
+      "articleWithListAndText2": {
+        "image": "article-image.png",
+        "title": "Develop a Minimum Viable Product",
+        "subtitle": "Get a working solution to validate your idea, affordably.",
+        "list": [
+            "Refine the idea and get a development plan.", 
+            "Get a solution tailored to your business goals",
+            "Evolve or pivot the product further"],
+        "button": "Discuss your Project"
+      },
+      "CasesMVP": {
+        "title": "Recent MVP Projects",
+        "imageBoxes": [
+
+            {
+                "background": "Orgafly.png",
+                "title": "Orgafly",
+                "description": "Orgafly is a print-on-demand software platform designed to optimize the workflow of event organizers, providing the means to distribute and print high-quality and personalized tickets. We developed the product, set up and maintained the infrastructure, and ensured product quality."
+              },             
+              {
+                "background": "Customis3D.png",
+                "title": "Customis3D",
+                "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
+              },
+          {
+            "background": "auditangel.png",
+            "title": "Audit Angel",
+            "description": "Audit Angel is a healthcare software platform that allows healthcare institutions to audit clinicians, diagnoses and prescribed medications, and improve clinical operations, quality management, risk assessment, and regulatory compliance."
+                  }          
+        ]
+      },
+      "contactFormSimplified": {
+        "title": "Need Front-End Developers?",
+        "nameInput": {
+          "label": "Name",
+          "placeholder": "John",
+          "required": true
+        },
+        "emailInput": {
+          "label": "Email",
+          "placeholder": "john.doe@mail.com",
+          "required": true
+        },
+        "button": "Send Request",
+        "imageArticle": {
+          "title": "IT Consulting",
+          "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+          "list": [
+            "Get full understanding of the costs, timeframe, team",
+            "Identify risks, bottlenecks, challenges and solutions",
+            "Get interim technology leadership for your team"
+          ]
+        }
+      },
+      "Cases": {
+        "title": "Featured Startup Stories:",
+        "imageBoxes": [
+          {
+              "background": "cultureconnect.png",
+              "title": "CultureConnect",
+              "description": "Culture Connect is a software platform that helps art institutions build digital interactive experiences. Looking to power-up the development of the core product, they engaged with Codex and received an end-to-end team led by the head of development. This helped to implement numerous architectural and holistic product improvements, add new features, and led to a lucrative acquisition deal with Axiell in late 2019.",
+              "author": {
+                "avatar": "samantha.webp",
+                "name": "Samantha Diamond",
+                "position": "VP Product"
+              },
+              "testimonial": "“We have an ongoing relationship with Codex Software. They’re highly productive and efficient, working well together to quickly solve problems. I trust them and rate the quality of their work very highly.”"
+            },
+            {
+              "background": "pronoun.png",
+              "title": "Pronoun",
+              "description": "The NYC-based software startup Pronoun was building a self-publishing platform and turned to Codex Software looking for end-to-end software engineering and data science services. The collaboration helped Pronoun secure several rounds of investments, launch the product, and complete the acquisition deal with Macmillan Publishers in 2016.",
+              "author": {
+                "avatar": "ben.webp",
+                "name": "Ben Zhuk",
+                "position": "Founder, Head of Product"
+              },
+              "testimonial": "“Brilliant developers, you’ll hardly find any better. Happy to work with them any day. In fact, I am already working with them on my next startup.”"
+            }
+        ]
+      },
+      "squareTimeline": {
+        "title": "Our Process",
+        "items": [
+          {
+            "type": "text",
+            "title": "Plan & Prototype",
+            "subtitle": "All you need is an idea",
+            "text": "Share your thoughts with us, and we'll take care of everything needed to turn them into a viable plan for a real product.",
+            "bottomText": {
+              "icon": "tag-outline.svg",
+              "text": "Up to 5K GBP"
+            },
+            "colors": {
+            "background": "#F75C19",
+            "text": "#FFFFFF",
+            "subtitle": "#FFFFFF",
+            "bottomText": "#FFFFFF"
+            }
+          },
+          {
+            "type": "list",
+            "list": [
+              {
+                "title": "Polish the idea",
+                "text": "We will help you find the most valuable features and scenarios to create an MVP and test the market",
+                "icon": "bulbsp.svg"
+              },
+              {
+                "title": "Get project documentation",
+                "text": "We will create all kinds of software development documentation to ensure successful delivery of a project",
+                "icon": "documentsp.svg"
+              },
+              {
+                "title": "Receive the Estimates",
+                "text": "We will provide reliable cost & timeframe assessments for MVP development",
+                "icon": "starsp.svg"
+              },
+              {
+                "title": "Get Tech Consulting",
+                "text": "We will help you pick appropriate technologies, assess tech risks and limitations, and assemble a development team",
+                "icon": "chatsp.svg"
+              },
+              {
+                "title": "Create a Prototype",
+                "text": "We will design and develop a clickable prototype for you to demonstrate to early implementers or investors",
+                "icon": "dimensionssp.svg"
+              }
+            ]
+        },
+        {
+            "type": "list",
+            "list": [
+              {
+                "title": "Refine your idea",
+                "text": "We will help you identify the most valuable features and scenarios to develop an MVP affordably & fast",
+                "icon": "bulbsp.svg"
+              },
+              {
+                "title": "Create a Prototype",
+                "text": "We will design and develop a prototype to showcase the product as early as possible, and gather feedback",
+                "icon": "dimensionssp.svg"
+              },
+              {
+                "title": "Get Tech Consulting",
+                "text": "We will identify any tech challenges that could impact MVP development and further product evolution",
+                "icon": "chatsp.svg"
+              },
+              {
+                "title": "Launch an MVP",
+                "text": "Receive end-to-end design, programming, and quality assurance services to release the product to the market",
+                "icon": "browsercodesp.svg"
+              }
+            ],
+            "colors": {
+                "background": "#FFFFFF"
+              }
+        },
+        {
+            "type": "text",
+            "title": "Develop an MVP",
+            "subtitle": "From the idea to market in under 3 months",
+            "text": "Bring your specifications or raw ideas, and get a Minimum Viable Product (MVP) in less than 3 months",
+            "bottomText": {
+              "icon": "tag-outline.svg",
+              "text": "12-20K GBP"
+            },
+            "colors": {
+            "background": "#18191F",
+            "text": "#FFFFFF",
+            "subtitle": "#FFFFFF",
+            "bottomText": "#FFFFFF"
+            }
+          },
+          {
+            "type": "text",
+            "title": "Evolve your product",
+            "subtitle": "Scale, pivot or enhance your software solution",
+            "text": "Get a managed development team to resolve the tech challenges of a growing product",
+            "button": "Let's talk",
+            "bottomText": {
+              "icon": "",
+              "text": ""
+            },
+            "colors": {
+            "background": "#454545",
+            "text": "#FFFFFF",
+            "subtitle": "#FFFFFF",
+            "bottomText": "#FFFFFF"
+            }
+          },
+        {
+            "type": "list",
+            "list": [
+              {
+                "title": "Get an Audit",
+                "text": "Receive an assessment of the current state of the product, the perspectives, the risks and the budget for implementing the changes",
+                "icon": "chartlinesp.svg"
+              },
+              {
+                "title": "Develop a Roadmap",
+                "text": "We will create a detailed development roadmap based on your business goals",
+                "icon": "graphiclinesp.svg"
+              },
+              {
+                "title": "Set up Processes",
+                "text": "Embrace end-to-end Agile delivery practices in your sotware development project",
+                "icon": "settingssp.svg"
+              },
+              {
+                "title": "Develop your Software",
+                "text": "Receive a full-cycle managed team (including Business Analyst, Project Manager, UI/UX designer, developers, DevOps, and QA)",
+                "icon": "maccommandsp.svg"
+              },
+              {
+                "title": "Leverage Our Expertise",
+                "text": "Get on-demand tech leadership and consulting services to meet any tech challenges that may arise",
+                "icon": "chatsp.svg"
+              }
+            ]
+        }
+              
+        ]
+    },
+    "contactForm": {
+        "title": "Contact Us",
+        "nameInput": {
+          "label": "Name",
+          "placeholder": "John",
+          "required": true
+        },
+        "companyInput": {
+          "label": "Company",
+          "placeholder": "e. g. Google",
+          "required": true
+        },
+        "emailInput": {
+          "label": "Email",
+          "placeholder": "john.doe@mail.com",
+          "required": true
+        },
+        "phoneInput": {
+          "label": "Phone (optional)",
+          "placeholder": "e. g. 999-999-9999",
+          "required": false
+        },
+        "messageInput": {
+          "label": "Message",
+          "placeholder": "Share your requirements, ask a question, or request a free consultation",
+          "required": false
+        },
+        "button": "Send Request"
+      }
+}
