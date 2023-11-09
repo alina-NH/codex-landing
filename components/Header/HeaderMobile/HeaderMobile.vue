@@ -49,13 +49,15 @@
             </li>
           </ul>
         </li>
-        <!-- <Button
-          :style="ButtonStyle.outline"
-          :size="ButtonSize.small"
-        >
-          {{ header.button }}
-        </Button> -->
       </ul>
+      <Button
+        :style="ButtonStyle.outline"
+        :size="ButtonSize.small"
+        class="header__button"
+        @click="isMenuOpen = false"
+      >
+        {{ header.button }}
+      </Button>
     </div>
   </header>
 </template>

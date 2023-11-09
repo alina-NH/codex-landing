@@ -1,0 +1,33 @@
+.footer {
+  background-color: $black-color;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+
+  &__logo {
+    cursor: pointer;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  &__icons {
+    display: flex;
+    column-gap: 16px;
+    
+    a {
+      cursor: pointer;
+    }
+  }
+
+  &__trademark {
+    display: flex;
+    flex-direction: column;
+    margin: 23px 0;
+    color: $lightgrey-color;
+  }
+}

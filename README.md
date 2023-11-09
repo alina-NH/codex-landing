@@ -215,6 +215,8 @@ Service components can't be used in page making. They are used in ready-to-use c
 
 ### Footer
 
+<b>This component uses `FooterMobile` and `FooterDesktop` components with same data for adaptivity.</b>
+
 <img src="assets/images/service/footer.png" height="300px" />
 
 ##### JSON data
