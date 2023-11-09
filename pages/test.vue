@@ -1,5 +1,5 @@
 <template>
-  
+  <Welcome :data="testContent.welcome" />
 </template>
   
 

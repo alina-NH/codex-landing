@@ -11,5 +11,15 @@
   "meta": {
     "title": "Test page",
     "description": "This is Codex Software landing page"
+  },
+  "welcome": {
+    "title": [
+      "Staff your startup team.",
+      "Scale affordably.",
+      "Grow fast."
+    ],
+    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "background": "welcome-background.png",
+    "button": "Get Your Startup A Boost"
   }
 }

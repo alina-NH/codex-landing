@@ -5,7 +5,7 @@
   >
     <div class="welcome__section">
       <h1
-        class="heading-2 welcome__title"
+        class="heading-1 welcome__title"
         :style="{ 'color': data?.colors?.title }"
       >
         <span v-for="titleLine in data.title">
