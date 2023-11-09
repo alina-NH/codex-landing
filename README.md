@@ -169,7 +169,7 @@ store.setPageContent(healthcareContent);
 }
 ```
 
-<img src="assets/images/service/example-page.png" height="600px" />
+<img src="assets/images/service/example-page.png" />
 
 ## Changing header and footer data
 
@@ -211,6 +211,7 @@ Service components can't be used in page making. They are used in ready-to-use c
 - [NavLink](#navlink)
 - [Person](#person)
 - [TextBox](#textbox)
+- [BurgerMenu](#burgermenu)
 
 ### Footer
 
@@ -261,6 +262,9 @@ JSON `FooterLink`
 ```
 
 ### Header
+
+<b>This component uses `HeaderMobile` and `HeaderDesktop` components with same data for adaptivity.</b>
+
 
 <img src="assets/images/service/header.png" width="700px" />
 
@@ -838,6 +842,23 @@ This component does not have any props.
 }
 ```
 
+#### Props
+
 prop          | description            | value type                     | required
 ------------- | ---------------------- | ------------------------------ | --------
 textAlignment | alignment of body text | 'left' \| 'center' \| 'right'  | no
+
+### BurgerMenu
+
+<img src="assets/images/service/burger-menu.png" />
+
+##### JSON data
+
+This component does not use JSON data.
+
+#### Props
+
+prop             | description                                      | value type | required
+---------------- | ------------------------------------------------ | ---------- | --------
+isMenuOpen       | makes animation of cross icon for open menu      | boolean    | yes
+toggleIsMenuOpen | action for click event to toggle icon animation  | () => void | yes
