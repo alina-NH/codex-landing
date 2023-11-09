@@ -58,16 +58,16 @@
 
 @media screen and (max-width: $breakpoint-xxl) {
   .heading-1 {
-    font-family: 'Manrope';
     font-size: 50px;
-    font-weight: bold;
-  }  
+  }
+
+  .heading-3 {
+    font-size: 28px;
+  } 
 }
 
 @media screen and (max-width: $breakpoint-md) {
   .heading-1 {
-    font-family: 'Manrope';
     font-size: 38px;
-    font-weight: bold;
   }  
 }

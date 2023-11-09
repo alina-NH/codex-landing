@@ -1,5 +1,14 @@
 <template>
   <Welcome :data="testContent.welcome" />
+  <ImageArticle
+    :data="testContent.imageArticle"
+    component="list"
+    button-style="outline"
+    image-to-right
+    textAlignment="left"
+    button-alignment="left"
+    title-size="large"
+  />
 </template>
   
 

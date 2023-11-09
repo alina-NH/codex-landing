@@ -20,6 +20,21 @@
     ],
     "subtitle": "Get a working solution to validate your idea, affordably.",
     "background": "welcome-background.png",
-    "button": "Get Your Startup A Boost"
+    "button": "Get Your Startup A Boost",
+    "colors": {
+      "title": "#18191F"
+    }
+  },
+  "imageArticle": {
+    "title": "Get Software engineers for your Startup",
+    "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
+    "image": "article-image.png",
+    "list": [
+      "Start at any stage",
+      "Scale the team up and down easily",
+      "Any roles, seniority & duration",
+      "Comfortable overlaps with your business hours"
+    ],
+    "button": "Request CVs"
   }
 }
