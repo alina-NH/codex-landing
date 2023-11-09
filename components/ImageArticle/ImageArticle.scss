@@ -114,4 +114,45 @@
       margin-right: 12px;
     }
   }
+
+  @media screen and (max-width: $breakpoint-xxl) {
+    &__background {
+      max-width: 515px;
+    }
+
+    &__title {
+      &--large {
+        font-size: 40px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    &__background {
+      max-width: 400px;
+    }
+
+    &__title {
+      &--large {
+        font-size: 38px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__title {
+      &--large {
+        font-size: 34px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &__background {
+      max-width: 100%;
+    }
+  }
 }
