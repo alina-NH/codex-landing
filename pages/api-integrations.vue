@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="apiintContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="apiintContent.Cases"

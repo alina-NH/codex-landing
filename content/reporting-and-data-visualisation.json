@@ -15,21 +15,21 @@
   "welcome": {
     "title": [
       "Gather, store",
-      "And visualize data.",
+      "And visualize data to",
       "Make accurate decisions."
     ],
     "background": "welcome-background.png",
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
-    "image": "article-image.png",
+    "image": "",
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "We build data processing and analysis solutions to help our Customer analyse diverse data sets, make informed decisions about different aspects of their business, enhance and automate processes.",
-    "button": "Discuss your Project"
+    "subtitle": "",
+    "text": "Analyse diverse data sets, make data-driven decisions, enhance and automate processes.",
+    "button": ""
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Custom Dashboards",

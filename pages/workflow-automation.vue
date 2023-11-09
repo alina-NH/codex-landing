@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="wfaContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="wfaContent.Cases"

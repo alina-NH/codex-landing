@@ -1,7 +1,7 @@
 {
   "colors": {
     "primary": "#2E64F9",
-    "hover": "#2551C2",
+    "hover": "#BD1111",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
@@ -14,20 +14,23 @@
   },
   "welcome": {
     "title": [
-      "We create efficient means",
-      "of creating and distributing content,",
+      "Create and distribute content,",
       "Online and offline."
     ],
     "background": "welcome-background.png",
-    "button": "Discuss Your Requirements"
+    "button": "Discuss Your Requirements",
+    "colors": {
+      "title": "black",
+      "subtitle": "#C0C0C0"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
+    "subtitle": "",
     "text": "We build custom software to enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
-    "title": "Solutions",
+    "title": "",
     "textBoxes": [
       {
         "title": "Digital Publishing Platforms",

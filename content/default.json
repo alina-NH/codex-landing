@@ -176,32 +176,27 @@
         "subnav": [
           {
             "name": "Healthcare",
-            "link": "https://codex-soft.com/healthcare/",
-            "external": true
+            "link": "/healthcare",
+            "external": false
           },
           {
             "name": "Printing",
-            "link": "#",
+            "link": "/printing",
             "external": false
           },
           {
             "name": "Publishing",
-            "link": "#",
+            "link": "/publishing",
             "external": false
           },
           {
             "name": "Art&Culture",
-            "link": "#",
+            "link": "/art-and-culture",
             "external": false
           },
           {
             "name": "Education",
-            "link": "#",
-            "external": false
-          },
-          {
-            "name": "Customization",
-            "link": "#",
+            "link": "/education",
             "external": false
           }
         ]
@@ -211,32 +206,32 @@
         "subnav": [
           {
             "name": "Data visualization",
-            "link": "#",
+            "link": "/reporting-and-data-visualisation",
             "external": false
           },
           {
             "name": "Workflow automation",
-            "link": "#",
+            "link": "/workflow-automation",
             "external": false
           },
           {
             "name": "API integration",
-            "link": "#",
+            "link": "/api-integrations",
             "external": false
           },
           {
             "name": "Publishing tools",
-            "link": "#",
+            "link": "/publishing-tools",
             "external": false
           },
           {
             "name": "3D visualization and AR",
-            "link": "#",
+            "link": "/3d-visualisation",
             "external": false
           },
           {
             "name": "Product configurators",
-            "link": "#",
+            "link": "/product-configurators",
             "external": false
           }
         ]
@@ -246,22 +241,22 @@
         "subnav": [
           {
             "name": "The Story",
-            "link": "#",
+            "link": "/company",
             "external": false
           },
           {
             "name": "Locations",
-            "link": "#",
+            "link": "/company",
             "external": false
           },
           {
             "name": "Leadership",
-            "link": "#",
+            "link": "/company",
             "external": false
           },
           {
-            "name": "Teams",
-            "link": "#",
+            "name": "Team",
+            "link": "/company",
             "external": false
           },
           {

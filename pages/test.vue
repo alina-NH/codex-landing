@@ -172,6 +172,11 @@
     :data="testContent.imageBoxesSmall"
     titlePosition="center"
   />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabbedWithTextBoxes"
+    component="TextBox"
+  />
 </template>
   
 

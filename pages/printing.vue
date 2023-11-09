@@ -15,6 +15,7 @@
     titlePosition="left"
     :data="printingContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <ImageBoxes
     :data="printingContent.Cases"

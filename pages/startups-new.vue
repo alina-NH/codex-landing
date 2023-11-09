@@ -10,6 +10,8 @@
     titlePosition="left"
     :data="s2Content.tabsIcons"
     component="IconBox"
+    background="black"
+    icons-background="transparent"
   />
   <ImageArticle
     :data="s2Content.articleWithListAndText2"

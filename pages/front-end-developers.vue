@@ -8,6 +8,7 @@
     titlePosition="left"
     :data="feContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <TextBoxes :data="feContent.textBoxes2" titlePosition="left" />
 

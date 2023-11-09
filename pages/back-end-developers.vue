@@ -8,6 +8,7 @@
     titlePosition="left"
     :data="beContent.tabsIcons"
     component="IconBox"
+    icons-background="transparent"
   />
   <TextBoxes :data="beContent.textBoxes2" titlePosition="left" />
 
