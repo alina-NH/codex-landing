@@ -1,0 +1,108 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: $header-height;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: $white-color;
+  box-shadow: 0px 1px 0px 0px rgba(24, 25, 31, 0.10);
+  z-index: 1;
+
+  a:active {
+    color: $primary-color;
+  }
+
+  &-content {
+    position: fixed;
+    top: $header-height;
+    width: 100%;
+    height: calc(100% - #{$header-height});
+    transform: translateX(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: $white-color;
+    overflow-y: auto;
+    z-index: 1;
+    @include base-transition;
+
+    &--open {
+      transform: translateX(0);
+    }
+  }
+
+  &-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    
+    list-style-type: none;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+
+      &-title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+
+      &-link {
+        cursor: pointer;
+      }
+
+      &-arrow {
+        cursor: pointer;
+
+        &::after {
+          display: inline-block;
+          content: '\2039';
+          font-size: 18px;
+          transform: rotate(-90deg);
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  &-subnav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    max-height: 0px;
+    opacity: 0;
+
+    &__item {
+      cursor: pointer;
+    }
+  }
+
+  &-nav__item-link, &-nav__item-arrow::after, &-subnav {
+    @include base-transition;
+  }
+
+  &-nav__item--open &-nav__item-link {
+    color: $primary-color;
+  }
+
+  &-nav__item--open &-nav__item-arrow::after {
+    color: $primary-color;
+    transform: rotate(-270deg);
+  }
+
+  &-nav__item--open &-subnav {
+    height: fit-content;
+    max-height: 1000px;
+    opacity: 1;
+  }
+}
