@@ -22,6 +22,7 @@
     height: calc(100% - #{$header-height});
     transform: translateX(100%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 40px;
@@ -85,6 +86,11 @@
     &__item {
       cursor: pointer;
     }
+  }
+
+  &__button {
+    justify-self: flex-end;
+    align-self: stretch;
   }
 
   &-nav__item-link, &-nav__item-arrow::after, &-subnav {
