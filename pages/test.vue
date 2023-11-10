@@ -42,6 +42,14 @@
     title-position="left"
     :data="testContent.squaresTimeline"
   />
+  <TextBoxes
+    title-position="left"
+    :data="testContent.textBoxes"
+  />
+  <TextBoxes
+    text-alignment="center"
+    :data="testContent.textBoxesWithoutIcons"
+  />
 </template>
   
 

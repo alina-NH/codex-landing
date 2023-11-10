@@ -521,5 +521,81 @@
         ]
       }
     ]
+  },
+  "textBoxes": {
+    "title": "TextBoxes full",
+    "textBoxes": [
+      {
+        "title": "HP Siteflow Connectors",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "web-2-print.svg"
+      },
+      {
+        "title": "CRM API Integrations",
+        "subtitle": "Connect your software with any modern CRM",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "editor.svg"
+      },
+      {
+        "title": "Office365 API Integrations",
+        "subtitle": "Create seamless connections between your software and Office",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "employee.svg"
+      },
+      {
+        "title": "Logistics/3PL API Integrations",
+        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "wflow.svg"
+      },
+      {
+        "title": "Project Management Platform Integrations",
+        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "hpint.svg"
+      },
+      {
+        "title": "eCommerce API Integrations",
+        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "pdataanalys.svg"
+      }
+    ]
+  },
+  "textBoxesWithoutIcons": {
+    "title": "TextBoxes without icons",
+    "textBoxes": [
+      {
+        "title": "HP Siteflow Connectors",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "CRM API Integrations",
+        "subtitle": "Connect your software with any modern CRM",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Office365 API Integrations",
+        "subtitle": "Create seamless connections between your software and Office",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Logistics/3PL API Integrations",
+        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Project Management Platform Integrations",
+        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "eCommerce API Integrations",
+        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "text": "Scale, pivot or enhance your software solution"
+      }
+    ]
   }
 }
