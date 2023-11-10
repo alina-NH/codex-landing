@@ -15,6 +15,9 @@
     list-style: none;
     position: relative;
     margin-bottom: 48px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
 
     &__item {
       cursor: pointer;

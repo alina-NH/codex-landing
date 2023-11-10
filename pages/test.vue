@@ -50,6 +50,33 @@
     text-alignment="center"
     :data="testContent.textBoxesWithoutIcons"
   />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsIcons"
+    component="IconBox"
+    icons-background="transparent"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsIconsWithText"
+    component="IconBox"
+    icons-background="transparent"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsImageBox"
+    component="ImageBox"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsImageBoxWithoutTestimonial"
+    component="ImageBox"
+  />
+  <TabbedContent
+    titlePosition="left"
+    :data="testContent.tabsImageBoxWithoutDescripton"
+    component="ImageBox"
+  />
 </template>
   
 
