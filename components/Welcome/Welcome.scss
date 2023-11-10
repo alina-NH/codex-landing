@@ -15,7 +15,6 @@
 
   &__title {
     display: flex;
-    color: white;
     flex-direction: column;
     margin-bottom: 5vh;
   }
@@ -27,5 +26,25 @@
   &__background {
     width: 520px;
     height: 520px;
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    &__background {
+      width: 440px;
+      height: 440px;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &__background {
+      width: 320px;
+      height: 320px;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &__background {
+      display: none;
+    }
   }
 }

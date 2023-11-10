@@ -27,4 +27,50 @@
       grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
+
+  @media screen and (max-width: $breakpoint-xxl) {
+    &__body {
+      &--four-in-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    &__body {
+      &--three-in-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      &--four-in-row {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &__body {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+
+      &--three-in-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      &--four-in-row {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &__body {
+      &--three-in-row {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+
+      &--four-in-row {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+      }
+    }
+  }
 }

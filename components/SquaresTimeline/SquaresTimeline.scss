@@ -12,6 +12,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8vh 0;
+    padding: 8vh 20px;
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &__body {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
   }
 }

@@ -14,355 +14,28 @@
   },
   "welcome": {
     "title": [
-      "Digital solutions",
-      "to improve production and distribution",
-      " of print products."
+      "Staff your startup team.",
+      "Scale affordably.",
+      "Grow fast."
     ],
-    "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
+    "subtitle": "Get a working solution to validate your idea, affordably.",
     "background": "welcome-background.png",
-    "button": "Discuss Your Requirements"
-  },
-  "squareTimeline": {
-    "title": "Our Process",
-    "items": [
-      {
-        "type": "text",
-        "title": "Plan and Prototype",
-        "subtitle": "All your need is an idea",
-        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-        "bottomText": {
-          "icon": "bulb.svg",
-          "text": "Up to 5K GBP"
-        },
-        "colors": {
-          "background": "#DCEAFF"
-        }
-      },
-      {
-        "type": "list",
-        "list": [
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market"
-          }
-        ]
-      },
-      {
-        "type": "list",
-        "list": [
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          }
-        ]
-      },
-      {
-        "type": "text",
-        "title": "Plan and Prototype",
-        "subtitle": "All your need is an idea",
-        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-        "bottomText": {
-          "icon": "bulb.svg",
-          "text": "Up to 5K GBP"
-        },
-        "colors": {
-          "background": "#2E64F9",
-          "text": "#FFFFFF",
-          "bottomText": "#FFFFFF",
-          "subtitle": "#FFFFFF"
-        }
-      },
-      {
-        "type": "text",
-        "title": "Plan and Prototype",
-        "subtitle": "All your need is an idea",
-        "text": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-        "button": "Let's talk",
-        "colors": {
-          "background": "#18191F",
-          "text": "#FFFFFF",
-          "subtitle": "#FFFFFF",
-          "bottomText": "#FFFFFF"
-        }
-      },
-      {
-        "type": "list",
-        "list": [
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          },
-          {
-            "title": "Polishing the idea",
-            "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-            "icon": "bulb.svg"
-          }
-        ]
-      }
-    ]
-  },
-  "articleWithImageAndList": {
-    "image": "article-image.png",
-    "title": "Article with image and list",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
-    "list": [
-      "Refine the idea and get a development plan",
-      "Get a solution tailored to your business goals",
-      "Evolve or pivot the product further"
-    ],
-    "button": "Discuss your Project"
-  },
-  "articleWithImageAndText": {
-    "image": "article-image.png",
-    "title": "Article with image and list",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "Refine the idea and get a development plan. Get a solution tailored to your business goals. Evolve or pivot the product further",
-    "button": "Discuss your Project"
-  },
-  "articleWithBottomText": {
-    "image": "article-image.png",
-    "title": "Article with image and list",
-    "subtitle": "Get a working solution to validate your idea, affordably.",
-    "text": "Refine the idea and get a development plan. Get a solution tailored to your business goals. Evolve or pivot the product further",
-    "bottomText": {
-      "icon": "bulb.svg",
-      "text": "Discuss your Project"
-    }
-  },
-  "list": [
-    {
-      "title": "Polishing the idea",
-      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-      "icon": "bulb.svg"
-    },
-    {
-      "title": "Polishing the idea",
-      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-      "icon": "bulb.svg"
-    },
-    {
-      "title": "Polishing the idea",
-      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-      "icon": "bulb.svg"
-    },
-    {
-      "title": "Polishing the idea",
-      "text": "Finding most valuable features and scenarios to get an MVP and test the market",
-      "icon": "bulb.svg"
-    }
-  ],
-  "contactFormExtended": {
-    "title": "Contact Us",
-    "nameInput": {
-      "label": "Name",
-      "placeholder": "John",
-      "required": true
-    },
-    "companyInput": {
-      "label": "Company",
-      "placeholder": "e. g. Google",
-      "required": true
-    },
-    "emailInput": {
-      "label": "Email",
-      "placeholder": "john.doe@mail.com",
-      "required": true
-    },
-    "phoneInput": {
-      "label": "Phone (optional)",
-      "placeholder": "e. g. 999-999-9999",
-      "required": false
-    },
-    "messageInput": {
-      "label": "Message",
-      "placeholder": "Share your requirements, ask a question, or request a free consultation",
-      "required": false
-    },
-    "button": "Send Request"
-  },
-  "contactFormSimplified": {
-    "title": "Contact Us",
-    "nameInput": {
-      "label": "Name",
-      "placeholder": "John",
-      "required": true
-    },
-    "emailInput": {
-      "label": "Email",
-      "placeholder": "john.doe@mail.com",
-      "required": true
-    },
-    "button": "Send Request",
-    "imageArticle": {
-      "title": "IT Consulting",
-      "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-      "list": [
-        "Get full understanding of the costs, timeframe, team",
-        "Identify risks, bottlenecks, challenges and solutions",
-        "Get interim technology leadership for your team"
-      ]
-    }
-  },
-  "cases": {
-    "title": "Featured Case Studies",
-    "imageBoxes": [
-      {
-        "link": "https://codex-soft.com",
-        "background": "oneflow.png",
-        "title": "OneFlow Systems",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
-        "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Global Sales Director"
-        },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
-      },
-      {
-        "background": "hp.png",
-        "title": "HP Inc",
-        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
-        "author": {
-          "avatar": "nigel.webp",
-          "name": "Nigel Watson",
-          "position": "New Business Director"
-        },
-        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
-      }
-    ]
-  },
-  "tabsIcons": {
-    "title": "Technologies",
-    "tabs": [
-      "Programming Languages",
-      "Frameworks",
-      "Databases",
-      "Data Science & AI",
-      "Cloud Platforms",
-      "DevOps",
-      "Testing"
-    ],
-    "background": "#DCEAFF",
-    "tabsContent": [
-      {
-        "icon": "js.svg",
-        "alt": "Javascript",
-        "tabs": ["Programming Languages"],
-        "link": "https://codex-soft.com"
-      },
-      {
-        "icon": "typescript.svg",
-        "alt": "Typescript",
-        "tabs": ["Programming Languages"],
-        "background": "tomato"
-      },
-      {
-        "icon": "typescript.svg",
-        "alt": "Typescript",
-        "tabs": ["Programming Languages"]
-      }
-    ]
-  },
-  "textBoxes": {
-    "title": "Services",
-    "textBoxes": [
-      {
-        "title": "Developers for Hire",
-        "subtitle": "Get a working solution to validate your idea, affordably.",
-        "text": "Get back-end developers for your project or get a full-service team."
-      },
-      {
-        "title": "Product development",
-        "subtitle": "Get a working solution to validate your idea, affordably.",
-        "text": "Use our back-end engineers to develop your software project."
-      },
-      {
-        "title": "Software Modernisation",
-        "subtitle": "Get a working solution to validate your idea, affordably.",
-        "text": "Re-architect, re-build or migrate legacy software to modern technologies."
-      }
-    ]
-  },
-  "welcomeWithColors": {
-    "title": [
-      "Digital solutions",
-      "to improve production and distribution",
-      " of print products."
-    ],
-    "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",
-    "background": "welcome-background.png",
-    "button": "Discuss Your Requirements",
+    "button": "Get Your Startup A Boost",
     "colors": {
-      "title": "tomato",
-      "subtitle": "green"
+      "title": "#18191F"
     }
   },
-  "iconBoxes": {
-    "title": "Icon Boxes ready-to-use component",
-    "iconBoxes": [
-      {
-        "icon": "js.svg",
-        "alt": "Javascript",
-        "link": "https://codex-soft.com"
-      },
-      {
-        "icon": "typescript.svg",
-        "alt": "Typescript"
-      },
-      {
-        "icon": "js.svg",
-        "alt": "Javascript",
-        "link": "https://codex-soft.com"
-      },
-      {
-        "icon": "typescript.svg",
-        "alt": "Typescript"
-      },
-      {
-        "icon": "js.svg",
-        "alt": "Javascript",
-        "link": "https://codex-soft.com"
-      }
-    ]
+  "imageArticle": {
+    "title": "Get Software engineers for your Startup",
+    "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
+    "image": "article-image.png",
+    "list": [
+      "Start at any stage",
+      "Scale the team up and down easily",
+      "Any roles, seniority & duration",
+      "Comfortable overlaps with your business hours"
+    ],
+    "button": "Request CVs"
   },
   "iconBoxesWithTitles": {
     "title": "Icon Boxes with titles",
@@ -411,13 +84,711 @@
         "title": "Your very custom healthcare solution",
         "icon": "js.svg",
         "alt": "Javascript",
-        "link": "https://codex-soft.com",
-        "background": "#2ec5ce"
+        "link": "https://codex-soft.com"
       }
     ]
   },
-  "tabsIconsWithTitle": {
-    "title": "Icons with title",
+  "iconBoxesWithoutTitles": {
+    "title": "Icon Boxes without titles",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
+  },
+  "contactFormExtended": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  },
+  "contactFormSimplified": {
+    "title": "Need Software Developers?",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Software Engineers For your Project",
+      "subtitle": "Hire Software Developers or End-to-End teams to get the optimal cost, timeframe and results of the project.",
+      "list": [
+        "Any roles: Front-end, Back-end, DevOps, Quality Assurance",
+        "Any duration: from short-term assignments to complete projects",
+        "Affordably: save up to 40% of costs if compared to hiring for the in-house team"
+      ]
+    }
+  },
+  "imageBoxesWithTestimonial": {
+    "title": "Featured Case Studies",
+    "imageBoxes": [
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      }
+    ]
+  },
+  "imageBoxesWithoutTestimonial": {
+    "title": "Featured Case Studies",
+    "imageBoxes": [
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation."
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation."
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation."
+      }
+    ]
+  },
+  "imageBoxesWithoutDescription": {
+    "title": "Featured Case Studies",
+    "imageBoxes": [
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc"
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc"
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc"
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems"
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc"
+      }
+    ]
+  },
+  "squaresTimeline": {
+    "title": "Our Process",
+    "items": [
+      {
+        "type": "text",
+        "title": "Plan & Prototype",
+        "subtitle": "All you need is an idea",
+        "text": "Share your thoughts with us, and we'll take care of everything needed to turn them into a viable plan for a real product.",
+        "bottomText": {
+          "icon": "tag-outline.svg",
+          "text": "Up to 5K GBP"
+        },
+        "colors": {
+          "background": "#F75C19",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Polish the idea",
+            "text": "We will help you find the most valuable features and scenarios to create an MVP and test the market",
+            "icon": "bulbsp.svg"
+          },
+          {
+            "title": "Get project documentation",
+            "text": "We will create all kinds of software development documentation to ensure successful delivery of a project",
+            "icon": "documentsp.svg"
+          },
+          {
+            "title": "Receive the Estimates",
+            "text": "We will provide reliable cost & timeframe assessments for MVP development",
+            "icon": "starsp.svg"
+          },
+          {
+            "title": "Get Tech Consulting",
+            "text": "We will help you pick appropriate technologies, assess tech risks and limitations, and assemble a development team",
+            "icon": "chatsp.svg"
+          },
+          {
+            "title": "Create a Prototype",
+            "text": "We will design and develop a clickable prototype for you to demonstrate to early implementers or investors",
+            "icon": "dimensionssp.svg"
+          }
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Refine your idea",
+            "text": "We will help you identify the most valuable features and scenarios to develop an MVP affordably & fast",
+            "icon": "bulbsp.svg"
+          },
+          {
+            "title": "Create a Prototype",
+            "text": "We will design and develop a prototype to showcase the product as early as possible, and gather feedback",
+            "icon": "dimensionssp.svg"
+          },
+          {
+            "title": "Get Tech Consulting",
+            "text": "We will identify any tech challenges that could impact MVP development and further product evolution",
+            "icon": "chatsp.svg"
+          },
+          {
+            "title": "Launch an MVP",
+            "text": "Receive end-to-end design, programming, and quality assurance services to release the product to the market",
+            "icon": "browsercodesp.svg"
+          }
+        ],
+        "colors": {
+          "background": "#FFFFFF"
+        }
+      },
+      {
+        "type": "text",
+        "title": "Develop an MVP",
+        "subtitle": "From the idea to market in under 3 months",
+        "text": "Bring your specifications or raw ideas, and get a Minimum Viable Product (MVP) in less than 3 months",
+        "bottomText": {
+          "icon": "tag-outline.svg",
+          "text": "12-20K GBP"
+        },
+        "colors": {
+          "background": "#18191F",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "text",
+        "title": "Evolve your product",
+        "subtitle": "Scale, pivot or enhance your software solution",
+        "text": "Get a managed development team to resolve the tech challenges of a growing product",
+        "button": "Let's talk",
+        "bottomText": {
+          "icon": "",
+          "text": ""
+        },
+        "colors": {
+          "background": "#454545",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Get an Audit",
+            "text": "Receive an assessment of the current state of the product, the perspectives, the risks and the budget for implementing the changes",
+            "icon": "chartlinesp.svg"
+          },
+          {
+            "title": "Develop a Roadmap",
+            "text": "We will create a detailed development roadmap based on your business goals",
+            "icon": "graphiclinesp.svg"
+          },
+          {
+            "title": "Set up Processes",
+            "text": "Embrace end-to-end Agile delivery practices in your sotware development project",
+            "icon": "settingssp.svg"
+          },
+          {
+            "title": "Develop your Software",
+            "text": "Receive a full-cycle managed team (including Business Analyst, Project Manager, UI/UX designer, developers, DevOps, and QA)",
+            "icon": "maccommandsp.svg"
+          },
+          {
+            "title": "Leverage Our Expertise",
+            "text": "Get on-demand tech leadership and consulting services to meet any tech challenges that may arise",
+            "icon": "chatsp.svg"
+          }
+        ]
+      },
+       {
+        "type": "list",
+        "list": [
+          {
+            "title": "Refine your idea",
+            "text": "We will help you identify the most valuable features and scenarios to develop an MVP affordably & fast",
+            "icon": "bulbsp.svg"
+          },
+          {
+            "title": "Create a Prototype",
+            "text": "We will design and develop a prototype to showcase the product as early as possible, and gather feedback",
+            "icon": "dimensionssp.svg"
+          },
+          {
+            "title": "Get Tech Consulting",
+            "text": "We will identify any tech challenges that could impact MVP development and further product evolution",
+            "icon": "chatsp.svg"
+          },
+          {
+            "title": "Launch an MVP",
+            "text": "Receive end-to-end design, programming, and quality assurance services to release the product to the market",
+            "icon": "browsercodesp.svg"
+          }
+        ],
+        "colors": {
+          "background": "#FFFFFF"
+        }
+      },
+      {
+        "type": "text",
+        "title": "Develop an MVP",
+        "subtitle": "From the idea to market in under 3 months",
+        "text": "Bring your specifications or raw ideas, and get a Minimum Viable Product (MVP) in less than 3 months",
+        "bottomText": {
+          "icon": "tag-outline.svg",
+          "text": "12-20K GBP"
+        },
+        "colors": {
+          "background": "#18191F",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "text",
+        "title": "Evolve your product",
+        "subtitle": "Scale, pivot or enhance your software solution",
+        "text": "Get a managed development team to resolve the tech challenges of a growing product",
+        "button": "Let's talk",
+        "bottomText": {
+          "icon": "",
+          "text": ""
+        },
+        "colors": {
+          "background": "#454545",
+          "text": "#FFFFFF",
+          "subtitle": "#FFFFFF",
+          "bottomText": "#FFFFFF"
+        }
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "title": "Get an Audit",
+            "text": "Receive an assessment of the current state of the product, the perspectives, the risks and the budget for implementing the changes",
+            "icon": "chartlinesp.svg"
+          },
+          {
+            "title": "Develop a Roadmap",
+            "text": "We will create a detailed development roadmap based on your business goals",
+            "icon": "graphiclinesp.svg"
+          },
+          {
+            "title": "Set up Processes",
+            "text": "Embrace end-to-end Agile delivery practices in your sotware development project",
+            "icon": "settingssp.svg"
+          },
+          {
+            "title": "Develop your Software",
+            "text": "Receive a full-cycle managed team (including Business Analyst, Project Manager, UI/UX designer, developers, DevOps, and QA)",
+            "icon": "maccommandsp.svg"
+          },
+          {
+            "title": "Leverage Our Expertise",
+            "text": "Get on-demand tech leadership and consulting services to meet any tech challenges that may arise",
+            "icon": "chatsp.svg"
+          }
+        ]
+      }
+    ]
+  },
+  "textBoxes": {
+    "title": "TextBoxes full",
+    "textBoxes": [
+      {
+        "title": "HP Siteflow Connectors",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "web-2-print.svg"
+      },
+      {
+        "title": "CRM API Integrations",
+        "subtitle": "Connect your software with any modern CRM",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "editor.svg"
+      },
+      {
+        "title": "Office365 API Integrations",
+        "subtitle": "Create seamless connections between your software and Office",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "employee.svg"
+      },
+      {
+        "title": "Logistics/3PL API Integrations",
+        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "wflow.svg"
+      },
+      {
+        "title": "Project Management Platform Integrations",
+        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "hpint.svg"
+      },
+      {
+        "title": "eCommerce API Integrations",
+        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "text": "Scale, pivot or enhance your software solution",
+        "icon": "pdataanalys.svg"
+      }
+    ]
+  },
+  "textBoxesWithoutIcons": {
+    "title": "TextBoxes without icons",
+    "textBoxes": [
+      {
+        "title": "HP Siteflow Connectors",
+        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "CRM API Integrations",
+        "subtitle": "Connect your software with any modern CRM",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Office365 API Integrations",
+        "subtitle": "Create seamless connections between your software and Office",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Logistics/3PL API Integrations",
+        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "Project Management Platform Integrations",
+        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "text": "Scale, pivot or enhance your software solution"
+      },
+      {
+        "title": "eCommerce API Integrations",
+        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "text": "Scale, pivot or enhance your software solution"
+      }
+    ]
+  },
+  "tabsIcons": {
+    "title": "Technologies",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "java.svg",
+        "alt": "Java",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "python.svg",
+        "alt": "Python",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "csharp.svg",
+        "alt": "C#",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "icon": "nodejs.svg",
+        "alt": "NodeJS",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "express.svg",
+        "alt": "Express",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "nextjs.svg",
+        "alt": "NextJS",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "feathersjs.svg",
+        "alt": "Feathers",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "springboot.svg",
+        "alt": "Spring Framework",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "django.svg",
+        "alt": "Django",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "flask.svg",
+        "alt": "Flask",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "dotnet.svg",
+        "alt": "Dotnet Framework",
+        "tabs": ["Frameworks"]
+      },
+      {
+        "icon": "mongodb.svg",
+        "alt": "MongoDB",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "postgresql.svg",
+        "alt": "PostgreSQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "redis.svg",
+        "alt": "Redis",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "mysql.svg",
+        "alt": "MySQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "mssql.svg",
+        "alt": "MSSQL",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "firebase.svg",
+        "alt": "Firebase",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "oracle.svg",
+        "alt": "Oracle DB",
+        "tabs": ["Databases"]
+      },
+      {
+        "icon": "tensorflow.svg",
+        "alt": "Tensorflow",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "numpy.svg",
+        "alt": "Numpy",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "pandas.svg",
+        "alt": "Pandas",
+        "tabs": ["Data Science & AI"]
+      },
+      {
+        "icon": "aws.svg",
+        "alt": "Amazon AWS",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "googlecloud.svg",
+        "alt": "Google Cloud",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "azure.svg",
+        "alt": "Azure",
+        "tabs": ["Cloud Platforms"]
+      },
+      {
+        "icon": "docker.svg",
+        "alt": "Docker",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "kubernetes.svg",
+        "alt": "Kubernetes",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "terraform.svg",
+        "alt": "Terraform",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "ansible.svg",
+        "alt": "Ansible",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "circleci.svg",
+        "alt": "CircleCI",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "gitlab.svg",
+        "alt": "Gitlab",
+        "tabs": ["DevOps"]
+      },
+      {
+        "icon": "cypress.svg",
+        "alt": "Cypress",
+        "tabs": ["Testing"]
+      },
+      {
+        "icon": "jest.svg",
+        "alt": "Jest",
+        "tabs": ["Testing"]
+      },
+      {
+        "icon": "selenium.svg",
+        "alt": "Selenium",
+        "tabs": ["Testing"]
+      }
+    ]
+  },
+  "tabsIconsWithText": {
+    "title": "Technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -431,88 +802,62 @@
       {
         "title": "Staff Management, Bank & Rota Systems",
         "icon": "js.svg",
-        "alt": "Javascript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"],
+        "alt": "Javascript"
       },
       {
         "title": "Telehealthcare",
         "icon": "typescript.svg",
-        "alt": "Typescript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"],
+        "alt": "Typescript"
       },
       {
         "title": "Virtual Wards",
         "icon": "js.svg",
-        "alt": "Javascript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"],
+        "alt": "Javascript"
       },
       {
         "title": "Electronic Health Records",
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       },
       {
         "title": "Patient Portals and CMS Websites",
         "icon": "js.svg",
         "alt": "Javascript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       },
       {
         "title": "Bespoke Patient Management Flows",
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       },
       {
         "title": "Clinical Auditing",
         "icon": "js.svg",
         "alt": "Javascript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       },
       {
         "title": "Mobile and Cross-Platform Healthcare Apps",
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       },
       {
         "title": "Your very custom healthcare solution",
         "icon": "js.svg",
         "alt": "Javascript",
         "link": "https://codex-soft.com",
-        "background": "#2ec5ce",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "tabs": ["Programming Languages"]
       }
     ]
   },
-  "imageBoxesSmall": {
-    "title": "Image boxes without description and testimonial",
-    "imageBoxes": [
-      {
-        "background": "image-box-2.png",
-        "title": "OneFlow Systems",
-        "link": "https://codex-soft.com"
-      },
-      {
-        "background": "image-box-2.png",
-        "title": "HP Inc",
-        "link": "https://codex-soft.com"
-      },
-      {
-        "background": "image-box-2.png",
-        "title": "OneFlow Systems",
-        "link": "https://codex-soft.com"
-      },
-      {
-        "background": "image-box-2.png",
-        "title": "HP Inc",
-        "link": "https://codex-soft.com"
-      }
-    ]
-  },
-  "tabbedWithTextBoxes": {
-    "title": "Icons with title",
+  "tabsImageBox": {
+    "title": "Technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -524,46 +869,124 @@
     ],
     "tabsContent": [
       {
-        "title": "HP Siteflow Connectors",
-        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
-        "text": "",
-        "icon": "web-2-print.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"],
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
       },
       {
-        "title": "CRM API Integrations",
-        "subtitle": "Connect your software with any modern CRM",
-        "text": "",
-        "icon": "editor.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"],
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
       },
       {
-        "title": "Office365 API Integrations",
-        "subtitle": "Create seamless connections between your software and Office",
-        "text": "",
-        "icon": "employee.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"],
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "author": {
+          "avatar": "chris-knighton.png",
+          "name": "Chris Knighton",
+          "position": "Global Sales Director"
+        },
+        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
       },
       {
-        "title": "Logistics/3PL API Integrations",
-        "subtitle": "Establish connections with 3PL and Logistics Software",
-        "text": "",
-        "icon": "wflow.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"],
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "author": {
+          "avatar": "nigel.webp",
+          "name": "Nigel Watson",
+          "position": "New Business Director"
+        },
+        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      }
+    ]
+  },
+  "tabsImageBoxWithoutTestimonial": {
+    "title": "Technologies",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"],
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
       },
       {
-        "title": "Project Management Platform Integrations",
-        "subtitle": "Build efficient connections with most popular Project Management platforms",
-        "text": "",
-        "icon": "hpint.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"],
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation."
       },
       {
-        "title": "eCommerce API Integrations",
-        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
-        "text": "",
-        "icon": "pdataanalys.svg",
-        "tabs": ["Programming Languages", "Frameworks"]
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"],
+        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond."
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"],
+        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation."
+      }
+    ]
+  },
+  "tabsImageBoxWithoutDescripton": {
+    "title": "Technologies",
+    "tabs": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases",
+      "Data Science & AI",
+      "Cloud Platforms",
+      "DevOps",
+      "Testing"
+    ],
+    "tabsContent": [
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "background": "oneflow.png",
+        "title": "OneFlow Systems",
+        "tabs": ["Programming Languages"]
+      },
+      {
+        "background": "hp.png",
+        "title": "HP Inc",
+        "tabs": ["Programming Languages"]
       }
     ]
   }

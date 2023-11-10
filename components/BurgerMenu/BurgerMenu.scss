@@ -1,0 +1,30 @@
+.burger-menu {
+  &__icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  &__line {
+    display: block;
+    width: 20px;
+    background-color: #000;
+    border: 1.5px solid #000;
+    border-radius: 100px;
+    @include base-transition;
+  }
+
+  &__icon--open &__line {
+    &:nth-child(1) {
+      transform: rotate(45deg) translate(2.62px, 2.62px);
+    }
+    &:nth-child(2) {
+      transform: rotate(-45deg) translate(2.77px, -3px);
+    }
+  }
+}

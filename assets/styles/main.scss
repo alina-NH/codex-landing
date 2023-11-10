@@ -19,3 +19,17 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444444;
+  border-radius: 100px;
+  min-height: 40px;
+  border: 2px solid rgba(24, 25, 31, 0.10);
+  background-clip: padding-box;
+  padding: 5px;
+}

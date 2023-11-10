@@ -5,6 +5,11 @@
     margin: unset;
   }
 
+  &__title {
+    width: 100%;
+    margin: 3vh 0 3vh 0;
+  }
+
   &__body {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -12,6 +17,27 @@
 
     &--titled {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &__body {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+
+      &--titled {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &__body {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+
+      &--titled {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        justify-content: center;
+      }
     }
   }
 }

@@ -8,7 +8,7 @@
     </SectionTitle>
     <div class="squares-timeline__body">
       <div
-        v-for="item in data.items"
+        v-for="item in content"
         class="squares-timeline__item"
         :style="{ background: (item as ImageArticle).colors?.background }"
       >
@@ -39,6 +39,18 @@ const {
   data: SquaresTimeline,
   titlePosition?: keyof typeof SectionTitlePosition,
 }>();
+
+const content = ref(data.items);
+
+onMounted(() => {
+  if (isMobile()) {
+    let i = 3;
+    while (i <= content.value.length) {
+      [content.value[i - 1], content.value[i]] = [content.value[i], content.value[i - 1]]
+      i += 4;
+    }
+  }
+});
 </script>
 
 <style scoped lang="scss" src="./SquaresTimeline.scss" />
