@@ -17,7 +17,7 @@
       "Improve production and distribution",
       " of print products."
     ],
-    "background": "welcome-background.png",
+    "background": "printer-cuate.svg",
     "button": "Discuss Your Requirements",
     "colors": {
       "title": "black",
@@ -36,31 +36,31 @@
         "title": "Web-2-Print Storefronts",
         "subtitle": "Start selling print products online or improve sales",
         "text": "",
-        "icon": "web-2-print.svg"
+        "icon": "eCommerce.png"
       },
       {
         "title": "Custom Editors and Customizers",
         "subtitle": "Allow users and customers seamlessly change designs and content",
         "text": "",
-        "icon": "editor.svg"
+        "icon": "imageeditor.png"
       },
       {
         "title": "Employee Applications",
         "subtitle": "Improve internal processes by using modern digital means",
         "text": "",
-        "icon": "employee.svg"
+        "icon": "employee.png"
       },
       {
         "title": "Workflow Automation",
         "subtitle": "Automate processes to boost performance, cut waste and maximise uptime",
         "text": "",
-        "icon": "wflow.svg"
+        "icon": "workflow.png"
       },
       {
-        "title": "Custom Integration with HP Siteflow",
+        "title": "Custom HP Siteflow Integrations",
         "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
         "text": "",
-        "icon": "hpint.svg"
+        "icon": "hpsiteflow.png"
       },
       {
         "title": "Data Analytics & Visualisation",

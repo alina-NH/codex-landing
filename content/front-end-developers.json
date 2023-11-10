@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": ["Front-end Developers", "For your Team.", "Affordably."],
-    "background": "welcome-background.png",
+    "background": "feamico.svg",
     "button": "Request CVs",
     "colors": {
       "title": "black",
@@ -202,6 +202,16 @@
           "position": "New Business Director"
         },
         "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      },
+      {
+        "background": "Axis.png",
+        "title": "Axis.xyz",
+        "description": "We've helped Axis.xyz, a business intelligence and data analytics platform for the investment sector, develop a comprehensive BI software solution able to retrieve and analyse data from numerous sources, and visualise it via custom dashboards equipped with complex (over 500 custom nodes) interactive social graphs."
+      },
+      {
+        "background": "3DBox.png",
+        "title": "3D Pack Pro",
+        "description": "3D Pack Pro is a web-to-print solution for packaging service providers that allows them to construct and customize packaging items on the fly, expanding the customer reach and improving customer satisfaction."
       }
     ]
   },

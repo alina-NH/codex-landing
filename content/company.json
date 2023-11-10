@@ -14,7 +14,7 @@
     },
     "welcome": {
       "title": ["We are strategic technology partners", "to startups and enterprises."],
-      "background": "welcome-background.png",
+      "background": "business-mission-rafiki.svg",
       "button": "Get Acquainted"
     },
     "articleWithImageAndText1": {

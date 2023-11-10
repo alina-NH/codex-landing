@@ -18,7 +18,7 @@
       "And visualize data to",
       "Make accurate decisions."
     ],
-    "background": "welcome-background.png",
+    "background": "data-extraction-cuate.svg",
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
@@ -35,37 +35,37 @@
         "title": "Custom Dashboards",
         "subtitle": "User-friendly Data Visualisation Solutions of Any complexity",
         "text": "",
-        "icon": "web-2-print.svg"
+        "icon": "dashboards.png"
       },
       {
         "title": "Data Mining Software",
         "subtitle": "Gather, normalize and process data from various sources",
         "text": "",
-        "icon": "editor.svg"
+        "icon": "data-mining.png"
       },
       {
         "title": "ETL Solutions",
         "subtitle": "Extract-Transform-Load Software for various industries",
         "text": "",
-        "icon": "employee.svg"
+        "icon": "etl.png"
       },
       {
         "title": "Data Warehouse Solutions",
         "subtitle": "Store data securely and efficiently",
         "text": "",
-        "icon": "wflow.svg"
+        "icon": "datawarehouse.png"
       },
       {
         "title": "Big Data Software",
         "subtitle": "Gather, process and store Big Data",
         "text": "",
-        "icon": "hpint.svg"
+        "icon": "big-data.png"
       },
       {
         "title": "Artificial Intelligence Apps",
         "subtitle": "Put Artificial Intellinge at your service",
         "text": "",
-        "icon": "pdataanalys.svg"
+        "icon": "ai-icon.png"
       }
     ]
   },
@@ -262,26 +262,38 @@
     "title": "Featured Case Studies",
     "imageBoxes": [
       {
-        "background": "oneflow.png",
-        "title": "OneFlow Systems",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "background": "macmillan.png",
+        "title": "Macmillan",
+        "description": "Macmillan - one of the US Big Five publishing houses, - operates a number of business process automation digital products. Thanks to the extensive experience in this domain, we helped the publisher extend their software departments, and remain their trusted technology partner since.",
         "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "avatar": "rob.webp",
+          "name": "Rob Guttman",
+          "position": "Senior VP, Macmillan"
         },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
       },
       {
-        "background": "hp.png",
-        "title": "HP Inc",
-        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "background": "loadown.png",
+        "title": "The Loadown",
+        "description": "We developed a data analytics platform designed to monitor App Store apps’ rankings in real time, providing valuable insights for data-driven marketing decisions in real time. The solution is able to seamlessly process terabytes of data.",
         "author": {
-          "avatar": "nigel.webp",
-          "name": "Nigel Watson",
-          "position": "New Business Director"
+          "avatar": "david.webp",
+          "name": "David Renard",
+          "position": "Co-founder, The Loadown"
         },
-        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+        "testimonial": "“Codex Software helped us create a complex, yet elegant solution for our real-time marketing platform. We highly recommend Codex Software for anyone looking for a serious IT outsourcing service provider!”"
+      },
+      {
+        "background": "Markerr.png",
+        "tabs": ["Data Analytics"],
+        "title": "Markerr",
+        "description": "Codex Software teamed up with the Customer to develop several software solutions in the ecosystem of a data analytics platform. The solutions included  a fraud detection instrument for the banking sector, a report comparison tool for investment companies, among others."
+      },
+      {
+        "background": "Axis.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "Axis.xyz",
+        "description": "We've helped Axis.xyz, a business intelligence and data analytics platform for the investment sector, develop a comprehensive BI software solution able to retrieve and analyse data from numerous sources, and visualise it via custom dashboards equipped with complex (over 500 custom nodes) interactive social graphs."
       }
     ]
   },
