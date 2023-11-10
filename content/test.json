@@ -36,5 +36,136 @@
       "Comfortable overlaps with your business hours"
     ],
     "button": "Request CVs"
+  },
+  "iconBoxesWithTitles": {
+    "title": "Icon Boxes with titles",
+    "iconBoxes": [
+      {
+        "title": "Staff Management, Bank & Rota Systems",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Telehealthcare",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Virtual Wards",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Electronic Health Records",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Patient Portals and CMS Websites",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Bespoke Patient Management Flows",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Clinical Auditing",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Mobile and Cross-Platform Healthcare Apps",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Your very custom healthcare solution",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
+  },
+  "iconBoxesWithoutTitles": {
+    "title": "Icon Boxes without titles",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
+  },
+  "contactFormExtended": {
+    "title": "Contact Us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  },
+  "contactFormSimplified": {
+    "title": "Need Software Developers?",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Software Engineers For your Project",
+      "subtitle": "Hire Software Developers or End-to-End teams to get the optimal cost, timeframe and results of the project.",
+      "list": [
+        "Any roles: Front-end, Back-end, DevOps, Quality Assurance",
+        "Any duration: from short-term assignments to complete projects",
+        "Affordably: save up to 40% of costs if compared to hiring for the in-house team"
+      ]
+    }
   }
 }

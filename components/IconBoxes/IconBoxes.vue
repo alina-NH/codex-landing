@@ -6,6 +6,7 @@
     <SectionTitle
       v-if="data?.title"
       :position="titlePosition"
+      class="icon-boxes__title"
     >
       {{ data.title }}
     </SectionTitle>

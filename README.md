@@ -402,7 +402,6 @@ buttonStyle       | filled or outline button (if button declared in JSON)      |
 imageToRight      | image renders in right corner (if image declared in JSON)  | boolean                        | no
 component         | body is list or text                                       | 'list' \| 'text'               | yes
 textAlignment     | alignment of text in article body                          | 'left' \| 'center' \| 'right'  | no
-articleAlignment  | alignment of article (without image)                       | 'left' \| 'center' \| 'right'  | no
 titleSize         | title size in article                                      | 'small' \| 'large'             | no
 
 ### ImageBoxes
