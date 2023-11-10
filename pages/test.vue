@@ -38,6 +38,10 @@
     title-position="left"
     :data="testContent.imageBoxesWithoutDescription"
   />
+  <SquaresTimeline
+    title-position="left"
+    :data="testContent.squaresTimeline"
+  />
 </template>
   
 
