@@ -9,6 +9,15 @@
     button-alignment="left"
     title-size="large"
   />
+  <IconBoxes
+    :data="testContent.iconBoxesWithTitles"
+    title-position="left"
+    icon-to-top
+  />
+  <IconBoxes
+    :data="testContent.iconBoxesWithoutTitles"
+    title-position="center"
+  />
 </template>
   
 

@@ -36,5 +36,84 @@
       "Comfortable overlaps with your business hours"
     ],
     "button": "Request CVs"
+  },
+  "iconBoxesWithTitles": {
+    "title": "Icon Boxes with titles",
+    "iconBoxes": [
+      {
+        "title": "Staff Management, Bank & Rota Systems",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Telehealthcare",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Virtual Wards",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Electronic Health Records",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Patient Portals and CMS Websites",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Bespoke Patient Management Flows",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Clinical Auditing",
+        "icon": "js.svg",
+        "alt": "Javascript"
+      },
+      {
+        "title": "Mobile and Cross-Platform Healthcare Apps",
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "title": "Your very custom healthcare solution",
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
+  },
+  "iconBoxesWithoutTitles": {
+    "title": "Icon Boxes without titles",
+    "iconBoxes": [
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      },
+      {
+        "icon": "typescript.svg",
+        "alt": "Typescript"
+      },
+      {
+        "icon": "js.svg",
+        "alt": "Javascript",
+        "link": "https://codex-soft.com"
+      }
+    ]
   }
 }
