@@ -28,6 +28,16 @@
     type="extended"
     :data="testContent.contactFormExtended"
   />
+  <ImageBoxes
+    :data="testContent.imageBoxesWithTestimonial"
+  />
+  <ImageBoxes
+    :data="testContent.imageBoxesWithoutTestimonial"
+  />
+  <ImageBoxes
+    title-position="left"
+    :data="testContent.imageBoxesWithoutDescription"
+  />
 </template>
   
 
