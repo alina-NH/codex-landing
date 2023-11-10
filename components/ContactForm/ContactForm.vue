@@ -83,7 +83,6 @@
       :data="(data.imageArticle as ImageArticle)"
       :component="(component as keyof typeof ImageArticleComponent)"
       :textAlignment="textAlignment"
-      :articleAlignment="articleAlignment"
       :titleSize="titleSize"
       filterMode
     />
@@ -132,7 +131,6 @@ const {
   type,
   component,
   textAlignment,
-  articleAlignment,
   titleSize,
   formToLeft,
 } = defineProps<{
@@ -140,7 +138,6 @@ const {
   type: keyof typeof ContactFormType,
   component?: keyof typeof ImageArticleComponent,
   textAlignment?: keyof typeof Alignment,
-  articleAlignment?: keyof typeof Alignment,
   titleSize?: keyof typeof TitleSize,
   formToLeft?: boolean,
 }>();

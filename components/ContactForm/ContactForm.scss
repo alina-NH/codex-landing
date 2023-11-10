@@ -82,4 +82,61 @@
       align-self: unset;
     }
   }
+
+  @media screen and (max-width: $breakpoint-xxl) {
+    column-gap: 20px;
+
+    &__body {
+      &--simplified {
+        width: 50%;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    &__body {
+      &--simplified {
+        width: 60%;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &--simplified {
+      padding: 7vh 7vw;
+    }
+
+    &__body {
+      &--simplified {
+        padding: 30px;
+        width: 70%;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &--simplified {
+      padding: 10vh 20px;
+      flex-direction: column;
+    }
+
+    &__body {
+      width: 90%;
+      padding: 30px;
+
+      &--simplified {
+        margin: 40px 0 0 0;
+        width: 100%;
+      }
+    }
+  
+    &__inline-block {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__input {
+      margin-bottom: 15px;
+    }
+  }
 }

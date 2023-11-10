@@ -14,9 +14,19 @@
     title-position="left"
     icon-to-top
   />
+  <ContactForm
+    type="simplified"
+    component="list"
+    formToLeft
+    :data="testContent.contactFormSimplified"
+  />
   <IconBoxes
     :data="testContent.iconBoxesWithoutTitles"
     title-position="center"
+  />
+  <ContactForm
+    type="extended"
+    :data="testContent.contactFormExtended"
   />
 </template>
   
