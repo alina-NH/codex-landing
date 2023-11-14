@@ -1,10 +1,12 @@
 <template>
   <section
+    :id="data?.id"
     class="text-boxes"
     :class="{ 'text-boxes--filtered': filterMode }"
   >
     <SectionTitle
       v-if="data.title"
+      :id="data?.id"
       :position="titlePosition"
       class="text-boxes__title"
     >

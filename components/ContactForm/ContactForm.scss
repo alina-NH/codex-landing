@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  scroll-margin-top: 4vh;
 
   &--reversed {
     flex-direction: row-reverse;
@@ -31,6 +32,11 @@
   &__title {
     margin-bottom: 24px;
     text-align: center;
+
+    a {
+      all: unset;
+      pointer-events: none;
+    }
   }
 
   &__inline-block {

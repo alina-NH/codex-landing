@@ -28,11 +28,13 @@
     },
     "articleWithImageAndText": {
       "title": "How We Work",
+      "id": "how-we-work",
       "subtitle": "",
       "text": "Explore our Lean startup approach to software product development"
     },
     "articleWithImageAndText2": {
         "image": "how-we-work-2.gif",
+        "id": "analysis-and-prototyping",
         "title": "Analysis and Prototyping",
         "subtitle": "Evaluate and refine your idea",
         "list": [
@@ -44,6 +46,7 @@
       },
       "articleWithImageAndText3": {
         "image": "how-we-work-3.gif",
+        "id": "mvp-development",
         "title": "MVP Development",
         "subtitle": "Validate your idea, affordably.",
         "list": [
@@ -55,6 +58,7 @@
       },
       "articleWithImageAndText4": {
         "image": "how-we-work-2.gif",
+        "id": "product-evolution",
         "title": "Product Evolution",
         "subtitle": "Grow, Scale or Pivot your Software",
         "list": [
@@ -66,6 +70,7 @@
       },
       "CasesMVP": {
         "title": "Recent MVP Projects",
+        "id": "case-studies",
         "imageBoxes": [
 
             {
@@ -87,6 +92,7 @@
       },
     "squareTimeline": {
         "title": "Start working with us. It's easy!",
+        "id": "process",
         "items": [
           {
             "type": "text",
@@ -222,6 +228,7 @@
     
     "Cases": {
       "title": "Featured Startup Stories:",
+      "id": "stories",
       "imageBoxes": [
         {
             "background": "cultureconnect.png",
@@ -249,6 +256,7 @@
     },
     "contactForm": {
       "title": "Contact Us",
+      "id": "contact-us",
       "nameInput": {
         "label": "Name",
         "placeholder": "John",

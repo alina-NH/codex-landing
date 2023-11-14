@@ -25,6 +25,7 @@ export type ImageBox = {
 
 export interface ImageBoxes {
   title?: string,
+  id?: string,
   imageBoxes: ImageBox[],
 };
 
@@ -42,6 +43,7 @@ export enum TabsComponent {
 
 export interface TabbedContent {
   title?: string,
+  id: string,
   tabs: string[],
   background?: string,
   tabsContent: (ImageBox | IconBox | TextBox)[],
@@ -57,6 +59,7 @@ export type IconBox = {
 };
 
 export interface IconBoxes {
+  id?: string,
   title?: string,
   iconBoxes: IconBox[],
 };
@@ -71,6 +74,7 @@ export type TextBox = {
 
 export interface TextBoxes {
   title?: string,
+  id?: string,
   textBoxes: TextBox[],
 }
 
@@ -89,8 +93,8 @@ export interface Header {
   logo: ImageData,
   nav: {
     name: string,
-    external: boolean,
-    link: string,
+    external?: boolean,
+    link?: string,
     subnav?: NavLink[]
   }[],
   button: string,
@@ -144,6 +148,7 @@ export interface Store {
 
 export interface SquaresTimeline {
   title?: string,
+  id: string,
   items: (ImageArticle | List)[],
 };
 
@@ -153,6 +158,7 @@ export enum ImageArticleComponent {
 };
 
 export type ImageArticle = {
+  id?: string,
   title: string,
   subtitle?: string,
   list?: string[],
@@ -218,6 +224,7 @@ export interface ContactFormInput {
 };
 
 export interface ContactForm {
+  id: string,
   title: string,
   nameInput: ContactFormInput,
   companyInput?: ContactFormInput,

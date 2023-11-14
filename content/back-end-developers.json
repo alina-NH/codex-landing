@@ -23,6 +23,7 @@
   },
   "textBoxes": {
     "title": "Services",
+    "id": "services",
     "textBoxes": [
       {
         "title": "Developers for Hire",
@@ -52,6 +53,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -241,6 +243,7 @@
   },
   "textBoxes2": {
     "title": "What to expect hiring Codex Software",
+    "id": "hiring",
     "textBoxes": [
       {
         "title": "TOP-10% Talent",
@@ -282,6 +285,7 @@
   },
   "mvpCases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -331,6 +335,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

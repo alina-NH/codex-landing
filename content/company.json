@@ -19,11 +19,13 @@
     },
     "articleWithImageAndText1": {
         "title": "The story",
+        "id": "story",
         "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries.",
         "button": ""
       },
       "imageBoxesSmallExecs": {
         "title": "Meet the Leadership",
+        "id": "leadership",
         "imageBoxes": [
           {
             "background": "exec1.png",
@@ -69,6 +71,7 @@
       },
       "imageBoxesSmallDevs": {
         "title": "Meet the Team",
+        "id": "team",
         "imageBoxes": [
           {
             "background": "dev1.png",
@@ -114,6 +117,7 @@
       },
       "tabsImageBox": {
         "title": "Our Locations",
+        "id": "locations",
         "tabs": [
           "All Locations",
           "Headquarters",
@@ -149,6 +153,7 @@
     },
     "contactForm": {
         "title": "Contact Us",
+        "id": "contact-us",
         "nameInput": {
           "label": "Name",
           "placeholder": "John",

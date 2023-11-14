@@ -22,11 +22,13 @@
   },
   "articleWithImageAndText": {
     "title": "Solutions",
+    "id": "solutions",
     "subtitle": "",
     "text": "Simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Shopify Product Configurators",
@@ -56,6 +58,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -245,6 +248,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "Customis3D.png",
@@ -265,6 +269,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

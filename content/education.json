@@ -28,12 +28,14 @@
   "articleWithImageAndText": {
     "image": "",
     "title": "Solutions",
+    "id": "solutions",
     "subtitle": "",
     "text": "Improve teaching, studying, and managing educational institutions.",
     "button": ""
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Examination Platforms",
@@ -75,6 +77,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -264,6 +267,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "paris-dauphine.png",
@@ -291,6 +295,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

@@ -1,5 +1,6 @@
 <template>
   <section
+    :id="data?.id"
     class="image-article"
     :class="{
       'image-article--reversed': imageToRight,
@@ -25,13 +26,22 @@
       }"
     >
       <h3
+        v-if="data?.title"
         class="heading-3 image-article__title"
         :class="{
         'image-article__title--small': titleSize === TitleSize.small,
         'image-article__title--large': titleSize === TitleSize.large,
       }"
       >
-        {{ data?.title }}
+        <a
+          v-if="data?.id"
+          :href="`#${data.id}`"
+        >
+          {{ data.title }}
+        </a>
+        <span v-else>
+          {{ data.title }}
+        </span>
       </h3>
       <p
         v-if="data?.subtitle"

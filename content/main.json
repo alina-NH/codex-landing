@@ -18,12 +18,14 @@
     "button": "Talk to us"
   },
   "articleWithImageAndText": {
+    "id": "story",
     "title": "Can We Help You?",
     "text": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
     "button": "Talk to us"
   },
   "tabsIcons": {
     "title": "Techologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Front-end",
@@ -334,6 +336,7 @@
   },
   "contactFormSimplified": {
     "title": "Need Software Developers?",
+    "id": "need-developers-form",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
@@ -363,6 +366,7 @@
   },
   "mvpCases": {
     "title": "Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -434,6 +438,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

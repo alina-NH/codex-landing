@@ -7,7 +7,6 @@
     "nav": [
       {
         "name": "Solutions",
-        "link": "#",
         "external": false,
         "subnav": [
           {
@@ -44,7 +43,6 @@
       },
       {
         "name": "Industries",
-        "link": "#",
         "external": false,
         "subnav": [
           {
@@ -81,7 +79,6 @@
       },
       {
         "name": "Hire developers",
-        "link": "#",
         "external": false,
         "subnav": [
           {

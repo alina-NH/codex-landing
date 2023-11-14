@@ -21,12 +21,14 @@
     "button": "Request an API Integration"
   },
   "articleWithImageAndText": {
+    "id": "solutions",
     "title": "Solutions",
     "subtitle": "",
     "text": "We create efficient and secure connections between software solutions of any types, purpose and complexity."
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "HP Siteflow Connectors",
@@ -68,6 +70,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -257,6 +260,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "hp.png",
@@ -294,6 +298,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

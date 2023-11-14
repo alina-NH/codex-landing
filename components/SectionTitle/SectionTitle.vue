@@ -6,14 +6,24 @@
       'section-title--left': position === SectionTitlePosition.left,
     }"
   >
-    <slot />
+    <a
+      v-if="id"
+      :href="`#${id}`"
+    >
+      <slot />
+    </a>
+    <span v-else>
+      <slot />
+    </span>
   </h3>
 </template>
 
 <script setup lang="ts">
 const {
+  id,
   position,
 } = defineProps<{
+  id?: string,
   position?: keyof typeof SectionTitlePosition,
 }>();
 </script>

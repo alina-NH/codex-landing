@@ -26,6 +26,7 @@
     }
   },
   "imageArticle": {
+    "id": "get-engineers",
     "title": "Get Software engineers for your Startup",
     "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
     "image": "article-image.png",
@@ -38,6 +39,7 @@
     "button": "Request CVs"
   },
   "iconBoxesWithTitles": {
+    "id": "icon-boxes-titled",
     "title": "Icon Boxes with titles",
     "iconBoxes": [
       {
@@ -89,6 +91,7 @@
     ]
   },
   "iconBoxesWithoutTitles": {
+    "id": "icon-boxes",
     "title": "Icon Boxes without titles",
     "iconBoxes": [
       {
@@ -118,6 +121,7 @@
   },
   "contactFormExtended": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
@@ -147,6 +151,7 @@
   },
   "contactFormSimplified": {
     "title": "Need Software Developers?",
+    "id": "need-developers-form",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
@@ -170,6 +175,7 @@
   },
   "imageBoxesWithTestimonial": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -219,6 +225,7 @@
   },
   "imageBoxesWithoutTestimonial": {
     "title": "Featured Case Studies",
+    "id": "case-studies-untitled",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -254,6 +261,7 @@
   },
   "imageBoxesWithoutDescription": {
     "title": "Featured Case Studies",
+    "id": "case-studies-without-description",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -291,6 +299,7 @@
   },
   "squaresTimeline": {
     "title": "Our Process",
+    "id": "our-process",
     "items": [
       {
         "type": "text",
@@ -524,6 +533,7 @@
   },
   "textBoxes": {
     "title": "TextBoxes full",
+    "id": "textboxes-1",
     "textBoxes": [
       {
         "title": "HP Siteflow Connectors",
@@ -565,6 +575,7 @@
   },
   "textBoxesWithoutIcons": {
     "title": "TextBoxes without icons",
+    "id": "textboxes-2",
     "textBoxes": [
       {
         "title": "HP Siteflow Connectors",
@@ -600,6 +611,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies-1",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -789,6 +801,7 @@
   },
   "tabsIconsWithText": {
     "title": "Technologies",
+    "id": "technologies-2",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -858,6 +871,7 @@
   },
   "tabsImageBox": {
     "title": "Technologies",
+    "id": "technologies-3",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -920,6 +934,7 @@
   },
   "tabsImageBoxWithoutTestimonial": {
     "title": "Technologies",
+    "id": "technologies-4",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -958,6 +973,7 @@
   },
   "tabsImageBoxWithoutDescripton": {
     "title": "Technologies",
+    "id": "technologies-5",
     "tabs": [
       "Programming Languages",
       "Frameworks",
