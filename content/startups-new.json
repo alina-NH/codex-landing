@@ -16,7 +16,10 @@
     "welcome": {
       "title": ["Staff your startup team.", "Scale affordably.", "Grow fast."],
       "background": "welcome-background.png",
-      "button": "Get Your Startup a Boost",
+      "button": {
+        "text": "Get Your Startup a Boost",
+        "idToScroll": "contact-us"
+      },
       "colors": {
         "title": "black",
         "subtitle": "#C0C0C0"
@@ -33,7 +36,10 @@
           "Any roles, seniority & duration",
           "Comfortable overlaps with your business hours"
         ],
-        "button": "Request CVs"
+        "button": {
+          "text": "Request CVs",
+          "idToScroll": "contact-us"
+        }
       },
       "tabsIcons": {
         "title": "Techologies",
@@ -307,7 +313,10 @@
             "Refine the idea and get a development plan.", 
             "Get a solution tailored to your business goals",
             "Evolve or pivot the product further"],
-        "button": "Discuss your Project"
+        "button": {
+          "text": "Discuss your Project",
+          "idToScroll": "contact-us"
+        }
       },
       "CasesMVP": {
         "title": "Recent MVP Projects",
@@ -482,7 +491,10 @@
             "title": "Evolve your product",
             "subtitle": "Scale, pivot or enhance your software solution",
             "text": "Get a managed development team to resolve the tech challenges of a growing product",
-            "button": "Let's talk",
+            "button": {
+              "text": "Let's talk",
+              "idToScroll": "contact-us"
+            },
             "bottomText": {
               "icon": "",
               "text": ""

@@ -54,9 +54,9 @@
         :style="ButtonStyle.outline"
         :size="ButtonSize.small"
         class="header__button"
-        @click="isMenuOpen = false"
+        @click="scrollToElement"
       >
-        {{ header.button }}
+        {{ header.button.text }}
       </Button>
     </div>
   </header>
@@ -75,6 +75,11 @@ const toggleSubnav = (index: number) => {
     ? -1
     : index;
 };
+
+const scrollToElement = () => {
+  isMenuOpen.value = false;
+  scrollTo(`#${header.button.idToScroll}` as ScrollToOptions);
+}
 </script>
 
 <style scoped lang="scss" src="./HeaderMobile.scss" />

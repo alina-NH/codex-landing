@@ -20,7 +20,10 @@
     ],
     "subtitle": "Get a working solution to validate your idea, affordably.",
     "background": "welcome-background.png",
-    "button": "Get Your Startup A Boost",
+    "button": {
+      "text": "Get Your Startup a Boost",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "#18191F"
     }
@@ -36,7 +39,10 @@
       "Any roles, seniority & duration",
       "Comfortable overlaps with your business hours"
     ],
-    "button": "Request CVs"
+    "button": {
+      "text": "Request CVs",
+      "idToScroll": "contact-us"
+    }
   },
   "iconBoxesWithTitles": {
     "id": "icon-boxes-titled",
@@ -396,7 +402,10 @@
         "title": "Evolve your product",
         "subtitle": "Scale, pivot or enhance your software solution",
         "text": "Get a managed development team to resolve the tech challenges of a growing product",
-        "button": "Let's talk",
+        "button": {
+          "text": "Request CVs",
+          "idToScroll": "contact-us"
+        },
         "bottomText": {
           "icon": "",
           "text": ""
@@ -487,7 +496,10 @@
         "title": "Evolve your product",
         "subtitle": "Scale, pivot or enhance your software solution",
         "text": "Get a managed development team to resolve the tech challenges of a growing product",
-        "button": "Let's talk",
+        "button": {
+          "text": "Request CVs",
+          "idToScroll": "contact-us"
+        },
         "bottomText": {
           "icon": "",
           "text": ""

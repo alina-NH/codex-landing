@@ -19,7 +19,10 @@
       "Boost efficiency."
     ],
     "background": "control-bro.svg",
-    "button": "Discuss Your Requirements"
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",

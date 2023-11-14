@@ -114,7 +114,10 @@
         "external": false
       }
     ],
-    "button": "Contact Us"
+    "button": {
+      "text": "Contact Us",
+      "idToScroll": "contact-us"
+    }
   },
   "footer": {
     "logo": {

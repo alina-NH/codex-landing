@@ -19,7 +19,10 @@
       "And sell 3D products"
     ],
     "background": "3d-bro.svg",
-    "button": "Discuss Your Requirements"
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "id": "solutions",

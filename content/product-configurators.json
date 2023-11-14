@@ -18,7 +18,10 @@
       "On any platform"
     ],
     "background": "prdct.svg",
-    "button": "Request a Discovery Call"
+    "button": {
+      "text": "Request a Discovery Call",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",

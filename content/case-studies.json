@@ -15,7 +15,10 @@
   "welcome": {
     "title": ["Explore the projects we've completed over the decade."],
     "background": "cases-wlcome.svg",
-    "button": "Book a call"
+    "button": {
+      "text": "Book a call",
+      "idToScroll": "contact-us"
+    }
   },
   "tabsImageBox": {
     "id": "projects",

@@ -18,7 +18,10 @@
       "With Any 3rd Party Software"
     ],
     "background": "data-points-cuate.svg",
-    "button": "Request an API Integration"
+    "button": {
+      "text": "Request an API Integration",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "id": "solutions",

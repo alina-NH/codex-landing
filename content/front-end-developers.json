@@ -15,7 +15,10 @@
   "welcome": {
     "title": ["Front-end Developers", "For your Team.", "Affordably."],
     "background": "feamico.svg",
-    "button": "Request CVs",
+    "button": {
+      "text": "Request CVs",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"

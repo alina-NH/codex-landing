@@ -15,7 +15,10 @@
   "welcome": {
     "title": ["DevOps Engineers", "For your Team.", "Affordably."],
     "background": "devops-bro.svg",
-    "button": "Request CVs",
+    "button": {
+      "text": "Request CVs",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"

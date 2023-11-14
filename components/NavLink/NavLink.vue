@@ -1,14 +1,14 @@
 <template>
   <a
-    v-if="data.external"
-    :href="data.link"
+    v-if="data?.external"
+    :href="data?.link"
     target="_blank"
   >
   {{ data.name }}
   </a>
   <NuxtLink
     v-else
-    :to="data.link"
+    :to="data?.link"
   >
     {{ data.name }}
   </NuxtLink>

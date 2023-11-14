@@ -88,8 +88,9 @@
           'image-article__button--center': buttonAlignment === FlexAlignment.center,
           'image-article__button--stretch': buttonAlignment === FlexAlignment.stretch,
         }"
+        @click="scrollTo(`#${data.button.idToScroll}`)"
       >
-        {{ data.button }}
+        {{ data.button.text }}
       </Button>
     </article>
   </section>

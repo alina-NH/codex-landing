@@ -20,7 +20,10 @@
       ],
       "subtitle": "",
       "background": "healthcarewelcome-square.png",
-      "button": "Request Development",
+      "button": {
+        "text": "Request Development",
+        "idToScroll": "contact-us"
+      },
       "colors": {
         "background":"#FFFFFF",
         "title": "black",

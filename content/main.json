@@ -15,13 +15,19 @@
   "welcome": {
     "title": ["Skilled developers for your software project.", "Need help?"],
     "background": "welcome5.svg",
-    "button": "Talk to us"
+    "button": {
+      "text": "Talk to us",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "id": "story",
     "title": "Can We Help You?",
     "text": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
-    "button": "Talk to us"
+    "button": {
+      "text": "Talk to us",
+      "idToScroll": "contact-us"
+    }
   },
   "tabsIcons": {
     "title": "Techologies",

@@ -19,15 +19,17 @@
       "Make accurate decisions."
     ],
     "background": "data-extraction-cuate.svg",
-    "button": "Discuss Your Requirements"
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "image": "",
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Analyse diverse data sets, make data-driven decisions, enhance and automate processes.",
-    "button": ""
+    "text": "Analyse diverse data sets, make data-driven decisions, enhance and automate processes."
   },
   "textBoxes": {
     "title": "",

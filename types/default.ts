@@ -85,8 +85,8 @@ export interface ImageData {
 
 export interface NavLink {
   name: string,
-  external: boolean,
-  link: string,
+  external?: boolean,
+  link?: string,
 };
 
 export interface Header {
@@ -97,7 +97,10 @@ export interface Header {
     link?: string,
     subnav?: NavLink[]
   }[],
-  button: string,
+  button: {
+    text: string,
+    idToScroll: string,
+  },
 };
 
 export interface FooterIcon {
@@ -162,7 +165,10 @@ export type ImageArticle = {
   title: string,
   subtitle?: string,
   list?: string[],
-  button?: string,
+  button?: {
+    text: string,
+    idToScroll: string,
+  },
   image?: string,
   text?: string,
   bottomText?: {
@@ -237,7 +243,10 @@ export interface ContactForm {
 
 export interface Welcome {
   title: string[],
-  button: string,
+  button: {
+    text: string,
+    idToScroll: string,
+  },
   background: string,
   subtitle?: string,
   colors?: {

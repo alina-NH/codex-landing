@@ -279,7 +279,10 @@ JSON `FooterLink`
     alt: string
   },
   nav: FooterNavItem[],
-  button: string,
+  button: {
+    text: string,
+    idToScroll: string,
+  },
 }
 ```
 
@@ -379,7 +382,10 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
   id?: string,
   subtitle?: string,
   list?: string[],
-  button?: string,
+  button?: {
+    text: string,
+    idToScroll: string,
+  },
   image?: string,
   text?: string,
   bottomText?: {
@@ -520,7 +526,10 @@ JSON `ImageArticle`
   title: string,
   subtitle?: string,
   list?: string[],
-  button?: string,
+  button?: {
+    text: string,
+    idToScroll: string,
+  },
   image?: string,
   text?: string,
   bottomText?: {
@@ -695,7 +704,10 @@ height | height of space | string     | yes
 ```
 {
   title: string[],
-  button: string,
+   button: {
+    text: string,
+    idToScroll: string,
+  },
   background: string,
   subtitle?: string,
   colors?: {

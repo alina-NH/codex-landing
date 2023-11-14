@@ -19,8 +19,11 @@
       >
         {{ data.subtitle }}
       </p>
-      <Button :size="ButtonSize.large" :style="ButtonStyle.fill">
-        {{ data.button }}
+      <Button
+        :size="ButtonSize.large" :style="ButtonStyle.fill"
+        @click="scrollTo(`#${data.button.idToScroll}`)"
+      >
+        {{ data.button.text }}
       </Button>
     </div>
     <div class="welcome__section">

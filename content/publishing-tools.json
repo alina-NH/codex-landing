@@ -19,7 +19,10 @@
       "Online and offline"
     ],
     "background": "pubtools-amico.svg",
-    "button": "Request a Discovery Call"
+    "button": {
+      "text": "Request a Discovery Call",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",

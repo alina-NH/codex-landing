@@ -15,13 +15,15 @@
     "welcome": {
       "title": ["We are strategic technology partners", "to startups and enterprises."],
       "background": "business-mission-rafiki.svg",
-      "button": "Get Acquainted"
+      "button": {
+        "text": "Get Acquainted",
+        "idToScroll": "contact-us"
+      }
     },
     "articleWithImageAndText1": {
         "title": "The story",
         "id": "story",
-        "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries.",
-        "button": ""
+        "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries."
       },
       "imageBoxesSmallExecs": {
         "title": "Meet the Leadership",
