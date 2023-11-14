@@ -20,7 +20,10 @@
       ],
       "subtitle": "Refine your idea. Create a killer MVP. Scale or pivot your product.",
       "background": "startup-old.svg",
-      "button": "Start Now",
+      "button": {
+        "text": "Start Now",
+        "idToScroll": "contact-us"
+      },
       "colors": {
         "title": "white",
         "subtitle": "#C0C0C0"
@@ -28,44 +31,46 @@
     },
     "articleWithImageAndText": {
       "title": "How We Work",
+      "id": "how-we-work",
       "subtitle": "",
       "text": "Explore our Lean startup approach to software product development"
     },
     "articleWithImageAndText2": {
         "image": "how-we-work-2.gif",
+        "id": "analysis-and-prototyping",
         "title": "Analysis and Prototyping",
         "subtitle": "Evaluate and refine your idea",
         "list": [
             "Share the idea and proceed through a series of interviews to evaluate and refine it, set goals, define and document the scope of work.",
             "Learn how to get your product to market at the optimal price, speed, and quality.",
             "Receive a clickable Prototype and a Product Brief with timeline & costs to develop an MVP."
-          ],
-        "button": ""
+          ]
       },
       "articleWithImageAndText3": {
         "image": "how-we-work-3.gif",
+        "id": "mvp-development",
         "title": "MVP Development",
         "subtitle": "Validate your idea, affordably.",
         "list": [
             "Get your Minimum Viable Product designed, developed and tested.",
             "Evaluate market fit and traction, gather feedback from real users.",
             "Gather insights for further evolution of your software product"
-          ],
-        "button": ""
+          ]
       },
       "articleWithImageAndText4": {
         "image": "how-we-work-2.gif",
+        "id": "product-evolution",
         "title": "Product Evolution",
         "subtitle": "Grow, Scale or Pivot your Software",
         "list": [
             "Hire a development team to deal with infrastructure setup, design, software development, and QA.",
             "Get help in  Product Roadmap development and Agile delivery process setup.",
             "Monitor development progress easily via regular meetings and day-to-day direct contact with the team."
-          ],
-        "button": ""
+          ]
       },
       "CasesMVP": {
         "title": "Recent MVP Projects",
+        "id": "case-studies",
         "imageBoxes": [
 
             {
@@ -87,6 +92,7 @@
       },
     "squareTimeline": {
         "title": "Start working with us. It's easy!",
+        "id": "process",
         "items": [
           {
             "type": "text",
@@ -177,7 +183,10 @@
             "title": "Evolve your product",
             "subtitle": "Scale, pivot or enhance your software solution",
             "text": "Get a managed development team to resolve the tech challenges of a growing product",
-            "button": "Let's talk",
+            "button": {
+              "text": "Let's talk",
+              "idToScroll": "contact-us"
+            },
             "bottomText": {
               "icon": "",
               "text": ""
@@ -222,6 +231,7 @@
     
     "Cases": {
       "title": "Featured Startup Stories:",
+      "id": "stories",
       "imageBoxes": [
         {
             "background": "cultureconnect.png",
@@ -249,6 +259,7 @@
     },
     "contactForm": {
       "title": "Contact Us",
+      "id": "contact-us",
       "nameInput": {
         "label": "Name",
         "placeholder": "John",

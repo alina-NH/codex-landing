@@ -15,7 +15,10 @@
   "welcome": {
     "title": ["Front-end Developers", "For your Team.", "Affordably."],
     "background": "feamico.svg",
-    "button": "Request CVs",
+    "button": {
+      "text": "Request CVs",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"
@@ -23,6 +26,7 @@
   },
   "textBoxes": {
     "title": "Services",
+    "id": "services",
     "textBoxes": [
       {
         "title": "Developers for Hire",
@@ -52,6 +56,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Frameworks",
       "Fullstack",
@@ -139,6 +144,7 @@
   },
   "textBoxes2": {
     "title": "What to expect hiring Codex Software",
+    "id": "hiring",
     "textBoxes": [
       {
         "title": "TOP-10% Talent",
@@ -180,6 +186,7 @@
   },
   "mvpCases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -217,6 +224,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

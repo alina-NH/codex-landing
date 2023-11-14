@@ -2,10 +2,13 @@
   <section
     v-if="type === ContactFormType.extended"
     class="contact-form"
+    :id="data.id"
   >
     <form class="contact-form__body">
       <h3 class="heading-3 contact-form__title">
-        {{ data.title }}
+        <a :href="`#${data.id}`">
+          {{ data.title }}
+        </a>
       </h3>
       <div class="contact-form__inline-block">
         <label class="contact-form__input">

@@ -19,7 +19,10 @@
       "Efficiently."
     ],
     "background": "education-rafiki.svg",
-    "button": "Discuss Your Requirements",
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"
@@ -28,12 +31,13 @@
   "articleWithImageAndText": {
     "image": "",
     "title": "Solutions",
+    "id": "solutions",
     "subtitle": "",
-    "text": "Improve teaching, studying, and managing educational institutions.",
-    "button": ""
+    "text": "Improve teaching, studying, and managing educational institutions."
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Examination Platforms",
@@ -75,6 +79,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -264,6 +269,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "paris-dauphine.png",
@@ -291,6 +297,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

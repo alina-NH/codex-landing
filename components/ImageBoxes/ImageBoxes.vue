@@ -1,10 +1,12 @@
 <template>
   <section
+    :id="data?.id"
     class="image-boxes"
     :class="{ 'image-boxes--filtered': filterMode }"
   >
     <SectionTitle
       v-if="data.title"
+      :id="data?.id"
       :position="titlePosition"
     >
       {{ data.title }}

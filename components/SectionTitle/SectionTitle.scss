@@ -4,6 +4,11 @@
   margin: 3vh 10vw 3vh 10vw;
   text-align: center;
 
+  a {
+    all: unset;
+    pointer-events: none;
+  }
+
   &--left {
     padding-left: 0;
     text-align: left;

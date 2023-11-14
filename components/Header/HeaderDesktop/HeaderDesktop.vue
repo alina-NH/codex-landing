@@ -36,8 +36,9 @@
         <Button
           :style="ButtonStyle.outline"
           :size="ButtonSize.small"
+          @click="scrollTo(`#${header.button.idToScroll}`)"
         >
-          {{ header.button }}
+          {{ header.button.text }}
         </Button>
       </ul>
     </nav>

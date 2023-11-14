@@ -16,7 +16,10 @@
     "welcome": {
       "title": ["Staff your startup team.", "Scale affordably.", "Grow fast."],
       "background": "welcome-background.png",
-      "button": "Get Your Startup a Boost",
+      "button": {
+        "text": "Get Your Startup a Boost",
+        "idToScroll": "contact-us"
+      },
       "colors": {
         "title": "black",
         "subtitle": "#C0C0C0"
@@ -25,6 +28,7 @@
     "articleWithImageAndList": {
         "image": "Rectangle2.png",
         "title": "Get Software engineers for your Startup",
+        "id": "solutions",
         "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
         "list": [
           "Start at any stage",
@@ -32,10 +36,14 @@
           "Any roles, seniority & duration",
           "Comfortable overlaps with your business hours"
         ],
-        "button": "Request CVs"
+        "button": {
+          "text": "Request CVs",
+          "idToScroll": "contact-us"
+        }
       },
       "tabsIcons": {
         "title": "Techologies",
+        "id": "technologies",
         "background": "#EEEEEE",
         "tabs": [
           "Programming Languages",
@@ -299,15 +307,20 @@
       "articleWithListAndText2": {
         "image": "article-image.png",
         "title": "Develop a Minimum Viable Product",
+        "id": "products",
         "subtitle": "Get a working solution to validate your idea, affordably.",
         "list": [
             "Refine the idea and get a development plan.", 
             "Get a solution tailored to your business goals",
             "Evolve or pivot the product further"],
-        "button": "Discuss your Project"
+        "button": {
+          "text": "Discuss your Project",
+          "idToScroll": "contact-us"
+        }
       },
       "CasesMVP": {
         "title": "Recent MVP Projects",
+        "id": "case-studies",
         "imageBoxes": [
 
             {
@@ -329,6 +342,7 @@
       },
       "contactFormSimplified": {
         "title": "Need Front-End Developers?",
+        "id": "need-developers-form",
         "nameInput": {
           "label": "Name",
           "placeholder": "John",
@@ -352,6 +366,7 @@
       },
       "Cases": {
         "title": "Featured Startup Stories:",
+        "id": "stories",
         "imageBoxes": [
           {
               "background": "cultureconnect.png",
@@ -379,6 +394,7 @@
       },
       "squareTimeline": {
         "title": "Our Process",
+        "id": "process",
         "items": [
           {
             "type": "text",
@@ -475,7 +491,10 @@
             "title": "Evolve your product",
             "subtitle": "Scale, pivot or enhance your software solution",
             "text": "Get a managed development team to resolve the tech challenges of a growing product",
-            "button": "Let's talk",
+            "button": {
+              "text": "Let's talk",
+              "idToScroll": "contact-us"
+            },
             "bottomText": {
               "icon": "",
               "text": ""
@@ -522,6 +541,7 @@
     },
     "contactForm": {
         "title": "Contact Us",
+        "id": "contact-us",
         "nameInput": {
           "label": "Name",
           "placeholder": "John",

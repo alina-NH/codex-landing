@@ -1,5 +1,6 @@
 <template>
   <section
+    :id="data.id"
     class="tabbed-content"
     :style="{
       'background': data?.background,
@@ -8,6 +9,7 @@
   >
     <SectionTitle
       v-if="data.title"
+      :id="data.id"
       :position="titlePosition"
       class="tabbed-content__title"
     >

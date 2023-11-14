@@ -18,7 +18,10 @@
       " of print products."
     ],
     "background": "printer-cuate.svg",
-    "button": "Discuss Your Requirements",
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"
@@ -26,11 +29,13 @@
   },
   "articleWithImageAndText": {
     "title": "Solutions",
+    "id": "solutions",
     "subtitle": "",
     "text": "Reduce costs, boost staff efficiency, improve production, reach more customers, and revitalise your printing business."
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Web-2-Print Storefronts",
@@ -72,6 +77,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -261,6 +267,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -288,6 +295,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

@@ -19,15 +19,20 @@
       "Online and offline"
     ],
     "background": "pubtools-amico.svg",
-    "button": "Request a Discovery Call"
+    "button": {
+      "text": "Request a Discovery Call",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
+    "id": "solutions",
     "subtitle": "",
     "text": "Simplify creation of digital and printed content, broaden and speed up distribution, gather & analyse data to make accurate decisions."
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Website Builders",
@@ -69,6 +74,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -258,6 +264,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "pronoun.png",
@@ -297,6 +304,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
