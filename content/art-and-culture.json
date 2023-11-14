@@ -18,7 +18,7 @@
       "To manage and show",
       "Art products."
     ],
-    "background": "welcome-background.png",
+    "background": "gallery-amico.svg",
     "button": "Discuss Your Requirements",
     "colors": {
       "title": "black",
@@ -37,31 +37,31 @@
         "title": "Library Management Software",
         "subtitle": "Apps and complex softare solutions for improved library management",
         "text": "",
-        "icon": "web-2-print.svg"
+        "icon": "library.png"
       },
       {
         "title": "Archive Management Software",
         "subtitle": "Software solutions to curate, store and process data",
         "text": "",
-        "icon": "editor.svg"
+        "icon": "archive.png"
       },
       {
         "title": "Museum Apps",
         "subtitle": "Innovate and enhance your visitor experience",
         "text": "",
-        "icon": "employee.svg"
+        "icon": "museum.png"
       },
       {
         "title": "Inventory Management Software",
         "subtitle": "Digital means to improve storing and moving items",
         "text": "",
-        "icon": "wflow.svg"
+        "icon": "inventory.png"
       },
       {
         "title": "Event Management Systems",
         "subtitle": "Improve the way events are organized and held",
         "text": "",
-        "icon": "hpint.svg"
+        "icon": "event.png"
       },
       {
         "title": "Data Analytics & Visualisation",
@@ -264,26 +264,26 @@
     "title": "Featured Case Studies",
     "imageBoxes": [
       {
-        "background": "oneflow.png",
-        "title": "OneFlow Systems",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "background": "cultureconnect.png",
+        "title": "CultureConnect",
+        "description": "Culture Connect is a software platform that helps art institutions build digital interactive experiences. Looking to power-up the development of the core product, they engaged with Codex and received an end-to-end team led by the head of development. This helped to implement numerous architectural and holistic product improvements, add new features, and led to a lucrative acquisition deal with Axiell in late 2019.",
         "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "avatar": "samantha.webp",
+          "name": "Samantha Diamond",
+          "position": "VP Product"
         },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        "testimonial": "“We have an ongoing relationship with Codex Software. They’re highly productive and efficient, working well together to quickly solve problems. I trust them and rate the quality of their work very highly.”"
       },
       {
-        "background": "hp.png",
-        "title": "HP Inc",
-        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "background": "axiell.png",
+        "title": "Axiell",
+        "description": "We partnered with one of the world’s largest providers of software solutions for cultural and educational institutions after the closure of the deal between Axiell and Culture Connect. Still remaining the primary developers of Culture Connect’s core product, Codex also helps to build, improve and extend the range of Axiell’s other software solutions and services.",
         "author": {
-          "avatar": "nigel.webp",
-          "name": "Nigel Watson",
-          "position": "New Business Director"
+          "avatar": "pascal.webp",
+          "name": "Pascal Collberg",
+          "position": "VP Product"
         },
-        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+        "testimonial": "“Codex Software provided exemplary services, ranging from quality assurance to technical leadership. Their engineers are skilled, communicate smoothly and contribute to the success of our products. Can’t be more satisfied.”"
       }
     ]
   },

@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": ["Back-end Developers", "For your Team.", "Affordably."],
-    "background": "welcome-background.png",
+    "background": "Server-bro.svg",
     "button": "Request CVs",
     "colors": {
       "title": "black",
@@ -304,6 +304,28 @@
           "position": "New Business Director"
         },
         "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      },
+      {
+        "background": "axiell.png",
+        "title": "Axiell",
+        "description": "We partnered with one of the world’s largest providers of software solutions for cultural and educational institutions after the closure of the deal between Axiell and Culture Connect. Still remaining the primary developers of Culture Connect’s core product, Codex also helps to build, improve and extend the range of Axiell’s other software solutions and services.",
+        "author": {
+          "avatar": "pascal.webp",
+          "name": "Pascal Collberg",
+          "position": "VP Product, Axiell Group"
+        },
+        "testimonial": "“Codex Software provided exemplary services, ranging from quality assurance to technical leadership. Their engineers are skilled, communicate smoothly and contribute to the success of our products. Can’t be more satisfied.”"
+      },
+      {
+        "background": "Analytium.png",
+        "title": "Analytium",
+        "description": "We've designed a Java-based RESTful API for a UK-based software consultancy working with SAS - a US-based analytical software powerhouse. The solution was developed as a complementary plugin to the existing software.",
+        "author": {
+          "avatar": "vasilij.webp",
+          "name": "Vasilij Nevlev",
+          "position": "Director, Analytium LTD"
+        },
+        "testimonial": "“I was impressed by the sheer amount of homework they did in the beginning. They were prepared to do a lot of research and learning before taking on the project. That's still very unique. A lot of other organizations don't step out of their comfort zone. Codex Software wasn't afraid of that.”"
       }
     ]
   },
