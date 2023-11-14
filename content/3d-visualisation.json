@@ -14,9 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Transform the ways",
-      "To create, showcase",
-      "And sell 3D products"
+      "Create, Showcase,",
+      "Sell 3D products"
     ],
     "background": "3d-bro.svg",
     "button": "Discuss Your Requirements"
@@ -24,32 +23,32 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "Simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
+    "text": "We develop custom software solutons to visualise, customize, showcase, sell and produce 3D products"
   },
   "textBoxes": {
     "title": "",
     "textBoxes": [
       {
-        "title": "3D Editors for Packaging Industry",
-        "subtitle": "",
+        "title": "Packaging Product Editors",
+        "subtitle": "Create, customise and sell boxes of various types and complexity",
         "text": "",
         "icon": "packaging.png"
       },
       {
         "title": "Phone Case 3D Editors",
-        "subtitle": "",
+        "subtitle": "Tools to visualise, showcase and sell custom phone cases",
         "text": "",
         "icon": "case.png"
       },
       {
-        "title": "Promotional Merchandise Product 3D Editors",
-        "subtitle": "",
+        "title": "Merchandise Product Editors",
+        "subtitle": "Innovative software to produce and sell customisable promotional products and apparel",
         "text": "",
         "icon": "merch.png"
       },
       {
         "title": "Augmented Reality Product Editors",
-        "subtitle": "",
+        "subtitle": "AR/VR product visualisation tools for online sellers, retailers and manufacturers",
         "text": "",
         "icon": "ar.png"
       }

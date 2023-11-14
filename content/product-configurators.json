@@ -14,8 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Enable product customistion",
-      "On any platform"
+      "Configure, Visualise",
+      "And Customise Your Products"
     ],
     "background": "prdct.svg",
     "button": "Request a Discovery Call"
@@ -23,32 +23,32 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "Simplify creation of digital and printed content, broaden and speed up distribution, and gather & analyse data to make accurate decisions."
+    "text": "Innovative product configuration tools for online sellers, retailers and manufacturers"
   },
   "textBoxes": {
     "title": "",
     "textBoxes": [
       {
         "title": "Shopify Product Configurators",
-        "subtitle": "Expand the features of your Shopify store",
+        "subtitle": "Custom plugins to showcase and sell products on Shopify",
         "text": "",
         "icon": "shopify.png"
       },
       {
-        "title": "Variable Data Printing Product Configurators",
-        "subtitle": "Enable cost-efficient sales & production of variable data products",
+        "title": "Variable Data Printing Software",
+        "subtitle": "Custom tools for Variable Data Printing enablement and optimisation",
         "text": "",
         "icon": "variable.png"
       },
       {
         "title": "3D Product Editors",
-        "subtitle": "Let your employees and customers easily create 3D products",
+        "subtitle": "Innovative tools to visualise, customise, manufacture, sell and ship 3D products",
         "text": "",
         "icon": "3dobj.png"
       },
       {
         "title": "Ticket Generators",
-        "subtitle": "Enhane the way tickets are designed, printed and distributed",
+        "subtitle": "Software tools for design, customisation, production and distribution of tickets",
         "text": "",
         "icon": "ticket.png"
       }

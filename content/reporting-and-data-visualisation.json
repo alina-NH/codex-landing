@@ -14,9 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Gather, store",
-      "And visualize data to",
-      "Make accurate decisions."
+      "Gather, Store, and",
+      "Visualize Data."
     ],
     "background": "data-extraction-cuate.svg",
     "button": "Discuss Your Requirements"
@@ -33,37 +32,37 @@
     "textBoxes": [
       {
         "title": "Custom Dashboards",
-        "subtitle": "User-friendly Data Visualisation Solutions of Any complexity",
+        "subtitle": "Analyze, present and share your data easily",
         "text": "",
         "icon": "dashboards.png"
       },
       {
         "title": "Data Mining Software",
-        "subtitle": "Gather, normalize and process data from various sources",
+        "subtitle": "Gather and process data from various sources",
         "text": "",
         "icon": "data-mining.png"
       },
       {
         "title": "ETL Solutions",
-        "subtitle": "Extract-Transform-Load Software for various industries",
+        "subtitle": "Combine data from multiple systems, effecively",
         "text": "",
         "icon": "etl.png"
       },
       {
         "title": "Data Warehouse Solutions",
-        "subtitle": "Store data securely and efficiently",
+        "subtitle": "Collect and store data securely and efficiently",
         "text": "",
         "icon": "datawarehouse.png"
       },
       {
         "title": "Big Data Software",
-        "subtitle": "Gather, process and store Big Data",
+        "subtitle": "Leverage the power of Big Data for your business",
         "text": "",
         "icon": "big-data.png"
       },
       {
         "title": "Artificial Intelligence Apps",
-        "subtitle": "Put Artificial Intellinge at your service",
+        "subtitle": "Implement AI to improve business processes",
         "text": "",
         "icon": "ai-icon.png"
       }
@@ -72,79 +71,62 @@
   "tabsIcons": {
     "title": "Technologies",
     "tabs": [
-      "Programming Languages",
-      "Frameworks",
-      "Databases",
-      "Data Science & AI",
-      "Cloud Platforms",
-      "DevOps",
-      "Testing"
+      "Data Analytics",
+      "Data Visualisation",
+      "Deep Learning",
+      "Machine Learning",
+      "Databases"
     ],
     "tabsContent": [
       {
-        "icon": "js.svg",
-        "alt": "Javascript",
-        "tabs": ["Programming Languages"]
+        "icon": "numpy.svg",
+        "alt": "Numpy",
+        "tabs": ["Data Analytics"]
       },
       {
-        "icon": "typescript.svg",
-        "alt": "Typescript",
-        "tabs": ["Programming Languages"]
+        "icon": "pandas.svg",
+        "alt": "Pandas",
+        "tabs": ["Data Analytics"]
       },
       {
-        "icon": "java.svg",
-        "alt": "Java",
-        "tabs": ["Programming Languages"]
+        "icon": "matplotlibsvg.svg",
+        "alt": "Matplotlib",
+        "tabs": ["Data Analytics"]
       },
       {
-        "icon": "python.svg",
-        "alt": "Python",
-        "tabs": ["Programming Languages"]
+        "icon": "d3.svg",
+        "alt": "D3.JS",
+        "tabs": ["Data Visualisation"]
+      }, 
+      {
+        "icon": "3js.svg",
+        "alt": "ThreeJS",
+        "tabs": ["Data Visualisation"]
       },
       {
-        "icon": "csharp.svg",
-        "alt": "C#",
-        "tabs": ["Programming Languages"]
+        "icon": "graphql.svg",
+        "alt": "GraphQL",
+        "tabs": ["Data Visualisation"]
       },
       {
-        "icon": "nodejs.svg",
-        "alt": "NodeJS",
-        "tabs": ["Frameworks"]
+        "icon": "tensorflow.svg",
+        "alt": "Tensorflow",
+        "tabs": ["Deep Learning"]
+      }, 
+      {
+        "icon": "keras.svg",
+        "alt": "Keras",
+        "tabs": ["Deep Learning"]
       },
       {
-        "icon": "express.svg",
-        "alt": "Express",
-        "tabs": ["Frameworks"]
+        "icon": "scikitlearn.svg",
+        "alt": "Scikit-Learn",
+        "tabs": ["Machine Learning"]
       },
       {
-        "icon": "nextjs.svg",
-        "alt": "NextJS",
-        "tabs": ["Frameworks"]
-      },
-      {
-        "icon": "feathersjs.svg",
-        "alt": "Feathers",
-        "tabs": ["Frameworks"]
-      },
-      {
-        "icon": "springboot.svg",
-        "alt": "Spring Framework",
-        "tabs": ["Frameworks"]
-      },
-      {
-        "icon": "django.svg",
-        "alt": "Django",
-        "tabs": ["Frameworks"]
-      },
-      {
-        "icon": "flask.svg",
-        "alt": "Flask",
-        "tabs": ["Frameworks"]
-      },
-      {
-        "icon": "dotnet.svg",
-        "alt": "Dotnet Framework",
-        "tabs": ["Frameworks"]
+        "icon": "gensimsvg.svg",
+        "alt": "Gensim",
+        "tabs": ["Machine Learning"]
       },
       {
         "icon": "mongodb.svg",
@@ -180,81 +162,6 @@
         "icon": "oracle.svg",
         "alt": "Oracle DB",
         "tabs": ["Databases"]
-      },
-      {
-        "icon": "tensorflow.svg",
-        "alt": "Tensorflow",
-        "tabs": ["Data Science & AI"]
-      },
-      {
-        "icon": "numpy.svg",
-        "alt": "Numpy",
-        "tabs": ["Data Science & AI"]
-      },
-      {
-        "icon": "pandas.svg",
-        "alt": "Pandas",
-        "tabs": ["Data Science & AI"]
-      },
-      {
-        "icon": "aws.svg",
-        "alt": "Amazon AWS",
-        "tabs": ["Cloud Platforms"]
-      },
-      {
-        "icon": "googlecloud.svg",
-        "alt": "Google Cloud",
-        "tabs": ["Cloud Platforms"]
-      },
-      {
-        "icon": "azure.svg",
-        "alt": "Azure",
-        "tabs": ["Cloud Platforms"]
-      },
-      {
-        "icon": "docker.svg",
-        "alt": "Docker",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "kubernetes.svg",
-        "alt": "Kubernetes",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "terraform.svg",
-        "alt": "Terraform",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "ansible.svg",
-        "alt": "Ansible",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "circleci.svg",
-        "alt": "CircleCI",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "gitlab.svg",
-        "alt": "Gitlab",
-        "tabs": ["DevOps"]
-      },
-      {
-        "icon": "cypress.svg",
-        "alt": "Cypress",
-        "tabs": ["Testing"]
-      },
-      {
-        "icon": "jest.svg",
-        "alt": "Jest",
-        "tabs": ["Testing"]
-      },
-      {
-        "icon": "selenium.svg",
-        "alt": "Selenium",
-        "tabs": ["Testing"]
       }
     ]
   },

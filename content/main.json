@@ -15,7 +15,10 @@
   "welcome": {
     "title": ["Skilled developers for your software project.", "Need help?"],
     "background": "welcome5.svg",
-    "button": "Talk to us"
+    "button": "Talk to us",
+    "colors": {
+      "title": "#FFFFFF"
+    }
   },
   "articleWithImageAndText": {
     "title": "Can We Help You?",

@@ -14,8 +14,7 @@
     },
     "welcome": {
       "title": [
-        "We help Software Startups",
-        "Plan, Build and Evolve",
+        "Plan, Build & Evolve",
         "Software Solutions."
       ],
       "subtitle": "Refine your idea. Create a killer MVP. Scale or pivot your product.",
@@ -32,7 +31,7 @@
       "text": "Explore our Lean startup approach to software product development"
     },
     "articleWithImageAndText2": {
-        "image": "how-we-work-2.gif",
+        "image": "biznalysis-2.gif",
         "title": "Analysis and Prototyping",
         "subtitle": "Evaluate and refine your idea",
         "list": [
@@ -43,7 +42,7 @@
         "button": ""
       },
       "articleWithImageAndText3": {
-        "image": "how-we-work-3.gif",
+        "image": "how-we-work-2.gif",
         "title": "MVP Development",
         "subtitle": "Validate your idea, affordably.",
         "list": [
@@ -54,7 +53,7 @@
         "button": ""
       },
       "articleWithImageAndText4": {
-        "image": "how-we-work-2.gif",
+        "image": "how-we-work-3.gif",
         "title": "Product Evolution",
         "subtitle": "Grow, Scale or Pivot your Software",
         "list": [
@@ -141,7 +140,7 @@
               "text": "12-20K GBP"
             },
             "colors": {
-              "background": "#DCDDE3"
+              "background": "#C4B6DB"
             }
           },
           {

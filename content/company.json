@@ -1,7 +1,7 @@
 {
     "colors": {
       "primary": "#F75C19",
-      "hover": "#D7470A",
+      "hover": "#2E64F9",
       "black": "#18191F",
       "darkgrey": "#454545",
       "lightgrey": "#C0C0C0",
@@ -9,11 +9,13 @@
       "white": "#FFFFFF"
     },
     "meta": {
-      "title": "Codex Software",
+      "title": "About us | Codex Software",
       "description": "This is Codex Software landing page"
     },
     "welcome": {
-      "title": ["We are strategic technology partners", "to startups and enterprises."],
+      "title": [
+        "We are strategic technology partners", 
+        "to startups and enterprises."],
       "background": "business-mission-rafiki.svg",
       "button": "Get Acquainted"
     },
@@ -115,7 +117,6 @@
       "tabsImageBox": {
         "title": "Our Locations",
         "tabs": [
-          "All Locations",
           "Headquarters",
           "Development Centers"
         ],
@@ -124,26 +125,26 @@
             "background": "britain.png",
             "tabs": ["All Locations", "Headquarters"],
             "title": "Headquarters",
-            "description": "The Limes, Bayshill Road, Cheltenham, England, United Kingdom, GL50 3AW"
+            "description": "The Limes, Bayshill Road, Cheltenham, GL50 3AW"
             
           },
           {
             "background": "lisbon.png",
             "tabs": ["All Locations", "Development Centers"],
             "title": "Lisbon, Portugal",
-            "description": "Av. D. João II Nº35, 11ºA 1990-083, Lisbon, Portugal"
+            "description": "Av. D. João II Nº35, 11ºA 1990-083"
           },
           {
             "background": "ponta-delgada.png",
             "tabs": ["All Locations", "Development Centers"],
             "title": "Ponta-Delgada, Portugal",
-            "description": "Av. Dom João III, 33 9500-789 Ponta Delgada, Portugal"
+            "description": "Av. Dom João III, 33 9500-789"
           },
           {
             "background": "warsaw.png",
             "tabs": ["All Locations", "Development Centers"],
             "title": "Warsaw, Poland",
-            "description": "Prosta 20/00-850, 00-850 Warsaw, Poland"
+            "description": "Prosta 20/00-850, 00-850"
           }
         ]
     },
