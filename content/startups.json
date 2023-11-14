@@ -1,7 +1,7 @@
 {
     "colors": {
-      "primary": "#2BD3D4",
-      "hover": "#2551C2",
+      "primary": "#F75C19",
+      "hover": "#D7470A",
       "black": "#18191F",
       "darkgrey": "#454545",
       "lightgrey": "#C0C0C0",
@@ -19,7 +19,7 @@
         "Software Solutions."
       ],
       "subtitle": "Refine your idea. Create a killer MVP. Scale or pivot your product.",
-      "background": "laptop.png",
+      "background": "startup-old.svg",
       "button": "Start Now",
       "colors": {
         "title": "white",

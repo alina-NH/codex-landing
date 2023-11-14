@@ -18,7 +18,7 @@
       "And workflows.",
       "Boost efficiency."
     ],
-    "background": "welcome-background.png",
+    "background": "control-bro.svg",
     "button": "Discuss Your Requirements"
   },
   "articleWithImageAndText": {
@@ -33,37 +33,37 @@
         "title": "Document Management",
         "subtitle": "Streamline operations with documents of any types",
         "text": "",
-        "icon": "web-2-print.svg"
+        "icon": "documanagement.png"
       },
       {
         "title": "Task & Project Management Software",
         "subtitle": "Manage tasks and projects",
         "text": "",
-        "icon": "editor.svg"
+        "icon": "pm.png"
       },
       {
         "title": "Enterprise-grade Workflow Applications",
         "subtitle": "Automate processes of any complexity",
         "text": "",
-        "icon": "employee.svg"
+        "icon": "enterprise.png"
       },
       {
         "title": "Employee Apps",
         "subtitle": "Applications for Employees of any roles and seniority",
         "text": "",
-        "icon": "wflow.svg"
+        "icon": "employee.png"
       },
       {
         "title": "AI Automations",
-        "subtitle": "Artificial Intelligence-driven assistant apps",
+        "subtitle": "Artificial Intelligence-driven workflow automation apps",
         "text": "",
-        "icon": "hpint.svg"
+        "icon": "ai-icon.png"
       },
       {
         "title": "Automation Platforms Integrations",
         "subtitle": "Connectors with any 3rd party services that have API",
         "text": "",
-        "icon": "pdataanalys.svg"
+        "icon": "integrations.png"
       }
     ]
   },
@@ -280,6 +280,16 @@
           "position": "New Business Director"
         },
         "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      },
+      {
+        "background": "paris-dauphine.png",
+        "title": "Universite Paris-Dauphine",
+        "description": "We assisted Université Paris-Dauphine in building a software solution for managing student groups at a university."
+      },
+      {
+        "background": "Ahau.png",
+        "title": "AHAU260",
+        "description": "AHAU260 is a platform that boosts productivity by connecting tasks in popular project management platforms with documents, artworks, conversations, emails, and browser tabs."
       }
     ]
   },

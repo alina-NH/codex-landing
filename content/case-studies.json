@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": ["Explore the projects we've completed over the decade."],
-    "background": "welcome-background.png",
+    "background": "cases-wlcome.svg",
     "button": "Book a call"
   },
   "tabsImageBox": {
@@ -36,7 +36,7 @@
         "author": {
           "avatar": "chris-knighton.png",
           "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "position": "Co-founder, OneFlow Systems"
         },
         "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
       },
@@ -48,7 +48,7 @@
         "author": {
           "avatar": "nigel.webp",
           "name": "Nigel Watson",
-          "position": "New Business Director"
+          "position": "New Business Director, HP"
         },
         "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
       },
@@ -66,7 +66,7 @@
         "author": {
           "avatar": "samantha.webp",
           "name": "Samantha Diamond",
-          "position": "VP Product"
+          "position": "Founder, CultureConnect"
         },
         "testimonial": "“We have an ongoing relationship with Codex Software. They’re highly productive and efficient, working well together to quickly solve problems. I trust them and rate the quality of their work very highly.”"
       },
@@ -78,7 +78,7 @@
         "author": {
           "avatar": "pascal.webp",
           "name": "Pascal Collberg",
-          "position": "VP Product"
+          "position": "VP Product, Axiell Group"
         },
         "testimonial": "“Codex Software provided exemplary services, ranging from quality assurance to technical leadership. Their engineers are skilled, communicate smoothly and contribute to the success of our products. Can’t be more satisfied.”"
       },
@@ -90,7 +90,7 @@
         "author": {
           "avatar": "ben.webp",
           "name": "Ben Zhuk",
-          "position": "Founder, Head of Product"
+          "position": "Founder, Pronoun"
         },
         "testimonial": "“Brilliant developers, you’ll hardly find any better. Happy to work with them any day. In fact, I am already working with them on my next startup.”"
       },
@@ -102,7 +102,7 @@
         "author": {
           "avatar": "rob.webp",
           "name": "Rob Guttman",
-          "position": "Senior VP"
+          "position": "Senior VP, Macmillan"
         },
         "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
       },
@@ -112,7 +112,7 @@
         "title": "Analytium",
         "description": "We've designed a Java-based RESTful API for a UK-based software consultancy working with SAS - a US-based analytical software powerhouse. The solution was developed as a complementary plugin to the existing software.",
         "author": {
-          "avatar": "ben.webp",
+          "avatar": "vasilij.webp",
           "name": "Vasilij Nevlev",
           "position": "Director, Analytium LTD"
         },
@@ -129,6 +129,29 @@
           "position": "Project Leader, Paris Dauphine University"
         },
         "testimonial": "“They always delivered what was promised. They not only stuck to their commitments but also quickly allocated additional resources when it was necessary. They're results-oriented and proactive, and I haven’t met many companies with such an approach before.”"
+      },
+      {
+        "background": "loadown.png",
+        "tabs": ["Data Analytics", "Startups"],
+        "title": "The Loadown",
+        "description": "We developed a data analytics platform designed to monitor App Store apps’ rankings in real time, providing valuable insights for data-driven marketing decisions in real time. The solution is able to seamlessly process terabytes of data.",
+        "author": {
+          "avatar": "david.webp",
+          "name": "David Renard",
+          "position": "Co-founder, The Loadown"
+        },
+        "testimonial": "“Codex Software helped us create a complex, yet elegant solution for our real-time marketing platform. We highly recommend Codex Software for anyone looking for a serious IT outsourcing service provider!”"
+      },
+      {
+        "background": "EnglishCo.png",
+        "title": "EnglishCo",
+        "description": "We assisted the Customer to develop a comprehensive eLearning platform for English language students, designed to offer personalized online teaching programs led live by American teachers.",
+        "author": {
+          "avatar": "arluk.webp",
+          "name": "Andy Arluk",
+          "position": "CPO, EnglishCo"
+        },
+        "testimonial": "“Codex helped us a lot with the tasks, and I can always count on them.”"
       },
       {
         "background": "Lebook.png",
@@ -185,22 +208,10 @@
         "description": "We developed a print-on-demand dropshipping eCommerce app for Shopify, allowing store owners to sell various customizable print-on-demand products - from phone cases to yoga mats, towels, and blankets, - without any need for inventory, production, or logistics."
       },
       {
-        "background": "EnglishCo.png",
-        "tabs": ["Education", "Startups"],
-        "title": "EnglishCo",
-        "description": "We assisted the Customer to develop a comprehensive eLearning platform for English language students, designed to offer personalized online teaching programs led live by American teachers."
-      },
-      {
         "background": "ExamGeneral.png",
         "tabs": ["Education"],
         "title": "ExamGeneral",
         "description": "We developed an eLearning platform designed to provide professional examination and testing services for big educational institutions, teaching professionals and their students."
-      },
-      {
-        "background": "loadown.png",
-        "tabs": ["Data Analytics", "Startups"],
-        "title": "The Loadown",
-        "description": "We developed a data analytics platform designed to monitor App Store apps’ rankings in real time, providing valuable insights for data-driven marketing decisions in real time. The solution is able to seamlessly process terabytes of data."
       },
       {
         "background": "Markerr.png",

@@ -14,7 +14,7 @@
   },
   "welcome": {
     "title": ["Skilled developers for your software project.", "Need help?"],
-    "background": "bckgrnd.png",
+    "background": "welcome5.svg",
     "button": "Talk to us"
   },
   "articleWithImageAndText": {

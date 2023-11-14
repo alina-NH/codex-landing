@@ -18,7 +18,7 @@
       "High-quality Content",
       "Online and offline"
     ],
-    "background": "welcome-background.png",
+    "background": "pubtools-amico.svg",
     "button": "Request a Discovery Call"
   },
   "articleWithImageAndText": {
@@ -33,31 +33,31 @@
         "title": "Website Builders",
         "subtitle": "Provide seamless tools to build modern websites",
         "text": "",
-        "icon": "web-2-print.svg"
+        "icon": "websitebuilder.png"
       },
       {
         "title": "Text & Image Editors",
         "subtitle": "Provide content creators with efficient tools",
         "text": "",
-        "icon": "editor.svg"
+        "icon": "imageeditor.png"
       },
       {
         "title": "Custom Form Generators",
         "subtitle": "Create fillable forms of any complexity, for any industry",
         "text": "",
-        "icon": "employee.svg"
+        "icon": "forms.png"
       },
       {
-        "title": "eBook Constructors",
+        "title": "Book Constructors",
         "subtitle": "Provide authors with user-friendly tool for book publishing",
         "text": "",
-        "icon": "wflow.svg"
+        "icon": "bookpub.png"
       },
       {
         "title": "Content-as-a-Service Platforms",
         "subtitle": "Create and distribute digital content",
         "text": "",
-        "icon": "hpint.svg"
+        "icon": "content.png"
       },
       {
         "title": "Data Analytics Tools for Publishers",
@@ -260,26 +260,38 @@
     "title": "Featured Case Studies",
     "imageBoxes": [
       {
-        "background": "oneflow.png",
-        "title": "OneFlow Systems",
-        "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
+        "background": "pronoun.png",
+        "title": "Pronoun",
+        "description": "The NYC-based software startup Pronoun was building a self-publishing platform and turned to Codex Software looking for end-to-end software engineering and data science services. The collaboration helped Pronoun secure several rounds of investments, launch the product, and complete the acquisition deal with Macmillan Publishers in 2016.",
         "author": {
-          "avatar": "chris-knighton.png",
-          "name": "Chris Knighton",
-          "position": "Global Sales Director"
+          "avatar": "ben.webp",
+          "name": "Ben Zhuk",
+          "position": "Founder, Pronoun"
         },
-        "testimonial": "“Their services were crucial during product development and contributed much to the successful closure of the deal. We won’t be able to achieve this without Codex.”"
+        "testimonial": "“Brilliant developers, you’ll hardly find any better. Happy to work with them any day. In fact, I am already working with them on my next startup.”"
       },
       {
-        "background": "hp.png",
-        "title": "HP Inc",
-        "description": "After the acquisition of OneFlow Systems’ platform, we continued to support HP Inc. in building the Siteflow platform and PrintOS infrastructure. Our specialists are also involved in other software projects and digital initiatives of the corporation.",
+        "background": "macmillan.png",
+        "title": "Macmillan",
+        "description": "Macmillan - one of the US Big Five publishing houses, - operates a number of business process automation digital products. Thanks to the extensive experience in this domain, we helped the publisher extend their software departments, and remain their trusted technology partner since.",
         "author": {
-          "avatar": "nigel.webp",
-          "name": "Nigel Watson",
-          "position": "New Business Director"
+          "avatar": "rob.webp",
+          "name": "Rob Guttman",
+          "position": "Senior VP, Macmillan"
         },
-        "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+        "testimonial": "“Codex Software provides invaluable help when it is needed the most. Their contributions to the key components, broad technology expertise and persistent high quality of delivery make them the partner of choice for us.”"
+      },
+      {
+        "background": "Contiago.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Contiago",
+        "description": "We developed a marketplace for sales of digital content. The software provides several means to distribute the content by connecting to web placements via a RESTful API, CMS plugins, or a content distribution toolbar."
+      },
+      {
+        "background": "Orgafly.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Orgafly",
+        "description": "Orgafly is a print-on-demand software platform designed to optimize the workflow of event organizers, providing the means to distribute and print high-quality and personalized tickets. We developed the product, set up and maintained the infrastructure, and ensured product quality."
       }
     ]
   },
