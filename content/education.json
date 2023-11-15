@@ -14,9 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Teach, study, or",
-      "Manage institutions",
-      "Efficiently."
+      "Digital Means",
+      "To Re-Think Education "
     ],
     "background": "education-rafiki.svg",
     "button": {
@@ -33,7 +32,8 @@
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Improve teaching, studying, and managing educational institutions."
+    "text": "We help institutions and businesses improve teaching and studying.",
+    "button": ""
   },
   "textBoxes": {
     "title": "",
@@ -41,37 +41,37 @@
     "textBoxes": [
       {
         "title": "Examination Platforms",
-        "subtitle": "Streamline taking & managing exams",
+        "subtitle": "Administer exams securely and efficiently",
         "text": "",
         "icon": "exam.png"
       },
       {
         "title": "eLearning Platforms",
-        "subtitle": "Modern solutions for teahers & learners",
+        "subtitle": "Streamline remote education for teachers and learners",
         "text": "",
         "icon": "elearn.png"
       },
       {
         "title": "Educational Apps",
-        "subtitle": "Enable efficient studying, anywhere ",
+        "subtitle": "Enable efficient studying, anywhere",
         "text": "",
         "icon": "study.png"
       },
       {
         "title": "Management Platforms",
-        "subtitle": "Streamline workflows and processes in educational instotutions",
+        "subtitle": "Manage educational institutions of any size, effectively",
         "text": "",
         "icon": "management.png"
       },
       {
         "title": "AI + EdTech Solutions",
-        "subtitle": "Use the most modern tech to improve education",
+        "subtitle": "Implement AI solutions to improve educational activities",
         "text": "",
         "icon": "ai-icon.png"
       },
       {
         "title": "Data Analytics & Visualisation",
-        "subtitle": "Gather, process and visualise data to make data-driven decisions",
+        "subtitle": "Gather, process and visualise data to maximise efficiency of teaching",
         "text": "",
         "icon": "pdataanalys.svg"
       }
@@ -276,7 +276,7 @@
         "title": "Universite Paris-Dauphine",
         "description": "We assisted Université Paris-Dauphine in building a software solution for managing student groups at a university.",
         "author": {
-          "avatar": "rob.webp",
+          "avatar": "jp.webp",
           "name": "Jean-Patrice Glafkides",
           "position": "Project Leader, Paris Dauphine University"
         },
