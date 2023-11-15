@@ -49,8 +49,7 @@
             </li>
           </ul>
         </li>
-      </ul>
-      <Button
+        <Button
         :style="ButtonStyle.outline"
         :size="ButtonSize.small"
         class="header__button"
@@ -58,6 +57,7 @@
       >
         {{ header.button.text }}
       </Button>
+      </ul>
     </div>
   </header>
 </template>
@@ -80,6 +80,12 @@ const scrollToElement = () => {
   isMenuOpen.value = false;
   scrollTo(`#${header.button.idToScroll}` as ScrollToOptions);
 }
+
+const toggleWindowScrolling = (isMenuOpen: boolean) => {
+  document.body.style.overflowY = isMenuOpen ? 'hidden' : 'auto';
+};
+
+watch(isMenuOpen, toggleWindowScrolling);
 </script>
 
 <style scoped lang="scss" src="./HeaderMobile.scss" />
