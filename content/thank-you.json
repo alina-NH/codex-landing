@@ -1,0 +1,25 @@
+{
+    "colors": {
+        "primary": "#F75C19",
+        "hover": "#2E64F9",
+        "black": "#18191F",
+        "darkgrey": "#454545",
+        "lightgrey": "#C0C0C0",
+        "secondary": "#FFFFFF",
+        "white": "#FFFFFF"
+    },
+    "meta": {
+        "title": "Thank you! | Codex Software",
+        "description": "This is Codex Software landing page"
+    },
+    "articleWithImageAndText": {
+        "id": "thank-you",
+        "image": "",
+        "title": "Thank you!",
+        "text": "We received your message. Our representative will get back to you soon.",
+        "button": {
+          "text": "Return back",
+          "idToScroll": ""
+        }
+    }
+}
