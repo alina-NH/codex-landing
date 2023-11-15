@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 10px;
   border-radius: 8px;
   cursor: pointer;
   @include base-transition;
@@ -51,5 +52,32 @@
       color: $lightgrey-color;
       border-color: $lightgrey-color;
     }
+  }
+
+  &__loader {
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: 2px solid white;
+    border-right: 2px solid transparent;
+    border-radius: 100px;
+    animation: rotate-animation 1s infinite linear;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: -2px;
+      width: 24px;
+      height: 10px;
+      border-radius: 100px;
+    }
+  }
+}
+
+@keyframes rotate-animation {
+  to {
+    transform: rotate(360deg);
   }
 }

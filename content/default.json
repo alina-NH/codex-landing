@@ -276,5 +276,29 @@
       "Codex Software Solutions Ltd is a company in England and Wales. Registered number: 09712933. VAT reg no: 266 0325 17",
       "Registered office address: Mcgills, Oakley House, Tetbury Road, Cirencester, Gloucestershire, GL7 1US."
     ]
+  },
+  "formErrors": {
+    "nameError": {
+      "empty": "Name field cannot be empty"
+    },
+    "companyError": {
+      "empty": "Company field cannot be empty"
+    },
+    "emailError": {
+      "empty": "Email field cannot be empty",
+      "invalid": "Email is invalid"
+    },
+    "phoneError": {
+      "empty": "Phone field cannot be empty",
+      "invalid": "Phone is invalid"
+    },
+    "messageError": {
+      "empty": "Message field cannot be empty",
+      "length": "Message length must be 10-300 symbols"
+    }
+  },
+  "serverErrors": {
+    "emptyBody": "Please, fill the form",
+    "defaultError": "Something went wrong. Please try again later"
   }
 }
