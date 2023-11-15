@@ -14,9 +14,10 @@
   },
   "welcome": {
     "title": [
-      "Digital Means",
-      "To Re-Think Education "
+      "Custom eLearning & edTech",
+      "Software Solutions"
     ],
+    "subtitle": "We help educators and learners leverage modern digital tools to teach and study effectively, anywhere.",
     "background": "education-rafiki.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -24,7 +25,7 @@
     },
     "colors": {
       "title": "black",
-      "subtitle": "#C0C0C0"
+      "subtitle": "#000000"
     }
   },
   "articleWithImageAndText": {
@@ -32,8 +33,8 @@
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "We help institutions and businesses improve teaching and studying.",
-    "button": ""
+    "text": "We help institutions and businesses develop software to streamline, manage and innovate education."
+    
   },
   "textBoxes": {
     "title": "",
@@ -266,6 +267,36 @@
         "tabs": ["Testing"]
       }
     ]
+  },
+  "contactFormSimplified": {
+    "title": "",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Need an eLearning or edTech solution?",
+      "subtitle": "Send us a request. We'll be glad to help you: ",
+      "list": [
+        "Refine, document, analyse and assess your requirements",
+        "Staff your team with Software Developers, Data Scientists, Business Analysts",
+        "Save up to 40% of costs if compared to running an in-house team"
+      ],
+      "colors": {
+        "background": "#DCEAFF",
+        "text": "#000000",
+        "subtitle": "#000000",
+        "bottomText": "#000000"
+      }
+    }
   },
   "Cases": {
     "title": "Featured Case Studies",

@@ -1,187 +1,223 @@
 {
-    "colors": {
-      "primary": "#F75C19",
-      "hover": "#2E64F9",
-      "black": "#18191F",
-      "darkgrey": "#454545",
-      "lightgrey": "#C0C0C0",
-      "secondary": "linear-gradient(103deg, #D053DB 0%, #EDDD64 100%)",
-      "white": "#FFFFFF"
-    },
-    "meta": {
-      "title": "About us | Codex Software",
-      "description": "This is Codex Software landing page"
-    },
-    "welcome": {
-      "title": [
-        "We are strategic technology partners", 
-        "to startups and enterprises."],
-      "background": "business-mission-rafiki.svg",
-      "button": {
-        "text": "Get Acquainted",
-        "idToScroll": "contact-us"
+  "colors": {
+    "primary": "#F75C19",
+    "hover": "#2E64F9",
+    "black": "#18191F",
+    "darkgrey": "#454545",
+    "lightgrey": "#C0C0C0",
+    "secondary": "linear-gradient(103deg, #D053DB 0%, #EDDD64 100%)",
+    "white": "#FFFFFF"
+  },
+  "meta": {
+    "title": "About us | Codex Software",
+    "description": "This is Codex Software landing page"
+  },
+  "welcome": {
+    "title": [
+      "Your Trusted",
+      "Technology Partner"
+    ],
+    "subtitle": "Since 2011, we are helping businesses of all sizes plan, build and evolve viable software solutions, reduce development budgets and fill talent gaps.",
+    "background": "business-mission-rafiki.svg",
+    "button": {
+      "text": "Let's Meet?",
+      "idToScroll": "contact-us"
+    }
+  },
+  "squaresTimeline": {
+    "title": "",
+    "id": "our-story",
+    "items": [
+      {
+        "type": "text",
+        "title": "Our Story",
+        "subtitle": "",
+        "text": "A path from a small local development studio to an international company helping startups, SMBs and enterprises across the globe.",
+        "bottomText": {
+          "icon": "",
+          "text": ""
+        },
+        "colors": {
+          "background": "#FFFFFF",
+          "text": "#18191F",
+          "subtitle": "#18191F",
+          "bottomText": "#18191F"
+        }
+      },
+      {
+        "type": "list",
+        "background": "#FFFFFF",
+        "list": [
+          {
+            "title": "2011: the Beginning",
+            "text": "Anton Zaleski and Mikhail Rimashevski founded the company and hired the first Core Team members.",
+            "icon": "2011.png"
+          },
+          {
+            "title": "2013: the Breakthrough",
+            "text": "The Company managed to land several groundbreaking deals, which lead to current company industry and technology expertise.",
+            "icon": "2013.png"
+          },
+          {
+            "title": "2016: the Accomplishment",
+            "text": "The first multimillion exit deal for our Startup Customer. We are extemely proud of being able to assist in that!",
+            "icon": "2016.png"
+          },
+          {
+            "title": "2020: the European Expansion",
+            "text": "The Company opened development centers in Portugal and Poland, gaining access to East Europe's richest talent pool.",
+            "icon": "2020.png"
+          },
+          {
+            "title": "Present - ...",
+            "text": "With hundreds of completed projects and over a decade of experience, we are ready to take on new challenges. Let's shape the future together! ",
+            "icon": "now.png"
+          }
+        ]
       }
+    ]
     },
-    "articleWithImageAndText1": {
-        "title": "The story",
-        "id": "story",
-        "text": "Throughout a decade since the foundation in 2011, we've grown from a small local development studio to an international company with development centers across Europe, offering technical expertise and development services to startups, SMBs and enterprises of multiple industries and countries."
+  "imageBoxesSmallExecs": {
+    "title": "Company Leadership",
+    "id": "leadership",
+    "imageBoxes": [
+      {
+        "background": "anton1.png",
+        "title": "Anton Zaleski, CEO",
+        "link": ""
       },
-      "imageBoxesSmallExecs": {
-        "title": "Meet the Leadership",
-        "id": "leadership",
-        "imageBoxes": [
-          {
-            "background": "exec1.png",
-            "title": "Name Surname, CEO",
-            "link": "#"
-          },
-          {
-            "background": "exec2.png",
-            "title": "Name Surname, CTO",
-            "link": "#"
-          },
-          {
-            "background": "exec3.png",
-            "title": "Name Surname, CPO",
-            "link": "#"
-          },
-          {
-            "background": "exec5.png",
-            "title": "Name Surname, CFO",
-            "link": "#"
-          },
-          {
-            "background": "exec4.png",
-            "title": "Name Surname, Head of Azores Office",
-            "link": "#"
-          },
-          {
-            "background": "exec4.png",
-            "title": "Name Surname, Head of Lisbon Office",
-            "link": "#"
-          },
-          {
-            "background": "exec4.png",
-            "title": "Name Surname, Head of Warsaw Office",
-            "link": "#"
-          },
-          {
-            "background": "exec4.png",
-            "title": "Name Surname, Head of People",
-            "link": "#"
-          }
-        ]
+      {
+        "background": "mikhail1.png",
+        "title": "Mikhail Rimashevski, CPO",
+        "link": ""
       },
-      "imageBoxesSmallDevs": {
-        "title": "Meet the Team",
-        "id": "team",
-        "imageBoxes": [
-          {
-            "background": "dev1.png",
-            "title": "Name Surname, Developer",
-            "link": "#"
-          },
-          {
-            "background": "dev2.png",
-            "title": "Name Surname, Developer",
-            "link": "#"
-          },
-          {
-            "background": "dev1.png",
-            "title": "Name Surname, DevOps",
-            "link": "#"
-          },
-          {
-            "background": "dev2.png",
-            "title": "Name Surname, AQA Teamlead",
-            "link": "#"
-          },
-          {
-            "background": "dev1.png",
-            "title": "Name Surname, BA",
-            "link": "#"
-          },
-          {
-            "background": "dev2.png",
-            "title": "Name Surname, Testing Lead",
-            "link": "#"
-          },
-          {
-            "background": "dev1.png",
-            "title": "Name Surname, Happiness Officer",
-            "link": "#"
-          },
-          {
-            "background": "dev2.png",
-            "title": "Name Surname, Sales",
-            "link": "#"
-          }
-        ]
+      {
+        "background": "vadim1.png",
+        "title": "Vadzim Asadchi, CTO",
+        "link": ""
+      }
+    ]
+  },
+  "imageBoxesSmallDevs": {
+    "title": "Meet the Team",
+    "id": "team",
+    "imageBoxes": [
+      {
+        "background": "dev1.png",
+        "title": "Name Surname, Developer",
+        "link": "#"
       },
-      "tabsImageBox": {
-        "title": "Our Locations",
-        "id": "locations",
+      {
+        "background": "dev2.png",
+        "title": "Name Surname, Developer",
+        "link": "#"
+      },
+      {
+        "background": "dev1.png",
+        "title": "Name Surname, DevOps",
+        "link": "#"
+      },
+      {
+        "background": "dev2.png",
+        "title": "Name Surname, AQA Teamlead",
+        "link": "#"
+      },
+      {
+        "background": "dev1.png",
+        "title": "Name Surname, BA",
+        "link": "#"
+      },
+      {
+        "background": "dev2.png",
+        "title": "Name Surname, Testing Lead",
+        "link": "#"
+      },
+      {
+        "background": "dev1.png",
+        "title": "Name Surname, Happiness Officer",
+        "link": "#"
+      },
+      {
+        "background": "dev2.png",
+        "title": "Name Surname, Sales",
+        "link": "#"
+      }
+    ]
+  },
+  "tabsImageBox": {
+    "title": "Our Locations",
+    "id": "locations",
+    "tabs": [
+      "Development Centers",
+      "Headquarters"
+    ],
+    "tabsContent": [
+      {
+        "background": "britain.png",
         "tabs": [
-          "Headquarters",
+          "All Locations",
+          "Headquarters"
+        ],
+        "title": "Cheltenham, England",
+        "description": "The Limes, Bayshill Road, GL50 3AW"
+      },
+      {
+        "background": "lisbon.png",
+        "tabs": [
+          "All Locations",
           "Development Centers"
         ],
-        "tabsContent": [
-          {
-            "background": "britain.png",
-            "tabs": ["All Locations", "Headquarters"],
-            "title": "Headquarters",
-            "description": "The Limes, Bayshill Road, Cheltenham, GL50 3AW"
-            
-          },
-          {
-            "background": "lisbon.png",
-            "tabs": ["All Locations", "Development Centers"],
-            "title": "Lisbon, Portugal",
-            "description": "Av. D. João II Nº35, 11ºA 1990-083"
-          },
-          {
-            "background": "ponta-delgada.png",
-            "tabs": ["All Locations", "Development Centers"],
-            "title": "Ponta-Delgada, Portugal",
-            "description": "Av. Dom João III, 33 9500-789"
-          },
-          {
-            "background": "warsaw.png",
-            "tabs": ["All Locations", "Development Centers"],
-            "title": "Warsaw, Poland",
-            "description": "Prosta 20/00-850, 00-850"
-          }
-        ]
-    },
-    "contactForm": {
-        "title": "Contact Us",
-        "id": "contact-us",
-        "nameInput": {
-          "label": "Name",
-          "placeholder": "John",
-          "required": true
-        },
-        "companyInput": {
-          "label": "Company",
-          "placeholder": "e. g. Google",
-          "required": true
-        },
-        "emailInput": {
-          "label": "Email",
-          "placeholder": "john.doe@mail.com",
-          "required": true
-        },
-        "phoneInput": {
-          "label": "Phone (optional)",
-          "placeholder": "e. g. 999-999-9999",
-          "required": false
-        },
-        "messageInput": {
-          "label": "Message",
-          "placeholder": "Share your requirements, ask a question, or request a free consultation",
-          "required": false
-        },
-        "button": "Send Request"
+        "title": "Lisbon, Portugal",
+        "description": "Av. D. João II Nº35, 11ºA 1990-083"
+      },
+      {
+        "background": "ponta-delgada.png",
+        "tabs": [
+          "All Locations",
+          "Development Centers"
+        ],
+        "title": "Azores, Portugal",
+        "description": "Ponta-Delgada, Av. Dom João III, 33 9500-789"
+      },
+      {
+        "background": "warsaw.png",
+        "tabs": [
+          "All Locations",
+          "Development Centers"
+        ],
+        "title": "Warsaw, Poland",
+        "description": "Prosta 20/00-850, 00-850"
       }
+    ]
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "id": "contact-us",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "companyInput": {
+      "label": "Company",
+      "placeholder": "e. g. Google",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "phoneInput": {
+      "label": "Phone (optional)",
+      "placeholder": "e. g. 999-999-9999",
+      "required": false
+    },
+    "messageInput": {
+      "label": "Message",
+      "placeholder": "Share your requirements, ask a question, or request a free consultation",
+      "required": false
+    },
+    "button": "Send Request"
+  }
 }

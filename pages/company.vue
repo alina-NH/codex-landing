@@ -1,22 +1,15 @@
 <template>
     <Welcome :data="cmpnContent.welcome" />
-    <ImageArticle
-    :data="cmpnContent.articleWithImageAndText1"
-    articleAlignment="center"
-    textAlignment="center"
-    buttonAlignment="center"
-    buttonStyle="fill"
-    titleSize="large"
-    component="text"
+    <SquaresTimeline
+    title-position="left"
+    :data="cmpnContent.squaresTimeline"
   />
+  
   <ImageBoxes
     :data="cmpnContent.imageBoxesSmallExecs"
     titlePosition="center"
   />
-  <ImageBoxes
-    :data="cmpnContent.imageBoxesSmallDevs"
-    titlePosition="center"
-  />
+    
   <TabbedContent
     :data="cmpnContent.tabsImageBox"
     component="ImageBox"
