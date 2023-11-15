@@ -41,31 +41,31 @@
       },
       {
         "title": "CRM API Integrations",
-        "subtitle": "Connect your software with any modern CRM",
+        "subtitle": "Connect your software with any modern CRM that has an API",
         "text": "",
         "icon": "crm.png"
       },
       {
         "title": "Office365 API Integrations",
-        "subtitle": "Create seamless connections between your software and Office",
+        "subtitle": "Create seamless connections between your software and Office 365",
         "text": "",
         "icon": "office-365.svg"
       },
       {
-        "title": "Logistics/3PL API Integrations",
-        "subtitle": "Establish connections with 3PL and Logistics Software",
+        "title": "Logistics API Integrations",
+        "subtitle": "Improve shipping & delivery by connecting with 3PL and Logistics Software",
         "text": "",
         "icon": "logistics.png"
       },
       {
         "title": "Project Management Platform Integrations",
-        "subtitle": "Build efficient connections with most popular Project Management platforms",
+        "subtitle": "Establish connections with Jira, Asana, Redmine, MS Project or other PM platforms",
         "text": "",
         "icon": "pmintegr.png"
       },
       {
         "title": "eCommerce API Integrations",
-        "subtitle": "Connect your store with major marketplaces and eCommerce apps",
+        "subtitle": "Connect your web store with major marketplaces, price comparison engines and eCommerce apps",
         "text": "",
         "icon": "eCommerce.png"
       }

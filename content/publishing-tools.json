@@ -9,14 +9,14 @@
     "white": "#FFFFFF"
   },
   "meta": {
-    "title": "Custom Software Publishing Tools",
+    "title": "Custom Software Publishing Tools | Codex Software",
     "description": "This is Codex Software landing page"
   },
   "welcome": {
     "title": [
       "Create & distribute",
-      "High-quality Content",
-      "Online and offline"
+      "Quality Content.",
+      "Online and Offline."
     ],
     "background": "pubtools-amico.svg",
     "button": {
@@ -36,37 +36,37 @@
     "textBoxes": [
       {
         "title": "Website Builders",
-        "subtitle": "Provide seamless tools to build modern websites",
+        "subtitle": "User-friendly drag-n-drop website constructors",
         "text": "",
         "icon": "websitebuilder.png"
       },
       {
         "title": "Text & Image Editors",
-        "subtitle": "Provide content creators with efficient tools",
+        "subtitle": "Web-based rich text and image creation tools",
         "text": "",
         "icon": "imageeditor.png"
       },
       {
         "title": "Custom Form Generators",
-        "subtitle": "Create fillable forms of any complexity, for any industry",
+        "subtitle": "Form Constructors of any complexity, for any industry",
         "text": "",
         "icon": "forms.png"
       },
       {
         "title": "Book Constructors",
-        "subtitle": "Provide authors with user-friendly tool for book publishing",
+        "subtitle": "SaaS Publishing tools for writers and book publishers",
         "text": "",
         "icon": "bookpub.png"
       },
       {
-        "title": "Content-as-a-Service Platforms",
-        "subtitle": "Create and distribute digital content",
+        "title": "Content Distribution Platforms",
+        "subtitle": "Innovative tools to create, distribute and sell content online",
         "text": "",
         "icon": "content.png"
       },
       {
         "title": "Data Analytics Tools for Publishers",
-        "subtitle": "Gather, process and visualise data to make data-driven decisions",
+        "subtitle": "Digital means to gather, analyse, and visualise data",
         "text": "",
         "icon": "pdataanalys.svg"
       }

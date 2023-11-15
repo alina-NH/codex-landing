@@ -14,9 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Get modern means",
-      "To manage and show",
-      "Art products."
+      "Enable Digital Transformation",
+      "Of Art & Culture"
     ],
     "background": "gallery-amico.svg",
     "button": {
@@ -40,31 +39,31 @@
     "textBoxes": [
       {
         "title": "Library Management Software",
-        "subtitle": "Apps and complex softare solutions for improved library management",
+        "subtitle": "Digital means to improve, optimise and streamline library management",
         "text": "",
         "icon": "library.png"
       },
       {
         "title": "Archive Management Software",
-        "subtitle": "Software solutions to curate, store and process data",
+        "subtitle": "Custom software solutions to efficiently curate, process and store documents and artworks",
         "text": "",
         "icon": "archive.png"
       },
       {
         "title": "Museum Apps",
-        "subtitle": "Innovate and enhance your visitor experience",
+        "subtitle": "Transform and enhance visitor experience in museums, expositions and art venues",
         "text": "",
         "icon": "museum.png"
       },
       {
         "title": "Inventory Management Software",
-        "subtitle": "Digital means to improve storing and moving items",
+        "subtitle": "Manage and control how works of art are stored, exchanged and transferred",
         "text": "",
         "icon": "inventory.png"
       },
       {
         "title": "Event Management Systems",
-        "subtitle": "Improve the way events are organized and held",
+        "subtitle": "Improve and innovate the way events are organized and held",
         "text": "",
         "icon": "event.png"
       },

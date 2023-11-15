@@ -31,45 +31,45 @@
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Reduce costs, boost staff efficiency, improve production, reach more customers, and revitalise your printing business."
+    "text": "Revitalise, optimise or grow your printing business. Reduce costs, cut waste, maximise production throughput, boost staff efficiency, expand customer reach and service range."
   },
   "textBoxes": {
     "title": "",
     "id": "products",
     "textBoxes": [
       {
-        "title": "Web-2-Print Storefronts",
-        "subtitle": "Start selling print products online or improve sales",
+        "title": "Web-to-Print Storefronts",
+        "subtitle": "End-to-end webstores enabling online sales, optimising production and streamlining fulfillment of orders",
         "text": "",
         "icon": "eCommerce.png"
       },
       {
         "title": "Custom Editors and Customizers",
-        "subtitle": "Allow users and customers seamlessly change designs and content",
+        "subtitle": "Feature-rich web-based product editors that allow seamless creation, customisation and proofing of product designs",
         "text": "",
         "icon": "imageeditor.png"
       },
       {
         "title": "Employee Applications",
-        "subtitle": "Improve internal processes by using modern digital means",
+        "subtitle": "Mobile and cross-platform apps that boost productivity of your managers, sales reps, press operators, stock keepers, and couriers",
         "text": "",
         "icon": "employee.png"
       },
       {
-        "title": "Workflow Automation",
-        "subtitle": "Automate processes to boost performance, cut waste and maximise uptime",
+        "title": "Workflow Automation for PSPs",
+        "subtitle": "Cut costs, boost uptime and maximise productivity via end-to-end process automation from order submission to dispatch",
         "text": "",
         "icon": "workflow.png"
       },
       {
-        "title": "Custom HP Siteflow Integrations",
-        "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
+        "title": "Custom HP Site Flow Integrations",
+        "subtitle": "Connect with HP Site Flow to improve handling orders, maximise production throughput, expand customer reach and grow profits",
         "text": "",
         "icon": "hpsiteflow.png"
       },
       {
         "title": "Data Analytics & Visualisation",
-        "subtitle": "Gather, process and visualise data to make data-driven decisions",
+        "subtitle": "Gather, process and visualise valuable data from various sources to identify challenges and make accurate decisions",
         "text": "",
         "icon": "pdataanalys.svg"
       }
@@ -79,15 +79,38 @@
     "title": "Technologies",
     "id": "technologies",
     "tabs": [
+      "Printing",
       "Programming Languages",
-      "Frameworks",
       "Databases",
-      "Data Science & AI",
       "Cloud Platforms",
-      "DevOps",
-      "Testing"
+      "DevOps"
     ],
     "tabsContent": [
+      {
+        "icon": "site-flow.svg",
+        "alt": "HP Siteflow",
+        "tabs": ["Printing"]
+      },
+      {
+        "icon": "printOS.svg",
+        "alt": "HP PrintOS",
+        "tabs": ["Printing"]
+      },
+      {
+        "icon": "mako.svg",
+        "alt": "Mako",
+        "tabs": ["Printing"]
+      },
+      {
+        "icon": "pdfbox.svg",
+        "alt": "PDFBox",
+        "tabs": ["Printing"]
+      },
+      {
+        "icon": "pdflib.svg",
+        "alt": "PDFLib",
+        "tabs": ["Printing"]
+      },
       {
         "icon": "js.svg",
         "alt": "Javascript",
@@ -187,21 +210,6 @@
         "icon": "oracle.svg",
         "alt": "Oracle DB",
         "tabs": ["Databases"]
-      },
-      {
-        "icon": "tensorflow.svg",
-        "alt": "Tensorflow",
-        "tabs": ["Data Science & AI"]
-      },
-      {
-        "icon": "numpy.svg",
-        "alt": "Numpy",
-        "tabs": ["Data Science & AI"]
-      },
-      {
-        "icon": "pandas.svg",
-        "alt": "Pandas",
-        "tabs": ["Data Science & AI"]
       },
       {
         "icon": "aws.svg",

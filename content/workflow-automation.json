@@ -14,9 +14,9 @@
   },
   "welcome": {
     "title": [
-      "Automate processes",
-      "And workflows.",
-      "Boost efficiency."
+      "Boost productivity.",
+      "Eliminate errors.",
+      "Reduce hackwork."
     ],
     "background": "control-bro.svg",
     "button": {
@@ -27,45 +27,45 @@
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "Automate repetitive operations, processes and complete workflows. Reduce mistakes, boost productivity and cut costs."
+    "text": "Automate repetitive operations, processes and complete workflows to achieve more, faster and cheaper."
   },
   "textBoxes": {
     "title": "",
     "id": "products",
     "textBoxes": [
       {
-        "title": "Document Management",
+        "title": "Document Management Automation",
         "subtitle": "Streamline operations with documents of any types",
         "text": "",
         "icon": "documanagement.png"
       },
       {
-        "title": "Task & Project Management Software",
-        "subtitle": "Manage tasks and projects",
+        "title": "Task & Project Management Automation",
+        "subtitle": "Automate time-consuming operations to reduce management overheads",
         "text": "",
         "icon": "pm.png"
       },
       {
-        "title": "Enterprise-grade Workflow Applications",
-        "subtitle": "Automate processes of any complexity",
+        "title": "Enterprise-grade Workflow Automation ",
+        "subtitle": "Automate operations, processes and end-to-end workflows",
         "text": "",
         "icon": "enterprise.png"
       },
       {
         "title": "Employee Apps",
-        "subtitle": "Applications for Employees of any roles and seniority",
+        "subtitle": "Speed up the work and reduce mistakes",
         "text": "",
         "icon": "employee.png"
       },
       {
         "title": "AI Automations",
-        "subtitle": "Artificial Intelligence-driven workflow automation apps",
+        "subtitle": "Delegate tasks to Artificial Intelligence",
         "text": "",
         "icon": "ai-icon.png"
       },
       {
         "title": "Automation Platforms Integrations",
-        "subtitle": "Connectors with any 3rd party services that have API",
+        "subtitle": "Connect your software with any 3rd party automation services",
         "text": "",
         "icon": "integrations.png"
       }

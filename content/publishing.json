@@ -14,8 +14,8 @@
   },
   "welcome": {
     "title": [
-      "Create and distribute content,",
-      "Online and offline."
+      "Create & distribute",
+      "Digital content"
     ],
     "background": "printing-bro.svg",
     "button": {
@@ -31,7 +31,7 @@
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "We build custom software to enable, improve and revolutionize content creation and distribution."
+    "text": "We develop custom applications to enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
     "title": "",
@@ -39,37 +39,37 @@
     "textBoxes": [
       {
         "title": "Digital Publishing Platforms",
-        "subtitle": "Create and distribute digital content",
+        "subtitle": "End-to-end solutions to create and distribute digital content",
         "text": "",
         "icon": "digital.png"
       },
       {
         "title": "Custom Content Editors",
-        "subtitle": "Provide content creators with efficient tools",
+        "subtitle": "Modern tools to create, modify and share artworks and documents",
         "text": "",
         "icon": "imageeditor.png"
       },
       {
         "title": "Self-Publishing Platforms",
-        "subtitle": "Turn users into Content Creators",
+        "subtitle": "Feature-rich solutions to create, design, publish and promote content",
         "text": "",
         "icon": "typewriter.png"
       },
       {
         "title": "Custom Website Constructors",
-        "subtitle": "Provide seamless tools to build modern websites",
+        "subtitle": "Modern and user-friendly low-code/no-code website builders",
         "text": "",
         "icon": "websitebuilder.png"
       },
       {
         "title": "Ticket Distribution Systems",
-        "subtitle": "Create, process and distribute tickets efficiently",
+        "subtitle": "Custom software solutions to design, produce, process and distribute tickets efficiently",
         "text": "",
         "icon": "ticket.png"
       },
       {
         "title": "Data Analytics & Visualisation",
-        "subtitle": "Gather, process and visualise data to make data-driven decisions",
+        "subtitle": "Powerful tools to gather, process and visualise data of various types & from various sources",
         "text": "",
         "icon": "pdataanalys.svg"
       }

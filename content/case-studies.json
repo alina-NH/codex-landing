@@ -1,7 +1,7 @@
 {
   "colors": {
     "primary": "#2E64F9",
-    "hover": "#2551C2",
+    "hover": "#BD1111",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
@@ -250,7 +250,7 @@
       {
         "background": "Printabl.png",
         "tabs": ["Printing & Publishing", "Startups"],
-        "title": "Prodigi",
+        "title": "Printabl",
         "description": "We built an app that gathers and processes print order data in Red Buddle format and transforms it into OneFlow printing suite-compatible format."
       },
       {
