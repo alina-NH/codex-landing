@@ -279,7 +279,10 @@ JSON `FooterLink`
     alt: string
   },
   nav: FooterNavItem[],
-  button: string,
+  button: {
+    text: string,
+    idToScroll: string,
+  },
 }
 ```
 
@@ -288,8 +291,8 @@ JSON `HeaderNavItem`
 ```
 {
   name: string,
-  link: string,
-  external: boolean,
+  link?: string,
+  external?: boolean,
   subnav: HeaderLink[]
 }
 ```
@@ -315,6 +318,7 @@ JSON `HeaderLink`
 ```
 {
   title: string,
+  id: string,
   nameInput: {
     label: string,
     placeholder: string,
@@ -375,9 +379,13 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
 ```
 {
   title: string,
+  id?: string,
   subtitle?: string,
   list?: string[],
-  button?: string,
+  button?: {
+    text: string,
+    idToScroll: string,
+  },
   image?: string,
   text?: string,
   bottomText?: {
@@ -413,6 +421,7 @@ titleSize         | title size in article                                      |
 ```
 {
   title?: string,
+  id?: string,
   imageBoxes: ImageBox[]
 }
 ```
@@ -455,7 +464,8 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
-  iconBoxes?: IconBox[]
+  id: string,
+  iconBoxes: IconBox[]
 }
 ```
 
@@ -490,9 +500,10 @@ No json data. It uses `<slot />` to pass the button text.
 
 #### Props
 
-prop     | description        | value type                     | required
----------| ------------------ | ------------------------------ | --------
-position | alignment of title | 'left' \| 'center' \| 'right'  | no
+prop     | description           | value type                     | required
+---------| --------------------- | ------------------------------ | --------
+id       | id of section to jump | string                         | no
+position | alignment of title    | 'left' \| 'center' \| 'right'  | no
 
 ### SquaresTimeline
 
@@ -503,6 +514,7 @@ position | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  id: string,
   items: (ImageArticle | List)[]
 }
 ```
@@ -514,7 +526,10 @@ JSON `ImageArticle`
   title: string,
   subtitle?: string,
   list?: string[],
-  button?: string,
+  button?: {
+    text: string,
+    idToScroll: string,
+  },
   image?: string,
   text?: string,
   bottomText?: {
@@ -568,6 +583,7 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  id: string,
   tabs: string[],
   background?: string,
   tabsContent: (ImageBox | IconBox | TextBox)[]
@@ -640,6 +656,7 @@ iconToTop       | icon in top, title in bottom (only for icons with title)      
 ```
 {
   title?: string,
+  id?: string,
   textBoxes: TextBox[]
 }
 ```
@@ -687,7 +704,10 @@ height | height of space | string     | yes
 ```
 {
   title: string[],
-  button: string,
+   button: {
+    text: string,
+    idToScroll: string,
+  },
   background: string,
   subtitle?: string,
   colors?: {

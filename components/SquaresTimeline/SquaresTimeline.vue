@@ -1,7 +1,11 @@
 <template>
-  <section class="squares-timeline">
+  <section
+    :id="data.id"
+    class="squares-timeline"
+  >
     <SectionTitle
       v-if="data?.title"
+      :id="data.id"
       :position="titlePosition"
     >
       {{ data.title }}

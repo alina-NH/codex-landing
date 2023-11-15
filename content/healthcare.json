@@ -20,7 +20,10 @@
       ],
       "subtitle": "",
       "background": "healthcarewelcome-square.png",
-      "button": "Request Development",
+      "button": {
+        "text": "Request Development",
+        "idToScroll": "contact-us"
+      },
       "colors": {
         "background":"#FFFFFF",
         "title": "black",
@@ -29,11 +32,13 @@
     },
     "articleWithImageAndText": {
       "title": "Services",
+      "id": "services",
       "subtitle": "",
       "text": "Reduce costs, boost staff efficiency, improve interoperability, and revitalise your healthcare organisation."
     },
     "textBoxes": {
       "title": "",
+      "id": "products",
       "textBoxes": [
         {
           "title": "Software MVP Development",
@@ -55,6 +60,7 @@
 
     "squareTimeline": {
         "title": "How We Help",
+        "id": "process",
         "items": [
           {
             "type": "text",
@@ -143,6 +149,7 @@
 
     "tabsIcons": {
       "title": "Technologies",
+      "id": "technologies",
       "tabs": [
         "Programming Languages",
         "Frameworks",
@@ -332,6 +339,7 @@
     },
     "textBoxes2": {
         "title": "Solutions",
+        "id": "solutions",
         "textBoxes": [
           {
             "title": "Staff Management, Bank & Rota Systems",
@@ -385,6 +393,7 @@
       },
     "Cases": {
       "title": "Case Studies",
+      "id": "case-studies",
       "imageBoxes": [
         {
           "background": "auditangel.png",
@@ -405,6 +414,7 @@
     },
     "contactForm": {
       "title": "Contact Us",
+      "id": "contact-us",
       "nameInput": {
         "label": "Name",
         "placeholder": "John",

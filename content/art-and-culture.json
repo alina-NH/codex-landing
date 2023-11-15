@@ -18,18 +18,23 @@
       "Of Art & Culture"
     ],
     "background": "gallery-amico.svg",
-    "button": "Discuss Your Requirements",
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "black",
       "subtitle": "#C0C0C0"
     }
   },
   "articleWithImageAndText": {
+    "id": "solutions",
     "title": "Solutions",
     "subtitle": "",
     "text": "We create custom software solutions for museums, expositions, archives and libraries."
   },
   "textBoxes": {
+    "id": "products",
     "title": "",
     "textBoxes": [
       {
@@ -72,6 +77,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -261,6 +267,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "cultureconnect.png",
@@ -288,6 +295,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

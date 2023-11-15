@@ -1,10 +1,12 @@
 <template>
-  <div
+  <section
+    :id="data?.id"
     class="icon-boxes"
     :class="{ 'icon-boxes--filtered': filterMode }"
   >
     <SectionTitle
       v-if="data?.title"
+      :id="data?.id"
       :position="titlePosition"
       class="icon-boxes__title"
     >
@@ -21,7 +23,7 @@
         :iconToTop="iconToTop"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">

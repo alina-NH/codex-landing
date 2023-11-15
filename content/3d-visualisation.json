@@ -18,15 +18,20 @@
       "Sell 3D products"
     ],
     "background": "3d-bro.svg",
-    "button": "Discuss Your Requirements"
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
+    "id": "solutions",
     "title": "Solutions",
     "subtitle": "",
     "text": "We develop custom software solutons to visualise, customize, showcase, sell and produce 3D products"
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Packaging Product Editors",
@@ -56,6 +61,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -245,6 +251,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "Customis3D.png",
@@ -260,6 +267,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

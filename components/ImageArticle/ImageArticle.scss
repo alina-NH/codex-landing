@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 10vh 10vw;
+  scroll-margin-top: 10vh;
 
   &--left {
     justify-content: flex-start;
@@ -52,6 +53,11 @@
   &__title {
     display: inline-block;
     margin-bottom: 12px;
+
+    a {
+      all: unset;
+      pointer-events: none;
+    }
 
     &--large {
       font-size: 48px;

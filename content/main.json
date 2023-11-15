@@ -13,20 +13,31 @@
     "description": "This is Codex Software landing page"
   },
   "welcome": {
-    "title": ["Skilled developers for your software project.", "Need help?"],
+    "title": [
+      "Skilled developers for your software project.",
+      "Need help?"
+    ],
     "background": "welcome5.svg",
-    "button": "Talk to us",
+    "button": {
+      "text": "Talk to us",
+      "idToScroll": "contact-us"
+    },
     "colors": {
       "title": "#FFFFFF"
     }
   },
   "articleWithImageAndText": {
+    "id": "story",
     "title": "Can We Help You?",
     "text": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
-    "button": "Talk to us"
+    "button": {
+      "text": "Talk to us",
+      "idToScroll": "contact-us"
+    }
   },
   "tabsIcons": {
     "title": "Techologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Front-end",
@@ -42,301 +53,401 @@
       {
         "icon": "js.svg",
         "alt": "Javascript",
-        "tabs": ["Programming Languages"],
+        "tabs": [
+          "Programming Languages"
+        ],
         "background": "transparent"
       },
       {
         "icon": "typescript.svg",
         "alt": "Typescript",
-        "tabs": ["Programming Languages"],
+        "tabs": [
+          "Programming Languages"
+        ],
         "background": "transparent"
       },
       {
         "icon": "java.svg",
         "alt": "Java",
-        "tabs": ["Programming Languages"],
+        "tabs": [
+          "Programming Languages"
+        ],
         "background": "transparent"
       },
       {
         "icon": "python.svg",
         "alt": "Python",
-        "tabs": ["Programming Languages"],
+        "tabs": [
+          "Programming Languages"
+        ],
         "background": "transparent"
       },
       {
         "icon": "csharp.svg",
         "alt": "C#",
-        "tabs": ["Programming Languages"],
+        "tabs": [
+          "Programming Languages"
+        ],
         "background": "transparent"
       },
       {
         "icon": "vue.svg",
         "alt": "Vue",
-        "tabs": ["Front-end"],
+        "tabs": [
+          "Front-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "react.svg",
         "alt": "React",
-        "tabs": ["Front-end", "Mobile"],
+        "tabs": [
+          "Front-end",
+          "Mobile"
+        ],
         "background": "transparent"
       },
       {
         "icon": "redux.svg",
         "alt": "Redux",
-        "tabs": ["Front-end"],
+        "tabs": [
+          "Front-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "nuxt.svg",
         "alt": "Nuxt",
-        "tabs": ["Front-end"],
+        "tabs": [
+          "Front-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "gatsbyjs.svg",
         "alt": "Gatsby",
-        "tabs": ["Front-end"],
+        "tabs": [
+          "Front-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "angular.svg",
         "alt": "Angular",
-        "tabs": ["Front-end"],
+        "tabs": [
+          "Front-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "nodejs.svg",
         "alt": "NodeJS",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "express.svg",
         "alt": "Express",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "nextjs.svg",
         "alt": "NextJS",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "feathersjs.svg",
         "alt": "Feathers",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "babeljs.svg",
         "alt": "Babel",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "graphql.svg",
         "alt": "GraphQL",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "springboot.svg",
         "alt": "Spring Framework",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "django.svg",
         "alt": "Django",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "flask.svg",
         "alt": "Flask",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "dotnet.svg",
         "alt": "Dotnet Framework",
-        "tabs": ["Back-end"],
+        "tabs": [
+          "Back-end"
+        ],
         "background": "transparent"
       },
       {
         "icon": "mongodb.svg",
         "alt": "MongoDB",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "postgresql.svg",
         "alt": "PostgreSQL",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "redis.svg",
         "alt": "Redis",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "mysql.svg",
         "alt": "MySQL",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "mssql.svg",
         "alt": "MSSQL",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "firebase.svg",
         "alt": "Firebase",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "oracle.svg",
         "alt": "Oracle DB",
-        "tabs": ["Databases"],
+        "tabs": [
+          "Databases"
+        ],
         "background": "transparent"
       },
       {
         "icon": "tensorflow.svg",
         "alt": "Tensorflow",
-        "tabs": ["Data Science & AI"],
+        "tabs": [
+          "Data Science & AI"
+        ],
         "background": "transparent"
       },
       {
         "icon": "numpy.svg",
         "alt": "Numpy",
-        "tabs": ["Data Science & AI"],
+        "tabs": [
+          "Data Science & AI"
+        ],
         "background": "transparent"
       },
       {
         "icon": "pandas.svg",
         "alt": "Pandas",
-        "tabs": ["Data Science & AI"],
+        "tabs": [
+          "Data Science & AI"
+        ],
         "background": "transparent"
       },
       {
         "icon": "d3.svg",
         "alt": "D3",
-        "tabs": ["Data Science & AI"],
+        "tabs": [
+          "Data Science & AI"
+        ],
         "background": "transparent"
       },
       {
         "icon": "3js.svg",
         "alt": "ThreeJS",
-        "tabs": ["Data Science & AI"],
+        "tabs": [
+          "Data Science & AI"
+        ],
         "background": "transparent"
       },
       {
         "icon": "aws.svg",
         "alt": "Amazon AWS",
-        "tabs": ["Cloud Platforms"],
+        "tabs": [
+          "Cloud Platforms"
+        ],
         "background": "transparent"
       },
       {
         "icon": "googlecloud.svg",
         "alt": "Google Cloud",
-        "tabs": ["Cloud Platforms"],
+        "tabs": [
+          "Cloud Platforms"
+        ],
         "background": "transparent"
       },
       {
         "icon": "azure.svg",
         "alt": "Azure",
-        "tabs": ["Cloud Platforms"],
+        "tabs": [
+          "Cloud Platforms"
+        ],
         "background": "transparent"
       },
       {
         "icon": "docker.svg",
         "alt": "Docker",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "kubernetes.svg",
         "alt": "Kubernetes",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "terraform.svg",
         "alt": "Terraform",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "ansible.svg",
         "alt": "Ansible",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "circleci.svg",
         "alt": "CircleCI",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "gitlab.svg",
         "alt": "Gitlab",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "jenkins.svg",
         "alt": "Jenkins",
-        "tabs": ["DevOps"],
+        "tabs": [
+          "DevOps"
+        ],
         "background": "transparent"
       },
       {
         "icon": "cypress.svg",
         "alt": "Cypress",
-        "tabs": ["Quality Assurance"],
+        "tabs": [
+          "Quality Assurance"
+        ],
         "background": "transparent"
       },
       {
         "icon": "selenium.svg",
         "alt": "Selenium",
-        "tabs": ["Quality Assurance"],
+        "tabs": [
+          "Quality Assurance"
+        ],
         "background": "transparent"
       },
       {
         "icon": "jest.svg",
         "alt": "Jest",
-        "tabs": ["Quality Assurance"],
+        "tabs": [
+          "Quality Assurance"
+        ],
         "background": "transparent"
       },
       {
         "icon": "android.svg",
         "alt": "Android",
-        "tabs": ["Mobile"],
+        "tabs": [
+          "Mobile"
+        ],
         "background": "transparent"
       },
       {
         "icon": "ios.svg",
         "alt": "iOS",
-        "tabs": ["Mobile"],
+        "tabs": [
+          "Mobile"
+        ],
         "background": "transparent"
       },
       {
         "icon": "flutter.svg",
         "alt": "Flutter",
-        "tabs": ["Mobile"],
+        "tabs": [
+          "Mobile"
+        ],
         "background": "transparent"
       }
     ]
   },
   "contactFormSimplified": {
     "title": "Need Software Developers?",
+    "id": "need-developers-form",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
@@ -366,6 +477,7 @@
   },
   "mvpCases": {
     "title": "Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -437,6 +549,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",

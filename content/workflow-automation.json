@@ -19,7 +19,10 @@
       "Reduce hackwork."
     ],
     "background": "control-bro.svg",
-    "button": "Discuss Your Requirements"
+    "button": {
+      "text": "Discuss Your Requirements",
+      "idToScroll": "contact-us"
+    }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
@@ -28,6 +31,7 @@
   },
   "textBoxes": {
     "title": "",
+    "id": "products",
     "textBoxes": [
       {
         "title": "Document Management Automation",
@@ -69,6 +73,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "id": "technologies",
     "tabs": [
       "Programming Languages",
       "Frameworks",
@@ -258,6 +263,7 @@
   },
   "Cases": {
     "title": "Featured Case Studies",
+    "id": "case-studies",
     "imageBoxes": [
       {
         "background": "oneflow.png",
@@ -295,6 +301,7 @@
   },
   "contactForm": {
     "title": "Contact Us",
+    "id": "contact-us",
     "nameInput": {
       "label": "Name",
       "placeholder": "John",
