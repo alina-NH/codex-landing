@@ -254,3 +254,29 @@ export interface Welcome {
     subtitle?: string,
   }
 };
+
+export interface FormErrors {
+  nameError: {
+    empty: string,
+  },
+  companyError: {
+    empty: string,
+  },
+  emailError: {
+    empty: string,
+    invalid: string,
+  },
+  phoneError: {
+    empty: string,
+    invalid: string,
+  },
+  messageError: {
+    empty: string,
+    length: string,
+  },
+};
+
+export interface ServerErrors {
+  emptyBody: string,
+  defaultError: string,
+};

@@ -733,10 +733,11 @@ No json data. It uses `<slot />` to pass the button text.
 
 ##### Props
 
-prop  | description                                 | value type          | required
------ | ------------------------------------------- | ------------------- | --------
-style | make filled or outlined the button          | 'fill' \| 'outline' | no
-size  | change padding inside button 10/24 or 17/32 | 'small' \| 'large'  | no
+prop      | description                                 | value type          | required
+--------- | ------------------------------------------- | ------------------- | --------
+style     | make filled or outlined the button          | 'fill' \| 'outline' | no
+size      | change padding inside button 10/24 or 17/32 | 'small' \| 'large'  | no
+isLoading | ref to toggle loader                        | boolean             | no
 
 ### IconBox
 
