@@ -16,7 +16,7 @@
     "title": ["Explore the projects we've completed over the decade."],
     "background": "cases-wlcome.svg",
     "button": {
-      "text": "Book a call",
+      "text": "Become our client",
       "idToScroll": "contact-us"
     }
   },

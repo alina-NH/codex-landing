@@ -17,6 +17,11 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="pubtContent.contactFormSimplified"
+    component="list"
+  />
   <ImageBoxes
     :data="pubtContent.Cases"
     titlePosition="left"

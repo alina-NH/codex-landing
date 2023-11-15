@@ -131,17 +131,17 @@
     "icons": [
       {
         "href": "facebook.svg",
-        "link": "#",
+        "link": "https://www.facebook.com/CodexSoftware",
         "alt": "facebook"
       },
       {
         "href": "linkedin.svg",
-        "link": "#",
+        "link": "https://www.linkedin.com/company/codex-software/",
         "alt": "linkedin"
       },
       {
         "href": "instagram.svg",
-        "link": "#",
+        "link": "https://www.instagram.com/codex_software",
         "alt": "instagram"
       }
     ],
@@ -237,26 +237,21 @@
         ]
       },
       {
-        "name": "The company",
+        "name": "The Company",
         "subnav": [
           {
             "name": "The Story",
-            "link": "/company",
+            "link": "/company/#our-story",
             "external": false
           },
           {
             "name": "Locations",
-            "link": "/company",
+            "link": "/company/#locations",
             "external": false
           },
           {
             "name": "Leadership",
-            "link": "/company",
-            "external": false
-          },
-          {
-            "name": "Team",
-            "link": "/company",
+            "link": "/company/#leadership",
             "external": false
           },
           {

@@ -17,6 +17,11 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="dvisContent.contactFormSimplified"
+    component="list"
+  />
   <ImageBoxes
     :data="dvisContent.Cases"
     titlePosition="left"

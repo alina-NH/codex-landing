@@ -17,6 +17,11 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="prconfContent.contactFormSimplified"
+    component="list"
+  />
   <ImageBoxes
     :data="prconfContent.Cases"
     titlePosition="left"

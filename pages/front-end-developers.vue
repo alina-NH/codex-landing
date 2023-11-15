@@ -10,6 +10,11 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="feContent.contactFormSimplified"
+    component="list"
+  />
   <TextBoxes :data="feContent.textBoxes2" titlePosition="left" />
 
   <ImageBoxes

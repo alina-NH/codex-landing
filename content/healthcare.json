@@ -1,7 +1,7 @@
 {
     "colors": {
       "primary": "#2BD3D4",
-      "hover": "#2551C2",
+      "hover": "#AC5ED6",
       "black": "#18191F",
       "darkgrey": "#454545",
       "lightgrey": "#C0C0C0",
@@ -14,11 +14,10 @@
     },
     "welcome": {
       "title": [
-        "Custom software development",
-        "For healthcare.",
-        "For better care."
+        "Software Development",
+        "For Healthcare"
       ],
-      "subtitle": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features.",
+      "subtitle":   "We help healthcare institutions and startups build and evolve digital solutions that improve efficiency and quality of care delivery.",
       "background": "healthcarewelcome-square.png",
       "button": {
         "text": "Request Development",
@@ -27,7 +26,7 @@
       "colors": {
         "background":"#FFFFFF",
         "title": "black",
-        "subtitle": "#C0C0C0"
+        "subtitle": "#616060"
          }
     },
     "articleWithImageAndText": {
@@ -46,7 +45,7 @@
           "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
            },
         {
-          "title": "Software Evolution",
+          "title": "Software Product Evolution",
           "subtitle": "Enhance and extend your product at any stage",
           "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
                 },

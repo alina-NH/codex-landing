@@ -14,9 +14,10 @@
   },
   "welcome": {
     "title": [
-      "Gather, Store, and",
-      "Visualize Data."
+      "Custom Software",
+      "For Data Analysis"
     ],
+    "subtitle": "Gather, store and visualize data to make accurate & data-driven decisions.",
     "background": "data-extraction-cuate.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -28,7 +29,7 @@
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Analyse diverse data sets, make data-driven decisions, enhance and automate processes."
+    "text": "We develop custom software to retrieve, process, analyse, visualise and leverage data."
   },
   "textBoxes": {
     "title": "",
@@ -169,6 +170,36 @@
         "tabs": ["Databases"]
       }
     ]
+  },
+  "contactFormSimplified": {
+    "title": "",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Need a custom Data Analytics Solution?",
+      "subtitle": "Send us a request. We'll be glad to help you: ",
+      "list": [
+        "Refine, document, analyse and assess your idea",
+        "Staff your team with Software Developers, Data Scientists, Business Analysts",
+        "Save up to 40% of costs if compared to running an in-house team"
+      ],
+      "colors": {
+        "background": "#18191F",
+        "text": "#000000",
+        "subtitle": "#000000",
+        "bottomText": "#000000"
+      }
+    }
   },
   "Cases": {
     "title": "Featured Case Studies",

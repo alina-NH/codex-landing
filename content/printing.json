@@ -14,9 +14,10 @@
   },
   "welcome": {
     "title": [
-      "Improve production and distribution",
-      " of print products."
+      "Custom Software Development",
+      "For Print Service Providers"
     ],
+    "subtitle": "We develop software that helps PSPs improve processes, production, sales and delivery of print products.",
     "background": "printer-cuate.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -24,14 +25,14 @@
     },
     "colors": {
       "title": "black",
-      "subtitle": "#C0C0C0"
+      "subtitle": "#000000"
     }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Revitalise, optimise or grow your printing business. Reduce costs, cut waste, maximise production throughput, boost staff efficiency, expand customer reach and service range."
+    "text": "Revitalise, optimise or grow your printing business: reduce costs, cut waste, maximise production throughput, boost staff efficiency, expand customer reach and service range."
   },
   "textBoxes": {
     "title": "",
@@ -272,6 +273,36 @@
         "tabs": ["Testing"]
       }
     ]
+  },
+  "contactFormSimplified": {
+    "title": "",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Need a Custom Printing Software?",
+      "subtitle": "Send us a request. We'll be glad to help you: ",
+      "list": [
+        "Refine, document, analyse and assess your requirements",
+        "Hire Software Developers with Printing industry expertise",
+        "Save up to 40% of costs if compared to running an in-house team"
+      ],
+      "colors": {
+        "background": "#DCEAFF",
+        "text": "#000000",
+        "subtitle": "#000000",
+        "bottomText": "#000000"
+      }
+    }
   },
   "Cases": {
     "title": "Featured Case Studies",
