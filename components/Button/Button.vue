@@ -8,6 +8,10 @@
     }"
   >
     <slot />
+    <span
+      v-if="isLoading"
+      class="button__loader"
+    />
   </button>
 </template>
 
@@ -15,9 +19,11 @@
 const {
   style,
   size,
+  isLoading,
 } = defineProps<{
   style: keyof typeof ButtonStyle,
   size?: keyof typeof ButtonSize,
+  isLoading?: boolean,
 }>();
 </script>
 

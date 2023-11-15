@@ -20,10 +20,9 @@ export default defineNuxtConfig({
       },
     },
   },
-  app: {
-    head: {
-      title: "Codex Software",
-    }
+  runtimeConfig: {
+    NODEMAILER_USER: process.env.NODEMAILER_USER,
+    NODEMAILER_PASSWORD: process.env.NODEMAILER_PASSWORD,
   },
   imports: {
     dirs: ['stores', 'types'],

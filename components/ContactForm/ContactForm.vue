@@ -4,69 +4,108 @@
     class="contact-form"
     :id="data.id"
   >
-    <form class="contact-form__body">
+    <form
+      class="contact-form__body"
+      novalidate
+      @submit.prevent="submitForm"
+    >
       <h3 class="heading-3 contact-form__title">
         <a :href="`#${data.id}`">
           {{ data.title }}
         </a>
       </h3>
       <div class="contact-form__inline-block">
-        <label class="contact-form__input">
+        <label
+          class="contact-form__input"
+          :class="{ 'contact-form__input--error': nameError }"
+        >
           <span class="text-small">
             {{ data.nameInput.label }}
           </span>
           <input
+            v-model.trim="nameInput"
             type="text"
             :placeholder="data.nameInput.placeholder"
             :required="data.nameInput.required"
             class="text-default"
           />
+          <p class="text-small">
+            {{ nameError }}
+          </p>
         </label>
-        <label class="contact-form__input">
+        <label
+          class="contact-form__input"
+          :class="{ 'contact-form__input--error': companyError }"
+        >
           <span class="text-small">
             {{ data?.companyInput?.label }}
           </span>
           <input
+            v-model.trim="companyInput"
             type="text"
             :placeholder="data?.companyInput?.placeholder"
             :required="data?.companyInput?.required"
             class="text-default"
           />
+          <p class="text-small">
+            {{ companyError }}
+          </p>
         </label>
       </div>
       <div class="contact-form__inline-block">
-        <label class="contact-form__input">
+        <label
+          class="contact-form__input"
+          :class="{ 'contact-form__input--error': emailError }"
+        >
           <span class="text-small">
             {{ data.emailInput.label }}
           </span>
           <input
-            type="text"
+            v-model.trim="emailInput"
+            type="email"
             :placeholder="data.emailInput.placeholder"
             :required="data.emailInput.required"
             class="text-default"
           />
+          <p class="text-small">
+            {{ emailError }}
+          </p>
         </label>
-        <label class="contact-form__input">
+        <label
+          class="contact-form__input"
+          :class="{ 'contact-form__input--error': phoneError }"
+        >
           <span class="text-small">
             {{ data?.phoneInput?.label }}
           </span>
           <input
+            v-model.trim="phoneInput"
             type="text"
             :placeholder="data?.phoneInput?.placeholder"
             :required="data?.phoneInput?.required"
             class="text-default"
           />
+          <p class="text-small">
+            {{ phoneError }}
+          </p>
         </label>
       </div>
-      <label class="contact-form__textarea">
+      <label
+          class="contact-form__textarea"
+          :class="{ 'contact-form__textarea--error': messageError }"
+        >
         <span class="text-small">
           {{ data?.messageInput?.label }}
         </span>
         <textarea
+          v-model.trim="messageInput"
           :placeholder="data?.messageInput?.placeholder"
           :required="data?.messageInput?.required"
           class="text-default"
         />
+        <p class="text-small">
+          {{ messageError }}
+        </p>
       </label>
       <Button
         :size="ButtonSize.small"
@@ -89,45 +128,73 @@
       :titleSize="titleSize"
       filterMode
     />
-    <form class="contact-form__body contact-form__body--simplified">
+    <form
+      novalidate
+      class="contact-form__body contact-form__body--simplified"
+      @submit.prevent="submitForm"
+    >
       <h3 class="heading-3 contact-form__title">
         {{ data.title }}
       </h3>
-      <label class="contact-form__input">
+      <label
+        class="contact-form__input"
+        :class="{ 'contact-form__input--error': nameError }"
+      >
         <span class="text-small">
           {{ data.nameInput.label }}
         </span>
         <input
+          v-model.trim="nameInput"
           type="text"
           :placeholder="data.nameInput.placeholder"
           :required="data.nameInput.required"
           class="text-default"
         />
+        <p class="text-small">
+          {{ nameError }}
+        </p>
       </label>
-      <label class="contact-form__input">
+      <label
+        class="contact-form__input"
+        :class="{ 'contact-form__input--error': emailError }"
+      >
         <span class="text-small">
           {{ data.emailInput.label }}
         </span>
         <input
-          type="text"
+          v-model.trim="emailInput"
+          type="email"
           :placeholder="data.emailInput.placeholder"
           :required="data.emailInput.required"
           class="text-default"
         />
+        <p class="text-small">
+          {{ emailError }}
+        </p>
       </label>
       <Button
         :size="ButtonSize.large"
         :style="ButtonStyle.fill"
+        :isLoading="isLoading"
         class="contact-form__button contact-form__button--stretch"
       >
         {{ data.button }}
       </Button>
     </form>
   </section>
+  <div
+    class="text-small-bold contact-form__error-alert"
+    :class="{ 'contact-form__error-alert--visible': serverError }"
+  >
+    {{ serverError }}
+  </div>
 </template>
 
 <script setup lang="ts">
-import Button from '../Button/Button.vue';
+import type { NuxtError } from 'nuxt/app';
+import defaultContent from '../../content/default.json';
+
+const { pageContent: { meta: { title } } } = useContentStore();
 
 const {
   data,
@@ -144,6 +211,147 @@ const {
   titleSize?: keyof typeof TitleSize,
   formToLeft?: boolean,
 }>();
+
+const nameInput = ref('');
+const nameError = ref('');
+
+const companyInput = ref('');
+const companyError = ref('');
+
+const emailInput = ref('');
+const emailError = ref('');
+
+const phoneInput = ref('');
+const phoneError = ref('');
+
+const messageInput = ref('');
+const messageError = ref('');
+
+const serverError = ref('');
+
+const isLoading = ref(false);
+
+const submitForm = async () => {
+  if (!isFormValid()) return;
+
+  const body = getBody();
+
+  try {
+    isLoading.value = true;
+
+    const response = await $fetch('/email', {
+     body,
+      method: 'POST'
+    });
+
+    if (response) {
+      await navigateTo({ path: '/thank-you' });
+    }
+  } catch (error) {
+    showError(error);
+  } finally {
+    isLoading.value = false;
+  }
+};
+
+const isFormValid = () => {
+  nameError.value = validateName(
+    nameInput.value,
+    data.nameInput.required
+  );
+
+  emailError.value = validateEmail(
+    emailInput.value,
+    data.emailInput.required
+  );
+
+  if (data.companyInput) {
+    companyError.value = validateCompany(
+      companyInput.value,
+      data.companyInput.required
+    );
+  }
+
+  if (data.phoneInput) {
+    phoneError.value = validatePhone(
+      phoneInput.value,
+      data.phoneInput.required
+    );
+  }
+
+  if (data.messageInput) {
+    messageError.value = validateMessage(
+      messageInput.value,
+      data.messageInput.required
+    );
+  }
+
+  return !nameError.value
+    && !companyError.value
+    && !emailError.value
+    && !phoneError.value
+    && !messageError.value;
+};
+
+const getBody = () => {
+  return type === ContactFormType.simplified
+    ? {
+      name: {
+        value: nameInput.value,
+        required: data.nameInput.required,
+      },
+      email: {
+        value: emailInput.value,
+        required: data.emailInput.required,
+      },
+      pageTitle: title,
+      type,
+    }
+    : {
+      name: {
+        value: nameInput.value,
+        required: data.nameInput.required,
+      },
+      company: {
+        value: companyInput.value,
+        required: data.companyInput?.required,
+      },
+      email: {
+        value: emailInput.value,
+        required: data.emailInput.required,
+      },
+      phone: {
+        value: phoneInput.value,
+        required: data.phoneInput?.required
+      },
+      message: {
+        value: messageInput.value,
+        required: data.messageInput?.required
+      },
+      pageTitle: title,
+      type,
+    }
+};
+
+const showError = (error: any) => {
+  const errorMessage = (error as NuxtError)?.statusMessage as string;
+
+  serverError.value = isCustomServerError(errorMessage)
+    ? errorMessage
+    : defaultContent.serverErrors.defaultError;
+
+  window.setTimeout(() => {
+    serverError.value = '';
+  }, 5000);
+};
+
+const isCustomServerError = (error: string) => {
+  const customErrors = [
+    ...Object.values(defaultContent.formErrors).map(error => Object.values(error)).flat(),
+    ...Object.values(defaultContent.serverErrors),
+  ];
+  return customErrors.includes(error);
+};
 </script>
 
 <style scoped lang="scss" src="./ContactForm.scss" />
