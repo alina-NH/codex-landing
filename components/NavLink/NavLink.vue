@@ -2,6 +2,7 @@
   <a
     v-if="data?.external"
     :href="data?.link"
+    rel="noindex, nofollow, noreferrer"
     target="_blank"
   >
   {{ data.name }}
