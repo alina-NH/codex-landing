@@ -56,6 +56,79 @@
   font-weight: bold;
 }
 
+.text-page {
+  width: 100%;
+  padding: 10vh 25vw;
+  font-family: 'Manrope';
+  font-size: 18px;
+
+  .heading-2 {
+    margin-bottom: 5vh;
+  }
+
+  .heading-3, .heading-4, .heading-5 {
+    margin: 3vh 0;
+  }
+}
+
+.paragraph {
+  margin: 3vh 0;
+
+  &--short {
+    margin: 1vh 0;
+  }
+}
+
+.list {
+  margin-left: 40px;
+
+  &__item {
+    margin: 2.5vh 0;
+
+    &--short {
+      margin: 0.5vh 0;
+    }
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__paragraph {
+    margin: 1vh 0;
+  }
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-size: 15px;
+
+  th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+  }
+
+  th {
+    font-weight: 500;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #ebedee;
+  }
+}
+
+.link {
+  cursor: pointer;
+  color: $primary-color;
+  
+  &:hover {
+    color: $hover-color;
+  }
+}
+
 @media screen and (max-width: $breakpoint-xxl) {
   .heading-1 {
     font-size: 50px;
@@ -77,5 +150,11 @@
 
   .heading-4 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: $breakpoint-sm) {
+  .text-page {
+    padding: 10vh 10vw;
   }
 }
