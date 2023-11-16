@@ -26,11 +26,19 @@
           >
             <div class="header-nav__item-title">
               <span
+                v-if="nav.subnav"
                 class="header-nav__item-link"
-                @click="isMenuOpen = false"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
               >
                 {{ nav.name }}
               </span>
+              <NavLink
+                v-else
+                :data="nav"
+                class="header-nav__item-link"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
+                @click="isMenuOpen = false"
+              />
               <div
                 v-if="nav?.subnav"
                 class="header-nav__item-arrow"
@@ -86,11 +94,12 @@ const scrollToElement = () => {
   scrollTo(`#${header.button.idToScroll}` as ScrollToOptions);
 }
 
-const toggleWindowScrolling = (isMenuOpen: boolean) => {
+const handleMenuOpen = (isMenuOpen: boolean) => {
+  if (!isMenuOpen) openedSubnav.value = -1;
   document.body.style.overflowY = isMenuOpen ? 'hidden' : 'auto';
 };
 
-watch(isMenuOpen, toggleWindowScrolling);
+watch(isMenuOpen, handleMenuOpen);
 </script>
 
 <style scoped lang="scss" src="./HeaderMobile.scss" />
