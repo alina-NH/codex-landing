@@ -49,6 +49,12 @@
       <span v-for="text in footer.trademark">
         {{ text }}
       </span>
+      <div class="footer-notes">
+        Icons by <a href="https://icons8.com">Icons8</a>,
+        <a href="https://storyset.com/">Illustrations by Storyset</a>
+      </div>
+    </div>
+    <div>
     </div>
   </footer>
 </template>

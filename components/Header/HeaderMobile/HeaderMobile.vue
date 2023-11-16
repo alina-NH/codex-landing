@@ -15,49 +15,51 @@
       class="header-content"
       :class="{ 'header-content--open': isMenuOpen }"
     >
-      <ul class="header-nav">
-        <li
-          v-for="(nav, index) in header.nav"
-          class="text-default-bold header-nav__item"
-          :class="{ 'header-nav__item--open': openedSubnav === index }"
-        >
-          <div class="header-nav__item-title">
-            <NavLink
-              :data="nav"
-              class="header-nav__item-link"
-              @click="isMenuOpen = false"
-            />
-            <div
-              v-if="nav?.subnav"
-              class="header-nav__item-arrow"
-              @click="toggleSubnav(index)"
-            />
-          </div>
-          <ul
-            v-if="nav.subnav"
-            class="header-subnav"
+      <div>
+        <ul class="header-nav">
+          <li
+            v-for="(nav, index) in header.nav"
+            class="text-default-bold header-nav__item"
+            :class="{ 'header-nav__item--open': openedSubnav === index }"
           >
-            <li
-              v-for="subnav in nav.subnav"
-              class="header-subnav__item"
-            >
+            <div class="header-nav__item-title">
               <NavLink
-                :data="subnav"
-                class="text-small header-subnav__item-link"
+                :data="nav"
+                class="header-nav__item-link"
                 @click="isMenuOpen = false"
               />
-            </li>
-          </ul>
-        </li>
+              <div
+                v-if="nav?.subnav"
+                class="header-nav__item-arrow"
+                @click="toggleSubnav(index)"
+              />
+            </div>
+            <ul
+              v-if="nav.subnav"
+              class="header-subnav"
+            >
+              <li
+                v-for="subnav in nav.subnav"
+                class="header-subnav__item"
+              >
+                <NavLink
+                  :data="subnav"
+                  class="text-small header-subnav__item-link"
+                  @click="isMenuOpen = false"
+                />
+              </li>
+            </ul>
+          </li>
+        </ul>
         <Button
-        :style="ButtonStyle.outline"
-        :size="ButtonSize.small"
-        class="header__button"
-        @click="scrollToElement"
-      >
-        {{ header.button.text }}
-      </Button>
-      </ul>
+          :style="ButtonStyle.outline"
+          :size="ButtonSize.small"
+          class="header__button"
+          @click="scrollToElement"
+          >
+          {{ header.button.text }}
+        </Button>
+      </div>
     </div>
   </header>
 </template>
