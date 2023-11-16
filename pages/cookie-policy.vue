@@ -3,7 +3,7 @@
     <h1 class="heading-2">
       Cookie Policy
     </h1>
-    <p class="paragraph--bold">
+    <p class="text-default-bold">
       Last updated August 15, 2023
     </p>
     <p class="paragraph">
