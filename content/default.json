@@ -256,12 +256,12 @@
           },
           {
             "name": "Privacy Policy",
-            "link": "#",
+            "link": "/privacy-policy",
             "external": false
           },
           {
             "name": "Cookie Policy",
-            "link": "#",
+            "link": "/cookie-policy",
             "external": false
           }
         ]

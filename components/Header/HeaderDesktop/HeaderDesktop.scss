@@ -15,6 +15,13 @@
     cursor: pointer;
   }
 
+  &-content {
+    & > div {
+      display: flex;
+      column-gap: 2vw;
+    }
+  }
+
   &-nav {
     list-style-type: none;
     display: flex;

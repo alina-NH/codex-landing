@@ -4,6 +4,8 @@
       <img
         :src="useImages(header.logo.src)"
         :alt="header.logo.alt"
+        width="104"
+        height="32"
         class="header__logo"
       />
     </NuxtLink>
@@ -15,49 +17,60 @@
       class="header-content"
       :class="{ 'header-content--open': isMenuOpen }"
     >
-      <ul class="header-nav">
-        <li
-          v-for="(nav, index) in header.nav"
-          class="text-default-bold header-nav__item"
-          :class="{ 'header-nav__item--open': openedSubnav === index }"
-        >
-          <div class="header-nav__item-title">
-            <NavLink
-              :data="nav"
-              class="header-nav__item-link"
-              @click="isMenuOpen = false"
-            />
-            <div
-              v-if="nav?.subnav"
-              class="header-nav__item-arrow"
-              @click="toggleSubnav(index)"
-            />
-          </div>
-          <ul
-            v-if="nav.subnav"
-            class="header-subnav"
+      <div>
+        <ul class="header-nav">
+          <li
+            v-for="(nav, index) in header.nav"
+            class="text-default-bold header-nav__item"
+            :class="{ 'header-nav__item--open': openedSubnav === index }"
           >
-            <li
-              v-for="subnav in nav.subnav"
-              class="header-subnav__item"
-            >
+            <div class="header-nav__item-title">
+              <span
+                v-if="nav.subnav"
+                class="header-nav__item-link"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
+              >
+                {{ nav.name }}
+              </span>
               <NavLink
-                :data="subnav"
-                class="text-small header-subnav__item-link"
+                v-else
+                :data="nav"
+                class="header-nav__item-link"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
                 @click="isMenuOpen = false"
               />
-            </li>
-          </ul>
-        </li>
+              <div
+                v-if="nav?.subnav"
+                class="header-nav__item-arrow"
+                @click="toggleSubnav(index)"
+              />
+            </div>
+            <ul
+              v-if="nav.subnav"
+              class="header-subnav"
+            >
+              <li
+                v-for="subnav in nav.subnav"
+                class="header-subnav__item"
+              >
+                <NavLink
+                  :data="subnav"
+                  class="text-small header-subnav__item-link"
+                  @click="isMenuOpen = false"
+                />
+              </li>
+            </ul>
+          </li>
+        </ul>
         <Button
-        :style="ButtonStyle.outline"
-        :size="ButtonSize.small"
-        class="header__button"
-        @click="scrollToElement"
-      >
-        {{ header.button.text }}
-      </Button>
-      </ul>
+          :style="ButtonStyle.outline"
+          :size="ButtonSize.small"
+          class="header__button"
+          @click="scrollToElement"
+          >
+          {{ header.button.text }}
+        </Button>
+      </div>
     </div>
   </header>
 </template>
@@ -81,11 +94,12 @@ const scrollToElement = () => {
   scrollTo(`#${header.button.idToScroll}` as ScrollToOptions);
 }
 
-const toggleWindowScrolling = (isMenuOpen: boolean) => {
+const handleMenuOpen = (isMenuOpen: boolean) => {
+  if (!isMenuOpen) openedSubnav.value = -1;
   document.body.style.overflowY = isMenuOpen ? 'hidden' : 'auto';
 };
 
-watch(isMenuOpen, toggleWindowScrolling);
+watch(isMenuOpen, handleMenuOpen);
 </script>
 
 <style scoped lang="scss" src="./HeaderMobile.scss" />

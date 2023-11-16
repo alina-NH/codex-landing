@@ -47,7 +47,11 @@
 
     &__title {
       color: $primary-color;
-      margin-bottom: 32px;
+
+      & > span {
+        display: inline-block;
+        margin-bottom: 32px;
+      }
     }
 
     &__subnav {
@@ -73,5 +77,18 @@
     flex-direction: column;
     margin: 23px 0;
     color: $lightgrey-color;
+  }
+
+  &-notes {
+    margin-top: 20px;
+
+    & a {
+      color: $primary-color;
+      cursor: pointer;
+
+      &:hover {
+        color: $hover-color;
+      }
+    }
   }
 }

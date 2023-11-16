@@ -29,7 +29,7 @@
     <div class="welcome__section">
       <img
         :src="useImages(data.background)"
-        role="background"
+        role="presentation"
         class="welcome__background"
       />
     </div>

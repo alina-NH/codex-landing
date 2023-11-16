@@ -25,7 +25,7 @@
         'image-article__body--center': textAlignment === Alignment.center,
       }"
     >
-      <h3
+      <h2
         v-if="data?.title"
         class="heading-3 image-article__title"
         :class="{
@@ -42,7 +42,7 @@
         <span v-else>
           {{ data.title }}
         </span>
-      </h3>
+      </h2>
       <p
         v-if="data?.subtitle"
         class="text-default-bold image-article__subtitle"

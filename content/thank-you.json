@@ -10,7 +10,8 @@
     },
     "meta": {
         "title": "Thank you! | Codex Software",
-        "description": "This is Codex Software landing page"
+        "description": "This is Codex Software landing page",
+        "gtagConversion": ""
     },
     "articleWithImageAndText": {
         "id": "thank-you",

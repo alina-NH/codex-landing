@@ -137,6 +137,7 @@ export interface DefaultColors {
 export interface DefaultMeta {
   title: string,
   description: string,
+  gtagConversion: string,
 };
 export interface PageContent {
   colors: DefaultColors,
