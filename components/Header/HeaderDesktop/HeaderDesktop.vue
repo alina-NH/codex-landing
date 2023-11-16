@@ -17,11 +17,18 @@
             class="text-small-bold header-nav__item"
           >
             <span
+              v-if="nav.subnav"
               class="header-nav__item-link"
               :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
             >
               {{ nav.name }}
             </span>
+            <NavLink
+              v-else
+              :data="nav"
+              class="header-nav__item-link"
+              :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
+            />
             <ul
               v-if="nav.subnav"
               class="header-subnav"

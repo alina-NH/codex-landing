@@ -26,11 +26,19 @@
           >
             <div class="header-nav__item-title">
               <span
+                v-if="nav.subnav"
                 class="header-nav__item-link"
-                @click="isMenuOpen = false"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
               >
                 {{ nav.name }}
               </span>
+              <NavLink
+                v-else
+                :data="nav"
+                class="header-nav__item-link"
+                :class="{ 'header-nav__item-link--collapsed': nav.subnav }"
+                @click="isMenuOpen = false"
+              />
               <div
                 v-if="nav?.subnav"
                 class="header-nav__item-arrow"
