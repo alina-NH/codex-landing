@@ -14,9 +14,10 @@
   },
   "welcome": {
     "title": [
-      "Create & distribute",
-      "Digital content"
+      "Custom Applications For",
+      "Content Creators & Publishers"
     ],
+    "subtitle": "We develop software to innovate and improve content creation, distribution and sales",
     "background": "printing-bro.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -24,14 +25,14 @@
     },
     "colors": {
       "title": "black",
-      "subtitle": "#C0C0C0"
+      "subtitle": "#000000"
     }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "We develop custom applications to enable, improve and revolutionize content creation and distribution."
+    "text": "Enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
     "title": "",
@@ -264,6 +265,36 @@
         "tabs": ["Testing"]
       }
     ]
+  },
+  "contactFormSimplified": {
+    "title": "",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Need Custom Publishing Software?",
+      "subtitle": "Send us a request. We'll be glad to help you: ",
+      "list": [
+        "Refine, document, analyse and assess your requirements",
+        "Staff your team with Software Developers, Data Scientists, Business Analysts",
+        "Save up to 40% of costs if compared to running an in-house team"
+      ],
+      "colors": {
+        "background": "#DCEAFF",
+        "text": "#000000",
+        "subtitle": "#000000",
+        "bottomText": "#000000"
+      }
+    }
   },
   "Cases": {
     "title": "Featured Case Studies",

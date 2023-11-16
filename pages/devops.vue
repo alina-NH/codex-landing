@@ -10,6 +10,11 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="devopsContent.contactFormSimplified"
+    component="list"
+  />
   <TextBoxes :data="devopsContent.textBoxes2" hasTitle titlePosition="left" />
 
   <ImageBoxes

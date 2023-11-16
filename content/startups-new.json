@@ -2,7 +2,7 @@
     
     "colors": {
       "primary": "#F75C19",
-      "hover": "#D7470A",
+      "hover": "#2E64F9",
       "black": "#18191F",
       "darkgrey": "#454545",
       "lightgrey": "#C0C0C0",
@@ -14,7 +14,7 @@
       "description": "This is Codex Software landing page"
             },
     "welcome": {
-      "title": ["Staff your startup team.", "Scale affordably.", "Grow fast."],
+      "title": ["Staff your team.", "Scale affordably.", "Grow fast."],
       "background": "welcome-background.png",
       "button": {
         "text": "Get Your Startup a Boost",
@@ -341,7 +341,7 @@
         ]
       },
       "contactFormSimplified": {
-        "title": "Need Front-End Developers?",
+        "title": "Need Expert Advice?",
         "id": "need-developers-form",
         "nameInput": {
           "label": "Name",
@@ -353,7 +353,7 @@
           "placeholder": "john.doe@mail.com",
           "required": true
         },
-        "button": "Send Request",
+        "button": "Request a Free Consultation",
         "imageArticle": {
           "title": "IT Consulting",
           "subtitle": "Get the knowledge you need to get the optimal cost, timeframe and results of the project.",

@@ -20,7 +20,7 @@
     <SquaresTimeline
     :data="healthcareContent.squareTimeline"
     hasTitle
-    titlePosition="left"
+    titlePosition="center"
   />
     <TextBoxes
     :data="healthcareContent.textBoxes2"

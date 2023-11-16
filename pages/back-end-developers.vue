@@ -10,8 +10,13 @@
     component="IconBox"
     icons-background="transparent"
   />
+  <ContactForm
+    type="simplified"
+    :data="beContent.contactFormSimplified"
+    component="list"
+  />
   <TextBoxes :data="beContent.textBoxes2" titlePosition="left" />
-
+  
   <ImageBoxes
     :data="beContent.mvpCases"
     titlePosition="left"

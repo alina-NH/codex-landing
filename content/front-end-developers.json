@@ -1,7 +1,7 @@
 {
   "colors": {
     "primary": "#F75C19",
-    "hover": "#D7470A",
+    "hover": "#2E64F9",
     "black": "#18191F",
     "darkgrey": "#454545",
     "lightgrey": "#C0C0C0",
@@ -13,7 +13,7 @@
     "description": "This is Codex Software landing page"
   },
   "welcome": {
-    "title": ["Front-end Developers", "For your Team.", "Affordably."],
+    "title": ["Get Front-end Developers", "For your Project.", "Affordably."],
     "background": "feamico.svg",
     "button": {
       "text": "Request CVs",
@@ -31,17 +31,17 @@
       {
         "title": "Developers for Hire",
         "subtitle": "",
-        "text": "Get front-end developers for your project or get a full-service team.",
+        "text": "Engage a front-end developer or a full-service development team",
         "icon": "staff.svg"
       },
       {
         "title": "Product development",
         "subtitle": "",
-        "text": "Use our front-end expertise to develop the interface for your software product.",
+        "text": "Use our front-end expertise to develop the interface for your software product",
         "icon": "productdev.svg"
       },
       {
-        "title": "Software Modernization",
+        "title": "Software Modernisation",
         "subtitle": "",
         "text": "Migrate outdated Javascript components to modern front-end frameworks.",
         "icon": "modern.svg"
@@ -49,7 +49,7 @@
       {
         "title": "Mobile App Development",
         "subtitle": "",
-        "text": "Use our expertise to build a modern mobile app for iOS and Android.",
+        "text": "Use our expertise to build a modern mobile app for iOS, Android or multiple platforms.",
         "icon": "mobile.svg"
       }
     ]
@@ -142,26 +142,56 @@
       }
     ]
   },
+  "contactFormSimplified": {
+    "title": "Need Software Developers?",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Software Engineers For your Project",
+      "subtitle": "Hire Front-end or Fullstack developers to get the optimal cost, timeframe and results of the project.",
+      "list": [
+        "Seniority: Middle, Senior, Team Lead",
+        "Any duration: from short-term assignments to complete projects",
+        "Affordably: save up to 40% of costs if compared to hiring for the in-house team"
+      ],
+      "colors": {
+        "background": "#18191F",
+        "text": "#000000",
+        "subtitle": "#F75C19",
+        "bottomText": "#000000"
+      }
+    }
+  },
   "textBoxes2": {
     "title": "What to expect hiring Codex Software",
     "id": "hiring",
     "textBoxes": [
       {
-        "title": "TOP-10% Talent",
+        "title": "TOP-10% Engineering Talent",
         "subtitle": "",
         "text": "We value good hard- and soft-skills. On average, only 10% of candidates receive job offers from us.",
         "icon": ""
       },
       {
-        "title": "Comfortable Communication",
+        "title": "Flawless Communication",
         "subtitle": "",
-        "text": "We make sure all team members possess English fluency to effectively communicate verbally and in writing, on meetings and on day-to-day basis.",
+        "text": "We make sure all team members possess English fluency to effectively communicate verbally and in writing.",
         "icon": ""
       },
       {
-        "title": "Stable Availability",
+        "title": "Availability During Business Hours",
         "subtitle": "",
-        "text": "Our development centers are located in European timezones, ensuring comfortable overlaps with your business hours.",
+        "text": "Our development centers are located in European timezones, ensuring comfortable overlaps with clients from all over the world.",
         "icon": ""
       },
       {
@@ -173,13 +203,13 @@
       {
         "title": "No Administrative Overheads",
         "subtitle": "",
-        "text": "We manage the HR side, including talent acquisition, replacements, compensations, training, as well a legal aspects.",
+        "text": "We manage the HR side, including talent acquisition, replacements, compensations, training, and legal aspects.",
         "icon": ""
       },
       {
-        "title": "Your Rights and Property are Protected",
+        "title": "Your Rights Fully Protected",
         "subtitle": "",
-        "text": "Your intellectual property will remain safe due to strict legal and security measures  (NDAs, NCAs, SLAs, and our internal security protocols)",
+        "text": "We take all possible legal and technical measures to ensure your sensitive information, including code and ideas, remain safe and secure. ",
         "icon": ""
       }
     ]

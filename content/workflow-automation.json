@@ -14,10 +14,10 @@
   },
   "welcome": {
     "title": [
-      "Boost productivity.",
-      "Eliminate errors.",
-      "Reduce hackwork."
+      "Workflow & Process ",
+      "Automation Solutions"
     ],
+    "subtitle": "Boost productivity. Eliminate errors. Reduce hackwork.",
     "background": "control-bro.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -260,6 +260,36 @@
         "tabs": ["Testing"]
       }
     ]
+  },
+  "contactFormSimplified": {
+    "title": "",
+    "id": "need-developers-form",
+    "nameInput": {
+      "label": "Name",
+      "placeholder": "John",
+      "required": true
+    },
+    "emailInput": {
+      "label": "Email",
+      "placeholder": "john.doe@mail.com",
+      "required": true
+    },
+    "button": "Send Request",
+    "imageArticle": {
+      "title": "Need a custom Workflow Automation Solution?",
+      "subtitle": "Send us a request. We'll be glad to help you: ",
+      "list": [
+        "Refine, document, analyse and assess your requirements",
+        "Staff your team with Software Developers, Data Scientists, Business Analysts",
+        "Save up to 40% of costs if compared to running an in-house team"
+      ],
+      "colors": {
+        "background": "#18191F",
+        "text": "#000000",
+        "subtitle": "#000000",
+        "bottomText": "#000000"
+      }
+    }
   },
   "Cases": {
     "title": "Featured Case Studies",
