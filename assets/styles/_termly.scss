@@ -1,0 +1,131 @@
+#termly-code-snippet-support {
+  div[class^='termly-styles-root'] {
+    width: 50em;
+    margin: 0px;
+    padding: 2em;
+    background: rgb(255, 255, 255) !important;
+    color: rgb(48, 48, 48) !important;
+    box-shadow: 0 0 35px 0 rgba(0,0,0,.25);
+  }
+
+  div[class^='termly-styles-message'] {
+    color: rgb(48, 48, 48) !important;
+
+    & span {
+      color: rgb(48, 48, 48) !important;
+    }
+  }
+
+  div[class^='termly-styles-content'] {
+    flex-direction: column;
+  }
+
+  div[class^='termly-style-modal'] {
+    border-radius: unset !important;
+  }
+
+  div[class^='termly-styles-preferenceModal'] {
+    background-color: initial !important;
+    background: rgb(255, 255, 255);
+    border-radius: unset !important;
+
+    div[class^='termly-styles-root'] {
+      box-shadow: unset !important;
+      width: auto;
+    }
+
+    div[class^='termly-styles-head'] {
+      color: initial !important;
+      color: rgb(48, 48, 48);
+    }
+
+    div[class^='termly-styles-body'] {
+      color: initial !important;
+      color: rgb(48, 48, 48);
+    }
+
+    div[class^='termly-styles-detailsLink'] {
+      color: initial !important;
+      color: rgb(48, 48, 48);
+    }
+
+    div[class^='termly-styles-backButton'] {
+      color: initial !important;
+      color: #6C757D;
+      font-weight: 400 !important;
+    }
+
+    h2[class^='termly-styles-title'] {
+      color: initial !important;
+      color: rgb(48, 48, 48);
+    }
+
+    div[class^='termly-styles-container'] {
+      h3 {
+        color: initial !important;
+        color: rgb(48, 48, 48);
+        
+        span {
+          color: initial !important;
+          color: rgb(48, 48, 48);
+        }
+      }
+
+      table {
+        td {
+          background: unset !important;
+          color: initial !important;
+          color: rgb(48, 48, 48);
+        }
+
+        th {
+          background: initial !important;
+          background: #a4abb1 !important;
+        }
+      }
+    }
+  }
+
+  div[class^='termly-styles-closeTag'] {
+    svg {
+      display: block;
+      vertical-align: middle;
+
+      g {
+        fill: initial !important;
+        fill: #303030;
+      }
+    }
+  }
+
+  h2[class^='termly-styles-preferenceTitle'] {
+    color: initial !important;
+    color: rgb(48, 48, 48);
+  }
+
+  p[class^='termly-styles-description'] {
+    color: initial !important;
+    color: rgb(48, 48, 48);
+  }
+}
+
+.t-preference-button, .t-declineButton, .t-acceptAllButton {
+  color: initial !important;
+  border-color: initial !important;
+  width: 9em !important;
+  max-width: unset !important;
+  min-width: unset !important;
+  margin-top: 15px;
+  border: 1px solid rgb(48, 48, 48);
+  border-radius: 3px;
+  text-align: center;
+
+  @media screen and (max-width: $breakpoint-md) {
+    width: 85% !important;
+  }
+}
+
+.t-declineButton, .t-acceptAllButton {
+  background-color: rgb(48, 48, 48) !important;
+  color: white !important;
+}
