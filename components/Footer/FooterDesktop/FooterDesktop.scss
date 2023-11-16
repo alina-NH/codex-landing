@@ -49,6 +49,7 @@
       color: $primary-color;
 
       & > span {
+        display: inline-block;
         margin-bottom: 32px;
       }
     }
