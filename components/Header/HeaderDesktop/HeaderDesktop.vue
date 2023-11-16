@@ -46,6 +46,7 @@
           </li>
         </ul>
         <Button
+          v-if="isRenderButton"
           :style="ButtonStyle.outline"
           :size="ButtonSize.small"
           @click="scrollTo(`#${header.button.idToScroll}`)"
@@ -59,6 +60,12 @@
 
 <script setup lang="ts">
 const { defaultContent: { header } } = useContentStore();
+
+const {
+  isRenderButton
+} = defineProps<{
+  isRenderButton: boolean,
+}>();
 </script>
 
 <style scoped lang="scss" src="./HeaderDesktop.scss" />
