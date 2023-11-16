@@ -93,7 +93,8 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
   },
   meta: {
     title: string,
-    description: string
+    description: string,
+    gtagConversion: string,
   }
 }
 ```
