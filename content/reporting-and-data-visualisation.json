@@ -15,13 +15,13 @@
   },
   "welcome": {
     "title": [
-      "Custom Software",
-      "For Data Analysis"
+      "Custom Software For",
+      "Reporting and Data Visualisation"
     ],
-    "subtitle": "Gather, store and visualize data to make accurate & data-driven decisions.",
-    "background": "data-extraction-cuate.svg",
+    "subtitle": "Gather, store, process and visualize data to make accurate & data-driven decisions.",
+    "background": "data-analysis-and-visualisation.svg",
     "button": {
-      "text": "Discuss Your Requirements",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },
