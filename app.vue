@@ -28,13 +28,33 @@ const changePageColors = ({
 
 const changePageMeta = ({
   title,
-  description
+  description,
+  gtagConversion,
 }: DefaultMeta) => {
   useHead({
     title: title,
     meta: [
       { name: 'description', content: description }
     ],
+    script: [
+      {
+        innerHTML: `
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          gtag('event', 'conversion', {
+              'send_to': 'AW-957998787/${gtagConversion}',
+              'event_callback': callback
+          });
+          return false;
+        }
+        `,
+        tagPosition: 'bodyClose',
+      },
+    ]
   });
 };
 
