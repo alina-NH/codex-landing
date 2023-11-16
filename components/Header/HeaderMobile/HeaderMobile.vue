@@ -94,11 +94,12 @@ const scrollToElement = () => {
   scrollTo(`#${header.button.idToScroll}` as ScrollToOptions);
 }
 
-const toggleWindowScrolling = (isMenuOpen: boolean) => {
+const handleMenuOpen = (isMenuOpen: boolean) => {
+  if (!isMenuOpen) openedSubnav.value = -1;
   document.body.style.overflowY = isMenuOpen ? 'hidden' : 'auto';
 };
 
-watch(isMenuOpen, toggleWindowScrolling);
+watch(isMenuOpen, handleMenuOpen);
 </script>
 
 <style scoped lang="scss" src="./HeaderMobile.scss" />
