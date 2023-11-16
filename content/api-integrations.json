@@ -15,12 +15,13 @@
   },
   "welcome": {
     "title": [
-      "Custom API integrations"
+      "Custom API Integrations",
+      "For Your Application"
     ],
-    "subtitle":"Connect your application with any 3rd party software",
-    "background": "data-points-cuate.svg",
+    "subtitle":"Extend the range of features of your app by connecting it with any 3rd party software that has an API",
+    "background": "api.svg",
     "button": {
-      "text": "Get started",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },

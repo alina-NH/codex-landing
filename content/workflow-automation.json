@@ -18,10 +18,10 @@
       "Workflow & Process ",
       "Automation Solutions"
     ],
-    "subtitle": "Boost productivity. Eliminate errors. Reduce hackwork.",
-    "background": "control-bro.svg",
+    "subtitle": "We help businesses boost productivity, reduce errors, and save time by automating repetitive tasks.",
+    "background": "process.svg",
     "button": {
-      "text": "Discuss Your Requirements",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },
