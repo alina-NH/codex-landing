@@ -168,7 +168,8 @@ export type ImageArticle = {
   list?: string[],
   button?: {
     text: string,
-    idToScroll: string,
+    idToScroll?: string,
+    pageToRedirect?: string,
   },
   image?: string,
   text?: string,

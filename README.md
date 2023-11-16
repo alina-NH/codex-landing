@@ -385,7 +385,8 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
   list?: string[],
   button?: {
     text: string,
-    idToScroll: string,
+    idToScroll?: string,
+    pageToRedirect?: string,
   },
   image?: string,
   text?: string,
