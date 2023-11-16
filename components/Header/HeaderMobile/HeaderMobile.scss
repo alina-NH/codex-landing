@@ -19,9 +19,9 @@
     position: fixed;
     top: $header-height;
     width: 100%;
-    height: 100%;
+    height: calc(100% - #{$header-height});
     max-height: 1000px;
-    inset: 0;
+    inset: $header-height 0 0 0;
     transform: translateX(100%);
     display: flex;
     flex-direction: column;
@@ -35,6 +35,14 @@
     &--open {
       transform: translateX(0);
     }
+
+    & > div {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
   }
 
   &-nav {
@@ -43,7 +51,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    
     list-style-type: none;
 
     &__item {
@@ -91,6 +98,7 @@
   }
 
   &__button {
+    margin-top: 20px;
     align-self: stretch;
   }
 
