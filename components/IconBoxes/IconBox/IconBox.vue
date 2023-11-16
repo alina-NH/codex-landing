@@ -12,12 +12,12 @@
     }"
     @click="data?.link && openLink(data.link)"
   >
-    <h5
+    <h4
       :v-if="data?.title"
       class="heading-5"
     >
       {{ data.title }}
-    </h5>
+    </h4>
     <img
       :src="useImages(data.icon)"
       :alt="data.alt"

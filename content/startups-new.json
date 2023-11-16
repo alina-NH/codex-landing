@@ -11,7 +11,8 @@
     },
     "meta": {
       "title": "Developers For Your Startup | Codex Software",
-      "description": "This is Codex Software landing page"
+      "description": "This is Codex Software landing page",
+      "gtagConversion": ""
             },
     "welcome": {
       "title": ["Staff your team.", "Scale affordably.", "Grow fast."],

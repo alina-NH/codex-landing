@@ -47,7 +47,11 @@
 
     &__title {
       color: $primary-color;
-      margin-bottom: 32px;
+
+      & > span {
+        display: inline-block;
+        margin-bottom: 32px;
+      }
     }
 
     &__subnav {

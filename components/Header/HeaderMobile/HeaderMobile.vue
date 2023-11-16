@@ -4,6 +4,8 @@
       <img
         :src="useImages(header.logo.src)"
         :alt="header.logo.alt"
+        width="104"
+        height="32"
         class="header__logo"
       />
     </NuxtLink>
@@ -23,11 +25,12 @@
             :class="{ 'header-nav__item--open': openedSubnav === index }"
           >
             <div class="header-nav__item-title">
-              <NavLink
-                :data="nav"
+              <span
                 class="header-nav__item-link"
                 @click="isMenuOpen = false"
-              />
+              >
+                {{ nav.name }}
+              </span>
               <div
                 v-if="nav?.subnav"
                 class="header-nav__item-arrow"

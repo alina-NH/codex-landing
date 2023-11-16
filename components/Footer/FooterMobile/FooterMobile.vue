@@ -4,6 +4,8 @@
       <img
         :src="useImages(footer.logo.src)"
         :alt="footer.logo.alt"
+        width="104"
+        height="32"
         class="footer__logo"
       />
     </NuxtLink>
