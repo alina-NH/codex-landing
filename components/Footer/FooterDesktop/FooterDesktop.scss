@@ -47,7 +47,10 @@
 
     &__title {
       color: $primary-color;
-      margin-bottom: 32px;
+
+      & > span {
+        margin-bottom: 32px;
+      }
     }
 
     &__subnav {

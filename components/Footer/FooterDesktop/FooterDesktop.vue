@@ -6,6 +6,8 @@
           <img
             :src="useImages(footer.logo.src)"
             :alt="footer.logo.alt"
+            width="104"
+            height="32"
             class="footer__logo"
           />
         </NuxtLink>
@@ -32,16 +34,18 @@
           class="footer-nav__section"
         >
           <li class="text-default footer-nav__title">
-            {{ nav.name }}
+            <span>
+              {{ nav.name }}
+            </span>
+            <ul class="text-small footer-nav__subnav">
+              <li v-for="subnav in nav.subnav">
+                <NavLink
+                  :data="subnav"
+                  class="footer-nav__link"
+                />
+              </li>
+            </ul>
           </li>
-          <ul class="text-small footer-nav__subnav">
-            <li v-for="subnav in nav.subnav">
-              <NavLink
-                :data="subnav"
-                class="footer-nav__link"
-              />
-            </li>
-          </ul>
         </ul>
       </nav>
     </div>

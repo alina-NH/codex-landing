@@ -15,9 +15,13 @@ export default defineNuxtConfig({
             @import "@/assets/styles/_colors.scss";
             @import "@/assets/styles/_typography.scss";
             @import "@/assets/styles/_mixins.scss";
+            @import "@/assets/styles/_termly.scss";
           `,
         },
       },
+    },
+    build: {
+      cssCodeSplit: false,
     },
   },
   runtimeConfig: {
@@ -32,6 +36,10 @@ export default defineNuxtConfig({
       path: '~/components',
       pathPrefix: false,
     },
+  ],
+  nitro: {
+    compressPublicAssets: true,
+  },
   app: {
     head: {
       htmlAttrs: {
