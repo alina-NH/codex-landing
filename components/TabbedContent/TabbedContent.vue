@@ -14,6 +14,12 @@
       class="tabbed-content__title"
     >
       {{ data.title }}
+      <template
+        #subtitle
+        v-if="data?.subtitle"
+      >
+        {{ data.subtitle }}
+      </template>
     </SectionTitle>
     <ul class="tabbed-content-nav">
       <li

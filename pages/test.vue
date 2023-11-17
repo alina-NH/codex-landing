@@ -11,7 +11,7 @@
   />
   <IconBoxes
     :data="testContent.iconBoxesWithTitles"
-    title-position="left"
+    title-position="center"
     icon-to-top
   />
   <ContactForm

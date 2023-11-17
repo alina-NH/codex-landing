@@ -25,6 +25,7 @@ export type ImageBox = {
 
 export interface ImageBoxes {
   title?: string,
+  subtitle?: string,
   id?: string,
   imageBoxes: ImageBox[],
 };
@@ -43,6 +44,7 @@ export enum TabsComponent {
 
 export interface TabbedContent {
   title?: string,
+  subtitle?: string,
   id: string,
   tabs: string[],
   background?: string,
@@ -61,6 +63,7 @@ export type IconBox = {
 export interface IconBoxes {
   id?: string,
   title?: string,
+  subtitle?: string,
   iconBoxes: IconBox[],
 };
 
@@ -74,6 +77,7 @@ export type TextBox = {
 
 export interface TextBoxes {
   title?: string,
+  subtitle?: string,
   id?: string,
   textBoxes: TextBox[],
 }

@@ -423,6 +423,7 @@ titleSize         | title size in article                                      |
 ```
 {
   title?: string,
+  subtitle?: string,
   id?: string,
   imageBoxes: ImageBox[]
 }
@@ -466,6 +467,7 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  subtitle?: string,
   id: string,
   iconBoxes: IconBox[]
 }
@@ -585,6 +587,7 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  subtitle?: string,
   id: string,
   tabs: string[],
   background?: string,
@@ -658,6 +661,7 @@ iconToTop       | icon in top, title in bottom (only for icons with title)      
 ```
 {
   title?: string,
+  subtitle?: string,
   id?: string,
   textBoxes: TextBox[]
 }

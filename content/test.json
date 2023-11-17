@@ -48,6 +48,7 @@
   "iconBoxesWithTitles": {
     "id": "icon-boxes-titled",
     "title": "Icon Boxes with titles",
+    "subtitle": "Assemble a development team or get specialists you require for a fraction of in-house hiring costs.",
     "iconBoxes": [
       {
         "title": "Staff Management, Bank & Rota Systems",
@@ -182,6 +183,7 @@
   },
   "imageBoxesWithTestimonial": {
     "title": "Featured Case Studies",
+    "subtitle": "Hire Software Developers or End-to-End teams to get the optimal cost, timeframe and results of the project.",
     "id": "case-studies",
     "imageBoxes": [
       {
@@ -546,6 +548,7 @@
   },
   "textBoxes": {
     "title": "TextBoxes full",
+    "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
     "id": "textboxes-1",
     "textBoxes": [
       {
@@ -624,6 +627,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "subtitle": "Get your software seamlessly connected with HP Siteflow platform",
     "id": "technologies-1",
     "tabs": [
       "Programming Languages",
