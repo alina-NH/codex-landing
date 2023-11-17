@@ -1,5 +1,4 @@
 <template>
-    <VerticalSpace height="20vh" />
     <ImageArticle
     :data="tyContent.articleWithImageAndText"
     articleAlignment="center"
@@ -8,9 +7,8 @@
     buttonStyle="fill"
     titleSize="large"
     component="text"
-    image-to-right
+    direction="column"
   />
-  <VerticalSpace height="20vh" />
     </template>
 
     <script setup lang="ts">
