@@ -15,12 +15,13 @@
   },
   "welcome": {
     "title": [
-      "Custom Publishing Tools"
+      "Custom Applications",
+      "For Content Creation and Publishing"
     ],
-    "subtitle": "Innovate how digital content is created, distributed and sold.",
-    "background": "pubtools-amico.svg",
+    "subtitle": "Transform the way content is created, managed, distributed, and sold - online and offline.",
+    "background": "publish-t.svg",
     "button": {
-      "text": "Request a Discovery Call",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },

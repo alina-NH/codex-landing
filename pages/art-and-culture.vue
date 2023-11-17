@@ -8,14 +8,25 @@
     component="text"
   />
   <TextBoxes
-    :data="artContent.textBoxes"
-    titlePosition="left"
-  />
-  <TabbedContent
+      :data="artContent.textBoxes"
+      titlePosition="left"
+    />
+    <TabbedContent
     titlePosition="left"
     :data="artContent.tabsIcons"
     component="IconBox"
     icons-background="transparent"
+  />
+  <ImageArticle
+    :data="artContent.articleWithImageAndText2"
+    articleAlignment="center"
+    textAlignment="center"
+    buttonStyle="fill"
+    component="text"
+  />
+  <TextBoxes
+    :data="artContent.textBoxes2"
+    titlePosition="left"
   />
   <ContactForm
     type="simplified"

@@ -18,17 +18,17 @@
       "Workflow & Process ",
       "Automation Solutions"
     ],
-    "subtitle": "Boost productivity. Eliminate errors. Reduce hackwork.",
-    "background": "control-bro.svg",
+    "subtitle": "Implement digital means to automate repeatable and routine operations. Boost productivity, reduce errors, save time.",
+    "background": "process.svg",
     "button": {
-      "text": "Discuss Your Requirements",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },
   "articleWithImageAndText": {
     "title": "Solutions",
     "subtitle": "",
-    "text": "Automate repetitive operations, processes and complete workflows to achieve more, faster and cheaper."
+    "text": "Automate repetitive operations, processes and complete workflows to achieve more - faster and cheaper."
   },
   "textBoxes": {
     "title": "",

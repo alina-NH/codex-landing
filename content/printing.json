@@ -30,12 +30,39 @@
     }
   },
   "articleWithImageAndText": {
+    "title": "Services",
+    "id": "services",
+    "subtitle": "",
+    "text": "Streamline sales, production and delivery of print products"
+  },
+  "textBoxes": {
+    "title": "",
+    "id": "services-2",
+    "textBoxes": [
+      {
+        "title": "Software MVP Development",
+        "subtitle": "Bring the app to market as fast as possible",
+        "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
+         },
+      {
+        "title": "Software Product Evolution",
+        "subtitle": "Enhance and extend your product at any stage",
+        "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
+              },
+      {
+        "title": "Software Modernisation",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality."
+              }
+    ]
+  },
+  "articleWithImageAndText2": {
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "Revitalise, optimise or grow your printing business: reduce costs, cut waste, maximise production throughput, boost staff efficiency, expand customer reach and service range."
+    "text": "We develop solutions that help PSPs reduce costs, maximise production throughput, boost staff efficiency, expand customer reach, and extend service range."
   },
-  "textBoxes": {
+  "textBoxes2": {
     "title": "",
     "id": "products",
     "textBoxes": [
@@ -79,6 +106,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "background": "#F5F5F5",
     "id": "technologies",
     "tabs": [
       "Printing",
@@ -330,6 +358,18 @@
           "position": "New Business Director"
         },
         "testimonial": "“Codex have provided me with a great team for more than a decade. High quality engineers and managers that understand the dynamics of my business. I look forward to our relationship continuing”"
+      },
+      {
+        "background": "B2BPrintPro.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "B2B Print Pro",
+        "description": "We developed a SaaS software solution streamlining the B2B sales processes of print service providers.The platform is equipped with private storefronts, web-based product template editor, variable data products, automated generation of product sheets and invoices, and other features."
+      },
+      {
+        "background": "Printabl.png",
+        "tabs": ["Printing & Publishing", "Startups"],
+        "title": "Printabl",
+        "description": "We built an app that gathers and processes print order data in Red Buddle format and transforms it into OneFlow printing suite-compatible format."
       }
     ]
   },

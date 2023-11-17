@@ -15,13 +15,13 @@
   },
   "welcome": {
     "title": [
-      "Custom Product",
-      "Configuration Apps"
+      "Product Configurators",
+      "For Web Stores on Any Platform"
     ],
-    "subtitle": "Configure, visualise and customise your products",
-    "background": "prdct.svg",
+    "subtitle": "Seamlessly configure and visualise your products. Enable customisation for better experience and sales.",
+    "background": "prod-c.svg",
     "button": {
-      "text": "Request a Discovery Call",
+      "text": "Share Your Requirements",
       "idToScroll": "contact-us"
     }
   },
@@ -266,7 +266,7 @@
     },
     "button": "Send Request",
     "imageArticle": {
-      "title": "Need a custom Product Editor?",
+      "title": "Need a custom Product Confgurator?",
       "subtitle": "Send us a request. We'll be glad to help you: ",
       "list": [
         "Refine, document, analyse and assess your requirements",

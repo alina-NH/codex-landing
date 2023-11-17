@@ -18,10 +18,10 @@
       "Your Trusted",
       "Technology Partner"
     ],
-    "subtitle": "Since 2011, we are helping businesses of all sizes plan, build and evolve viable software solutions, reduce development budgets and fill talent gaps.",
+    "subtitle": "Since 2011, we are helping startups, businesses and institutions build modern software solutions, staff teams and get technical expertise.",
     "background": "business-mission-rafiki.svg",
     "button": {
-      "text": "Let's Meet?",
+      "text": "Reach Out To Us",
       "idToScroll": "contact-us"
     }
   },
@@ -33,7 +33,7 @@
         "type": "text",
         "title": "Our Story",
         "subtitle": "",
-        "text": "A path from a small local development studio to an international company helping startups, SMBs and enterprises across the globe.",
+        "text": "The path from a small development studio to an international company helping startups, SMBs and enterprises across the globe",
         "bottomText": {
           "icon": "",
           "text": ""
@@ -56,17 +56,17 @@
           },
           {
             "title": "2013: the Breakthrough",
-            "text": "The Company managed to land several groundbreaking deals, which lead to current company industry and technology expertise.",
+            "text": "The Company managed to land several groundbreaking deals, which defined our current industry expertise and technology focus.",
             "icon": "2013.png"
           },
           {
             "title": "2016: the Accomplishment",
-            "text": "The first multimillion exit deal for our Startup Customer. We are extemely proud of being able to assist in that!",
+            "text": "The first multimillion exit deal for our Startup Customer. Subsequently, we've managed to repeat this achievement multiple times.",
             "icon": "2016.png"
           },
           {
             "title": "2020: the European Expansion",
-            "text": "The Company opened development centers in Portugal and Poland, gaining access to East Europe's richest talent pool.",
+            "text": "The Company established development centers in Portugal and Poland, gaining access to Europe's richest IT talent pool.",
             "icon": "2020.png"
           },
           {

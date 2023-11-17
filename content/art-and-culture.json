@@ -18,7 +18,7 @@
       "Digital Tranformation",
       "For Art & Culture Industry"
     ],
-    "subtitle": "We create custom software solutions for museums, expositions, archives and libraries.",
+    "subtitle": "We help companies and institutions craft innovative software to showcase, store, manage, and promote works of culture.",
     "background": "gallery-amico.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -30,12 +30,39 @@
     }
   },
   "articleWithImageAndText": {
+    "title": "Services",
+    "id": "services",
+    "subtitle": "",
+    "text": "Get help in planning, launching, and evolving your software products"
+  },
+  "textBoxes": {
+    "title": "",
+    "id": "services2",
+    "textBoxes": [
+      {
+        "title": "Software MVP Development",
+        "subtitle": "Bring the app to market as fast as possible",
+        "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
+         },
+      {
+        "title": "Software Product Evolution",
+        "subtitle": "Enhance and extend your product at any stage",
+        "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
+              },
+      {
+        "title": "Software Modernisation",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality."
+              }
+    ]
+  },
+  "articleWithImageAndText2": {
     "id": "solutions",
     "title": "Solutions",
     "subtitle": "",
-    "text": "We help institutions, companies and startups showcase, store and manage works of art."
+    "text": "We create custom software solutions that shape the future of Art & Culture."
   },
-  "textBoxes": {
+  "textBoxes2": {
     "id": "products",
     "title": "",
     "textBoxes": [
@@ -53,7 +80,7 @@
       },
       {
         "title": "Museum Apps",
-        "subtitle": "Transform and enhance visitor experience in museums, expositions and art venues",
+        "subtitle": "Streamline processes and enhance visitor experience in museums and arts venues",
         "text": "",
         "icon": "museum.png"
       },
@@ -79,6 +106,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "background": "#F5F5F5",
     "id": "technologies",
     "tabs": [
       "Programming Languages",
@@ -282,7 +310,7 @@
     },
     "button": "Send Request",
     "imageArticle": {
-      "title": "Need a Custom Software Solution for Library, Museum, or Exhibition?",
+      "title": "Need a Custom Art & Culture Software Solution?",
       "subtitle": "Send us a request. We'll be glad to help you: ",
       "list": [
         "Refine, document, analyse and assess your requirements",

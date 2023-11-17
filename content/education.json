@@ -15,10 +15,10 @@
   },
   "welcome": {
     "title": [
-      "Custom eLearning & edTech",
-      "Software Solutions"
+      "Digital Transformation",
+      "For Educators and Students"
     ],
-    "subtitle": "We help educators and learners leverage modern digital tools to teach and study effectively, anywhere.",
+    "subtitle": "We help schools, institutions, eLearning and EdTech companies improve, streamline and manage education.",
     "background": "education-rafiki.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -30,14 +30,41 @@
     }
   },
   "articleWithImageAndText": {
+    "title": "Services",
+    "id": "services",
+    "subtitle": "",
+    "text": "Get help in planning, launching, and evolving your software products that shape the future of education"
+  },
+  "textBoxes": {
+    "title": "",
+    "id": "services-2",
+    "textBoxes": [
+      {
+        "title": "Software MVP Development",
+        "subtitle": "Bring the app to market as fast as possible",
+        "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
+         },
+      {
+        "title": "Software Product Evolution",
+        "subtitle": "Enhance and extend your product at any stage",
+        "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
+              },
+      {
+        "title": "Software Modernisation",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality."
+              }
+    ]
+  },
+  "articleWithImageAndText2": {
     "image": "",
     "title": "Solutions",
     "id": "solutions",
     "subtitle": "",
-    "text": "We help institutions and businesses develop software to streamline, manage and innovate education."
+    "text": "We plan, build and evolve modern applications to streamline, manage and innovate education."
     
   },
-  "textBoxes": {
+  "textBoxes2": {
     "title": "",
     "id": "products",
     "textBoxes": [
@@ -60,14 +87,14 @@
         "icon": "study.png"
       },
       {
-        "title": "Management Platforms",
+        "title": "LMS Platforms",
         "subtitle": "Manage educational institutions of any size, effectively",
         "text": "",
         "icon": "management.png"
       },
       {
-        "title": "AI + EdTech Solutions",
-        "subtitle": "Implement AI solutions to improve educational activities",
+        "title": "AI for Education",
+        "subtitle": "Use the latest AI technologies to streamline educational activities",
         "text": "",
         "icon": "ai-icon.png"
       },
@@ -81,6 +108,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "background": "#F5F5F5",
     "id": "technologies",
     "tabs": [
       "Programming Languages",
@@ -284,7 +312,7 @@
     },
     "button": "Send Request",
     "imageArticle": {
-      "title": "Need an eLearning or edTech solution?",
+      "title": "Need a custom software solution?",
       "subtitle": "Send us a request. We'll be glad to help you: ",
       "list": [
         "Refine, document, analyse and assess your requirements",

@@ -15,10 +15,10 @@
   },
   "welcome": {
     "title": [
-      "Custom Applications For",
-      "Content Creators & Publishers"
+      "IT Services",
+      "For the Publishing Industry"
     ],
-    "subtitle": "We develop software to innovate and improve content creation, distribution and sales",
+    "subtitle": "We help Publishers enable and facilitate digital transformation in their organisations, create new tools and approaches to content creation, distribution, and sales.",
     "background": "printing-bro.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -30,14 +30,41 @@
     }
   },
   "articleWithImageAndText": {
-    "title": "Solutions",
-    "id": "solutions",
+    "title": "Services",
+    "id": "services",
     "subtitle": "",
     "text": "Enable, improve and revolutionize content creation and distribution."
   },
   "textBoxes": {
     "title": "",
-    "id": "products",
+    "id": "services-2",
+    "textBoxes": [
+      {
+        "title": "Software MVP Development",
+        "subtitle": "Bring the app to market as fast as possible",
+        "text": "A team of skilled UX experts, product engineers, and business analysts will help you prototype, test, and validate your ideas quickly and efficiently."
+         },
+      {
+        "title": "Software Product Evolution",
+        "subtitle": "Enhance and extend your product at any stage",
+        "text": "Hire a full-service engineering team to improve design, usability, performance, scalability and security of an existing software product, or add new product features."
+              },
+      {
+        "title": "Software Modernisation",
+        "subtitle": "Revitalise your legacy systems",
+        "text": "Receive full range of services to turn outdated software into a modern solution with a better user experience, lower maintenance costs, and extended functionality."
+              }
+    ]
+  },
+  "articleWithImageAndText2": {
+    "title": "Solutions",
+    "id": "solutions",
+    "subtitle": "",
+    "text": "We specialize in crafting cutting-edge software to enhance editorial workflows, streamline production, and optimize digital publishing experiences."
+  },
+  "textBoxes2": {
+    "title": "",
+    "id": "solutions-list",
     "textBoxes": [
       {
         "title": "Digital Publishing Platforms",
@@ -79,6 +106,7 @@
   },
   "tabsIcons": {
     "title": "Technologies",
+    "background": "#F5F5F5",
     "id": "technologies",
     "tabs": [
       "Programming Languages",
