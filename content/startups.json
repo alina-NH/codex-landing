@@ -18,10 +18,10 @@
         "Plan, Build & Evolve",
         "Software Solutions."
       ],
-      "subtitle": "Refine your idea. Create a killer MVP. Scale or pivot your product.",
+      "subtitle": "We help founders refine ideas, create engaging prototypes and MVP, scale and pivot products - for a fraction of in-house costs.",
       "background": "startup-old.svg",
       "button": {
-        "text": "Start Now",
+        "text": "Submit Your Requirements",
         "idToScroll": "contact-us"
       },
       "colors": {
@@ -36,7 +36,7 @@
       "text": "Explore our Lean startup approach to software product development"
     },
     "articleWithImageAndText2": {
-        "image": "biznalysis-2.gif",
+        "image": "ba.png",
         "id": "analysis-and-prototyping",
         "title": "Analysis and Prototyping",
         "subtitle": "Evaluate and refine your idea",
@@ -47,7 +47,7 @@
           ]
       },
       "articleWithImageAndText3": {
-        "image": "how-we-work-2.gif",
+        "image": "proto.png",
         "id": "mvp-development",
         "title": "MVP Development",
         "subtitle": "Validate your idea, affordably.",
@@ -58,7 +58,7 @@
           ]
       },
       "articleWithImageAndText4": {
-        "image": "how-we-work-3.gif",
+        "image": "evol.png",
         "id": "product-evolution",
         "title": "Product Evolution",
         "subtitle": "Grow, Scale or Pivot your Software",

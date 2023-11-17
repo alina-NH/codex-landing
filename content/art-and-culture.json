@@ -18,7 +18,7 @@
       "Digital Tranformation",
       "For Art & Culture Industry"
     ],
-    "subtitle": "Custom software solutions for museums, expositions, archives and libraries.",
+    "subtitle": "We help companies and institutions craft innovative software to showcase, store, manage, and promote works of culture.",
     "background": "gallery-amico.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -33,7 +33,7 @@
     "title": "Services",
     "id": "services",
     "subtitle": "",
-    "text": "We help Art & Culture institutions and startups craft innovative software to showcase, store, manage, and promote works of art."
+    "text": "Get help in planning, launching, and evolving your software products"
   },
   "textBoxes": {
     "title": "",
@@ -60,7 +60,7 @@
     "id": "solutions",
     "title": "Solutions",
     "subtitle": "",
-    "text": "We create custom software solutions that shape the future of cultural preservation."
+    "text": "We create custom software solutions that shape the future of Art & Culture."
   },
   "textBoxes2": {
     "id": "products",
@@ -80,7 +80,7 @@
       },
       {
         "title": "Museum Apps",
-        "subtitle": "Transform and enhance visitor experience in museums, expositions and art venues",
+        "subtitle": "Streamline processes and enhance visitor experience in museums and arts venues",
         "text": "",
         "icon": "museum.png"
       },
