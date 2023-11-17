@@ -10,12 +10,12 @@
     },
     "meta": {
         "title": "Thank you! | Codex Software",
-        "description": "This is Codex Software landing page",
+        "description": "We received your message. Our representative will get back to you soon!",
         "gtagConversion": ""
     },
     "articleWithImageAndText": {
         "id": "thank-you",
-        "image": "",
+        "image": "ty2.svg",
         "title": "Thank you!",
         "text": "We received your message. Our representative will get back to you soon.",
         "button": {
