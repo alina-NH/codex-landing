@@ -6,8 +6,8 @@
   scroll-margin-top: 5vh;
 
   &__title {
-    width: 100%;
-    margin: 3vh 0 3vh 0;
+   width: 100% !important;
+   margin: 3vh 0 2vh 0 !important;
   }
 
   &-nav {
