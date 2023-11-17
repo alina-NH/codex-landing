@@ -15,10 +15,10 @@
   },
   "welcome": {
     "title": [
-      "Custom Software Solutions",
+      "Digital Transformation",
       "For Educators and Students"
     ],
-    "subtitle": "We help schools, institutions, eLearning and EdTech companies streamline and manage educational process.",
+    "subtitle": "We help schools, institutions, eLearning and EdTech companies improve, streamline and manage education.",
     "background": "education-rafiki.svg",
     "button": {
       "text": "Discuss Your Requirements",
@@ -33,7 +33,7 @@
     "title": "Services",
     "id": "services",
     "subtitle": "",
-    "text": "We develop software and provide development teams for companies and institutions shaping the future of education"
+    "text": "Get help in planning, launching, and evolving your software products that shape the future of education"
   },
   "textBoxes": {
     "title": "",
