@@ -8,10 +8,11 @@
     textAlignment="left"
     button-alignment="left"
     title-size="large"
+    direction="columnReverse"
   />
   <IconBoxes
     :data="testContent.iconBoxesWithTitles"
-    title-position="left"
+    title-position="center"
     icon-to-top
   />
   <ContactForm

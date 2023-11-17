@@ -1,7 +1,9 @@
 .section-title {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
   width: calc(100% - 20vw);
-  margin: 3vh 10vw 3vh 10vw;
+  margin: 3vh 10vw 5vh 10vw;
   text-align: center;
 
   a {
@@ -16,5 +18,21 @@
 
   &--center {
     text-align: center;
+  }
+}
+
+.section-subtitle {
+  align-self: center;
+
+  & > p {
+    max-width: 600px;
+  }
+
+  &--center {
+    align-self: center;
+  }
+
+  &--left {
+    align-self: flex-start;
   }
 }

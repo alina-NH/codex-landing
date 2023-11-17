@@ -22,6 +22,16 @@
     flex-direction: row-reverse;
   }
 
+  &--column {
+    row-gap: 2vh;
+    flex-direction: column;
+  }
+
+  &--column-reverse {
+    row-gap: 3vh;
+    flex-direction: column-reverse;
+  }
+
   &__background {
     max-width: 545px;
     border-radius: 8px;

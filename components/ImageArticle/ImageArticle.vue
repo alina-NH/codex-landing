@@ -7,6 +7,8 @@
       'image-article--left': articleAlignment === Alignment.left,
       'image-article--right': articleAlignment === Alignment.right,
       'image-article--center': articleAlignment === Alignment.center,
+      'image-article--column': direction === FlexDirection.column,
+      'image-article--column-reverse': direction === FlexDirection.columnReverse,
       'image-article--filtered': filterMode,
     }"
     :style="{ 'color': data?.colors?.text }"
@@ -88,7 +90,7 @@
           'image-article__button--center': buttonAlignment === FlexAlignment.center,
           'image-article__button--stretch': buttonAlignment === FlexAlignment.stretch,
         }"
-        @click="scrollTo(`#${data.button.idToScroll}`)"
+        @click="handleButtonClick"
       >
         {{ data.button.text }}
       </Button>
@@ -117,7 +119,13 @@ const {
   buttonAlignment?: keyof typeof FlexAlignment,
   titleSize?: keyof typeof TitleSize,
   filterMode?: boolean,
+  direction? : keyof typeof FlexDirection,
 }>();
+
+const handleButtonClick = () => {
+  data.button?.idToScroll && scrollTo(`#${data.button?.idToScroll}` as ScrollToOptions);
+  data.button?.pageToRedirect && navigateTo(data.button?.pageToRedirect);
+};
 </script>
 
 <style scoped lang="scss" src="./ImageArticle.scss" />

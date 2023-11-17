@@ -1,21 +1,34 @@
 <template>
-  <h3
-    class="heading-3 section-title"
+  <div
+    class="section-title"
     :class="{
       'section-title--center': position === SectionTitlePosition.center,
       'section-title--left': position === SectionTitlePosition.left,
     }"
   >
-    <a
-      v-if="id"
-      :href="`#${id}`"
+    <h3 class="heading-3">
+      <a
+        v-if="id"
+        :href="`#${id}`"
+      >
+        <slot />
+      </a>
+      <span v-else>
+        <slot />
+      </span>
+    </h3>
+    <div
+      class="text-default section-subtitle"
+      :class="{
+        'section-subtitle--center': position === SectionTitlePosition.center,
+        'section-subtitle--left': position === SectionTitlePosition.left,
+      }"
     >
-      <slot />
-    </a>
-    <span v-else>
-      <slot />
-    </span>
-  </h3>
+      <p>
+        <slot name="subtitle" />
+      </p>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

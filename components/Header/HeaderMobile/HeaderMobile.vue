@@ -63,6 +63,7 @@
           </li>
         </ul>
         <Button
+          v-if="isRenderButton"
           :style="ButtonStyle.outline"
           :size="ButtonSize.small"
           class="header__button"
@@ -77,6 +78,12 @@
 
 <script setup lang="ts">
 const { defaultContent: { header } } = useContentStore();
+
+const {
+  isRenderButton
+} = defineProps<{
+  isRenderButton: boolean,
+}>();
 
 const isMenuOpen = ref<boolean>(false);
 const openedSubnav = ref<number>(-1);

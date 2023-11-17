@@ -1,0 +1,64 @@
+{
+  "name": "Codex Software Landing Page",
+  "short_name": "Codex Software Landing Page",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#F75C19",
+  "description": "Since 2011, we are helping businesses of all sizes plan, build and evolve viable software solutions, reduce development budgets and fill talent gaps.",
+  "icons": [
+    {
+      "src": "images/logo-48x48.svg",
+      "sizes": "48x48",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "images/logo-72x72.svg",
+      "sizes": "72x72",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "images/logo-96x96.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "images/logo-144x144.svg",
+      "sizes": "144x144",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "images/logo-168x168.svg",
+      "sizes": "168x168",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "images/logo-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot-desktop.png",
+      "sizes": "1279x677",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Codex Software Landing Page"
+    },
+    {
+      "src": "images/screenshot-mobile.png",
+      "sizes": "375x657",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Codex Software Landing Page"
+    }
+  ]
+}

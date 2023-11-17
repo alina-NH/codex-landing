@@ -385,7 +385,8 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
   list?: string[],
   button?: {
     text: string,
-    idToScroll: string,
+    idToScroll?: string,
+    pageToRedirect?: string,
   },
   image?: string,
   text?: string,
@@ -405,13 +406,14 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
 
 ##### Props
 
-prop              | description                                                | value type                     | required
------------------ | ---------------------------------------------------------- | ------------------------------ | --------
-buttonStyle       | filled or outline button (if button declared in JSON)      | 'fill' \| 'outline'            | no
-imageToRight      | image renders in right corner (if image declared in JSON)  | boolean                        | no
-component         | body is list or text                                       | 'list' \| 'text'               | yes
-textAlignment     | alignment of text in article body                          | 'left' \| 'center' \| 'right'  | no
-titleSize         | title size in article                                      | 'small' \| 'large'             | no
+prop              | description                                                | value type                                             | required
+----------------- | ---------------------------------------------------------- | ------------------------------------------------------ | --------
+buttonStyle       | filled or outline button (if button declared in JSON)      | 'fill' \| 'outline'                                    | no
+imageToRight      | image renders in right corner (if image declared in JSON)  | boolean                                                | no
+component         | body is list or text                                       | 'list' \| 'text'                                       | yes
+textAlignment     | alignment of text in article body                          | 'left' \| 'center' \| 'right'                          | no
+titleSize         | title size in article                                      | 'small' \| 'large'                                     | no
+direction         | flex direction of container                                | 'row' \| 'row-reverse' \| 'column' \| 'column-reverse' | no 
 
 ### ImageBoxes
 
@@ -422,6 +424,7 @@ titleSize         | title size in article                                      |
 ```
 {
   title?: string,
+  subtitle?: string,
   id?: string,
   imageBoxes: ImageBox[]
 }
@@ -465,6 +468,7 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  subtitle?: string,
   id: string,
   iconBoxes: IconBox[]
 }
@@ -584,6 +588,7 @@ titlePosition | alignment of title | 'left' \| 'center' \| 'right'  | no
 ```
 {
   title?: string,
+  subtitle?: string,
   id: string,
   tabs: string[],
   background?: string,
@@ -657,6 +662,7 @@ iconToTop       | icon in top, title in bottom (only for icons with title)      
 ```
 {
   title?: string,
+  subtitle?: string,
   id?: string,
   textBoxes: TextBox[]
 }

@@ -10,6 +10,12 @@
       :position="titlePosition"
     >
       {{ data.title }}
+      <template
+        #subtitle
+        v-if="data?.subtitle"
+      >
+        {{ data.subtitle }}
+      </template>
     </SectionTitle>
     <div
       class="image-boxes__body"
