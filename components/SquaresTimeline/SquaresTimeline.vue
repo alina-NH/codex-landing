@@ -23,7 +23,7 @@
           :component="ImageArticleComponent.text"
           :textAlignment="Alignment.left"
           :buttonAlignment="FlexAlignment.left"
-          :titleSize="TitleSize.large"
+          :titleSize="TitleSize.small"
           filterMode
         />
         <List
