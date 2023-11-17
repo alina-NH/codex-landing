@@ -406,13 +406,14 @@ formToLeft       | form left or right to  ImageArticle (only simplified)   | boo
 
 ##### Props
 
-prop              | description                                                | value type                     | required
------------------ | ---------------------------------------------------------- | ------------------------------ | --------
-buttonStyle       | filled or outline button (if button declared in JSON)      | 'fill' \| 'outline'            | no
-imageToRight      | image renders in right corner (if image declared in JSON)  | boolean                        | no
-component         | body is list or text                                       | 'list' \| 'text'               | yes
-textAlignment     | alignment of text in article body                          | 'left' \| 'center' \| 'right'  | no
-titleSize         | title size in article                                      | 'small' \| 'large'             | no
+prop              | description                                                | value type                                             | required
+----------------- | ---------------------------------------------------------- | ------------------------------------------------------ | --------
+buttonStyle       | filled or outline button (if button declared in JSON)      | 'fill' \| 'outline'                                    | no
+imageToRight      | image renders in right corner (if image declared in JSON)  | boolean                                                | no
+component         | body is list or text                                       | 'list' \| 'text'                                       | yes
+textAlignment     | alignment of text in article body                          | 'left' \| 'center' \| 'right'                          | no
+titleSize         | title size in article                                      | 'small' \| 'large'                                     | no
+direction         | flex direction of container                                | 'row' \| 'row-reverse' \| 'column' \| 'column-reverse' | no 
 
 ### ImageBoxes
 

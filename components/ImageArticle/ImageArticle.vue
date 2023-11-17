@@ -7,6 +7,8 @@
       'image-article--left': articleAlignment === Alignment.left,
       'image-article--right': articleAlignment === Alignment.right,
       'image-article--center': articleAlignment === Alignment.center,
+      'image-article--column': direction === FlexDirection.column,
+      'image-article--column-reverse': direction === FlexDirection.columnReverse,
       'image-article--filtered': filterMode,
     }"
     :style="{ 'color': data?.colors?.text }"
@@ -117,6 +119,7 @@ const {
   buttonAlignment?: keyof typeof FlexAlignment,
   titleSize?: keyof typeof TitleSize,
   filterMode?: boolean,
+  direction? : keyof typeof FlexDirection,
 }>();
 
 const handleButtonClick = () => {

@@ -8,6 +8,7 @@
     textAlignment="left"
     button-alignment="left"
     title-size="large"
+    direction="columnReverse"
   />
   <IconBoxes
     :data="testContent.iconBoxesWithTitles"

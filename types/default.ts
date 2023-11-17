@@ -286,3 +286,8 @@ export interface ServerErrors {
   emptyBody: string,
   defaultError: string,
 };
+
+export enum FlexDirection {
+  column = 'column',
+  columnReverse = 'columnReverse',
+};
