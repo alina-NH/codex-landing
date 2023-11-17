@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
   modules: ['@pinia/nuxt'],
   css: ['~/assets/styles/main.scss'],
   vite: {
@@ -100,6 +99,12 @@ export default defineNuxtConfig({
           `,
           tagPosition: 'bodyClose',
         },
+      ],
+      link: [
+        {
+          rel: 'manifest',
+          href: 'manifest.json',
+        }
       ],
     },
   },
