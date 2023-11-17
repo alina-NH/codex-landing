@@ -11,6 +11,12 @@
       class="icon-boxes__title"
     >
       {{ data.title }}
+      <template
+        #subtitle
+        v-if="data?.subtitle"
+      >
+        {{ data.subtitle }}
+      </template>
     </SectionTitle>
     <div
       class="icon-boxes__body"

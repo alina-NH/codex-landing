@@ -25,8 +25,8 @@
   }
 
   &__background {
-    width: 520px;
-    height: 520px;
+    width: 620px;
+    height: 620px;
   }
 
   @media screen and (max-width: $breakpoint-xxl) {
@@ -37,13 +37,6 @@
   }
 
   @media screen and (max-width: $breakpoint-md) {
-    &__background {
-      width: 320px;
-      height: 320px;
-    }
-  }
-
-  @media screen and (max-width: $breakpoint-sm) {
     &__background {
       display: none;
     }

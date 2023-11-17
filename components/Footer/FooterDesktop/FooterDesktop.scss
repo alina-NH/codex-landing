@@ -49,6 +49,7 @@
       color: $primary-color;
 
       & > span {
+        cursor: default;
         display: inline-block;
         margin-bottom: 32px;
       }

@@ -23,7 +23,7 @@
           :component="ImageArticleComponent.text"
           :textAlignment="Alignment.left"
           :buttonAlignment="FlexAlignment.left"
-          :titleSize="TitleSize.large"
+          :titleSize="TitleSize.small"
           filterMode
         />
         <List
@@ -47,7 +47,7 @@ const {
 const content = ref(data.items);
 
 onMounted(() => {
-  if (isMobile()) {
+  if (isMobile() || isTablet()) {
     let i = 3;
     while (i <= content.value.length) {
       [content.value[i - 1], content.value[i]] = [content.value[i], content.value[i - 1]]

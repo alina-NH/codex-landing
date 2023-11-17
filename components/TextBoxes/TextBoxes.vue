@@ -11,6 +11,12 @@
       class="text-boxes__title"
     >
       {{ data.title }}
+      <template
+        #subtitle
+        v-if="data?.subtitle"
+      >
+        {{ data.subtitle }}
+      </template>
     </SectionTitle>
     <div
       class="text-boxes__body"
