@@ -82,7 +82,9 @@
     :data="testContent.leadForm"
     browserBackEvent
     pageScrollEvent
+    timer-event
     :percent-to-scroll="50"
+    :sec-to-trigger="10"
   />
 </template>
   

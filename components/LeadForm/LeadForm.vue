@@ -75,11 +75,15 @@ const {
   pageScrollEvent,
   browserBackEvent,
   percentToScroll,
+  timerEvent,
+  secToTrigger,
 } = defineProps<{
   data: LeadForm,
   pageScrollEvent?: boolean,
   browserBackEvent?: boolean,
+  timerEvent?: boolean,
   percentToScroll?: number,
+  secToTrigger?: number,
 }>();
 
 const store = useContentStore();
@@ -87,6 +91,8 @@ const store = useContentStore();
 const emailInput = ref('');
 const emailError = ref('');
 const isLoading = ref(false);
+
+let timer: NodeJS.Timeout;
 
 const isFormValid = () => {
   emailError.value = validateEmail(emailInput.value, true);
@@ -142,21 +148,35 @@ const showLeadForm = (event: Event) => {
   }
 };
 
+const openModalOnBrowserBack = () => {
+  onBeforeRouteLeave((to, from, next) => {
+    if (!store.leadForm.isInitiated) {
+      store.toggleLeadFormVisible(true);
+      next(false);
+    }
+    next(true);
+  });
+};
+
+const openModalOnTimerEnd = () => {
+  if (secToTrigger) {
+    if (!store.leadForm.isInitiated) {
+      timer = setTimeout(() => {
+        store.toggleLeadFormVisible(true);
+      }, secToTrigger * 1000);
+    }
+  }
+};
+
 const addLeadFormEvents = () => {
   pageScrollEvent && window.addEventListener('scroll', showLeadForm);
-  if (browserBackEvent) {
-    onBeforeRouteLeave((to, from, next) => {
-      if (!store.leadForm.isInitiated) {
-        store.toggleLeadFormVisible(true);
-        next(false);
-      }
-      next(true);
-    });
-  }
+  browserBackEvent && openModalOnBrowserBack();
+  timerEvent && openModalOnTimerEnd();
 };
 
 const removeLeadFormEvents = () => {
   window.removeEventListener('scroll', showLeadForm);
+  clearTimeout(timer);
 };
 
 onMounted(addLeadFormEvents);
