@@ -163,11 +163,11 @@ const openModalOnBrowserBack = () => {
 
 const openModalOnTimerEnd = () => {
   if (secToTrigger) {
-    if (!store.leadForm.isInitiated) {
       timer = setTimeout(() => {
+      if (!store.leadForm.isInitiated) {
         store.toggleLeadFormVisible(true, data.id);
-      }, secToTrigger * 1000);
-    }
+      }
+    }, secToTrigger * 1000);
   }
 };
 
