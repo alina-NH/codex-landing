@@ -765,7 +765,9 @@ prop             | description                                          | value 
 ---------------- | ---------------------------------------------------- | ---------- | --------
 pageScrollEvent  | add event to open modal on page scroll               | boolean    | no
 browserBackEvent | add event to open modal on browser back button click | boolean    | no
+timerEvent       | add event to open modal after some sec               | boolean    | no
 percentToScroll  | percent of page scroll to trigger open modal         | number     | no
+secToTrigger     | secs after which to open modal                       | number     | no
 
 ### Button
 
