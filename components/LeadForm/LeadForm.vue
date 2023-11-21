@@ -1,7 +1,10 @@
 <template>
   <section
     class="lead-form"
-    :class="{ 'lead-form--open': store.leadForm.isVisible }"
+    :class="{
+      'lead-form--open': store.leadForm.isVisible
+        && store.leadForm.id === data.id
+    }"
   >
     <div
       class="lead-form-card"
@@ -15,7 +18,7 @@
       />
       <div class="lead-form-body">
         <div
-          @click="store.toggleLeadFormVisible(false)"
+          @click="store.toggleLeadFormVisible(false, data.id)"
           class="lead-form__close"
         />
         <div class="lead-form-context">
@@ -126,7 +129,7 @@ const submitForm = async () => {
         type: AlertType.success,
         message: data.successMessage,
       });
-      store.toggleLeadFormVisible(false);
+      store.toggleLeadFormVisible(false, data.id);
     }
   } catch (error) {
     store.setAlert({
@@ -144,14 +147,14 @@ const showLeadForm = (event: Event) => {
     if (window.scrollY <= document.body.scrollHeight * (percentToScroll / 100)) return;
   }
   if (!store.leadForm.isInitiated) {
-    store.toggleLeadFormVisible(true);
+    store.toggleLeadFormVisible(true, data.id);
   }
 };
 
 const openModalOnBrowserBack = () => {
   onBeforeRouteLeave((to, from, next) => {
     if (!store.leadForm.isInitiated) {
-      store.toggleLeadFormVisible(true);
+      store.toggleLeadFormVisible(true, data.id);
       next(false);
     }
     next(true);
@@ -162,7 +165,7 @@ const openModalOnTimerEnd = () => {
   if (secToTrigger) {
     if (!store.leadForm.isInitiated) {
       timer = setTimeout(() => {
-        store.toggleLeadFormVisible(true);
+        store.toggleLeadFormVisible(true, data.id);
       }, secToTrigger * 1000);
     }
   }

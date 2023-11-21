@@ -10,6 +10,7 @@ export const useContentStore = defineStore('contentStore', {
       type: AlertType.success,
     },
     leadForm: {
+      id: '',
       isVisible: false,
       isInitiated: false,
     },
@@ -24,7 +25,8 @@ export const useContentStore = defineStore('contentStore', {
     setAlert(alert: Alert) {
       showAlert(this.alert, alert);
     },
-    toggleLeadFormVisible(flag: boolean) {
+    toggleLeadFormVisible(flag: boolean, id: string) {
+      this.leadForm.id = id;
       this.leadForm.isVisible = flag;
       if (!this.leadForm.isInitiated) {
         this.leadForm.isInitiated = true;

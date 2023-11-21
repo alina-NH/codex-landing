@@ -1037,5 +1037,19 @@
     "bottomText": "Please, be informed it is not a subscription, we will contact you personally and will be happy to help you in any question.",
     "background": "lead-form-background.webp",
     "successMessage": "Thank you for your message! We will contact you as soon as possible."
+  },
+  "leadForm1": {
+    "id": "lead-form1",
+    "title": "Nothing found?",
+    "subtitle": "If you can't find the needed information on this page, please enter your email below and we will contact you as soon as possible.",
+    "form": {
+      "emailInput": {
+        "placeholder": "john.doe@mail.com"
+      },
+      "button": "Send Request"
+    },
+    "bottomText": "Please, be informed it is not a subscription, we will contact you personally and will be happy to help you in any question.",
+    "background": "lead-form-background.webp",
+    "successMessage": "Thank you for your message! We will contact you as soon as possible."
   }
 }
