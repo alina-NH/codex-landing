@@ -11,7 +11,7 @@ export default defineNuxtConfig({
             @import "@/assets/styles/_breakpoints.scss";
             @import "@/assets/styles/_variables.scss";
             @import "@/assets/styles/_colors.scss";
-            @import "@/assets/styles/_typography.scss";
+            @import "@/assets/styles/_default.scss";
             @import "@/assets/styles/_mixins.scss";
             @import "@/assets/styles/_termly.scss";
           `,

@@ -122,9 +122,12 @@ const {
   direction? : keyof typeof FlexDirection,
 }>();
 
+const store = useContentStore();
+
 const handleButtonClick = () => {
   data.button?.idToScroll && scrollTo(`#${data.button?.idToScroll}` as ScrollToOptions);
   data.button?.pageToRedirect && navigateTo(data.button?.pageToRedirect);
+  data.button?.leadFormIdToTrigger && store.toggleLeadFormVisible(true);
 };
 </script>
 

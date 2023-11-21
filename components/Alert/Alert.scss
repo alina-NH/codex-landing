@@ -1,0 +1,24 @@
+.alert {
+  position: fixed;
+  width: 300px;
+  padding: 20px;
+  z-index: 3;
+  top: 20px;
+  right: -300px;
+  border-radius: 8px;
+  @include base-transition;
+
+  &--visible {
+   right: 20px;
+  }
+
+  &--error {
+    color: #721C24;
+    background-color: #F8D7DA;
+  }
+
+  &--success {
+    color: #155724;
+    background-color: #D4EDDA;
+  }
+}

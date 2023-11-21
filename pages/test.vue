@@ -78,6 +78,12 @@
     :data="testContent.tabsImageBoxWithoutDescripton"
     component="ImageBox"
   />
+  <LeadForm
+    :data="testContent.leadForm"
+    browserBackEvent
+    pageScrollEvent
+    :percent-to-scroll="50"
+  />
 </template>
   
 
