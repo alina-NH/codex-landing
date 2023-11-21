@@ -33,7 +33,7 @@
     "text": "Since 2011, we've built great development teams and software solutions for startups and world's largest companies in various industries.",
     "button": {
       "text": "Talk to us",
-      "idToScroll": "contact-us"
+      "leadFormIdToTrigger": "lead-form1"
     }
   },
   "tabsIcons": {
@@ -529,5 +529,33 @@
       "required": false
     },
     "button": "Send Request"
+  },
+  "leadForm1": {
+    "id": "lead-form1",
+    "title": "Contact Us",
+    "subtitle": "Let's discuss your software needs. Just leave your email, and our representative will get back to you.",
+    "form": {
+      "emailInput": {
+        "placeholder": "john.doe@mail.com"
+      },
+      "button": "Let's Talk!"
+    },
+    "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
+    "background": "lead-form-background.webp",
+    "successMessage": "Thank you for your message! We will contact you as soon as possible."
+  },
+  "leadForm": {
+    "id": "lead-form",
+    "title": "Need more information?",
+    "subtitle": "Leave your email, and our representative will get back to you.",
+    "form": {
+      "emailInput": {
+        "placeholder": "john.doe@mail.com"
+      },
+      "button": "Let's Talk!"
+    },
+    "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
+    "background": "lead-form-background.webp",
+    "successMessage": "Thank you for your message! We will contact you as soon as possible."
   }
 }
