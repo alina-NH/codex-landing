@@ -194,6 +194,7 @@ These components which are free to use in page making.
 - [TextBoxes](#textboxes)
 - [VerticalSpace](#verticalspace)
 - [Welcome](#welcome)
+- [LeadForm](#leadform)
 
 #### Default Components
 
@@ -213,6 +214,7 @@ Service components can't be used in page making. They are used in ready-to-use c
 - [Person](#person)
 - [TextBox](#textbox)
 - [BurgerMenu](#burgermenu)
+- [Alert](#alert)
 
 ### Footer
 
@@ -440,7 +442,8 @@ JSON `ImageBox`
   author?: Person,
   testimonial?: string,
   tabs?: string[], // only for TabbedContent
-  link?: string
+  link?: string,
+  leadFormIdToTrigger?: string, 
 }
 ```
 
@@ -534,6 +537,8 @@ JSON `ImageArticle`
   button?: {
     text: string,
     idToScroll: string,
+    pageToRedirect?: string,
+    leadFormIdToTrigger?: string
   },
   image?: string,
   text?: string,
@@ -606,7 +611,8 @@ JSON `ImageBox`
   author?: Person,
   testimonial?: string,
   tabs?: string[],
-  link?: string
+  link?: string,
+  leadFormIdToTrigger?: string
 }
 ```
 JSON `Person`
@@ -730,6 +736,37 @@ prop        | description                              | value type | required
 ----------- | ---------------------------------------- | ---------- | --------
 imageToLeft | image to left or right to Welcome header | boolean    | no
 
+### LeadForm
+
+<img src="assets/images/service/lead-form.png" width="600px" />
+
+##### JSON data
+
+```
+{
+  id: string,
+  title?: string,
+  subtitle?: string,
+  form: {
+    emailInput: {
+      placeholder: string,
+    },
+    button: string,
+  },
+  bottomText: string,
+  background?: string,
+  successMessage: string
+}
+```
+
+##### Props
+
+prop             | description                                          | value type | required
+---------------- | ---------------------------------------------------- | ---------- | --------
+pageScrollEvent  | add event to open modal on page scroll               | boolean    | no
+browserBackEvent | add event to open modal on browser back button click | boolean    | no
+percentToScroll  | percent of page scroll to trigger open modal         | number     | no
+
 ### Button
 
 <img src="assets/images/service/button.png" />
@@ -785,7 +822,8 @@ iconToTop     | icon in top, title in bottom (only with title) | boolean        
   author?: Person,
   testimonial?: string,
   tabs?: string[],
-  link?: string
+  link?: string,
+  leadFormIdToTrigger?: string,
 }
 ```
 
@@ -891,3 +929,15 @@ prop             | description                                      | value type
 ---------------- | ------------------------------------------------ | ---------- | --------
 isMenuOpen       | makes animation of cross icon for open menu      | boolean    | yes
 toggleIsMenuOpen | action for click event to toggle icon animation  | () => void | yes
+
+### Alert
+
+<img src="assets/images/service/alert.png" />
+
+##### JSON data
+
+This component does not use JSON data.
+
+#### Props
+
+This component does not have any props.

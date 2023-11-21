@@ -21,6 +21,7 @@ export type ImageBox = {
   testimonial?: string,
   tabs?: string[],
   link?: string,
+  leadFormIdToTrigger?: string, 
 };
 
 export interface ImageBoxes {
@@ -126,6 +127,8 @@ export interface Footer {
 export interface DefaultContent {
   header: Header,
   footer: Footer,
+  formErrors: FormErrors,
+  serverErrors: ServerErrors,
 };
 
 export interface DefaultColors {
@@ -152,6 +155,8 @@ export interface PageContent {
 export interface Store {
   defaultContent: DefaultContent,
   pageContent: PageContent,
+  alert: Alert,
+  leadForm: LeadFormConfig,
 };
 
 export interface SquaresTimeline {
@@ -174,6 +179,7 @@ export type ImageArticle = {
     text: string,
     idToScroll?: string,
     pageToRedirect?: string,
+    leadFormIdToTrigger?: string,
   },
   image?: string,
   text?: string,
@@ -227,6 +233,7 @@ export enum SquaresTimelineType {
 export enum ContactFormType {
   extended = 'extended',
   simplified = 'simplified',
+  lead = 'lead',
 };
 
 export interface ContactFormInput {
@@ -290,4 +297,40 @@ export interface ServerErrors {
 export enum FlexDirection {
   column = 'column',
   columnReverse = 'columnReverse',
+};
+
+export interface LeadForm {
+  id: string,
+  title?: string,
+  subtitle?: string,
+  form: {
+    emailInput: {
+      placeholder: string,
+    },
+    button: string,
+  },
+  bottomText: string,
+  background?: string,
+  successMessage: string,
+};
+
+export interface Alert {
+  isVisible: boolean,
+  message: string,
+  type: keyof typeof AlertType,
+};
+
+export enum AlertType {
+  success = 'success',
+  error = 'error',
+};
+
+export interface LeadFormConfig {
+  isVisible: boolean,
+  isInitiated: boolean,
+};
+
+export enum LeadFormEvent {
+  scroll = 'scroll',
+  popstate = 'popstate',
 };
