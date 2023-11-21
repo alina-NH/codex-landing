@@ -44,7 +44,7 @@ const store = useContentStore();
 
 const handleButtonClick = () => {
   data?.link && openLink(data.link);
-  data.leadFormIdToTrigger && store.toggleLeadFormVisible(true);
+  data.leadFormIdToTrigger && store.toggleLeadFormVisible(true, data.leadFormIdToTrigger);
 };
 </script>
 

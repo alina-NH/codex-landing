@@ -326,6 +326,7 @@ export enum AlertType {
 };
 
 export interface LeadFormConfig {
+  id: string,
   isVisible: boolean,
   isInitiated: boolean,
 };

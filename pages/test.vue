@@ -80,6 +80,9 @@
   />
   <LeadForm
     :data="testContent.leadForm"
+  />
+  <LeadForm
+    :data="testContent.leadForm1"
     browserBackEvent
     pageScrollEvent
     timer-event
