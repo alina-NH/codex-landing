@@ -16,8 +16,8 @@
       </h3>
       <div class="contact-form__inline-block">
         <label
-          class="contact-form__input"
-          :class="{ 'contact-form__input--error': nameError }"
+          class="base-input"
+          :class="{ 'base-input--error': nameError }"
         >
           <span class="text-small">
             {{ data.nameInput.label }}
@@ -34,8 +34,8 @@
           </p>
         </label>
         <label
-          class="contact-form__input"
-          :class="{ 'contact-form__input--error': companyError }"
+          class="base-input"
+          :class="{ 'base-input--error': companyError }"
         >
           <span class="text-small">
             {{ data?.companyInput?.label }}
@@ -54,8 +54,8 @@
       </div>
       <div class="contact-form__inline-block">
         <label
-          class="contact-form__input"
-          :class="{ 'contact-form__input--error': emailError }"
+          class="base-input"
+          :class="{ 'base-input--error': emailError }"
         >
           <span class="text-small">
             {{ data.emailInput.label }}
@@ -72,8 +72,8 @@
           </p>
         </label>
         <label
-          class="contact-form__input"
-          :class="{ 'contact-form__input--error': phoneError }"
+          class="base-input"
+          :class="{ 'base-input--error': phoneError }"
         >
           <span class="text-small">
             {{ data?.phoneInput?.label }}
@@ -137,8 +137,8 @@
         {{ data.title }}
       </h3>
       <label
-        class="contact-form__input"
-        :class="{ 'contact-form__input--error': nameError }"
+        class="base-input"
+        :class="{ 'base-input--error': nameError }"
       >
         <span class="text-small">
           {{ data.nameInput.label }}
@@ -155,8 +155,8 @@
         </p>
       </label>
       <label
-        class="contact-form__input"
-        :class="{ 'contact-form__input--error': emailError }"
+        class="base-input"
+        :class="{ 'base-input--error': emailError }"
       >
         <span class="text-small">
           {{ data.emailInput.label }}
@@ -182,19 +182,12 @@
       </Button>
     </form>
   </section>
-  <div
-    class="text-small-bold contact-form__error-alert"
-    :class="{ 'contact-form__error-alert--visible': serverError }"
-  >
-    {{ serverError }}
-  </div>
 </template>
 
 <script setup lang="ts">
 import type { NuxtError } from 'nuxt/app';
-import defaultContent from '../../content/default.json';
 
-const { pageContent: { meta: { title } } } = useContentStore();
+const store = useContentStore();
 
 const {
   data,
@@ -227,8 +220,6 @@ const phoneError = ref('');
 const messageInput = ref('');
 const messageError = ref('');
 
-const serverError = ref('');
-
 const isLoading = ref(false);
 
 const submitForm = async () => {
@@ -240,7 +231,7 @@ const submitForm = async () => {
     isLoading.value = true;
 
     const response = await $fetch('/email', {
-     body,
+      body,
       method: 'POST'
     });
 
@@ -248,7 +239,11 @@ const submitForm = async () => {
       await navigateTo({ path: '/thank-you' });
     }
   } catch (error) {
-    showError(error);
+    store.setAlert({
+      isVisible: true,
+      type: AlertType.error,
+      message: (error as NuxtError).statusMessage as string,
+    });
   } finally {
     isLoading.value = false;
   }
@@ -304,7 +299,7 @@ const getBody = () => {
         value: emailInput.value,
         required: data.emailInput.required,
       },
-      pageTitle: title,
+      pageTitle: store.pageContent.meta.title,
       type,
     }
     : {
@@ -328,29 +323,9 @@ const getBody = () => {
         value: messageInput.value,
         required: data.messageInput?.required
       },
-      pageTitle: title,
+      pageTitle: store.pageContent.meta.title,
       type,
     }
-};
-
-const showError = (error: any) => {
-  const errorMessage = (error as NuxtError)?.statusMessage as string;
-
-  serverError.value = isCustomServerError(errorMessage)
-    ? errorMessage
-    : defaultContent.serverErrors.defaultError;
-
-  window.setTimeout(() => {
-    serverError.value = '';
-  }, 5000);
-};
-
-const isCustomServerError = (error: string) => {
-  const customErrors = [
-    ...Object.values(defaultContent.formErrors).map(error => Object.values(error)).flat(),
-    ...Object.values(defaultContent.serverErrors),
-  ];
-  return customErrors.includes(error);
 };
 </script>
 

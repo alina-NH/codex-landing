@@ -5,6 +5,7 @@
       <slot />
     </div>
     <Footer />
+    <Alert />
   </ClientOnly>
 </template>
 

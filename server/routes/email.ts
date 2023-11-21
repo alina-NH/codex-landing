@@ -37,15 +37,6 @@ const validateBody = (body: any) => {
     });
   }
 
-  const nameError = validateName(body?.name?.value, body?.name?.required);
-
-  if (nameError) {
-    throw createError({
-      statusCode: 400,
-      statusMessage: nameError,
-    });
-  }
-
   const emailError = validateEmail(body?.email?.value, body?.email?.required);
 
   if (emailError) {
@@ -53,6 +44,17 @@ const validateBody = (body: any) => {
       statusCode: 400,
       statusMessage: emailError,
     });
+  }
+
+  if (body?.type !== ContactFormType.lead) {
+    const nameError = validateName(body?.name?.value, body?.name?.required);
+
+    if (nameError) {
+      throw createError({
+        statusCode: 400,
+        statusMessage: nameError,
+      });
+    }
   }
 
   if (body?.type === ContactFormType.extended) {
@@ -110,18 +112,26 @@ const sendEmail = async (body: any) => {
 };
 
 const getMessage = (body: any) => {
-  return body.type === ContactFormType.simplified
-    ? `
-      <p><b>Name:</b> ${body?.name?.value}</p>
-      <p><b>Email:</b> ${body?.email?.value}</p>
-      <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
-    `
-    : `
-      <p><b>Name:</b> ${body?.name?.value}</p>
-      <p><b>Email:</b> ${body?.email?.value}</p>
-      <p><b>Company:</b> ${body?.company?.value || 'not indicated'}</p>
-      <p><b>Phone:</b> ${body?.phone?.value || 'not indicated'}<p>
-      <p><b>Message:</b> ${body?.message?.value || 'not indicated'}</p>
-      <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
-    `;
+  switch (body.type) {
+    case ContactFormType.simplified: 
+      return `
+        <p><b>Name:</b> ${body?.name?.value}</p>
+        <p><b>Email:</b> ${body?.email?.value}</p>
+        <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
+      `;
+    case ContactFormType.extended: 
+      return `
+        <p><b>Name:</b> ${body?.name?.value}</p>
+        <p><b>Email:</b> ${body?.email?.value}</p>
+        <p><b>Company:</b> ${body?.company?.value || 'not indicated'}</p>
+        <p><b>Phone:</b> ${body?.phone?.value || 'not indicated'}<p>
+        <p><b>Message:</b> ${body?.message?.value || 'not indicated'}</p>
+        <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
+      `
+    case ContactFormType.lead:
+      return `
+        <p><b>Email:</b> ${body?.email?.value}</p>
+        <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b>. He / she was caught by the lead form.</p>
+      `;
+  }
 };

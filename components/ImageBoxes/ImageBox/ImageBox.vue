@@ -1,8 +1,8 @@
 <template>
   <div
     class="image-box"
-    :class="{ 'image-box--link': data?.link }"
-    @click="data?.link && openLink(data.link)"
+    :class="{ 'image-box--link': data?.link || data?.leadFormIdToTrigger }"
+    @click="handleButtonClick"
   >
     <img
       :src="useImages(data.background)"
@@ -39,6 +39,13 @@ const {
 } = defineProps<{
   data: ImageBox,
 }>();
+
+const store = useContentStore();
+
+const handleButtonClick = () => {
+  data?.link && openLink(data.link);
+  data.leadFormIdToTrigger && store.toggleLeadFormVisible(true);
+};
 </script>
 
 <style scoped lang="scss" src="./ImageBox.scss" />

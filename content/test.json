@@ -42,7 +42,7 @@
     ],
     "button": {
       "text": "Request CVs",
-      "idToScroll": "contact-us"
+      "leadFormIdToTrigger": "lead-form"
     }
   },
   "iconBoxesWithTitles": {
@@ -189,6 +189,7 @@
       {
         "background": "oneflow.png",
         "title": "OneFlow Systems",
+        "leadFormIdToTrigger": "lead-form",
         "description": "We partnered with OneFlow Systems in 2013 to help them build their printing software platform. Both teams worked hand in hand from the very beginning until the acquisition of the product by HP Inc., and beyond.",
         "author": {
           "avatar": "chris-knighton.png",
@@ -407,7 +408,7 @@
         "text": "Get a managed development team to resolve the tech challenges of a growing product",
         "button": {
           "text": "Request CVs",
-          "idToScroll": "contact-us"
+          "leadFormIdToTrigger": "lead-form"
         },
         "bottomText": {
           "icon": "",
@@ -1022,5 +1023,19 @@
         "tabs": ["Programming Languages"]
       }
     ]
+  },
+  "leadForm": {
+    "id": "lead-form",
+    "title": "Need help?",
+    "subtitle": "If you can't find the needed information on this page, please enter your email below and we will contact you as soon as possible.",
+    "form": {
+      "emailInput": {
+        "placeholder": "john.doe@mail.com"
+      },
+      "button": "Send Request"
+    },
+    "bottomText": "Please, be informed it is not a subscription, we will contact you personally and will be happy to help you in any question.",
+    "background": "lead-form-background.webp",
+    "successMessage": "Thank you for your message! We will contact you as soon as possible."
   }
 }

@@ -1,0 +1,111 @@
+.lead-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.4);
+  z-index: -1;
+  opacity: 0;
+  @include base-transition;
+
+  &--open {
+    z-index: 5;
+    opacity: 1;
+  }
+
+  &-card {
+    width: 55vw;
+    height: 57vh;
+    display: flex;
+    border-radius: 8px;
+    background-color: $white-color;
+
+    &--short {
+      width: 40vw;
+      height: fit-content;
+    }
+  }
+
+  &__background {
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+  }
+
+  &__close {
+    cursor: pointer;
+    align-self: flex-end;
+
+    &::after {
+      content: "\00D7";
+      font-size: 30px;
+    }
+  }
+
+  &-context {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 3vw;
+  }
+
+  &__title {
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+
+  form {
+    margin-top: 5vh;
+  }
+
+  &__bottom-text {
+    margin: 5vh 0;
+  }
+
+  @media screen and (max-width: $breakpoint-xxl) {
+    &-card {
+      width: 60vw;
+
+      &--short {
+        width: 45vw;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    &-card {
+      width: 60vw;
+    }
+
+    &__background {
+      width: 20vw;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &__background {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    &-card {
+      width: 95%;
+    }
+
+    &-context {
+      margin: unset;
+    }
+  }
+}
