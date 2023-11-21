@@ -30,8 +30,8 @@
         {{ text }}
       </span>
       <div class="footer-notes">
-        Icons by <a href="https://icons8.com">Icons8</a>,
-        Illustrations by <a href="https://storyset.com/">Storyset</a>
+        Icons by <a href="https://icons8.com" rel="noindex, nofollow, noreferrer">Icons8</a>,
+        Illustrations by <a href="https://storyset.com/" rel="noindex, nofollow, noreferrer">Storyset</a>
       </div>
     </div>
   </footer>
