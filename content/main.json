@@ -532,22 +532,22 @@
   },
   "leadForm1": {
     "id": "lead-form1",
-    "title": "Contact Us",
-    "subtitle": "Let's discuss your software needs. Just leave your email, and our representative will get back to you.",
+    "title": "Contact us",
+    "subtitle": "Have a question, idea or inquiry in mind? Just leave your email, and our representative will get back to you.",
     "form": {
       "emailInput": {
         "placeholder": "john.doe@mail.com"
       },
-      "button": "Let's Talk!"
+      "button": "Let's talk"
     },
     "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
-    "background": "popup1.png",
+    "background": "modal.png",
     "successMessage": "Thank you for your message! We will contact you as soon as possible."
   },
   "leadForm": {
     "id": "lead-form",
-    "title": "Need more information?",
-    "subtitle": "Leave your email, and our representative will get back to you.",
+    "title": "Need information?",
+    "subtitle": "We've got answers to your software questions. Leave your email, and our representative will get back to you.",
     "form": {
       "emailInput": {
         "placeholder": "john.doe@mail.com"
@@ -555,7 +555,7 @@
       "button": "Let's Talk!"
     },
     "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
-    "background": "popup1.png",
+    "background": "modal.png",
     "successMessage": "Thank you for your message! We will contact you as soon as possible."
   }
 }
