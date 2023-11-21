@@ -541,7 +541,7 @@
       "button": "Let's Talk!"
     },
     "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
-    "background": "lead-form-background.webp",
+    "background": "popup1.png",
     "successMessage": "Thank you for your message! We will contact you as soon as possible."
   },
   "leadForm": {
@@ -555,7 +555,7 @@
       "button": "Let's Talk!"
     },
     "bottomText": "We collect your email solely to communicate with you. We do not sell or disclose your data to any third parties.",
-    "background": "lead-form-background.webp",
+    "background": "popup1.png",
     "successMessage": "Thank you for your message! We will contact you as soon as possible."
   }
 }
