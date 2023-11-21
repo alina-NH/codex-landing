@@ -37,9 +37,7 @@
   <LeadForm
     :data="mainContent.leadForm"
     browserBackEvent
-    pageScrollEvent
     timer-event
-    :percent-to-scroll="50"
     :sec-to-trigger="60"
   />
 </template>
