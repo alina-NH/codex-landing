@@ -300,6 +300,7 @@ const getBody = () => {
         required: data.emailInput.required,
       },
       pageTitle: store.pageContent.meta.title,
+      formId: data.id,
       type,
     }
     : {
@@ -324,6 +325,7 @@ const getBody = () => {
         required: data.messageInput?.required
       },
       pageTitle: store.pageContent.meta.title,
+      formId: data.id,
       type,
     }
 };
