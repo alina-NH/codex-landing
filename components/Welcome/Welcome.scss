@@ -38,6 +38,17 @@
 
   @media screen and (max-width: $breakpoint-md) {
     &__background {
+      width: 370px;
+      height: 370px;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-md) {
+    &__title {
+      max-width: 80%;
+    }
+
+    &__background {
       display: none;
     }
   }

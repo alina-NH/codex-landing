@@ -172,6 +172,12 @@
   } 
 }
 
+@media screen and (max-width: $breakpoint-lg) {
+  .heading-1 {
+    font-size: 42px;
+  }
+}
+
 @media screen and (max-width: $breakpoint-md) {
   .heading-1 {
     font-size: 38px;
