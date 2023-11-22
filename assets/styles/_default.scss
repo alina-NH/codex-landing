@@ -197,3 +197,9 @@
     padding: 10vh 10vw;
   }
 }
+
+@media screen and (max-width: $breakpoint-xxs) {
+  .heading-1 {
+    font-size: 24px;
+  }
+}
