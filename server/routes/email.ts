@@ -118,6 +118,7 @@ const getMessage = (body: any) => {
         <p><b>Name:</b> ${body?.name?.value}</p>
         <p><b>Email:</b> ${body?.email?.value}</p>
         <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
+        <p>Form id: <b>${body?.formId}</b></p>
       `;
     case ContactFormType.extended: 
       return `
@@ -127,11 +128,13 @@ const getMessage = (body: any) => {
         <p><b>Phone:</b> ${body?.phone?.value || 'not indicated'}<p>
         <p><b>Message:</b> ${body?.message?.value || 'not indicated'}</p>
         <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b></p>
+        <p>Form id: <b>${body?.formId}</b></p>
       `
     case ContactFormType.lead:
       return `
         <p><b>Email:</b> ${body?.email?.value}</p>
         <p>This person is asking for a consultation about page: <b>${body?.pageTitle}</b>. He / she was caught by the lead form.</p>
+        <p>Form id: <b>${body?.formId}</b></p>
       `;
   }
 };

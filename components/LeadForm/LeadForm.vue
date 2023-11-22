@@ -116,6 +116,7 @@ const submitForm = async () => {
         required: true,
       },
       type: ContactFormType.lead,
+      formId: data.id,
     };
 
     const response = await $fetch('/email', {
