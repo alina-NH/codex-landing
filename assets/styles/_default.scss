@@ -172,6 +172,12 @@
   } 
 }
 
+@media screen and (max-width: $breakpoint-lg) {
+  .heading-1 {
+    font-size: 42px;
+  }
+}
+
 @media screen and (max-width: $breakpoint-md) {
   .heading-1 {
     font-size: 38px;
@@ -189,5 +195,11 @@
 @media screen and (max-width: $breakpoint-sm) {
   .text-page {
     padding: 10vh 10vw;
+  }
+}
+
+@media screen and (max-width: $breakpoint-xxs) {
+  .heading-1 {
+    font-size: 24px;
   }
 }
